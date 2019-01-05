@@ -1,0 +1,340 @@
+.prod_classify li .sel_icon,
+.comment_lists .clists_stars .star,
+.comment_lists .comment_from dd .good_icon,
+.tuniu_back
+.tn_b_arrow{background:url(http://img1.tuniucdn.com/img/20140120/usercenter_lxl/prod_3.png) no-repeat 0 0;_background:url(http://img1.tuniucdn.com/img/20140120/usercenter_lxl/prod_3_8.png) no-repeat 0 0}.pic_lists .sp_prev,
+.pic_lists .sp_next,
+.slidy_pic .sp_next.sp_grey,
+.slidy_pic
+.sp_prev.sp_grey{background:url(http://img1.tuniucdn.com/img/20140114/usercenter_lxl/slidy.png) no-repeat 0 0;_background:url(http://img1.tuniucdn.com/img/20140114/usercenter_lxl/slidy_8.png) no-repeat 0 0}.comments_box{padding:20px
+10px 0;width:778px;border:1px
+solid #eaeaea}.relatived_comment{margin-top:70px;padding-top:0px;overflow:visible}.relatived_comment
+.comment_tt{font-size:18px;text-align:center;margin:0;margin-bottom:40px;margin-top:-15px;position:relative;z-index:99}.relatived_comment .comment_tt
+span{background-color:#fff}.three_cols .col_1,
+.three_cols .col_2,
+.three_cols
+.col_3{float:left}.three_cols
+.col_1{width:330px}.three_cols
+.col_2{width:275px}.three_cols
+.col_3{width:160px;padding-left:10px;_padding-left:0}.com_saf_num dt,
+.com_saf_num
+dd{float:left}.com_saf_num .score_all
+dt{width:45px;text-align:right}.com_saf_num .score_all
+dd{}.com_saf_num
+dt.lel_l{width:110px;text-align:left;color:#666;padding-left:15px}.com_saf_num dt
+a{color:#2E9700;text-decoration:none}.com_saf_num dt a:hover{color:#f80}.com_saf_num
+dd.lel_l{width:200px}.three_cols .col_1
+.comment_num{font-size:32px;color:#f60;display:block;padding:15px
+0}.score_all
+dl{height:16px;line-height:16px;color:#666}.score_all dl
+dd{position:relative;color:#999}.score_all dl
+dd{width:140px}.score_all
+li{margin-bottom:8px}.score_all
+.score_num{position:absolute;top:0;right:0}.num_per{position:relative;top:6px;left:8px}.num_per,
+.num_per
+em{border-top:5px solid #ddd;width:100px;display:block}.num_per
+em{border-top:5px solid #4e9700;margin-top:-5px;width:0px}.num_per
+em.no_comment{width:0}.no_comment_wp{color:#999;height:110px !important;width:249px !important;line-height:110px !important}.prod_classify{padding:0
+12px;border:1px
+solid #d9d9d9;border-top:none;border-bottom:none;min-height:102px;_height:102px}.prod_classify
+li{cursor:pointer;float:left;width:120px;height:24px;line-height:24px;text-align:center;border:2px
+solid #fff;position:relative}.prod_classify li
+.sel_icon{position:absolute;right:0;bottom:0;width:12px;height:12px;background-position:-1px -1px;display:none}.prod_classify
+li.current{border:2px
+solid #2e9700}.prod_classify li.current
+.sel_icon{display:block}.prod_classify li
+span{color:#999}.rep_comment{color:#999}.rep_comment
+p{text-align:center;margin:0}.rep_comment
+p.btn{margin:13px
+0}.rep_comment .btn
+a{display:block;height:30px;width:100px;text-align:center;background-color:#2e9700;color:#fff;font-size:14px;font-weight:700;line-height:30px;text-decoration:none;margin:0
+auto}.rep_comment
+em{color:#f38224}.fliter_comment{margin:20px
+0;padding:20px
+0;border-top:1px solid #d8d8d8;border-bottom:1px solid #f3f3f3;box-s/hadow:0 1px 1px #d8d8d8 inset}.fliter_comment
+li{float:left;color:#666;padding:0
+18px 0 0;cursor:pointer}.fliter_comment li
+span{color:#2e9700;text-indent:14px;display:inline}.fliter_comment li
+span.current{color:#666}.fliter_comment li
+em{color:#999}.fliter_comment
+li.filter_by_pic{padding:0
+0 0 50px;*padding:0
+0 0 10px}.fliter_comment .filter_by_pic
+input{position:relative;top:2px}.fliter_comment{position:relative}.fliter_comment:before{content:' ';background:-webkit-linear-gradient(top, #d8d8d8,#fff ,white 4px);background:-moz-linear-gradient(top, #d8d8d8,#fff ,white 4px);background:-o-linear-gradient(top, #d8d8d8,#fff ,white 4px);background:linear-gradient(top, #d8d8d8,#fff ,white 4px);position:absolute;top:0;left:0;width:100%;height:100%;z-index:-1}.clists_main_cont{width:}.comment_lists
+li.comment_li{padding:10px
+0 15px;border-bottom:1px solid #d8d8d8;margin-bottom:10px;overflow:visible}.comment_lists li.comment_li
+.comment_li_tt{padding:0
+0 20px 29px}.comment_lists li.comment_li .comment_li_tt
+a{font-size:14px;color:#4aae00;font-weight:700;text-decoration:none}.comment_lists li.comment_li .comment_li_tt a:hover{color:#f80}.comment_lists
+li.comment_li.last{margin-bottom:0;border:none}.comment_lists
+p{margin:0}.comment_lists dt,
+.comment_lists
+dd{float:left}.comment_lists
+dt{width:110px;text-align:center}.comment_lists
+dd{width:668px;position:relative;_width:655px}.comment_lists
+.clists_main_cont{width:530px;min-height:130px;_height:110px;_overflow:hidden}.comment_lists dt
+img{width:66px;height:66px}.comment_lists dt
+.trav_type{color:#f80;font-size:14px}.comment_lists dt
+.trav_name{color:#404040;font-size:14px}.comment_lists .clists_stars
+span{display:block;float:left;height:18px;line-height:18px;width:18px}.comment_lists .clists_stars
+.star{background-position:0 -76px}.comment_lists .clists_stars
+.grey_star{background-position:0 -44px}.comment_lists .clists_stars
+.spec_comment{width:70px;color:#fff;background-color:#f60;text-align:center;margin-left:10px}.comment_lists
+.clists_words{margin-top:10px}.comment_lists .clists_words
+span{display:block;float:left;color:#999;height:24px;line-height:24px;padding:0
+8px;background-color:#f3f3f3;margin-right:1px}.comment_lists .clists_words span
+em{color:#666;padding-left:5px}.comment_lists
+.comment_detail{line-height:30px;margin-top:5px;word-wrap:break-word}.comment_lists
+.comment_l{color:#404040;margin-top:8px}.comment_lists .comment_l
+span{color:#999}.comment_lists
+.c_line_name{color:#999;margin-top:8px}.comment_lists
+.comment_from{margin-top:8px}.comment_lists .comment_from dt,
+.comment_lists .comment_from
+dd{float:left}.comment_lists .comment_from dt
+a{text-decoration:none}.comment_lists .comment_from
+dt{width:500px;text-align:left;color:#999}.comment_lists .comment_from dt
+span{color:#2e9700}.comment_lists .comment_from
+dd{width:168px;text-align:right;color:#999;_width:160px}.comment_lists .comment_from dd
+.good_icon{background-position:0 -122px;padding:0
+0 2px 20px;color:#2e9700;cursor:pointer}.comment_lists .comment_from dd .good_icon:hover{color:#f80}.pic_lists{margin:15px
+0}.pic_lists .sp_prev,
+.pic_lists
+.sp_next{width:24px;height:58px;border:1px
+solid #d8d8d8;background-position:6px 24px;cursor:pointer;float:left}.pic_lists
+.sp_prev{margin-right:15px}.pic_lists
+.sp_next{background-position:-23px 24px}.sp_content{float:left;width:450px;overflow:hidden;height:60px;position:relative}.slidy_pic{width:100000px;position:absolute}.slidy_pic
+li{float:left;height:60px;width:60px;margin-right:15px}.slidy_pic li
+img{display:block;wid/th:60px;height:60px}.pic_lists .sp_prev.sp_grey,
+.pic_lists
+.sp_next.sp_grey{background-position:6px -24px}.pic_lists
+.sp_next.sp_grey{background-position:-23px -24px}.comment_prec{width:110px;color:#f60;font-family:"microsoft yahei";position:absolute;right:0px;top:0px;background-color:#fff}.comment_prec.myorder_prec_box{border:none}.comment_prec
+.comment_prec_box{border:1px
+solid #fff7e2;border-bottom:none}.comment_prec
+.mypb_cl{color:#999;text-align:center}.comment_prec
+p{padding:1px
+8px}.comment_prec
+.btom_sawtooth{background:url(http://img1.tuniucdn.com/img/20140116/usercenter_lxl/prod_3.png) repeat-x 0 -204px;height:7px;overflow:hidden;padding:0;position:relative;top:1px}.comment_prec p
+span{color:#666}.comment_prec
+.cp_tt{color:#999;font-weight:700;text-align:center;height:26px;line-height:26px;background-color:#fff7e2;margin-bottom:5px}.tuniu_back{padding:10px;border:1px
+solid #ffdd67;background-color:#fffce5;width:510px;margin-top:10px;position:relative}.tuniu_back p
+span{color:#999}.tuniu_back
+p{line-height:24px}.tuniu_back p
+.tn_b_date{position:absolute;bottom:10px;right:10px}.tuniu_back
+.tn_b_arrow{position:absolute;display:block;width:12px;height:16px;background-position:0 -159px;left:-8px;top:15px}.rep_no_comment{}.no_comment_to_rep{color:#999;padding-left:15px}.no_comment_to_rep
+a{color:#4e9700;text-decoration:none}.no_comment_to_rep a:hover{color:#f90}.no_comment_to_rep
+span{color:#f60;font-weight:700}.diytour ul.list_view
+li.list_item{width:620px}.list_item
+.comments_box{padding:0;width:800px;background-color:#fafafa;border:none}.list_item .comments_box
+.fliter_comment{padding:20px
+10px}.list_item
+.fliter_comment{margin-top:0}.comment_outbox{padding-top:20px}.comment_outbox .pkg-detail-infor,
+.comment_detailbox .pkg-detail-infor{padding-top:0}.single_prod{border:none;background-color:#fafafa}.comment_detailbox
+.comments_box{border-top:none}.comment_detailbox
+.detail_h2{background-color:#fafafa;color:#666}.s_calendar{*margin-left:-218px !important}.pagination{width:auto}.comment_detailbox .my_order_comment_2
+h2{color:black;font-weight:700;height:30px;line-height:30px;padding:0
+10px;border:1px
+solid #EAEAEA;border-bottom:1px solid #F0F0F0}.comment_detailbox .detail_infor
+.no_myorder{height:120px;text-align:center;color:#f80;font-size:14px;line-height:70px}.comment_detailbox
+.comments_box{width:778px}.comment_detailbox .comments_box
+.comment_li_20{border-bottom:1px solid #D8D8D8;margin-bottom:20px;padding-bottom:30px}.comment_detailbox .comments_box
+.detail_tit{padding-left:28px;font:bold 16px "microsoft yahei";color:#390;margin-bottom:20px}.comment_detailbox .detail_infor
+.comments_box_tit{height:32px;border:1px
+solid #EAEAEA;color:#666;font:12px/32px "microsoft yahei";padding-left:10px}.pop_slidy .clists_stars
+.star{background:url(http://img1.tuniucdn.com/img/20140114/usercenter_lxl/prod_3.png) no-repeat 0 0;_background:url(http://img1.tuniucdn.com/img/20140114/usercenter_lxl/prod_3_8.png) no-repeat 0 0}.pop_slidy .pop_close,
+.pop_slidy .pop_prev,
+.pop_slidy
+.pop_next{background:url(http://img1.tuniucdn.com/img/20140114/usercenter_lxl/slidy.png) no-repeat 0 0;_background:url(http://img1.tuniucdn.com/img/20140114/usercenter_lxl/slidy_8.png) no-repeat 0 0}.pop_slidy{width:620px;height:560px;background-color:#fff;position:fixed;top:150px;left:50%;margin-left:-310px;z-index:20005}.pop_slidy
+.ps_tt{margin-top:10px;line-height:20px;padding:0
+20px;background-color:#f4f4f4;color:#444;font-size:14px}.pop_slidy
+em{color:#999;font-size:16px;position:absolute;right:50px;top:0px}.pop_slidy em
+span{color:#f80}.pop_slidy
+.pop_img{padding:20px}.pop_slidy .pop_left,
+.pop_slidy
+.pop_right{float:left}.pop_slidy
+.pop_left{width:480px;height:360px;position:relative}.pop_slidy
+.pop_right{width:60px}.pop_slidy .pop_left a,
+.pop_slidy .pop_left
+img{display:block;width:480px;height:360px}.pop_slidy .pop_left
+.pop_left_bar{position:absolute;width:480px;height:35px;bottom:0;left:0;background-color:#000;opacity:0.6;filter:alpha(opacity=60)}.pop_slidy .pop_left
+.pop_left_span{position:absolute;left:0;bottom:0}.pop_slidy .pop_left .pop_left_span
+span{display:inline-block;font-size:14px;color:#fff;padding:7px
+0 7px 15px;height:21px;line-height:21px}.pop_slidy .pop_left .pop_left_span span
+.bar_right_time{padding-left:0}.pop_slidy .pop_left .pop_left_span
+.bar_left{width:240px}.pop_slidy .pop_left .pop_left_span
+.bar_right{width:200px}.pop_slidy
+.pop_right{margin:0
+0 0 20px}.pop_lists li,
+.pop_lists li a,
+.pop_lists li
+img{display:block;height:50px;width:60px}.pop_lists
+li{margin-bottom:10px}.pop_lists li.cur
+a{border:2px
+solid #f80;width:56px;height:46px}.pop_lists li.cur
+img{width:56px;height:46px}.pop_slidy .pop_prev,
+.pop_slidy
+.pop_next{height:24px;width:58px;border:1px
+solid #D8D8D8}.pop_slidy
+.pop_prev{margin-bottom:9px;background-position:21px -87px}.pop_slidy
+.pop_next{background-position:21px -117px}.pop_slidy
+.pop_prev.pop_grey{background-position:21px -156px}.pop_slidy
+.pop_next.pop_grey{background-position:21px -185px}.pop_slidy
+.pop_prod_lists{height:300px;overflow:hidden;position:relative}.pop_slidy .pop_prod_lists
+.pop_lists{position:absolute}.pop_slidy
+.pop_detail{padding:0
+20px}.pop_slidy .clists_stars
+span{display:block;float:left;height:18px;line-height:18px;width:18px}.pop_slidy .clists_stars
+.star{background-position:0 -76px}.pop_slidy .clists_stars
+.grey_star{background-position:0 -44px}.pop_slidy .clists_stars
+.spec_comment{width:70px;color:#fff;background-color:#f60;text-align:center;margin-left:10px}.pop_slidy
+.pop_word{line-height:28px;height:84px;overflow-y:auto}.divMask{background-color:#000;opacity:0.5;filter:alpha(opacity=50);width:100%;height:100%;position:fixed;left:0;top:0;z-index:20001}.pop_slidy
+.pop_close{background-position:0 -235px;display:block;right:15px;top:16px;height:10px;width:11px;position:absolute;cursor:pointer}.my_order_comment .mocc_edit,
+.my_order_comment
+.mocc_back{background:url(http://img1.tuniucdn.com/img/20140120/usercenter_lxl/prod_3.png) no-repeat 0 0;_background:url(http://img1.tuniucdn.com/img/20140120/usercenter_lxl/prod_3_8.png) no-repeat 0 0}.my_order_comment
+h2{color:#000;font-weight:700;height:30px;line-height:30px;padding:0
+10px;border:1px
+solid #EAEAEA;border-bottom:none}.my_order_comment
+.moc_cont{background-color:#fafafa;height:40px;line-height:40px;border:1px
+solid #EAEAEA;border-bottom:none;padding:0
+10px}.my_order_comment .mocc_left,
+.my_order_comment
+.mocc_right{float:left}.my_order_comment
+.mocc_left{width:640px;border-right:1px solid #EAEAEA}.my_order_comment
+.mocc_right{width:112px}.my_order_comment
+.mocc_edit{background-position:0 -240px;padding:3px
+0 3px 18px;margin-left:300px;font-size:14px;color:#777}.my_order_comment
+.mocc_back{background-position:0 -290px;padding:3px
+0 3px 18px;margin-left:30px;font-size:14px;color:#777}.prod_line_imfor .prod_line_name,
+.prod_line_imfor
+.prod_line_sub{margin-bottom:10px}.prod_line_imfor .prod_line_name
+a{color:#4AAE00;font-size:14px}.prod_line_imfor .prod_line_sub
+span{margin-right:25px;color:#999}.prod_line_imfor .prod_line_sub
+span.last{margin-right:0}.prod_line_imfor .prod_line_sub
+em{color:#4aae00}.myorder_lists
+dd{width:778px}.myorder_lists
+.clists_main_cont{width:640px}.myorder_lists
+.clists_words{position:relative;height:24px}.myorder_lists .clists_words
+.star{padding:0}.myorder_lists .clists_words
+.clists_stars{position:absolute;top:1px;right:0px}.myorder_lists
+.tuniu_back{margin-left:7px}.tuniu_myorder_btm
+.tuniu_back{float:left}.tuniu_myorder_btm
+.comment_from{width:112px;float:right;color:#999;margin-top:-78px}.tuniu_myorder_btm
+.comment_from.mar_top0{margin-top:0}.sub_advise .sa_tt dd span,
+.sub_advise .sub_btn,
+.fi_score dd .star,
+.sub_advise .pic_lists li .close,
+.sub_advise .fill_infor .noborder span.error_map,
+.fi_score .fis_tt
+.error_map{background:url(//img1.tuniucdn.com/img/20140122/usercenter_lxl/dianping_icon.png) no-repeat 0 0;_background:url(//img1.tuniucdn.com/img/20140122/usercenter_lxl/dianping_icon_8.png) no-repeat 0 0}.sub_advise .fill_infor .noborder span
+.sel_icon{background:url("//img1.tuniucdn.com/img/20140120/usercenter_lxl/prod_3.png") no-repeat scroll 0 0}.sub_advise .fill_infor .noborder span
+.sel_icon{_background:url("//img1.tuniucdn.com/img/20140120/usercenter_lxl/prod_3_8.png") no-repeat scroll 0 0}.wrapper{width:1000px;margin:auto}.prod_name{border:1px
+solid #e7e7e7;border-top:3px solid #2e9700;padding:20px}.prod_name .pn_left,
+.prod_name
+.pn_right{float:left}.prod_name
+.pn_img{float:left;display:block}.prod_name
+.pn_infor{margin-left:100px}.prod_name
+.pn_line{height:42px}.prod_name .pn_line
+a{font-size:14px;color:#4aae00;font-weight:700}.prod_name .pn_line a:hover{color:#f90}.prod_name .pn_sub_infor
+span{margin-right:25px;color:#999}.prod_name .pn_sub_infor
+span.last{margin-right:0}.prod_name .pn_sub_infor
+em{color:#4aae00}.prod_name
+.pn_left{width:658px;border-right:1px dotted #cbcbcb}.prod_name
+.pn_right{width:290px}.saf_num dt,
+.saf_num
+dd{float:left}.saf_num
+dt{padding:3px
+10px 0 95px;color:#666}.saf_num
+dd{color:#999}.saf_num dd
+em{font-size:32px;color:#f80;display:block;line-height:1}.sub_advise{margin-top:40px}.sub_advise
+.sa_tt{margin-bottom:10px}.sub_advise .sa_tt dt,
+.sub_advise .sa_tt
+dd{float:left;color:#666}.sub_advise .sa_tt dd
+span{background-position:0 -67px;padding-left:17px}.sub_advise .sa_tt
+dt{width:400px;font-size:16px;font-weight:700}.sub_advise .sa_tt
+dd{width:600px;text-align:right}.sub_advise .sa_tt dd
+em{color:#f60;font-weight:700}.sub_advise
+.fill_infor{border:1px
+solid #e7e7e7;border-bottom:none;background-color:#f6f6f6;padding:30px}.sub_advise .fill_infor .fi_left,
+.sub_advise .fill_infor
+.fi_right{float:left}.sub_advise .fill_infor
+.fi_left{width:600px}.sub_advise .fill_infor
+.fi_right{width:338px}.sub_advise .fill_infor
+.fi_textarea{width:508px;bo/rder: 1px solid #ffd39b;border:1px
+solid #e7e7e7;padding:10px
+5px;min-height:65px;_height:65px;resize:none;overflow:hidden}.sub_advise .fill_infor
+.fi_word{color:#f00;position:absolute;bottom:5px;right:20px;z-index:100}.sub_advise .fill_infor
+.fi_textarea.hover{border:1px
+solid #ffd39b;position:relative;z-index:99}.sub_advise .fill_infor
+.txt_grey{color:#999}.sub_advise .fill_infor
+.fi_t_cont{color:#999;position:absolute;top:5px;left:8px;cursor:text}.sub_advise .fill_infor dt,
+.sub_advise .fill_infor
+dd{float:left}.sub_advise .fill_infor
+dt{width:68px;height:26px;line-height:26px;padding-left:12px}.sub_advise .fill_infor .fi_left
+dl{_margin-top:-3px}.sub_advise .fill_infor .fi_left
+dd{width:520px;margin-top:-2px;*margin-top:-3px;heigh/t: 80px;_margin-top:0;position:relative}.sub_advise .fill_infor
+.noborder{margin-bottom:20px}.sub_advise .fill_infor .noborder
+dd{border:none;height:auto;margin-top:0px}.sub_advise .fill_infor .noborder
+span{display:inline-block;height:22px;line-height:22px;padding:0
+5px;cursor:pointer;position:relative;border:2px
+solid #F6F6F6;_zoom:1}.sub_advise .fill_infor .noborder span
+.sel_icon{background-position:-1px -1px;_background-position:-1px 1px;display:block;width:12px;height:12px;position:absolute;right:0;bottom:0;display:none}.sub_advise .fill_infor .noborder
+span.error_map{background-position:0 -179px;padding-left:19px;color:#f00}.sub_advise .fill_infor dd
+span.current{border:2px
+solid #2E9700}.sub_advise .fill_infor dd .current
+.sel_icon{display:block}.sub_advise .fill_infor
+.uploadImg{margin-top:20px}.sub_advise .fill_infor .uploadImg
+dd{border:1px
+solid #e7e7e7;width:498px;padding:10px;background-color:#fff;min-height:90px}.sub_advise
+.pic_lists{position:relative}.sub_advise .pic_lists
+li{float:left;margin:0
+20px 10px 0;width:64px;height:75px;*height:80px;position:relative;overflow:visible}.sub_advise .pic_lists li
+.close{display:block;width:12px;height:12px;position:absolute;top:-2px;right:-2px;cursor:pointer}.sub_advise .pic_lists
+.p_name{width:64px;text-align:center;border:none;color:#2e9700;_width:60px}.sub_advise .pic_lists
+.p_name.hover{width:62px;border:1px
+solid #d7d7d7;color:#666}.sub_advise
+.sub_btn{cursor:pointer;display:block;width:60px;height:20px;line-height:20px;color:#fff;background-color:#2e9700;text-indent:24px;position:absolute;top:0px;right:5px;background-position:9px -29px;padding:0
+5px 1px}.sub_advise
+.sub_yh{color:#999;text-align:right;padding:5px
+0 0 0}.fi_score{padding-left:60px}.fi_score
+.fis_tt{padding-left:7px;color:#666}.fi_score .fis_tt
+.error_map{background-position:0 -182px;padding-left:19px;color:#f00;margin-left:5px}.fi_score
+dl{color:#999;margin:10px
+0}.fi_score
+dl.synthesis{margin:10px
+0}.fi_score dl dt,
+.fi_score dl
+dd{padding:0
+0 0 12px !important}.fi_score dt,
+.fi_score
+dd{float:left}.fi_score
+dt{width:60px}.fi_score
+dd{}.fi_score dd
+span{display:block;height:26px;line-height:26px;float:left;padding-right:6px}.fi_score dd
+.star{background-position:0 -105px;width:20px;cursor:pointer}.fi_score dd
+.grey_s{background-position:0 -149px}.sub_all_infor{padding:30px
+0;border:1px
+solid #e7e7e7;border-top:none}.sub_all_infor dt,
+.sub_all_infor
+dd{float:left;height:36px;line-height:36px}.sub_all_infor
+dt{width:111px;text-align:right}.sub_all_infor
+.sub_ai_btn{cursor:pointer;background-color:#f80;height:36px;width:120px;line-height:36px;text-align:center;border:none;color:#fff;font-size:18px;margin-left:329px}.sub_all_infor .sub_ai_btn:hover{background-color:#f60}.sub_all_infor
+#noname{margin:0px
+5px 0 0;position:relative;top:2px}.sub_all_infor
+.is_no_name{margin:0px
+0px 0 0}.em{color:#f60;position:relative;top:3px;margin-right:5px;margin-left:-12px}.hide{display:none !important}.comment_outbox{padding-top:20px}.comment_outbox .pkg-detail-infor,
+.comment_detailbox .pkg-detail-infor{padding-top:0}.single_prod{border:none;background-color:#fafafa}.comment_detailbox
+.detail_infor{}.comment_detailbox
+.detail_h2{background-color:#fafafa}.divmask{background-color:#000;_background-color:none;width:100%;height:10000px;_height:0;opacity:0.6;filter:alpha(opacity = 60);position:fixed;z-index:10001;top:0;left:0}.popSuc{width:750px;border:1px
+solid #999;position:fixed;_position:absolute;top:200px;left:50%;z-index:1000;background-color:#fff;display:none;margin-left:-375px;z-index:10002}.popSuc
+.innerBox{border:4px
+solid #ccc;padding-bottom:15px;padding-top:20px}.popSuc .innerBox
+.nav_right_icon{background:url(//img.tuniucdn.com/site/images/prod/huiyuan/tight.jpg) no-repeat left top;height:34px;width:37px;display:inline-block}.popSuc
+.icon_part{float:left;width:37px;height:34px}.popSuc .innerBox
+p{font-family:microsoft yahei}.popSuc .innerBox
+p.line_1{line-height:34px;font-size:18px}.popSuc .innerBox
+div.part_1{margin:auto;width:600px}.popSuc .innerBox
+div.line_2{border-top:1px dashed #ccc;padding-top:10px}.popSuc
+.writting{background-color:#F5F5F5;padding:4px
+5px;width:279px;margin:auto}.popSuc
+.check{text-align:center;margin-top:5px}.popSuc
+.close{width:16px;height:16px;position:absolute;top:5px;right:5px}.popSuc
+.innerBox{position:relative}

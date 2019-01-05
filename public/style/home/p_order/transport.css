@@ -1,0 +1,46 @@
+.icon2.air-icon{height:19px;width:17px;vertical-align:middle;background-position:-28px -119px}.m-airplaneInfo .flight-journey
+.trip{white-space:nowrap}.m-airplaneInfo .flight-journey .stop
+.when{font-weight:bold}.m-airplaneInfo .flight-journey .flight .number>span>em{display:block;width:160px}.flight_change_box
+.flight_change_list{padding-left:5px}.flight_change_box .flight_change_list .flight_change_detail
+.flight_change_name{font-size:14px;color:#333;height:30px;line-height:30px}.flight_change_box .flight_change_list .flight_change_detail .flight_change_name
+.flight_name{font-size:14px;color:#878787;margin-left:20px}.flight_change_box .flight_change_list .flight_change_detail
+.flight_detail_name{margin-top:10px}.flight_change_box .flight_change_list .flight_change_detail .flight_detail_name
+.flightNoName{color:#666}.flight_change_box .flight_change_list .flight_change_detail .flight_detail_name
+.flight_detail_base_info{margin-left:10px}.flight_change_box .flight_change_list .flight_change_detail
+.flight_detail{font-size:0;vertical-align:middle;line-height:55px;overflow:hidden;text-overflow:ellipsis}.flight_change_box .flight_change_list .flight_change_detail .flight_detail
+.flight_detail_cell{font-size:14px;text-align:center;display:inline-block;*zoom:1;*display:inline}.flight_change_box .flight_change_list .flight_change_detail .flight_detail
+.flight_detail_cell.number{margin-left:30px}.flight_change_box .flight_change_list .flight_change_detail .flight_detail
+.flight_date{width:120px}.flight_change_box .flight_change_list .flight_change_detail .flight_detail
+.flight_no{width:150px}.flight_change_box .flight_change_list .flight_change_detail .flight_detail
+.flight_time{width:155px}.flight_change_box .flight_change_list .flight_change_detail .flight_detail .flight_time
+span{display:block;height:25px;line-height:25px}.flight_change_box .flight_change_list .flight_change_detail .flight_detail .flight_time
+.arrveTime{font-size:13px;color:#535353}.flight_change_box .flight_change_list .flight_change_detail .flight_detail
+.flight_duration{width:140px;position:relative}.flight_change_box .flight_change_list .flight_change_detail .flight_detail .flight_duration .stop-info{position:absolute;top:-32px;left:0;display:block;width:140px;font-size:12px;color:#909090}.flight_change_box .flight_change_list .flight_change_detail .flight_detail
+.flight_tourist_num{width:100px}.flight_change_box .flight_change_list .flight_change_detail .flight_detail
+.flight_cabin{width:60px}.T_popup_panel
+h2{height:46px;line-height:46px;padding-left:19px;padding-right:10px;border-bottom:1px solid #eee}.T_popup_panel h2
+.T_title{display:inline-block;height:100%;box-sizing:border-box;border-bottom:2px solid #4ecf5b;font-size:18px;color:#878787}.T_popup_panel h2
+.T_close{float:right;margin-top:10px;display:inline-block;width:15px;height:15px;background:url(//ssl3.tuniucdn.com/img/201604072050/bookOnline/order_detail/close.png) no-repeat;cursor:pointer}.T_popup_panel
+footer{text-align:center}.T_popup_panel footer
+button{width:100px;height:32px;line-height:32px;text-align:center;font-size:14px;cursor:pointer}.T_popup_panel footer
+.T_confirm{background-color:#f80;border:1px
+solid #FD893E;border-radius:2px;color:#FFF;margin-right:20px}.T_popup_panel footer
+.T_cancel{background-color:#FFF;border:1px
+solid #ccc;border-radius:2px;color:#666}.T_air_schedule
+main{padding:15px
+10px 15px}.T_air_schedule
+.airListRow{height:30px;line-height:30px;padding:0
+10px}.T_air_schedule .airListRow
+.fileIcon{display:inline-block;vertical-align:top;width:13px;height:15px;margin-right:5px;margin-top:10px;color:#333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;background:url("http://ssl3.tuniucdn.com/img/201604072050/bookOnline/order_detail/file_icon.png") no-repeat}.T_air_schedule .airListRow
+.fileName{display:inline-block;vertical-align:top;width:570px;color:#333;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.m-airplaneInfo .comments .jtxz-detail2{width:268px}.m-airplaneInfo .comments .jtxz-detail2.white .ticketNoList>p{padding:0}.m-airplaneInfo .comments .jtxz-detail2.white .ticketNoList>p.ticket-number{padding:0;width:60px;padding-left:20px}.m-airplaneInfo .ticketNoList .no-list{color:#999;width:180px}.icon2.train-icon{height:19px;width:17px;vertical-align:middle;background-position:-52px -119px}.m-trainInfo .ticketNoList>p{display:inline-block;*display:inline;*zoom:1}.m-trainInfo .comments .jtxz-detail2{width:200px}.m-trainInfo .ticketNoList
+.YD_mgb{width:30px;vertical-align:top}.m-trainInfo .ticketNoList .no-list>span{display:block}.m-trainInfo .flight-journey .stop
+.when{font-weight:bold}.icon2.bus-icon{height:19px;width:17px;vertical-align:middle;background-position:-73px -119px}.m-busInfo .flight-journey .stop
+.when{font-weight:bold}.icon2.packAge-icon{height:19px;width:17px;vertical-align:middle;background-position:-94px -119px}.m-package .flight-journey
+.count{text-align:center}#m-package .flight-panel{border-top:1px dotted #ddd}#m-package .m-airplaneInfo .flight-panel:first-child{border-top:none}#m-package .hotel-trip{margin-left:10px}#m-package .m-hotelInfo
+.level{padding-left:10px;width:131px}.m-package .flight-journey
+.count{text-align:right}#m-package .flight-journeys:first-child .flight-panel:first-child{border-top:none}.icon2.transport-icon{height:19px;width:17px;vertical-align:middle;background-position:-117px -117px}.m-transport .flight-journey
+.route{width:173px}.m-transport .flight-journey
+.flight{text-align:left;width:531px}.m-transport .flight-journey .flight
+.flightNo{margin-left:10px;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:normal;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-height:20px;width:531px}.m-transport .flight-journey
+.trip{margin-bottom:0}.m-transport .flight-journey
+.childCount{margin-left:15px}

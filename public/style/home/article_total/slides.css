@@ -1,0 +1,13 @@
+html,body,div,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,blockquote,pre,form,fieldset,table,th,td,span{padding:0;margin:0}#full-screen-slider{width:100%;height:550px;position:relative;font-family:'微软雅黑'}#slides{display:block;width:100%;height:550px;list-style:none;padding:0;margin:0;position:relative}#slides
+li{display:block;width:100%;height:100%;list-style:none;padding:0;margin:0;position:absolute}#slides li
+a{display:block;width:100%;height:100%;text-indent:0px}.slide-center{width:1000px;position:absolute;height:550px;left:50%;margin-left:-500px;margin-top:-500px}#pagination{display:block;list-style:none;position:absolute;right:0px;top:100px;z-index:9900}#pagination
+li{display:block;list-style:none;margin-left:15px;border:2px
+solid transparent;width:110px;height:60px;margin-bottom:10px;cursor:pointer}#pagination li
+img{width:110px;height:60px}#pagination li
+a{width:100%;height:100%;padding:0;margin:0;text-indent:0px}#pagination
+li.current{opacity:1;border:2px
+solid orange}#description{display:block;list-style:none;position:absolute;top:40px;z-index:9900;padding:5px
+15px 5px 0;margin:0;width:40%}#description
+li{position:absolute;display:none}#description li
+a{color:#fff;font-size:20px}#description .yj-name{overflow:hidden;font-size:24px;text-shadow:2px 2px 2px #000;line-height:30px;width:700px}#description .auther-show{font-size:15px;margin-top:20px}#description .auther-show
+img{border-radius:100px;float:left;width:40px;behavior:url(/site/css/yj_2016/ie-css3.htc)}#description .auther-name{line-height:40px;text-indent:15px;text-shadow:2px 2px 2px #000;font-size:17px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:400px}.slide-bg{background:url('http://img1.tuniucdn.com/site/images/yj_2016/slide_small.png') no-repeat;display:block;position:absolute;width:110px;height:60px}

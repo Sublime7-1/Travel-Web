@@ -1,0 +1,150 @@
+input{font-family:Arial}.alert_left{line-height:25px;padding:0
+5px 0 10px;border-right:1px solid #ffd18c;font-size:12px;color:#f60;background:url(/site/css/images/alert_left.gif)  no-repeat left center}.onError{font-size:12px;color:#f60}.alert_right{line-height:25px;padding:0
+10px 0 5px;border-left:1px solid #ffd18c;font-size:12px;color:#f60;background:url(/site/css/images/alert_right.gif) no-repeat right center}#head{margin:10px
+auto 10px auto;position:relative}#head
+#nav{position:absolute;top:0;right:0;color:#666}#head #nav
+a{color:#666}.sw1024{padding:0;margin:0
+auto;font-size:12px;line-height:1.5}.sw1024
+.route_info{font-size:13px;border-bottom:1px solid #ddd;background:#ffc;padding:10px
+10px}.sw1024 .route_info
+span{color:#f60}.sw1024 .route_info span
+strong{font-size:14px}.sw1024
+.flow{clear:both;color:#777;margin:10px
+0 10px 0;padding-left:11px}.sw1024 .flow
+strong{color:#000}.sw1024
+.content{border:1px
+solid #ddd;padding:5px}.sw1024
+.frmReq{color:#f60}.sw1024
+#select_div1{clear:both;border:1px
+solid #ddd;padding:10px;margin-bottom:40px;width:320px;height:400px;overflow:hidden;float:left}.sw1024 #select_div1
+p{font-weight:bold;color:#f60;line-height:16px;background:url(/site/css/images/step1_red.gif) no-repeat 0 2px;font-size:13px;padding:0
+0 5px 20px;margin:0
+0 10px;border-bottom:#f60 solid 1px}.sw1024
+#select_div2{border:1px
+solid #ddd;padding:10px;margin-bottom:40px;margin-left:10px;width:320px;height:400px;overflow:hidden;float:left}.sw1024 #select_div2
+p{font-weight:bold;color:#690;line-height:16px;background:url(/site/css/images/step1_green.gif) no-repeat 0 2px;font-size:13px;padding:0
+0 5px 20px;margin:0
+0 10px;border-bottom:#690 solid 1px}.sw1024
+#select_div3{border:1px
+solid  #ddd;padding:10px;margin-bottom:40px;width:216px;height:400px;float:right}.sw1024 #select_div3
+p{font-weight:bold;color:#666;line-height:16px;background:url(/site/css/images/step1_gray.gif) no-repeat 0 2px;font-size:13px;padding:0
+0 5px 20px;margin:0
+0 10px;border-bottom:#666 solid 1px}#special_need{margin:15px
+0 0 2px;*margin:11px
+0 0 2px;padding:0}.my_route{width:600px;padding:10px;margin:0
+auto;border:1px
+solid #ffc266;background:#fff5e5;font-size:13px}.my_route span
+strong{color:#f60;font-size:14px}#footer{clear:both;text-align:center;margin:0
+auto;margin-top:20px;color:#666;border-top:solid 1px #ccc;width:940px;padding:10px}.sw1024{padding:0;margin:0
+auto;font-size:12px;line-height:1.5}.plane{background:url("http://img4.tuniucdn.com/icons/route/plane.gif") no-repeat scroll left top transparent;display:inline-block;height:18px;vertical-align:middle;width:20px}.train{background:url("http://img4.tuniucdn.com/icons/route/train.gif") no-repeat scroll left top transparent;display:inline-block;height:18px;vertical-align:middle;width:20px}.wrapper{overflow:hidden}#content{border:2px
+solid #54A20C;width:740px;padding:15px;border-radius:3px;float:left;margin-right:10px}#summaryInfo{float:left;padding:10px;width:150px;border:2px
+solid #54a20c;border-radius:3px}#new_step1{background-position:0 0}.order_box{margin-top:10px}#content
+h2{background:url("http://img1.tuniucdn.com/u/user/order/img/0706_icon.jpg") no-repeat scroll left 14px transparent;font-size:14px;height:30px;line-height:44px;overflow:hidden;text-indent:15px}.routes_info
+p{line-height:24px}.routes_info p
+span{display:inline-block;width:100px;text-align:left}.routes_info p  a.line_name:link,.routes_info p  a.line_name:visited{color:#4e9700;font-weight:bold;text-decoration:underline}#route_tab{padding-top:10px;width:730px}#route_tab
+ul{background:url("http://img1.tuniucdn.com/u/user/order/img/tab_bg.gif?v=2") no-repeat scroll left top transparent;height:19px;line-height:18px;margin-left:10px;position:relative;width:218px;z-index:100}#route_tab ul
+li.current{background:url("http://img1.tuniucdn.com/u/user/order/img/order_ico.gif") no-repeat scroll 0 -31px #B2DD84;border-right:medium none;height:19px;margin-bottom:0;padding-bottom:4px;width:72px}#route_tab ul
+li{float:left;height:19px;line-height:20px;margin-bottom:4px;overflow:hidden;text-align:center;width:72px}#tab_current{display:block}.tab_content{border:1px
+solid #DEEFCB;display:none;padding:10px;position:relative;width:710px;z-index:1}.tab_content_inner{color:#727272;padding:0
+10px}#route_tab a:link, #route_tab a:visited, #route_tab a:hover{text-decoration:none}.info_lists{margin-top:10px;margin-left:18px}.info_lists
+p{color:#333;line-height:24px}#content
+h2.betterm{background:none;text-indent:0}#content h2.betterm
+input{margin-right:10px}#content
+.upperm{line-height:24px;color:#333;padding:0
+3px;margin-top:10px}.order_help{background:url("http://img1.tuniucdn.com/u/user/order/img/order_ico.gif") no-repeat scroll -57px -90px transparent;display:inline-block;height:16px;overflow:hidden;position:relative;text-indent:-9999px;top:4px;width:16px;*top:-4px}.popPart{left:20px;position:absolute;top:25px}.tys_tip4{border:1px
+solid #CCC;float:left;line-height:20px;margin-top:2px;padding:5px;position:relative;width:318px;background-color:#fff}.sarrow4{background:url("http://img1.tuniucdn.com/ui/route/images/sarrow.gif") no-repeat scroll 0 0 transparent;height:11px;left:61px;position:absolute;top:-8px;width:14px}.order_table th,.upperm
+th{background:none repeat scroll 0 0 #F7FCF2;font-weight:normal;height:25px;line-height:25px}.order_table td, .order_table th ,.upperm td,.upperm
+th{padding:0
+15px}.order_table
+td{line-height:21px;padding:5px
+15px}#bx_table tr a.cgreen, #trafic_table tr a.cgreen, #seeview_table tr
+a.cgreen{background:url("http://img1.tuniu.com/u/user/order/img/order_ico2.png") no-repeat scroll right 8px transparent;display:inline-block;padding-right:12px}#bx_table tr a.o_link, #trafic_table tr a.o_link, #seeview_table tr
+a.o_link{background:url("http://img1.tuniu.com/u/user/order/img/order_ico2.png") no-repeat scroll right -65px transparent;display:inline-block;padding-right:12px}.new_green:link,.new_green:visited{color:#4E9700}.new_green:hover{color:#f90}.upperm
+table{width:100%}.upperm
+td{border-bottom:1px solid #eee}.upperm
+td.first{border-left:1px solid #eee}.upperm
+td.last{border-right:1px solid #eee}.next_step_s2{text-align:center;margin:15px
+0 20px 0;height:35px}#summaryInfo
+p{margin-top:6px}#summaryInfo
+.tt{line-height:16px;color:#54a20c;height:16px;background:url("http://img1.tuniucdn.com/u/user/order/img/buy_box.jpg") no-repeat scroll left 0 transparent;padding-left:18px}#summaryInfo .part
+.part_name{color:#666;font-weight:bold}#summaryInfo .part
+span{display:inline-block}#summaryInfo .part
+span.pn_1{color:#333;width:100px}#summaryInfo .part
+span.pn_2{color:#f60;font-weight:bold;width:50px;text-align:right}#summaryInfo
+.addbg{background-color:#f7f7f7}hr{border:0;height:1px;border-top:1px dotted #ccc;margin:3px
+0}hr.green{border-top:1px solid #a3cf7a;margin:5px
+0;*margin:0}.totl_money{font-size:16px;font-weight:bold;margin-bottom:15px}.totl_money
+span{color:#f60}.order_warn{background:url("http://img1.tuniucdn.com/u/user/order/img/order_ico.gif") no-repeat scroll -57px -241px transparent;display:inline-block;height:16px;overflow:hidden;position:relative;text-indent:-9999px;top:4px;width:16px;*top:0}.order_Shoppingcart{background:url("http://img1.tuniucdn.com/u/user/order/img/buy_box.jpg") no-repeat scroll left 0px transparent;display:block;height:16px;overflow:hidden;position:relative;top:4px;padding-left:20px}.styl{color:#f60}.take_bx
+td{border-left:1px solid #eee;border-right:1px solid #eee}.yh_login_tip{background:url("http://img1.tuniu.com/u/user/order/img/order_ico.gif") no-repeat scroll -52px -236px transparent;color:#F60;line-height:20px;padding:3px
+10px 3px 30px}#content
+h2{color:#000}#summaryInfo{overflow:hidden}.wrapper{color:#000;position:relative}#content
+.upperm{color:#000}#content table
+td.first{text-align:left}.info_lists
+p{color:#000}.flight_table{margin-top:15px;width:100%}.flight_table
+table{width:100%}#content .betterM
+.upperm{padding-left:15px}#content .sp_serv .upperm
+p{padding-left:13px}.yh_login_form{padding:3px
+10px}.left_spacing{margin-left:15px}.routes_info{padding-left:15px}table
+td.last{text-align:right}table
+th.last{text-align:right}.info_lists{margin-left:12px}.order_table td, .order_table th, .upperm td, .upperm
+th{padding:5px
+15px 5px 11px}#content .plane_info
+td{padding:0}#content
+.red_tip{color:#d90c0c}.addleft_spacing{padding-left:15px;margin-top:5px}.addleft_spacing
+.order_warn{display:block;width:700px;padding-left:20px;text-indent:0px;height:16px;line-height:16px}hr.green{margin:5px
+0}hr{margin:5px
+0}.tab_content table
+th{font-weight:normal;padding:0
+10px}.tab_content table
+td{color:#727272;padding:0
+10px}#new_step2{background-position:0 -36px}#new_step3{background-position:0 -72px}#new_step4{background-position:0 -113px}#new_step5{background-position:0 -153px}#orderStep1{background-position:0 -364px}#orderStep2{background-position:0 -415px}#orderStep3{background-position:0 -458px}#orderStep4{background-position:0 -498px}#orderStep5{background-position:0 -538px}#orderStep6{background-position:0 -578px}#travel_coupon_box{background:url("http://img1.tuniucdn.com/u/user/order/img/tip_box.gif") no-repeat scroll 0 0 transparent;height:188px;position:absolute;width:338px;z-index:5}#travel_coupon_box
+.c_close{cursor:pointer;height:18px;overflow:hidden;position:absolute;right:16px;text-indent:-9999px;top:12px;width:18px}#travel_coupon_box
+h3{color:#F60;font-size:14px;height:23px;line-height:23px;margin:0
+auto;padding-top:10px;width:305px}#travel_coupon_box
+table{border:0
+none;border-collapse:collapse;margin:20px
+auto 0;width:305px}#travel_coupon_box
+table{border-collapse:collapse}.cred,a.cred:link,a.cred:visited{color:#F00}#travel_coupon_use_success_box{background:url("http://img1.tuniucdn.com/u/user/order/img/tip_box.gif") no-repeat scroll 0 0 transparent;height:188px;position:absolute;width:338px;z-index:5}#travel_coupon_use_success_box
+.c_close{cursor:pointer;height:18px;overflow:hidden;position:absolute;right:16px;text-indent:-9999px;top:12px;width:18px}#travel_coupon_use_success_box
+h3{color:#F60;font-size:14px;height:23px;line-height:23px;margin:0
+auto;padding-top:10px;width:305px}#travel_coupon_use_success_box
+table{border:0
+none;border-collapse:collapse;margin:20px
+auto 0;width:305px}.inner_content{border:2px
+solid #54A20C;border-radius:3px;padding:15px
+10px}.input_table{font-size:13px;margin:10px;width:710px}.input_table
+td{line-height:26px}.input_table
+select{padding:3px}.txt_m{width:146px}.txt_m,.txt_l,.txt_s1,.txt_s2{border:1px
+solid #A7A6AA;height:18px;line-height:18px;padding:1px
+2px}.txt_s1{width:39px}.inner_content
+h2{background:url("http://img1.tuniucdn.com/u/user/order/img/0706_icon.jpg") no-repeat scroll left 14px transparent;font-size:14px;height:30px;line-height:44px;overflow:hidden;text-indent:15px}.inner_content h2
+span{float:left}.cyellow,a.cyellow:link,a.cyellow:visited{color:#F90}.fnormal{font-weight:normal}.f12{font-size:12px}.cgreen,a.cgreen:link,a.cgreen:visited{color:#4E9700}.ud_fold{background-position:0 -18px}.udar{background:url("/site/css/img/udpic.gif") no-repeat scroll 0 0 transparent;cursor:pointer;display:inline-block;height:18px;margin-right:5px;vertical-align:middle;width:18px}hr{border:none;border-top:1px dashed #ccc;height:1px;margin:5px;*margin:0}.special_serv{color:#666;padding:0
+18px}.special_serv
+p{line-height:24px}.special_serv
+.green_bg{background-color:#f7f7f7;margin-top:30px}.special_serv  .ss_cont
+span{display:inline-block}.special_serv  .ss_cont
+span.c_1{width:400px}.order_box
+.tra_info{color:#666;background:#FFFBF3;padding:10px;margin:20px
+30px 0 16px}.new_step{background:url("http://img1.tuniucdn.com/site/images/prod/xiadan/steps.jpg?v=2") no-repeat scroll 0 0 transparent;height:28px;margin:15px
+0 5px;width:960px}.qzrc_w{padding:3px;position:absolute;z-index:1000}.qzrc_w
+iframe{height:480px;left:0;opacity:0;position:absolute;top:0;width:767px}.qzclose{cursor:pointer;position:absolute;right:10px;top:10px;z-index:1001}.qzrc_box1{background:url("http://img1.tuniucdn.com/u/ch/hotels/images/loading.gif") no-repeat scroll 50% 50% #FFF;border-color:#CCC;border-style:solid;border-width:1px;display:inline-block;line-height:150%;padding-top:10px;position:relative}.qztov1,.qztov2,.qztovp1,.qztovp2{border-bottom:6px solid transparent;border-left:6px dotted transparent;border-right:6px dotted transparent;height:0;overflow:hidden;position:absolute;right:250px;width:0}.qztov2,.qztovp2{border-bottom-color:#FFF;top:-5px}.qztov1,.qztovp1{border-bottom-color:#CCC;top:-6px}table.confirm{border-collapse:collapse;width:80%;margin:0
+15px}table.confirm td,.table.confirm
+th{border:1px
+solid #ccc}table.confirm
+td.firstline{border-top:none}.data_false{background:url("http://img1.tuniucdn.com/u/user/order/img/order_ico.gif?v=1") no-repeat scroll -57px -370px transparent}.data_correct{background:url("http://img1.tuniucdn.com/u/user/order/img/order_ico.gif?v=1") no-repeat scroll -57px -353px transparent}.data_correct,.data_false{display:inline-block;height:16px;text-indent:20px;line-height:16px}p.sub{margin:10px
+15px}.sub
+label{font-weight:bold}.upload_table tbody
+td{border-bottom:1px dashed #EAEAEA;line-height:1.9;padding:5px
+0;vertical-align:top}.material
+p{margin-top:10px}.blackcolor{color:#000}.next_step_s2 .back_link:link,  .next_step_s2 .back_link:visited{color:#4E9700;font-size:15px;margin-right:12px;text-decoration:underline}.next_step_s .back_link:link, .next_step_s .back_link:visited{left:325px}.ml_10{margin-left:10px}select{border:1px
+solid #ccc}#upload_file_type{margin-left:10px}.dyPop{width:435px;height:180px;padding:5px;background:url(http://img1.tuniu.com/u/user/order/img/dy_popbg.png) no-repeat;font-size:12px;color:#333;line-height:24px;position:absolute;left:155px;top:0px;display:none}.dyPop .con
+.p1{padding:30px
+0 0 20px}.dyPop .con
+.p2{margin:0
+0 20px 35px}.dyPop .con
+.p3{padding-left:60px}.dyPop .con .p3
+a{display:inline-block}.dyPop .con
+span{color:#fe8300;font-weight:bold}.dyPop
+.retunBtn{display:inline-block;width:156px;height:30px;background:url(http://img1.tuniu.com/u/user/order/img/return_btn.png) no-repeat;margin-right:20px}.dyPop .retunBtn:hover{background:url(http://img1.tuniu.com/u/user/order/img/return_btn_hover.png) no-repeat}.dyPop
+.dyLink{color:#559700;position:relative;top:-2px}.tip_trigger{display:inline-block;width:18px;height:18px;background:url("http://img1.tuniucdn.com/site/images/common/tip.png") 0 0 no-repeat;position:relative;top:5px;cursor:pointer;margin-left:5px}.tip{display:none}.poptip{background:none repeat scroll 0 0 #FFFBEF;border:1px
+solid #F90;color:#333;display:none;padding:10px;position:absolute;width:140px;z-index:1000}#new_visa_step1{background-position:0 -695px}#new_visa_step2{background-position:0 -731px}#new_visa_step3{background-position:0 -768px}#new_visa_step4{background-position:0 -809px}

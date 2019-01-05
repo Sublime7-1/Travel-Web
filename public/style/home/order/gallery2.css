@@ -1,0 +1,13 @@
+.gallery2 .detail-img-list{width:370px;float:left}.gallery2 .big-img{height:208px;text-align:center}.gallery2 .big-img
+img{width:100%;max-height:100%}.gallery2 .small-img{margin-top:10px;font-size:0}.gallery2
+.tn_logo{}.gallery2 .small-img>div{display:inline-block;*display:inline;*zoom:1}.gallery2 .small-img
+.middle{width:310px;vertical-align:top;overflow:hidden}.gallery2 .small-img
+.left{margin-right:7px}.gallery2 .small-img
+.right{margin-left:7px}.gallery2 .small-img .left,.gallery2 .small-img
+.right{font-size:0;cursor:pointer}.gallery2 .small-img .middle
+ul{position:relative;width:100000px}.gallery2 .small-img .middle
+li{float:left;margin-right:10px;width:66px;height:66px;text-align:center;border:2px
+solid #666}.gallery2 .small-img .middle
+li.active{border:2px
+solid #f80}.gallery2 .small-img .middle li
+img{height:100%}

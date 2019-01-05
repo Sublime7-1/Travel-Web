@@ -1,0 +1,47 @@
+.float-delivery{}.float-delivery .float-content{width:750px;height:auto;font-size:14px;color:#333}.float-delivery .delivery-title{height:39px;line-height:39px;padding-left:20px;border-bottom:1px solid #eee}.float-delivery .delivery-title
+h2{color:#333;font-size:16px;font-weight:bold;border-bottom:2px solid #4ecf5b;display:inline;padding-bottom:9px}.float-delivery .delivery-title
+span{float:right;margin-right:10px}.delivery-con{max-height:690px}.float-delivery .delivery-main{margin:20px
+0 0 20px;width:730px;max-height:310px;overflow:hidden}.float-delivery .delivery-main .panel-box{width:720px;overflow:hidden}.float-delivery .delivery-main
+.panel{width:226px;height:132px;border:1px
+solid #ddd;background:rgba(246,246,246,0.30);float:left;margin-right:10px;margin-bottom:20px;position:relative;padding:1px;cursor:pointer}.float-delivery .delivery-main
+.panel.active{border:2px
+solid #f80;padding:0}.float-delivery .delivery-main .panel .panel-body{margin:7px
+10px 15px 10px}.float-delivery .delivery-main .panel .panel-body .panel-title{font-size:14px;color:#666;font-weight:bold;border-bottom:1px solid #ddd;padding-bottom:3px;padding-left:3px}.float-delivery .delivery-main .panel .panel-body .panel-main{margin-top:15px;font-size:12px;margin-left:3px;border-bottom:1px dotted #999;padding-bottom:10px}.float-delivery .delivery-main .panel .panel-body .panel-main
+p{line-height:18px}.float-delivery .delivery-main .panel .panel-body .panel-footer{margin-top:10px;padding-left:5px}.float-delivery .delivery-main .panel .panel-body .panel-footer>div{display:inline-block;*display:inline;*zoom:1;width:48%}.float-delivery .delivery-main .panel .panel-body .panel-footer
+span{font-size:12px;color:#999;text-align:center;cursor:pointer}.float-delivery .delivery-main .panel .panel-body .panel-footer span.defaults-address{color:#ccc}.float-delivery .delivery-main .panel .panel-body .panel-footer .footer-right{text-align:right}.float-delivery .delivery-main .panel .panel-body .panel-footer .footer-right span:hover{color:#f80}.float-delivery .delivery-main .panel .panel-body .panel-footer span.edit:hover{color:#22c233}.float-delivery .delivery-main .panel .panel-body .panel-footer span.delete:hover{color:#22c233}.float-delivery .delivery-main .panel .panel-body .user-selected{position:absolute;right:0;bottom:-4px;display:none}.float-delivery .delivery-main .panel.active .panel-body .user-selected{display:block}.float-delivery .delivery-main .panel .panel-main .add-address{margin:31px
+92px 0 93px}.float-delivery .delivery-main .panel .add-text{color:#999;text-align:center;margin-top:10px}.float-delivery .click-to-more-address{margin:0
+0 10px 20px;text-align:right}.float-delivery .click-to-more-address
+span{display:inline-block;*display:inline;*zoom:1}.float-delivery .add-consignee-info{color:#666;font-weight:bold}.float-delivery .click-to-more-address
+span.moreAddress{color:#22c233;cursor:pointer;display:inline-block;*display:inline;*zoom:1;text-align:right}.float-delivery .add-btn
+button{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;width:100px;height:32px;font-size:16px;line-height:32px;cursor:pointer;font-weight:bold}.float-delivery .add-btn{text-align:center;margin-bottom:30px;margin-top:30px}.float-delivery .add-btn
+button.confirm{background:#f80;border:1px
+solid #f80;color:#fff;margin-right:15px}.float-delivery .add-btn
+button.cancel{background:#fff;border:1px
+solid #ccc;color:#666}.float-delivery .fill-in-this-area{background:#f6f6f6;width:625px;height:265px;margin-left:20px;padding:15px
+0 20px 85px}.float-delivery .fill-in-this-area .fill-main{}.float-delivery .fill-in-this-area .fill-main .panel>p{display:inline-block;*display:inline;*zoom:1}.float-delivery .fill-in-this-area .fill-main .panel>p.panel-title{width:70px;text-align:right;color:#999}.float-delivery .fill-in-this-area .fill-main .panel>p.panel-main{}.float-delivery .fill-in-this-area .fill-main
+.panel{margin-top:10px}.float-delivery .fill-in-this-area .fill-main
+.panel.first{margin-top:0}.float-delivery .fill-in-this-area .select-province{width:110px;margin-right:7px}.float-delivery .fill-in-this-area .select-city{width:90px;margin-right:7px}.float-delivery .fill-in-this-area .select-town{width:90px}.float-delivery .fill-in-this-area .panel-main
+textarea{background:#fff;border:1px
+solid #ddd;width:287px;height:33px;padding:9px
+16px 56px 5px}.float-delivery .fill-in-this-area .fill-main .panel.panel-address .panel-title{vertical-align:top}.float-delivery .fill-in-this-area .panel-btn
+button{width:68px;height:22px;line-height:20px;font-size:12px;cursor:pointer}.float-delivery .fill-in-this-area .panel-btn{text-align:center;width:73%}.float-delivery .fill-in-this-area .panel-btn
+button.save{background:#4ecf5b;border:1px
+solid #4ecf5b;color:#fff;margin-right:5px}.float-delivery .fill-in-this-area .panel-btn
+button.cancel{background:#fff;border:1px
+solid #ccc;color:#666}.float-delivery .receipt-new-address-form{font-size:14px;color:#333;text-align:left;padding:0
+20px}.float-delivery .receipt-new-address-form
+input{background:#fff;border:1px
+solid #ccc;width:433px;height:30px;text-align:left;display:inline-block;margin-left:12px;padding-left:5px}.float-delivery .receipt-new-address-form
+.receipt_info_title{width:60px;text-align:right}.float-delivery .receipt-new-address-form
+tr{margin-top:20px;display:block}.float-delivery .receipt-new-address-form
+button{width:68px;height:24px;outline:0;font-size:12px;cursor:pointer;border:none;margin-right:20px;margin-top:30px}.float-delivery .receipt-new-address-form
+#J_new_address_province{background:#fff;border:1px
+solid #ccc;width:108px;height:30px;font-size:14px;color:#666;text-indent:5px;margin-left:12px}.float-delivery .receipt-new-address-form
+#J_new_address_city{background:#fff;border:1px
+solid #ccc;width:108px;height:30px;font-size:14px;color:#666;text-indent:5px}.float-delivery .receipt-new-address-form
+.detailed_address{background:#fff;border:1px
+solid #ccc;width:348px;height:92px;margin-top:10px;font-size:14px;color:#999;padding-top:6px;text-indent:5px;margin-left:12px}.float-delivery .receipt-new-address-form
+.address_add{color:#fff;background:#4ecf5b;width:44px;height:24px;margin-left:166px}.float-delivery .receipt-new-address-form
+.address_cancel{border:1px
+solid #ccc;width:42px;height:24px;background:#fff}.float-delivery .receipt-new-address-form
+.new_address_sub_title{line-height:30px;width:75px;color:#666;vertical-align:top;margin-left:-12px;margin-right:10px}

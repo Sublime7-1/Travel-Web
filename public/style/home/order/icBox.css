@@ -1,0 +1,9 @@
+.international_code_box{border:3px
+solid #999;padding:20px;width:655px;position:absolute;display:none;background-color:#FFF;z-index:120}.code_title_list{border-bottom:1px dashed #ccc}.code_title_list
+li{padding:5px;display:inline-block;*display:inline;*zoom:1;cursor:pointer;font-size:16px}.code_title_list
+li.activity{padding:5px;display:inline-block;*display:inline;*zoom:1;cursor:pointer;color:#22c233}.code_detail_list{margin:auto;font-size:0}.code_detail_list
+.code{color:#999}.code_detail_list
+li{padding:10px
+0;display:inline-block;*display:inline;*zoom:1;cursor:pointer;font-size:14px;width:218px}.code_detail_list
+li.activity{padding:10px
+0;display:inline-block;*display:inline;*zoom:1;cursor:pointer;color:#22c233}

@@ -1,0 +1,672 @@
+.comment-section .comment-frame {
+  position: relative;
+  margin: 0 auto 20px;
+  padding: 20px 39px 20px 119px;
+  border: 1px solid #ddd;
+  background: #fff; }
+  .comment-section .comment-frame-head {
+    position: absolute;
+    left: 19px;
+    top: 39px;
+    background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 78px;width: 78px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -0px -0px; }
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-section .comment-frame-head {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -0px -0px;width: 78px;height: 78px; } }
+    .comment-section .comment-frame-head .title {
+      width: 70px;
+      height: 44px;
+      padding: 13px 0;
+      font-size: 20px;
+      color: #ffffff;
+      line-height: 22px;
+      text-align: center; }
+
+.comment-section .comment-loading,
+.comment-section .comment-frame.loading {
+  height: 200px;
+  min-height: 200px;
+  background-image: url(/img/2017/common/loading-72x72.gif);
+  background-position: center center;
+  background-repeat: no-repeat; }
+
+.comment-section .comment-summary {
+  margin-bottom: -1px; }
+
+.listerror {
+  height: 100px;
+  font-size: 14px;
+  color: #666;
+  line-height: 100px;
+  text-align: center; }
+.comment-tab {
+  position: relative;
+  margin-bottom: 19px;
+  border-bottom: 1px solid #ddd; }
+  .comment-tab .bar {
+    position: absolute;
+    left: 0;
+    bottom: -3px;
+    background: #22c233;
+    width: 122px;
+    height: 3px;
+    -webkit-transition: left 200ms;
+    transition: left 200ms; }
+  .comment-tab ul {
+    margin: 0 -11px;
+    overflow: hidden; }
+    .comment-tab ul li {
+      float: left;
+      margin: 0 11px;
+      padding: 0 27px 12px;
+      color: #666;
+      cursor: pointer;
+      font-size: 18px;
+      line-height: 24px;
+      white-space: nowrap; }
+      .comment-tab ul li.active {
+        color: #22c233; }
+.comment-tag {
+  position: relative;
+  margin-bottom: 15px;
+  border: 1px solid #ddd; }
+  .comment-tag .tag-group {
+    position: relative;
+    padding: 6px 15px; }
+    .comment-tag .tag-group .more {
+      position: absolute;
+      right: 35px;
+      top: 6px;
+      display: none;
+      height: 24px;
+      margin: 6px 0;
+      padding: 3px 15px;
+      background: #fff;
+      color: #666;
+      font-size: 14px;
+      line-height: 24px;
+      cursor: pointer;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      text-align: center; }
+      .comment-tag .tag-group .more .icon {
+        background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 7px;width: 13px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -112px -66px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-tag .tag-group .more .icon {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -112px -66px;width: 13px;height: 7px; } }
+    .comment-tag .tag-group.overflow .more {
+      display: block; }
+    .comment-tag .tag-group.fold .more .icon {
+      background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 7px;width: 13px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -99px -66px; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-tag .tag-group.fold .more .icon {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -99px -66px;width: 13px;height: 7px; } }
+    .comment-tag .tag-group.tag-resource {
+      position: relative;
+      z-index: 2;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-bottom: 1px solid #ddd;
+      background: #fff; }
+      .comment-tag .tag-group.tag-resource .list {
+        margin: 0; }
+        .comment-tag .tag-group.tag-resource .list .item {
+          border-color: #fff;
+          color: #666; }
+          .comment-tag .tag-group.tag-resource .list .item strong {
+            color: #f80; }
+          .comment-tag .tag-group.tag-resource .list .item.active {
+            background: #22c233;
+            color: #fff;
+            cursor: default; }
+            .comment-tag .tag-group.tag-resource .list .item.active strong {
+              color: #fff; }
+        .comment-tag .tag-group.tag-resource .list .item {
+          padding-top: 3px;
+          padding-bottom: 3px; }
+      .comment-tag .tag-group.tag-resource .box {
+        max-height: 168px;
+        overflow: auto;
+        overflow-y: auto;
+        overflow-x: visible; }
+      .comment-tag .tag-group.tag-resource.fold .box, .comment-tag .tag-group.tag-resource.init .box {
+        height: 42px;
+        overflow: hidden; }
+  .comment-tag .box {
+    overflow: hidden; }
+  .comment-tag .list {
+    margin: 0 -5px;
+    overflow: hidden; }
+    .comment-tag .list .item {
+      float: left;
+      margin: 6px 5px;
+      padding: 0 15px;
+      border: 1px solid #22c233;
+      border-radius: 2px;
+      cursor: pointer;
+      font-size: 14px;
+      color: #22c233;
+      line-height: 22px;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none;
+      white-space: nowrap;
+      overflow: hidden; }
+      .comment-tag .list .item.active {
+        background: #22c233;
+        color: #fff;
+        cursor: default; }
+    .comment-tag .list .more-shadow {
+      float: right;
+      height: 30px;
+      margin: 6px 20px 6px 0; }
+.comment-card {
+  position: relative;
+  padding: 0 0 15px;
+  margin: 0 0 15px;
+  font-size: 14px;
+  border-bottom: 1px dotted #ddd;
+  overflow: hidden; }
+  .comment-card-user {
+    float: left;
+    width: 90px;
+    line-height: 14px;
+    text-align: center; }
+    .comment-card-user-vatar {
+      width: 60px;
+      padding: 10px 0 15px;
+      margin: 0 auto;
+      position: relative; }
+      .comment-card-user-vatar img {
+        border-radius: 100%;
+        width: 60px;
+        height: 60px;
+        display: block; }
+    .comment-card-user-level {
+      width: 14px;
+      height: 14px;
+      position: absolute;
+      right: 0;
+      bottom: 15px;
+      background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 14px;width: 14px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -22px -78px; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-user-level {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -22px -78px;width: 14px;height: 14px; } }
+    .comment-card-user-name {
+      color: #333333;
+      margin: 0 0 10px; }
+    .comment-card-user-type {
+      color: #ff8800; }
+  .comment-card-gift {
+    float: right;
+    width: 100px;
+    font-size: 12px;
+    line-height: 30px;
+    background: #fdfaf1;
+    border-radius: 3px; }
+    .comment-card-gift-title {
+      position: relative;
+      background: #ffac4c;
+      text-align: center;
+      font-size: 12px;
+      font-family: MicrosoftYaHei;
+      color: #ffffff;
+      border-radius: 3px 3px 0 0; }
+      .comment-card-gift-title .icon {
+        position: absolute;
+        left: 0;
+        top: 3px;
+        background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 25px;width: 21px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -78px -48px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-gift-title .icon {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -78px -48px;width: 21px;height: 25px; } }
+    .comment-card-gift-item {
+      padding: 0 10px;
+      margin-bottom: -1px;
+      border-bottom: 1px dotted #ffdeb1;
+      font-family: PingFangSC-Regular; }
+      .comment-card-gift-item span {
+        margin-left: 5px;
+        color: #f60; }
+  .comment-card-content {
+    margin: 0 130px 0 105px;
+    line-height: 24px; }
+  .comment-card-resource {
+    margin-right: 0; }
+  .comment-card-tags {
+    background: #f0f2f5;
+    padding: 8px 5px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #999999;
+    line-height: 14px; }
+    .comment-card-tags span {
+      padding: 0 15px;
+      border-left: 1px solid #d4dae2; }
+    .comment-card-tags .text-orange {
+      border: 0; }
+    .comment-card-tags .right {
+      float: right;
+      border-left: none; }
+  .comment-card-text {
+    color: #666666;
+    line-height: 24px;
+    text-align: justify;
+    margin-bottom: 10px; }
+  .comment-card-detail {
+    margin-bottom: 6px;
+    overflow: hidden; }
+    .comment-card-detail-title {
+      float: left;
+      width: 70px;
+      color: #999; }
+    .comment-card-detail-content {
+      margin-left: 70px;
+      line-height: 22px; }
+  .comment-card-photos {
+    position: relative;
+    padding: 0 20px 14px; }
+    .comment-card-photos-float {
+      padding: 0 0 14px; }
+    .comment-card-photos .comment-item-picture-button {
+      display: none;
+      width: 20px;
+      height: 100%;
+      cursor: pointer; }
+      .comment-card-photos .comment-item-picture-button i {
+        position: absolute;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+                transform: translateY(-50%); }
+    .comment-card-photos .comment-item-picture-prev {
+      position: absolute;
+      left: -2px;
+      width: 20px;
+      height: 90px; }
+      .comment-card-photos .comment-item-picture-prev .icon {
+        background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 18px;width: 11px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -99px -48px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-photos .comment-item-picture-prev .icon {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -99px -48px;width: 11px;height: 18px; } }
+    .comment-card-photos .comment-item-picture-prev.disabled {
+      cursor: not-allowed; }
+      .comment-card-photos .comment-item-picture-prev.disabled .icon {
+        background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 18px;width: 11px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -0px -78px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-photos .comment-item-picture-prev.disabled .icon {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -0px -78px;width: 11px;height: 18px; } }
+    .comment-card-photos .comment-item-picture-next {
+      position: absolute;
+      right: -10px;
+      width: 20px;
+      height: 90px; }
+      .comment-card-photos .comment-item-picture-next .icon {
+        background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 18px;width: 11px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -11px -78px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-photos .comment-item-picture-next .icon {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -11px -78px;width: 11px;height: 18px; } }
+    .comment-card-photos .comment-item-picture-next.disabled {
+      cursor: not-allowed; }
+      .comment-card-photos .comment-item-picture-next.disabled .icon {
+        background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 18px;width: 11px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -110px -48px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-photos .comment-item-picture-next.disabled .icon {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -110px -48px;width: 11px;height: 18px; } }
+    .comment-card-photos-box {
+      position: relative;
+      overflow: hidden;
+      height: 90px; }
+      .comment-card-photos-box ul {
+        position: absolute; }
+        .comment-card-photos-box ul:after {
+          visibility: hidden;
+          display: block;
+          font-size: 0;
+          content: " ";
+          clear: both;
+          height: 0;
+          line-height: 0; }
+        .comment-card-photos-box ul {
+          *zoom: 1; }
+      .comment-card-photos-box li {
+        float: left;
+        padding: 0 10px 0 0;
+        display: inline;
+        width: 90px;
+        height: 90px;
+        overflow: hidden;
+        cursor: pointer;
+        text-align: center; }
+      .comment-card-photos-box img {
+        display: block;
+        width: 90px;
+        height: 90px; }
+  .comment-card-resourceContent {
+    position: relative;
+    padding-left: 20px; }
+    .comment-card-resourceContent-header {
+      margin-bottom: 12px;
+      position: relative; }
+      .comment-card-resourceContent-header i {
+        position: absolute;
+        top: 6px;
+        left: -20px;
+        display: inline-block;
+        width: 14px !important;
+        height: 14px !important; }
+      .comment-card-resourceContent-header .hotel {
+        width: 25px;
+        height: 25px;
+        background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 14px;width: 12px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -0px -96px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-resourceContent-header .hotel {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -0px -96px;width: 12px;height: 14px; } }
+      .comment-card-resourceContent-header .scenic {
+        width: 25px;
+        height: 25px;
+        background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 13px;width: 14px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -36px -78px; }
+      @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-resourceContent-header .scenic {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -36px -78px;width: 14px;height: 13px; } }
+    .comment-card-resourceContent .resourceContent-name {
+      font-size: 14px;
+      color: #666666;
+      letter-spacing: 0;
+      text-align: justify;
+      margin-right: 16px; }
+    .comment-card-resourceContent .resourceContent-feature {
+      font-size: 14px;
+      color: #999999;
+      letter-spacing: 0;
+      text-align: justify;
+      margin-right: 7px; }
+    .comment-card-resourceContent .resourceContent-evaluation {
+      font-size: 14px;
+      color: #ff7733;
+      letter-spacing: 0;
+      text-align: justify; }
+  .comment-card-product .first {
+    border-top: 1px dotted #ccc;
+    padding-top: 12px; }
+  .comment-card-datetime {
+    font-size: 12px;
+    color: #999999;
+    line-height: 12px; }
+    .comment-card-datetime a {
+      color: #22c233; }
+  .comment-card-reply-user {
+    margin: 15px 0 0;
+    padding: 10px 0 0;
+    border-top: 1px dotted #ddd;
+    text-align: justify; }
+    .comment-card-reply-user h3 {
+      color: #999; }
+  .comment-card-reply-customer {
+    position: relative;
+    margin-top: 16px;
+    background: #f6f6f6;
+    padding: 10px 15px 18px 78px;
+    text-align: justify; }
+    .comment-card-reply-customer h3 {
+      font-family: MicrosoftYaHei;
+      font-size: 14px;
+      color: #999999; }
+    .comment-card-reply-customer .icon-customer {
+      position: absolute;
+      left: 15px;
+      top: 10px;
+      background-image: url(/site/static/images/bundles/tour/comment/c6qagwwon0a.png);height: 48px;width: 48px;overflow: hidden;display: inline-block;background-repeat: no-repeat;background-position: -78px -0px; }
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
+  .comment-card-reply-customer .icon-customer {background-image: url(/site/static/images/bundles/tour/comment/c6qwgwwon04.png);background-size: 126px 110px;background-position: -78px -0px;width: 48px;height: 48px; } }
+
+.text-orange {
+  color: #ff7733; }
+
+.index1000 .comment-card-tags span {
+  padding: 0 7px; }
+.pagination {
+  overflow: hidden;
+  font-family: arial,Tahoma,"Microsoft YaHei"; }
+  .pagination-box {
+    float: right;
+    display: inline;
+    margin: 0 -5px; }
+  .pagination-item {
+    float: left;
+    height: 28px;
+    margin: 0 5px;
+    padding: 0 10px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background: #fff;
+    color: #666;
+    line-height: 28px;
+    text-align: center; }
+  .pagination-input {
+    border: 0;
+    padding: 0; }
+  .pagination-item.active {
+    border-color: #22c233;
+    background: #22c233;
+    cursor: default;
+    color: #fff; }
+  .pagination-item.disabled, .pagination-item.disabled:hover {
+    border: 1px solid #ddd;
+    cursor: not-allowed;
+    background: #fff;
+    color: #999; }
+  .pagination-prev, .pagination-next {
+    font-size: 20px;
+    font-family: Simsun; }
+  .pagination-more {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    cursor: default;
+    line-height: 30px; }
+  .pagination-prev:hover, .pagination-next:hover, .pagination-page:hover {
+    border-color: #22c233;
+    background: #22c233;
+    color: #fff; }
+
+.J_paginationInput {
+  width: 20px;
+  line-height: 28px;
+  height: 28px;
+  padding: 0 10px;
+  margin: 0 6px;
+  border: 1px solid #ddd; }
+  .J_paginationInput.error {
+    border-color: red;
+    background: #ffe9e9; }
+
+.pagination-button {
+  border-color: #22c233;
+  background: #22c233;
+  color: #fff !important; }
+.comment-summary {
+  border: 1px solid #ddd;
+  overflow: hidden; }
+  .comment-summary .separator {
+    float: left;
+    width: 0;
+    height: 67px;
+    border-left: 1px solid #ddd; }
+  .comment-summary .comment-satisfaction {
+    float: left;
+    width: 178px;
+    text-align: center;
+    font-size: 12px;
+    padding: 0 10px; }
+    .comment-summary .comment-satisfaction .title {
+      margin-bottom: 5px;
+      color: #666;
+      line-height: 14px; }
+    .comment-summary .comment-satisfaction .value {
+      font-size: 40px;
+      color: #f80;
+      line-height: 42px; }
+    .comment-summary .comment-satisfaction .count {
+      white-space: nowrap;
+      margin-top: 6px;
+      font-size: 13px;
+      color: #999; }
+  .comment-summary .percent {
+    float: left;
+    padding-left: 10px;
+    padding-right: 42px;
+    font-size: 12px;
+    white-space: nowrap; }
+    .comment-summary .percent .row {
+      height: 24px;
+      line-height: 24px;
+      overflow: hidden; }
+      .comment-summary .percent .row .label {
+        float: left;
+        width: 70px;
+        color: #999; }
+      .comment-summary .percent .row .chart {
+        float: left;
+        position: relative;
+        width: 90px;
+        height: 10px;
+        margin-top: 7px;
+        margin-right: 10px;
+        background: #ddd; }
+        .comment-summary .percent .row .chart i {
+          position: absolute;
+          left: 0;
+          top: 0;
+          height: 100%;
+          width: 100%;
+          background: #f80; }
+      .comment-summary .percent .row .value {
+        float: left;
+        width: 50px;
+        color: #f80; }
+  .comment-summary .fraction {
+    float: left;
+    width: 300px;
+    margin-right: 20px;
+    white-space: nowrap; }
+    .comment-summary .fraction .item {
+      float: left;
+      width: 50%;
+      color: #999;
+      line-height: 30px;
+      font-size: 14px; }
+      .comment-summary .fraction .item strong {
+        margin-left: 10px;
+        color: #f80; }
+  .comment-summary .post {
+    float: right;
+    width: 183px;
+    margin-left: 26px;
+    margin-right: 26px;
+    font-size: 14px;
+    text-align: center; }
+    .comment-summary .post .desc {
+      margin-bottom: 15px;
+      line-height: 22px;
+      color: #999; }
+      .comment-summary .post .desc strong {
+        color: #f80;
+        font-size: 18px; }
+    .comment-summary .post .button {
+      display: block;
+      background: #22c233;
+      width: 76px;
+      height: 24px;
+      margin: 0 auto;
+      border-radius: 2px;
+      line-height: 24px;
+      text-align: center;
+      color: #fff; }
+  .comment-summary .empty {
+    width: 100%;
+    padding: 25px 30px;
+    overflow: hidden; }
+    .comment-summary .empty .empty-content {
+      float: left;
+      width: 68%;
+      text-align: center;
+      color: #666;
+      font-size: 14px;
+      line-height: 30px; }
+    .comment-summary .empty .post {
+      float: right;
+      width: 29.3492%;
+      height: 71px;
+      overflow: visible;
+      text-align: center;
+      color: #999;
+      border-left: 1px solid #ddd;
+      -webkit-box-sizing: border-box;
+              box-sizing: border-box;
+      margin-left: -1px; }
+      .comment-summary .empty .post-desc {
+        margin: -9px 0 18px;
+        padding-left: 25px;
+        line-height: 22px; }
+        .comment-summary .empty .post-desc strong {
+          font-size: 18px; }
+      .comment-summary .empty .post-button {
+        padding-left: 25px; }
+        .comment-summary .empty .post-button a {
+          display: block;
+          width: 76px;
+          height: 24px;
+          margin: 0 auto;
+          background: #f80;
+          line-height: 24px;
+          text-align: center;
+          color: #fff;
+          border-radius: 2px; }
+
+.flex-supported .comment-summary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 118px; }
+
+.flex-not-supported .comment-summary {
+  height: 67px;
+  padding: 27px 0 24px; }
+  .flex-not-supported .comment-summary .comment-satisfaction {
+    width: 140px;
+    margin-top: -10px; }
+  .flex-not-supported .comment-summary .percent {
+    margin-top: -2px; }
+  .flex-not-supported .comment-summary .fraction {
+    margin-top: 3px; }
+  .flex-not-supported .comment-summary .post {
+    margin-top: -9px; }
+
+.index1000 .comment-summary .percent {
+  width: 290px;
+  padding-right: 0; }
+
+.index1000 .comment-summary .fraction {
+  margin-right: 0;
+  width: 250px; }
+
+.index1000 .comment-summary .empty .post {
+  margin-left: -10px; }
+
+.index1000 .comment-summary .post {
+  margin-left: 10px;
+  margin-right: 10px; }
+
+.index1000 .flex-not-supported .comment-summary .percent {
+  width: 210px; }
+  .index1000 .flex-not-supported .comment-summary .percent .value {
+    width: 0; }
+
+.index1000 .flex-not-supported .comment-summary .fraction {
+  width: 230px; }
+.comment-content-error {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  line-height: 32px;
+  font-size: 14px;
+  color: #666; }
+  .comment-content-error-left {
+    padding: 25px 0 10px;
+    text-align: left; }
+  .comment-content-error-empty {
+    padding: 25px 0 10px; }

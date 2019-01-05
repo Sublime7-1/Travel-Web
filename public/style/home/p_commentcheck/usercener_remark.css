@@ -1,0 +1,391 @@
+body{
+	font-family: "Microsoft YaHei"!important;
+}
+.prod_name .pn_line a{
+	font-family: "Microsoft YaHei";
+	font-size: 16px;
+	color: #333333;
+	letter-spacing: 0px;
+	line-height: 24px;
+}
+.prod_name .pn_line{
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.pn_sub_infor{
+	font-size: 14px;
+}
+.prod_name .pn_sub_infor span{
+	color: #333;
+	font-family: "Microsoft YaHei";
+}
+.saf_num dt {
+	color: #98A6AA;
+	font-size: 14px;
+	padding: 0;
+	display: inline-block;
+}
+.saf_num dd em{
+	font-size: 46px;
+	color: #ff6600;
+	font-weight: bold;
+}
+.saf_num dt, .saf_num dd{
+	float: none;
+}
+.saf_num dd,.dt_box{
+	text-align: center;
+}
+.prod_name{
+	border: 1px solid #eaebed;
+    padding: 15px;
+	margin-top: 20px;
+}
+.prod_name .pn_infor{
+	margin-left: 0;
+}
+.w800{
+	width: 100% !important;
+	float: none !important;
+}
+.comments_box,.tours{
+	width: 100%;
+}
+.comments_box{
+	padding: 20px 0 0 0;
+}
+.totEva{
+	background: #22C233;
+}
+.hotTotEva{
+	background: #ff8800;
+}
+.totEva,.hotTotEva{
+	width: 95px;
+    height: 28px;
+    padding: 0;
+    border: none;
+    color: #fff;
+    text-align: center;
+    line-height: 28px;
+    border-radius: 0 14px 14px 0;
+    display: block;
+    float: left;
+}
+.comment_lists dd{
+	width: 78%;
+	margin: 0 auto;
+	display: block;
+    float: none;
+}
+.comment_lists .clists_stars span{
+	color:#F9743A;
+	width: auto;
+	height: auto;
+	line-height: 28px;
+	margin-right: 20px;
+	float: none;
+	display: inline-block;
+}
+.totEvaKeyword{
+	position: relative;
+}
+
+.totEvaKeyword i{
+	font-style: normal;
+    display: inline-block;
+    line-height: 24px;
+    margin-left: 25px;
+}
+.comment_lists .clists_stars .hotelName{
+	display: inline-block;
+    color: #333;
+    padding: 0px 5px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.comment_lists .clists_stars .type{
+	display: inline-block;
+    color: #999;
+    padding: 0px 5px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 22px;
+}
+.clists_words{
+	background: rgba(255,136,0,0.05);
+}
+.comment_lists .clists_words span{
+	background: none;
+}
+.comment_lists .clists_words span em{
+	color: #ff8800;
+}
+.comment_lists .comment_li{
+	position: relative;
+}
+.comment_lists dd{
+	position: static;
+}
+.comment_prec{
+	right: 20px;
+}
+.prod_name .pn_right{
+	float: right;
+	width: auto;
+}
+.prod_name .pn_left{
+	border: none;
+}
+.comment_prec .cp_tt{
+    background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/54/15/Cii9EFk5FDmIECduAAACnY2zpgEAAL6SwP__UsAAAK1467.png)no-repeat left center;
+	background-color: #FFAC4C;
+    color: #fff;
+    border-radius: 2px;
+    margin-bottom: 0;
+}
+.gift{
+	background: #FFF3DD;
+	border-bottom: 1px dotted #FFDEB1;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+.gift span{
+	margin-right: 5px;
+}
+.comment_prec_box .gift:last-child{
+	border: none;
+}
+.comment_lists .clists_main_cont{
+	width: 95%;
+	min-height: 96px;
+}
+/*.bad em{
+	background: url(https://m.tuniucdn.com/fb2/t1/G2/M00/F4/5E/Cii-TFk6FpKIQOXTAAAGa2x-y0MAALhxAP_-XoAAAaG844.png) no-repeat center;
+}
+.normal em{
+	background: url(https://m.tuniucdn.com/fb2/t1/G2/M00/F3/5A/Cii-Tlk6Fp2IJqeLAAAFUk4iQ0UAALg6wP_-pYAAAVq544.png) no-repeat center;
+}
+.good em{
+	background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/54/2F/Cii9EVk5BbiIGEP5AAAG5iN-oggAAL6wQP_-QEAAAb_267.png) no-repeat center;
+}*/
+.bad img,.normal img,.good img{
+	width: 20px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    /*background-size: 100%;*/
+}
+.pcIcon,.appIcon{
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+}
+.pcIcon{
+	background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/59/33/Cii-U1k6QImIdzBEAAAA4CbLe5UAAL-iAP__uIAAAEe475.png) no-repeat center;
+}
+.appIcon{
+	background: url(https://m.tuniucdn.com/fb2/t1/G2/M00/FC/64/Cii-TFk6Qt-IN8RAAAAAzdX2JhUAALopAP__v0AAAED087.png) no-repeat center;
+}
+.comment_from dt{
+	position: relative;
+}
+.comment_from i{
+	font-style: normal;
+	margin-left: 16px;
+}
+.comment_lists .clists_words span{
+	margin-left: 10px;
+	margin-right: 0;
+}
+.prod_name{
+	background: #fff;
+}
+
+.pop_slidy .pop_left .pop_left_span span{
+	display: inline;
+	padding: 7px 0 7px 108px;
+}
+.pop_slidy .clists_stars span{
+	width: 67px;
+}
+.pop_slidy .clists_stars .hotelName{
+	width: 167px;
+}
+.pop_slidy .clists_stars span{
+	line-height: 22px;
+}
+.resourceName{
+	float: right;
+	color: #666;
+}
+.comments_box{
+	margin-bottom: 20px;
+}
+.pn_line a:hover{
+	color:#333!important;
+}
+.itemEvalution span{
+	float: left;
+	color: #999;
+}
+.itemEvalution pre{
+	display: inline-block;
+	width: 90%;
+	white-space: pre-wrap;       
+	white-space: -moz-pre-wrap;  
+	white-space: -pre-wrap;      
+	white-space: -o-pre-wrap;    
+	word-wrap: break-word;   
+}
+.pop_slidy .ps_tt{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 25px;
+}
+.comment_lists .comment_detail{
+	line-height: 20px;
+	white-space: pre-wrap;       
+	white-space: -moz-pre-wrap;  
+	white-space: -pre-wrap;      
+	white-space: -o-pre-wrap;    
+	word-wrap: break-word;
+}
+.first_evaluation_box, .appendremark_evaluation_box{
+	display: inline-block;
+    vertical-align: top;
+    width: 90px;
+    margin-top: 4px;
+    color: #666;
+    font-size: 14px;
+}
+.first_evaluation_box i, .appendremark_evaluation_box i{
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    z-index: 1;
+    position: relative;
+}
+.first_evaluation_box i{
+	background: url(https://m4.tuniucdn.com/fb2/t1/G4/M00/00/F9/Cii-VVmUBKOIbn7XAAAA1fo_UG4AAACIwP__vUAAAEL747.png) no-repeat center;
+}
+.appendremark_evaluation_box i{
+	background: url(https://m1.tuniucdn.com/fb2/t1/G4/M00/00/56/Cii_J1mUBKSIf5q3AAAA0mdbUyIAAABEQP__u0AAAET341.png) no-repeat center;
+}
+.compreEva .comment_lists .clists_main_cont{
+	width: 80%;
+	display: inline-block;
+}
+.line{
+    display: inline-block;
+    background-color: rgba(0,0,0,0.06);
+    width: 1px;
+    height: 240px;
+    position: absolute;
+    top: -2px;
+    left: 112.58px;
+    z-index: 0
+}
+.eva_date,.extendTime{
+	margin-left: 14px;
+}
+.change_left{
+	left: 114px;
+}
+.comment_lists li.comment_li{
+	padding: 0 0 15px!important;
+}
+.extend_box{
+	display: inline-block;
+	width: 80%;
+}
+.appendremark_detail{
+	margin: 6px 0;
+	line-height: 20px;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+.reply_box{
+	background: #fffdfc;
+    border: 1px solid #ecdac7;
+    width: 605px;
+    /* height: 105px; */
+    padding: 10px;
+    margin-left: 92px;
+}
+.head{
+	width: 40px;
+    height: 40px;
+    background: url(https://m1.tuniucdn.com/fb2/t1/G4/M00/02/E0/Cii_J1mVQQ-ISlE1AAAIqXH0bdcAAAFFgK6UtUAAAjB606.png) no-repeat center center;
+    vertical-align: top;
+    margin-right: 5px;
+}
+.reply_box span{
+	display: inline-block;
+}
+.reply_box span:nth-child(2){
+	width: 90%;
+}
+.reply_box span:nth-child(2) p,
+.reply_box span:nth-child(2) span{
+    font-size: 14px;
+    color: #a8783f;
+}
+
+.pic_appendremark .sp_prev, .pic_appendremark .sp_next, .slidy_pic .sp_next.sp_grey, .slidy_pic .sp_prev.sp_grey{
+    background: url(http://img1.tuniucdn.com/img/20140114/usercenter_lxl/slidy.png) no-repeat 0 0;
+}
+.pic_appendremark.pic_appendremark.clearfix{
+	background-position: -23px 24px;
+}
+.pic_appendremark .sp_prev, .pic_appendremark .sp_next{
+    width: 24px;
+    height: 58px;
+    border: 1px solid #d8d8d8;
+    background-position: 6px 24px;
+    cursor: pointer;
+    float: left;
+}
+
+.pic_appendremark .sp_next.sp_grey{
+	    background-position: -23px -24px;
+}
+.pic_appendremark .sp_prev.sp_grey{
+	background-position: 6px -24px;
+}
+.pic_appendremark .sp_next{
+	background-position: -23px 24px;
+}
+.pop_slidy .pop_word{
+	margin-top: 10px;
+	line-height: normal;
+	height: auto;
+	word-wrap: break-word;
+    padding: 2px 0 10px 0;
+    max-height: 100px;
+    overflow-y: auto;
+}
+.pop_slidy .pop_left .pop_left_span span{
+	line-height: 32px;
+}
+.pic_appendremark .sp_prev{
+    margin-right: 15px;
+}
+.pop_slidy .pop_detail{
+	padding-bottom: 12px;
+}

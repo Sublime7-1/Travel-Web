@@ -1,0 +1,1750 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0}li{overflow:hidden}body{font-size:12px;text-align:center}fieldset,img{border:0}address,caption,cite,code,dfn,em,strong,th,var,optgroup{font-style:normal;font-weight:400}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:400}abbr,acronym{border:0;font-variant:normal}input,button,textarea,select,optgroup,option{font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit}ol,ul{list-style:none}table{border-collapse:collapse;border-spacing:0}caption,th{text-align:left}sup,sub{font-size:100%;vertical-align:baseline}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}.clearfix{zoom:1}.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden}code,kbd,samp,tt,input,button,textarea,select{font-size:100%}:link,:visited,ins,a{text-decoration:none}:focus{outline:0
+none}button::-moz-focus-inner,input[type="reset"]::-moz-focus-inner,input[type="button"]::-moz-focus-inner,input[type="submit"]::-moz-focus-inner,input[type="file"]>input[type="button"]::-moz-focus-inner{border:none;padding:0}*html,*html
+body{background-attachment:fixed}body{background-color:#fff;font-size:12px;line-height:1.5;font-family:"Hiragino Sans GB",Tahoma,arial,宋体,sans-serif;color:#404040;text-align:left}a{color:#404040}.f_yh{font-family:'微软雅黑'}.f12{font-size:12px}.f14{font-size:14px}.f16{font-size:16px}.f18{font-size:18px}.f20{font-size:20px}.fb{font-weight:700}.f_f00{color:#f00}.f_666{color:#666}.f_c30{color:#c30}.f_4e9700{color:#4e9700}.f_4e9700:hover{color:#f60}.f_f60{color:#f60 !important}.f_0053aa{color:#0053aa}.f_f00{color:#f00}.f_005bb5{color:#005bb5}.c_green{color:#4e9700}.fl{float:left}.fr{float:right}.mb_5{margin-bottom:5px}.mb_10{margin-bottom:10px}.ml_10{margin-left:10px}.mr_10{margin-right:10px}.mt_5{margin-top:5px}.mt_10{margin-top:10px}.mb_20{margin-bottom:20px}.mt_-40{margin-top:-40px}.mt_-50{margin-top:-50px}.m-180{margin:0
+0 0 -180px}.pd_10{padding:10px}.pt_2{padding-top:2px}.pt_4{padding-top:4px}.pt_5{padding-top:5px}.pr_3{padding-right:3px}.pt_8{padding-top:8px}.pr_10{padding-right:10px}.pt_10{padding-top:10px}.pl_10{padding-left:10px}.w190{width:190px}.w290{width:290px}.w700{width:700px}.w800{width:800px}.txt_lt{text-decoration:line-through}.lh1_4{line-height:1.4}.baidu_share{float:right;width:auto;line-height:15px}.search_nav{margin:0px
+0 5px;height:25px;line-height:25px;vertical-align:middle}.search_nav{zoom:1}.search_nav:after{content:".";display:block;height:0;clear:both;visibility:hidden}.search_nav
+.crumbs{float:left}.search_nav .crumbs
+a{color:#404040;padding:0
+5px}.search_nav .crumbs a:hover{color:#4e9700}.search_nav
+h1{float:left;padding-left:5px}.zb_tour_identf,.cj_tour_identf,.gn_tour_identf,.gt_tour_identf,.zzy_tour_identf,.gs_tour_identf,.jd_tour_identf,.qz_tour_identf,.dd_tour_identf,.zjy_tour_identf,.yl_tour_identf{padding:0
+1px;margin:0
+5px 0 0}.zb_tour_identf{border:1px
+dashed #e70f47;color:#e70f47}.cj_tour_identf{border:1px
+dashed #00a8e1;color:#00a8e1}.gn_tour_identf{border:1px
+dashed #cd66cc;color:#cd66cc}.gt_tour_identf{border:1px
+dashed #fa943e;color:#fa943e}.zzy_tour_identf{border:1px
+dashed #77b800;color:#77b800}.gs_tour_identf{border:1px
+dashed #2bc4b6;color:#2bc4b6}.jd_tour_identf{border:1px
+dashed #6c3a77;color:#6c3a77}.qz_tour_identf{border:1px
+dashed #fd2caa;color:#fd2caa}.dd_tour_identf{border:1px
+dashed #be9272;color:#be9272}.zjy_tour_identf{border:1px
+dashed #8d6cd1;color:#8d6cd1}.yl_tour_identf{border:1px
+dashed #0078c9;color:#0078c9}.backToTop,.esq_over,.add_scroll,.sdd_advice,.add_weChat,.add_app{background:url(/img/20140417/common/right_suspension.png) no-repeat}.right_scroll{width:40px;height:180px;position:fixed;_position:absolute;right:20px;bottom:0px;_bottom:"auto"}.backToTop{display:block;width:40px;height:40px;background-position:0 -135px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin-bottom:5px}.backToTop:hover{background-position:-50px -135px}.esq{display:block;width:46px;height:117px;background:url(/img/20131120/common/esq_new.gif) no-repeat;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0}.zaixiankefu{display:block;width:46px;height:117px;background:url(/img/20131120/common/esq_new.gif) no-repeat;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0}.esq_over{width:40px;height:40px;background-position:-150px 0}.esq_over:hover{background-position:-50px 0}#bdshare{z-index:100!important}.add_scroll{display:block;width:40px;height:40px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0}.add_scroll{background-position:0 -89px}.add_scroll:hover{background-position:-50px -89px}.sdd_advice{display:block;width:40px;height:40px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0;background-position:0 -182px}.sdd_advice:hover{background-position:-50px -182px}.add_weChat{display:block;width:40px;height:40px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0;background-position:0 -229px}.add_weChat:hover{background-position:-50px -229px}.add_app{display:block;width:40px;height:40px;color:#fff;font-size:12px;text-align:center;cursor:pointer;margin:0
+0 5px 0;background-position:0 -276px}.add_app:hover{background-position:-50px -276px}.weChat_pop{width:101px;height:130px;border:1px
+solid #e4e4e4;padding:10px
+0 0 3px;background:#fff;display:none}.list_view .icon_nrzx, .list_view .icon_remai, .list_view .icon_tuijian, .list_view .icon_tejia, .list_view .icon_bashi, .list_view .icon_nrzz, .list_view .icon_nrgt,.list_view
+.icon_zjy{background:url(/img/20140417/common/icon_tuniu.png) no-repeat;text-indent:-20000em;position:absolute;left:2px;top:17px;z-index:1}.list_view
+.icon_nrzx{background-position:0 0;width:62px;height:66px}.list_view
+.icon_remai{background-position:0 -66px;width:52px;height:54px}.list_view
+.icon_tuijian{background-position:0 -119px;width:52px;height:54px}.list_view
+.icon_tejia{background-position:0 -174px;width:52px;height:54px}.list_view
+.icon_bashi{background-position:0 -228px;width:66px;height:68px}.list_view
+.icon_nrzz{background-position:0 -297px;width:63px;height:65px}.list_view
+.icon_nrgt{background-position:0 -362px;width:63px;height:65px}.list_view
+.icon_zjy{background-position:0 -427px;width:63px;height:65px}.nrgt_prom_ico,.nrzx_prom_ico,.rm_prom_ico,.tj_prom_ico,.xsyh_prom_ico,.zjy_prom_ico,.nrzz_prom_ico,.bszz_prom_ico,.nrzx_prom_ico,.tjian_prom_ico,.wifi_prom_icon,.xh_prom_icon{background:url(/img/20140417/common/icon_tuniu.png) no-repeat;display:inline-block;height:15px;text-indent:-20000em;overflow:hidden;_zoom:1}.nrgt_prom_ico{background-position:0 -507px;width:76px;margin-left:2px}.nrzx_prom_ico{background-position:0 -522px;width:76px;margin-left:2px}.rm_prom_ico{background-position:0 -537px;width:46px;margin-left:2px}.tj_prom_ico{background-position:0 -552px;width:47px;margin-left:2px}.tjian_prom_ico{background-position:0 -567px;width:47px;margin-left:2px}.xsyh_prom_ico{background-position:0 -582px;width:76px;margin-left:2px}.zjy_prom_ico{background-position:0 -597px;width:60px;margin-left:2px}.nrzz_prom_ico{background-position:0 -612px;width:76px;margin-left:2px}.bszz_prom_ico{background-position:0 -627px;width:85px;margin-left:2px}.wifi_prom_icon{background-position:0 -657px;width:73px;margin-left:2px}.xh_prom_icon{background-position:0 -672px;width:47px;margin-left:2px}@font-face{font-family:'tn_fontface';src:url('/site/css/common/fonts_v2/icomoon.eot?87wisk');src:url('/site/css/common/fonts_v2/icomoon.eot?#iefix87wisk') format('embedded-opentype'),
+url('/site/css/common/fonts_v2/icomoon.woff?87wisk') format('woff'),
+url('/site/css/common/fonts_v2/icomoon.ttf?87wisk') format('truetype'),
+url('/site/css/common/fonts_v2/icomoon.svg?87wisk#icomoon') format('svg');font-weight:normal;font-style:normal}.tn_fontface{font-family:'tn_fontface';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body,h1,h2,h3,h4,h5,h6,p,ul,ol,li,form,img,dl,dt,dd,table,th,td,blockquote,fieldset,div,strong,label,em{margin:0;padding:0;border:0}ul,ol,li{list-style:none}input,button{margin:0;font-size:12px;vertical-align:middle}body{font-size:12px;font-family:Arial,Helvetica,sans-serif}table{border-collapse:collapse;border-spacing:0}#slide-box{MARGIN:20px auto;WIDTH:746px;POSITION:relative;HEIGHT:220px}#slide-box
+.corner{CLEAR:both;DISPLAY:block;MARGIN:0px 1px;OVERFLOW:hidden;HEIGHT:0px}#slide-box .ks-switchable-triggers
+A{DISPLAY:block;Z-INDEX:99;WIDTH:37px;COLOR:#b4b4b4;POSITION:absolute;TOP:44px;HEIGHT:65px;TEXT-DECORATION:none}#slide-box .ks-switchable-triggers
+SPAN{DISPLAY:block;FONT:700 53px/57px arial;WIDTH:37px;CURSOR:pointer;HEIGHT:63px;TEXT-ALIGN:center}#slide-box .ks-switchable-triggers
+.corner{BORDER-LEFT-COLOR:#4b4b4b;BORDER-BOTTOM-COLOR:#4b4b4b;BORDER-TOP-COLOR:#4b4b4b;BORDER-RIGHT-COLOR:#4b4b4b}#slide-box .ks-switchable-triggers
+.prev{LEFT:-45px}#slide-box .ks-switchable-triggers
+.next{RIGHT:-45px}#slide-box .ks-switchable-triggers A:hover{COLOR:#f43d1e}#slide-box .ks-switchable-triggers A:hover
+SPAN{COLOR:#f43d1e}#slide-box .slide-content{PADDING-RIGHT:10px;PADDING-LEFT:10px;PADDING-BOTTOM:10px;PADDING-TOP:10px}#slide-box
+.wrap{OVERFLOW:hidden;WIDTH:725px;HEIGHT:200px}#slide-box
+UL{WIDTH:10000px}#slide-box
+LI{FLOAT:left;WIDTH:188px;HEIGHT:200px}#slide-box LI
+IMG{WIDTH:161px;HEIGHT:131px}.userName,.uCenter_title{font-family:'微软雅黑','宋体'}@charset "utf-8";
+.clearfix{zoom:1; clear:both}
+.clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+	.cgreen {
+	color:#4E9700!important;
+}
+.cdyellow {
+	color:#f60!important;
+}
+.fb {
+	font-weight:bold;
+}
+#user-wrapper {
+	margin:20px auto;
+	width:1000px;
+	color:#333;
+}
+#col {
+	background-color:#fff;
+	float:left;
+	width:188px;
+}
+#col .box_tt {
+	background-color:#f5f5f5;
+	text-align:center;
+	padding:5px 0;
+}
+#col .pro_detail {
+	width:160px;
+	margin:10px auto;
+}
+#col .pro_detail p {
+	line-height:20px;
+	color:#999;
+}
+#col .pro_detail p.line_name {
+	margin-bottom:8px;
+}
+#main {
+	float:right;
+	width:800px;
+}
+#main .btn_part {
+	text-align:center;
+	margin:20px 0;
+}
+.avatar-120 {
+	background:none repeat scroll 0 0 #FFF;
+	border:1px solid #A9A9A9;
+	height:75px;
+	margin:10px auto 0;
+	padding:6px;
+	width:75px;
+}
+.avatar-username {
+	font-size:13px;
+	height:24px;
+	line-height:24px;
+	padding:6px 0;
+	text-align:center;
+	vertical-align:middle;
+}
+#user-nav li {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/nav.gif") no-repeat scroll 110px 50% transparent;
+	border-top:1px solid #E6F2E3;
+	font-size:14px;
+	height:24px;
+	line-height:24px;
+	margin:0 auto;
+	padding:10px 0;
+	position:relative;
+	text-indent:8px;
+	width:120px;
+}
+#user-nav li a:link,#user-nav li a:visited {
+	display:block;
+	height:24px;
+	width:120px;
+}
+#col a:link,#col a:visited,#col a:hover {
+	color:#55783F;
+}
+#user-nav li.user-nav-cur,#user-nav li.user-nav-over {
+	width:166px;
+	height:43px;
+	line-height:43px;
+	padding:0;
+	position:relative;
+	z-index:1000;
+	border:1px solid #76B313;
+}
+#user-nav li.user-nav-over {
+	z-index:1001;
+}
+#user-nav li.user-nav-cur a.mlink:link,#user-nav li.user-nav-cur a.mlink:visited {
+	width:166px;
+	height:43px;
+	text-indent:30px;
+	font-weight:bold;
+	background:#fff url(http://img.tuniucdn.com/site/images/prod/huiyuan/nav-cur.gif) no-repeat 140px 50%;
+}
+#user-nav li.user-nav-over a.mlink:link,#user-nav li.user-nav-over a.mlink:visited {
+	width:165px;
+	height:43px;
+	position:relative;
+	z-index:11;
+	text-indent:30px;
+	font-weight:bold;
+	border-right:1px solid #fff;
+	background:#fff url(http://img.tuniucdn.com/site/images/prod/huiyuan/nav-cur.gif) no-repeat 140px 50%;
+}
+h2.common_h2 {
+	border-bottom:1px solid #aaa;
+	color:#333;
+	font-size:14px;
+	font-weight:bold;
+	margin-bottom:10px;
+	padding-bottom:10px;
+}
+#headStyle {
+	width:798px;
+	margin:10px auto;
+	padding:10px 0;
+	border:1px solid #f3cc94;
+	background-color:#fffdee;
+}
+#headStyle .con_all {
+	color:#C30;
+	margin:0;
+	font-weight:400;
+	font-size:12px;
+}
+#headStyle .con_1,#headStyle .con_2 {
+	display:inline-block;
+	text-align:right;
+}
+#headStyle .con_1 {
+	width:65%;
+}
+#headStyle .con_2 {
+	width:30%;
+	color:#333;
+}
+#headStyle .con_3 {color:#333; padding-left:10px;}
+#headStyle .con_2 a:link,#headStyle .con_2 a:visited, #headStyle .con_3 a {
+	color:#4e9700;
+}
+#headStyle .con_2 a:hover, #headStyle .con_3 a:hover {
+	color:#f60;
+}
+.common-table {
+	border-collapse:collapse;
+	font-size:12px;
+	width:100%;
+}
+.common-table .last {
+	text-align:center;
+}
+#myOrder .last {
+	text-align:center;
+}
+.mbt10 {
+}
+.common-table td,.common-table th {
+	line-height:24px;
+	padding:6px 10px;
+}
+.common-table th {
+	background:none repeat scroll 0 0;
+	color:#666;
+	font-weight:normal;
+	text-align:left;
+	border-bottom:1px solid #ddd;
+}
+.common-table td {
+	border-bottom:1px dotted #ddd;
+	vertical-align:top;
+	padding:10px;
+}
+.common-table td.time {
+	color:#666;
+}
+.common-table td.order_num {
+	color:#4e9700;
+}
+.common-table a:link,.common-table a:visited {
+	text-decoration:none;
+}
+.common-table a:hover {
+	text-decoration:underline;
+}
+.cgreen,a.cgreen:link,a.cgreen:visited {
+	color:#4E9700!important;
+}
+a.cgreen:hover {
+	color:#f60!important;
+}
+.Comment label {
+	color:#f60;
+	font-size:16px;
+}
+.sh-s {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/icon_all.png") no-repeat scroll left top transparent;
+	color:#F60;
+	display:block;
+	float:right;
+	font-size:12px;
+	height:17px;
+	line-height:17px;
+	overflow:hidden;
+	padding-left:40px;
+	vertical-align:middle;
+}
+.dyquan {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/icon_all.png") no-repeat scroll left -22px transparent;
+	color:#F60;
+	display:block;
+	float:right;
+	font-size:12px;
+	height:17px;
+	line-height:17px;
+	overflow:hidden;
+	padding-left:40px;
+	vertical-align:middle;
+}
+.xianjin {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/icon_all.png?v=1") no-repeat scroll left -67px transparent;
+	color:#F60;
+	display:block;
+	float:right;
+	font-size:12px;
+	height:17px;
+	line-height:17px;
+	overflow:hidden;
+	padding-left:40px;
+	vertical-align:middle;
+}
+.sh-s span,.dyquan span,.xianjin span {
+	background:url("http://img1.tuniucdn.com/hotel_resource/hoteltn/img/dyr.png") no-repeat scroll right -1px transparent;
+	display:block;
+	float:left;
+	height:16px;
+	line-height:16px;
+	overflow:hidden;
+	padding-right:3px;
+}
+.pagination {
+	clear:both;
+	height:40px;
+	font-size:12px;
+	font-weight:400;
+	color:#404040;
+	margin:0 auto 15px;
+	padding-top: 13px; 
+	padding-right: 0px;
+}
+.page-bottom {
+	float:right;
+}
+.pagination a,.page-prev,.page-cur,.page-start,.page-end,.page-break,.page-skip {
+	float:left;
+	color:#404040;
+	margin:0 3px;
+}
+.pagination a,.page-prev,.page-start,.page-cur,.page-end,.page-skip {
+	height:22px;
+	padding:6px 10px 0;
+	line-height:16px;
+}
+.page-start {
+	width:auto;
+}
+.page-cur,.pagination a,.page-end {
+	border:1px solid #c7e7ab;
+}
+.pagination a:hover {
+	color:#404040;
+	background-color:#c7e7ab;
+}
+.page-start,.pagination .page-prev {
+	border:1px solid #c7e7ab;
+}
+.page-cur {
+	background-color:#c7e7ab;
+}
+.page-break {
+	padding:0 4px;
+}
+.icon {
+	display:inline-block;
+	overflow:hidden;
+}
+.pagination .icon {
+	height:10px;
+	width:9px;
+	background:url(../images/common/20x500.png) no-repeat;
+}
+.page-start .icon {
+	margin-right:3px;
+	background-position:-8px -228px;
+}
+.page-prev .icon {
+	margin-right:3px;
+	background-position:-8px -228px;
+}
+.page-next .icon {
+	margin-left:3px;
+	background-position:-8px -288px;
+}
+.page-end .icon {
+	margin-left:3px;
+	background-position:-8px -288px;
+}
+.u-price div {
+	/*float:left;*/
+}
+.ordernum {
+	color:#999;
+}
+.ordernum p span {
+	display:inline-block;
+	width:70px;
+	text-align:right;
+}
+.pro_imf div {
+	float:left;
+}
+.pro_imf p {
+	margin-left:60px;
+	line-height:16px;
+	margin-bottom:8px;
+}
+#myOrder a:link,#myOrder a:visited {
+	text-decoration:none;
+}
+.titl {
+	background-color: #FFF7E5;
+    border: 1px solid #F3CC94;
+    margin: 5px auto;
+    padding: 8px 10px;
+    width: 778px;
+}
+.titl span {
+}
+h2.delbtsp {
+	margin-bottom:0;
+}
+.hotPro {
+	background-color:#F3F9ED;
+	line-height:44px;
+	border-bottom:1px solid #ddd;
+	font-size:14px;
+}
+.commentPart {
+	position:relative;
+}
+.commentPart p {
+	left:-55px;
+	position:absolute;
+	top:-30px;
+}
+#main .tt {
+	background-color:#f5f5f5;
+	padding:8px 0;
+	font-size:14px;
+	font-weight:bold;
+}
+.wel_word {
+	color:#999;
+	padding:20px 0;
+	border-bottom:1px dashed #ccc;
+}
+.comment_part {
+	margin-top:20px;
+}
+.comment_part .pt_1 {
+	font-weight:bold;
+	line-height:20px;
+	position:relative;
+}
+.comment_part .lab span {
+	vertical-align:middle;
+	margin-right:5px;
+}
+.comment_part .lab {
+	font-weight:bold;
+}
+#commentContent td {
+	padding:8px 5px;
+}
+#commentContent td.spacing {
+	padding-top:16px;
+}
+#commentContent td.spacing_1 {
+	padding-top:10px;
+}
+.ks-simplestar {
+	border:1px solid transparent;
+	display:inline-block;
+	vertical-align:middle;
+}
+
+.reviews_tit{ color:#4e9700; position:absolute; left:280px; top:26px; cursor:pointer;}
+.reviews_box{ display:none;}
+.stars .zhusu_list label{ width:63px; *width:68px;}
+.starstip {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tipBg.png") no-repeat scroll 0 0 transparent;
+	height:51px;
+	position:absolute;
+	right:71px;
+	top:-12px;
+	width:301px;
+}
+.starstip p {
+	padding:6px 125px 10px 14px;
+}
+#starstip p {
+	font-weight:normal;
+	color:#333;
+}
+.ar_pos {
+	width:600px;
+	height:180px; margin-bottom:10px;
+}
+.stars li {
+	position:relative; overflow:visible;
+}
+.stars li.zindex1 {
+	z-index:1;
+}
+.stars li.zindex1000 {
+	z-index:1000;
+}
+.stars li label {
+	line-height:23px;
+}
+.ks-simplestar {
+	border:1px solid transparent;
+	_border:none;
+	display:inline-block;
+	vertical-align:middle;
+}
+.ks-simplestar img {
+	margin-right:5px;
+}
+.calendar div.plan_time {
+	height:24px;
+	line-height:20px;
+	width:auto;
+}
+.next_des span {
+	display:inline-block;
+	width:100px;
+}
+.next_des input {
+	background-position:112px -432px;
+	border:1px solid #D0D0D0;
+	padding:3px 2px 3px 5px;
+	vertical-align:middle;
+	width:125px;
+}
+.addspace {
+	height:8px;
+}
+#popSuc {
+	width:750px;
+	border:1px solid #999;
+	position:absolute;
+	top:200px;
+	left:100px;
+	z-index:1000;
+	background-color:#fff;
+	display:none;
+}
+#popSuc .innerBox {
+	border:4px solid #ccc;
+	padding-bottom:15px;
+	padding-top:20px;
+}
+#popSuc .innerBox .nav_right_icon {
+	background:url(http://img.tuniucdn.com/site/images/prod/huiyuan/tight.jpg) no-repeat left top;
+	height:34px;
+	width:37px;
+	display:inline-block;
+}
+#popSuc .icon_part {
+	float:left;
+	width:37px;
+	height:34px;
+}
+#popSuc .innerBox p {
+	font-family:microsoft yahei;
+}
+#popSuc .innerBox p.line_1 {
+	line-height:34px;
+	font-size:18px;
+}
+#popSuc .innerBox div.part_1 {
+	margin:auto;
+	width:600px;
+}
+#popSuc .innerBox div.line_2 {
+	border-top:1px dashed #ccc;
+	padding-top:10px;
+}
+#popSuc .writting {
+	background-color:#F5F5F5;
+	padding:4px 5px;
+	width:279px;
+	margin:auto;
+}
+#popSuc .check {
+	text-align:center;
+	margin-top:5px;
+}
+.ks-ss-tips {
+	margin-left:10px;
+}
+.popComment {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tipBg.png?v=2012091112") no-repeat scroll left -51px transparent;
+	display:none;
+	height:26px;
+	left:-80px;
+	padding:11px 0 0 6px;
+	position:absolute;
+	top:21px;
+	width:68px;
+	z-index:1000;
+	font-weight:normal;
+	text-align:center;
+}
+.popComment_new{ top:43px;}
+.rePop {
+	left:25px;
+}
+.calendar {
+	position:relative;
+}
+#date_t_pre {
+	background:none repeat scroll 0 0 #FFF;
+	border:1px solid #999;
+	left:55px;
+	padding:1px;
+	position:absolute;
+	top:23px;
+	width:175px;
+	display:none;
+}
+#pre_month {
+	overflow:hidden;
+}
+#pre_month {
+	background:none repeat scroll 0 0 #aaa;
+	color:#FFF;
+	font-size:12px;
+	line-height:25px;
+	text-align:center;
+}
+.pre_link {
+	color:#71D328;
+	display:block;
+	float:left;
+	font-family:'����';
+	padding:0 5px;
+}
+.dateSel_t {
+	border-collapse:collapse;
+}
+.dateSel_t th,.dateSel_t td {
+	font-size:12px;
+	line-height:25px;
+	text-align:center;
+	width:25px;
+}
+.dateSel_t th {
+	background:none repeat scroll 0 0 #ECECEC;
+	font-weight:normal;
+}
+.dateSel_t td {
+	border:1px solid #FFF;
+	color:#CCC;
+}
+.dateSel_t td.tdCobj {
+	color:#000;
+	cursor:pointer;
+	font-weight:bold;
+}
+.dateSel_t td.tdCobj_hover {
+	background-color:#ffe7ac;
+}
+#commentContent #date_t_pre td {
+	padding:0 5px;
+}
+#user-wrapper .nav_left {
+	width:188px;
+	border:1px solid #ccc;
+	float:left;
+}
+#user-wrapper .nav_left dl a:link,#user-wrapper .nav_left dl a:visited {
+	color:#333;
+}
+#user-wrapper .nav_left dl a:hover {
+	color:#f60;
+}
+#user-wrapper .nav_right {
+	width:800px;
+	float:right;
+}
+#myjd .mt {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/cdyellow.jpg") repeat-x scroll 0 0 #fcf0da;
+	color:#FFF;
+	height:30px;
+	line-height:30px;
+	padding:0 6px;
+}
+#myjd .mt h2 {
+	background:none repeat scroll 0 0 transparent;
+	float:left;
+	height:auto;
+	line-height:30px;
+	padding-top:0;
+	font-size:14px;
+}
+#myjd .mc {
+	overflow:hidden;
+}
+#myjd dl dt {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/grey.jpg") repeat-x scroll 0 0 #E6E6E6;
+	border-top:1px solid #eee;
+	cursor:pointer;
+	font-weight:bold;
+	height:27px;
+	line-height:27px;
+	margin-bottom:-1px;
+	padding:0 12px;
+	position:relative;
+	border:1px solid #eee;
+}
+#myjd dd {
+	padding:4px 0 5px;
+}
+#myjd dd .item {
+	padding:2px 0 2px 24px;
+	position:relative;
+}
+#myjd dd div.sub_item {
+	padding:2px 0 2px 24px;
+}
+#userinfo {
+	border-radius:2px 2px 2px 2px;
+	padding:10px 10px 10px 5px;
+}
+.m3 {
+	background:none repeat scroll 0 0 #FFFDEE;
+	border:1px solid #EDD28B;
+}
+.m,.sm {
+	margin-bottom:20px;
+}
+#userinfo .user {
+	position:relative;
+}
+.user {
+	float:left;
+	text-align:center;
+}
+.user .u-icon {
+	
+	display:table-cell;
+	height:116px;
+	text-align:center;
+	vertical-align:middle;
+	width:120px;
+}
+.picture,#mlist .p-img a,#mlist01 .p-img a {
+	position:relative;
+}
+.upper {
+	height:20px;
+	left:10px;
+	overflow:hidden;
+	top:76px;
+	width:75px;
+}
+.upper,.comment {
+	background:#000;
+	left:22px;
+	opacity:.5;
+	position:absolute;
+}
+.picture a {
+	top:76px;
+	color:#fff;
+}
+.picture a,.comment01 {
+	left:0;
+	position:absolute;
+	width:100%;
+	z-index:40;
+}
+#i-userinfo {
+	border-left:1px solid #FFEED6;
+	margin-left:125px;
+	padding-left:10px;
+}
+.username {
+	height:30px;
+	line-height:25px;
+	margin-bottom:3px;
+	overflow:hidden;
+}
+.ftx-03,a.flk-03:link,a.flk-03:visited,.flk-03 a:link,.flk-03 a:visited {
+	color:#999;
+}
+.fl {
+	float:left;
+}
+.username strong {
+	color:#333;
+	font-size:20px;
+	font-weight:normal;
+}
+.username .extra {
+	float:right;
+}
+.account,.acco-safe {
+	line-height:23px;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+.member {
+	height:23px;
+	margin-right:10px;
+	overflow:hidden;
+}
+.account,.acco-safe {
+	line-height:23px;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+.fl {
+	float:left;
+}
+.icon-s-03 {
+	background-position:0 -49px;
+}
+.ir {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/icon-rank.png") no-repeat scroll 0 0 transparent;
+	display:inline-block;
+	font-size:0;
+	height:17px;
+	line-height:0;
+	margin-right:10px;
+	overflow:hidden;
+	vertical-align:middle;
+	width:126px;
+}
+#remind {
+	background:none repeat scroll 0 0 #FFF;
+	border:1px solid #FFEED6;
+	overflow:hidden;
+	padding:10px;
+	_height:60px;
+}
+#remind .oinfo {
+	float:left;
+	width:368px;
+}
+#remind .ainfo {
+	border-left:1px solid #FFEED6;
+	float:left;
+	margin-left:10px;
+	padding-left:10px;
+	width:220px;
+}
+#remind .fore {
+	border-top:medium none;
+}
+#remind dl {
+	border-top:1px solid #FFEED6;
+	height:30px;
+	line-height:30px;
+	overflow:hidden;
+}
+#remind dl dt,#remind dl dd {
+	float:left;
+}
+#remind .oinfo dd {
+	padding-right:10px;
+	width:104px;
+}
+#remind dl dt,#remind dl dd {
+	float:left;
+}
+#remind .oinfo dl dt {
+	width:60px;
+}
+#remind .ainfo dl {
+	padding-left:60px;
+}
+#remind .ainfo dl.col_sty {
+	color:#999;
+}
+.ftx-03,a.flk-03:link,a.flk-03:visited,.flk-03 a:link,.flk-03 a:visited {
+	color:#999;
+}
+#remind .ainfo {
+	border-left:1px solid #FFEED6;
+	float:left;
+	margin-left:10px;
+	padding-left:10px;
+	width:220px;
+}
+.m,.mt,.mc,.mb,.sm,.smt,.smc,.smb {
+	overflow:hidden;
+}
+.mt .tab {
+	border-bottom:1px solid #EDD28B;
+	cursor:pointer;
+	overflow:hidden;
+}
+.nav_right .tab li.curr,.nav_right .tab li.curr a:link,.nav_right .tab li.curr a:visited {
+	color:#f60;
+	font-weight:bold;
+	letter-spacing:0;
+}
+.nav_right .tab li {
+	background-image:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png");
+	letter-spacing:1px;
+}
+.tab li.curr,.tab li.curr a:link,.tab li.curr a:visited {
+	color:#F60;
+	font-weight:bold;
+}
+.tab li.curr {
+	background-position:0 -85px;
+}
+.tab li {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png") repeat scroll 0 -28px transparent;
+	float:left;
+	height:27px;
+	line-height:29px;
+	margin-right:3px;
+	overflow:hidden;
+	padding:0 10px;
+	position:relative;
+	text-align:center;
+}
+.tab li,.tab a,.tab-item {
+	float:left;
+	text-align:center;
+}
+.mt .tab li s,.mt .tab li b {
+	background-image:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png");
+	height:28px;
+}
+.mt .tab {
+	border-bottom:1px solid #EDD28B;
+	cursor:pointer;
+	_height:27px;
+}
+.tab li.curr s {
+	background-position:0 -57px;
+}
+.tab li s {
+	left:0;
+}
+.tab li s,.tab li b {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png") repeat scroll 0 0 transparent;
+	height:27px;
+	position:absolute;
+	top:0;
+	width:3px;
+}
+.nav_right .tab li s,.nav_right .tab li b {
+	background-image:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png");
+	height:28px;
+}
+.tab li.curr b {
+	background-position:-7px -57px;
+}
+.tab li b {
+	background-position:-7px 0;
+	right:0;
+}
+#reco-area .mc {
+	height:240px;
+	overflow:hidden;
+	position:relative;
+	z-index:0;
+}
+#slide-box .ks-switchable-triggers .next {
+	right:-36px;
+}
+#slide-box .ks-switchable-triggers .prev {
+	left:-36px;
+}
+.account p span {
+	color:#999;
+}
+.account p span.col_s {
+	color:#000;
+}
+.spacing_left {
+	margin-left:10px;
+}
+.lft_part {
+	margin-left:20px;
+}
+.menoy_icon {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/menoy_icon.jpg") no-repeat scroll left 7px transparent;
+	display:block;
+	height:30px;
+	padding-left:21px;
+	color:#4E9700;
+}
+.my_order {
+	color:#000;
+	margin:0 0 3px 10px;
+}
+#indexOrder.common-table th {
+	border-top:1px solid #fdd475;
+	padding:1px 10px;
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png") repeat-x scroll 0 -30px #E6E6E6;
+}
+#indexOrder.common-table td {
+	padding:5px 10px;
+	vertical-align:middle;
+}
+#indexOrder {
+	border:1px solid #ddd;
+}
+.ordernum p {
+	line-height:16px;
+}
+.order_num {
+	margin-bottom:8px;
+}
+.stars li label {
+	display:inline-block;
+	line-height:23px;
+	width:60px;
+}
+.close {
+	width:16px;
+	height:16px;
+	position:absolute;
+	top:5px;
+	right:5px;
+}
+.innerBox {
+	position:relative;
+}
+.com_saf p label {
+	font-size:14px;
+	color:#f60;
+}
+.forpopPart {
+	position:relative;
+}
+.more_list {
+	position:absolute;
+	top:23px;
+	left:100px;
+	border:1px solid #ccc;
+	width:112px;
+	padding:5px 10px;
+	background-color:#fff;
+}
+.more_list .col {
+	color:#39F;
+}
+#col .item a:link,#col .item a:visited {
+	text-decoration:none;
+}
+#level_tips {
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#999999;
+}
+#slide-box p .cgreen {
+	display:inline-block;
+	width:161px;
+	height:36px;
+	margin-bottom:5px;
+	overflow:hidden;
+}
+.tips_hee {
+	background:url(http://img1.tuniucdn.com/site/images/common/new.png) no-repeat;
+	display:inline-block;
+	height:17px;
+	line-height:17px;
+	text-indent:-20000em;
+	width:34px;
+	/*position:absolute;*/
+	margin-top: -5px;
+	top:-8px;
+}
+#remind .ask_link {
+	padding:5px 0 0 50px;
+	width:202px;
+	height:45px;
+	float:right;
+	background:url(http://img.tuniucdn.com/site/images/prod/huiyuan/ask_link.gif) no-repeat;
+}
+.city_select {
+}
+.city_select li {
+	display:inline;
+	float:left;
+	height:14px;
+	padding:1px 1px 1px 10px;
+	line-height:14px;
+	vertical-align:middle;
+	border:1px solid #ccc;
+	margin:10px 10px 10px 0;
+}
+.city_select li em {
+	float:left;
+	font-style:normal;
+	display:inline;
+	height:14px;
+	line-height:14px;
+	*line-height:16px;
+	padding-right:10px;
+}
+:root .city_select li em {
+	line-height:16px\9;
+}
+.city_select li .remove {
+	display:inline-block;
+	width:14px;
+	height:14px;
+	background:url(http://img.tuniucdn.com/site/images/prod/huiyuan/m_close.gif) no-repeat;
+	float:left;
+}
+.city_select li .remove:hover {
+	background:url(http://img.tuniucdn.com/site/images/prod/huiyuan/m_close_hover.gif) no-repeat;
+}
+#remind .ask_link {
+	padding:5px 0 0 50px;
+	width:202px;
+	height:45px;
+	float:right;
+	background:url(http://img.tuniucdn.com/site/images/prod/huiyuan/ask_link.gif) no-repeat;
+}
+#level_tips {
+	font-family:宋体;
+	font-size:13px;
+	font-weight:normal;
+	font-style:normal;
+	text-decoration:none;
+	color:#999999;
+}
+.n_starstip {
+	background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tipBg2.png?v=20120918") no-repeat scroll 0 0 transparent;
+	height:51px;
+	position:absolute;
+	right:20px;
+	top:0px;
+	width:301px;
+}
+.n_starstip p { padding: 6px 125px 10px 14px;}
+
+/* update by she at 2012-12-18 我的提问 */
+.zixun{ color:#404040;}
+.zx_time, .no_huifu{ color:#999;}
+.huifu{ color:#4E9700; line-height:20px;}
+
+/*danbaojin*/
+#security{color:#666;}
+#security .iptbox{width:205px; height:25px; margin-right:5px;}
+#security .copy{color:#2e9900; text-decoration:none;}
+#security .ssbtn{width:78px; height:23px; background:#f60; color:#fff; line-height:23px; display:block; text-align:center; text-decoration:none; border:1px solid #f90; cursor:pointer;}
+#security .cf60{color:#f60;}
+#security .border_bt{border-bottom:1px solid #eee;}
+
+/*danbaojin*/
+#dbj{color:#666;}
+#dbj .trtit{border-bottom:1px solid #efefef;}
+#dbj .iptbox{width:205px; height:25px; margin-right:5px;}
+#dbj .copy{color:#2e9900; text-decoration:none;}
+#dbj .ssbtn{margin-left: 20px;width:78px; height:23px; background:#f60; color:#fff; line-height:23px; display:block; text-align:center; text-decoration:none; border:1px solid #f90; cursor:pointer;}
+#dbj .cf60{color:#f60;}
+#dbj .border_bt{border-bottom:1px solid #eee;}
+#dbj td{padding-top: 15px; padding-bottom: 15px;}
+
+
+ /* IE6浏览器的特有方法 */
+/* 修正IE6振动bug */
+* html,* html body{background-image:url(about:blank);background-attachment:fixed}
+*html #sec_window{position:absolute;left:expression(eval(document.documentElement.scrollLeft));top:expression(eval(document.documentElement.scrollTop))}
+*html #sec_window{position:absolute;
+left:expression(eval(document.documentElement.scrollLeft+document.documentElement.clientWidth-this.offsetWidth)-(parseInt(this.currentStyle.marginLeft,10)||200)-(parseInt(this.currentStyle.marginRight,10)||0));top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)))}
+
+#secmask {
+    background:#000000;
+    display: none;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+	_opacity:0;
+	filter:alpha(Opacity=40);
+	-moz-opacity:0.4;
+    position:fixed;
+	_position:absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+#sec_window {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border:1px solid #eee;
+    display: none;
+    left:50%;
+    margin-left:-399px;
+    overflow: auto;
+    position:fixed;
+    top:20%;
+    width:798px;
+	height:488px;
+    z-index: 10002;
+}
+#sec_window a{
+    background: none repeat scroll 0 0 #FF8800;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: block;
+    font-size:14px;
+	font-weight:bold;
+    height: 35px;
+    text-align: center;
+	line-height:35px;
+    text-decoration: none;
+    width: 140px;
+	margin:50px auto;
+}
+#sec_window .ttip{width:798px; height:40px; background:#F4F4F4; color:#333; line-height:40px; font-size:14px;}
+#sec_window .ttip .title{padding-left:10px; float:left;}
+#sec_window .tul{width:765px; margin:30px auto; height:130px;}
+#sec_window .tul li .l_radio{padding-top:12px; float:left; padding-left:5px;}
+#sec_window .tul li .l_bank_nj{background:url(http://img3.tuniucdn.com/img/2014041601/user_center/bank.jpg) no-repeat; background-position:0 -747px; _background-position:0 -600px; width:138px; height:33px; border:1px solid #ddd; float:left;}
+#sec_window .close,#sec_window .liucheng{ background:url(http://img3.tuniucdn.com/img/2014041601/user_center/cliucheng.png) no-repeat;}
+#sec_window .close{ background-position:-4px -3px; width:3px; height:18px; float:right; padding-right:15px; display:block; margin-top:2px; cursor:pointer;}
+#sec_window .liucheng{background-position:-4px -24px; width:624px; height:56px;margin: 20px auto;}
+#sec_window .liuchengtip{color:#666; font-size:14px; font-weight:bold; padding-left:20px;}
+/*danbaojin pop*/
+.fl{float:left}.fr{float:right}.mb10{margin-bottom:10px}.mb20{margin-bottom:20px}.pb10{padding-bottom:10px}.pb20{padding-bottom:20px}.border_b1{border-bottom:1px dotted #DDD}.byellow{border:1px
+solid #f60}.cgreen{color:#4E9700 !important}.cdyellow,.cyellow{color:#f60 !important}.cgrey:link,.cgrey:visited{color:#333 !important;text-decoration:underline}.cgrey:hover{color:#2d4563 !important}.fb{font-weight:bold}.login_info
+a.infor_color{color:#666}#user-wrapper{margin:20px
+auto;width:1000px;color:#333}#col{background-color:#fff;border:1px
+solid #D3E2CF;float:left;width:188px}#col
+.box_tt{background-color:#f5f5f5;text-align:center;padding:5px
+0}#col
+.pro_detail{width:160px;margin:10px
+auto}#col .pro_detail
+p{line-height:20px;color:#999}#col .pro_detail
+p.line_name{margin-bottom:8px}#main{float:right;width:800px}#main
+.btn_part{text-align:center;margin:20px
+0}.avatar-120{background:none repeat scroll 0 0 #FFF;border:1px
+solid #A9A9A9;height:75px;margin:10px
+auto 0;padding:6px;width:75px}.avatar-username{font-size:13px;height:24px;line-height:24px;padding:6px
+0;text-align:center;vertical-align:middle}#user-nav
+li{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/nav.gif") no-repeat scroll 110px 50% transparent;border-top:1px solid #E6F2E3;font-size:14px;height:24px;line-height:24px;margin:0
+auto;padding:10px
+0;position:relative;text-indent:8px;width:120px}#user-nav li a:link, #user-nav li a:visited{display:block;height:24px;width:120px}#col a:link, #col a:visited, #col a:hover{color:#55783F}#user-nav li.user-nav-cur,#user-nav li.user-nav-over{width:166px;height:43px;line-height:43px;padding:0;position:relative;z-index:1000;border:1px
+solid #76B313}#user-nav li.user-nav-over{z-index:1001}#user-nav li.user-nav-cur a.mlink:link,#user-nav li.user-nav-cur a.mlink:visited{width:166px;height:43px;text-indent:30px;font-weight:bold;background:#fff url(http://img.tuniucdn.com/site/images/prod/huiyuan/nav-cur.gif) no-repeat 140px 50%}#user-nav li.user-nav-over a.mlink:link,#user-nav li.user-nav-over a.mlink:visited{width:165px;height:43px;position:relative;z-index:11;text-indent:30px;font-weight:bold;border-right:1px solid #fff;background:#fff url(http://img.tuniucdn.com/site/images/prod/huiyuan/nav-cur.gif) no-repeat 140px 50%}h2.common_h2{border-bottom:1px solid #aaa;color:#333;font-size:14px;font-weight:bold;margin-bottom:10px;padding-bottom:10px}#headStyle{margin:5px
+auto;padding:8px
+0;border:1px
+solid #f3cc94;background-color:#fff7e5}#headStyle
+.con_all{color:#C30;margin:0
+0 0px 0;font-weight:400;font-size:12px}#headStyle .con_1,#headStyle
+.con_2{display:inline-block;text-align:right}#headStyle
+.con_1{width:65%}#headStyle
+.con_2{width:30%;color:#333}#headStyle .con_2 a:link,#headStyle .con_2 a:visited{color:#4e9700}#headStyle .con_2 a:hover{color:#f60}.common-table{border-collapse:collapse;font-size:12px;width:100%}.common-table
+.last{text-align:center}#myOrder
+.last{text-align:center}.mbt10{}.common-table td, .common-table
+th{line-height:24px;padding:6px
+10px}.common-table
+th{background:none repeat scroll 0 0;color:#666;font-weight:normal;text-align:left;border-bottom:1px solid #ddd}.common-table
+td{border-bottom:1px dotted #ddd;vertical-align:top;padding:10px}.common-table
+td.time{color:#666}.common-table
+td.order_num{color:#4e9700}.common-table a:link, .common-table a:visited{text-decoration:none}.common-table a:hover{text-decoration:underline}.cgreen,a.cgreen:link,a.cgreen:visited{color:#4E9700 !important}a.cgreen:hover{color:#f60 !important}.Comment
+label{color:#f60;font-size:16px}.sh-s,.dyquan,.xianjin,.icon_train,.train_ci,.icon_del{background:url(http://img.tuniucdn.com/img/2014112017/prod/huiyuan/icon_all.png) no-repeat}.sh-s{background-position:left top;color:#F60;display:block;float:right;font-size:12px;height:17px;line-height:17px;overflow:hidden;padding-left:40px;vertical-align:middle}.dyquan{background-position:left -22px;color:#F60;display:block;float:right;font-size:12px;height:17px;line-height:17px;overflow:hidden;padding-left:40px;vertical-align:middle}.xianjin{background-position:left -67px;color:#F60;display:block;float:right;font-size:12px;height:17px;line-height:17px;overflow:hidden;padding-left:40px;vertical-align:middle}.sh-s span ,.dyquan span,.xianjin
+span{background:url("http://img1.tuniucdn.com/hotel_resource/hoteltn/img/dyr.png") no-repeat scroll right -1px transparent;display:block;float:left;height:16px;line-height:16px;overflow:hidden;padding-right:3px}.hasSelectedOrder{clear:both;color:#404040;font-size:12px;font-weight:400;height:40px;margin:0
+auto 15px;width:800px;border-left:1px solid #ddd;border-bottom:1px solid #ddd;border-right:1px solid #ddd}.hasSelectedOrder{width:798px;height:40px;border:1px
+solid #ddd;background-color:#f7f7f7;margin-bottom:35px}.p-order{display:inline-block;width:170px;font-size:16px;line-height:40px;vertical-align:top}.p-order
+em{color:#f60;font-family:Microsoft YaHei;font-weight:bold;font-size:20px}.hasSelectedOrder .p-check{display:inline-block;height:20px;width:472px;padding:10px;*width:469px;vertical-align:top}.p-payment{background-color:#f60;color:#fff;display:inline-block;width:130px;text-align:center;height:40px;line-height:40px;font-size:16px;font-weight:bold;cursor:pointer;vertical-align:top}.page-bottom{float:right}.page-cur{background-color:#C7E7AB;border:1px
+solid #C7E7AB}.page{border:1px
+solid #C7E7AB}.pagination a,.page-prev,.page-start,.page-cur,.page,.page-end,.page-skip{height:22px;line-height:16px;padding:6px
+10px 0}.pagination a,.page-prev,.page-cur,.page,.page-start,.page-end,.page-break,.page-skip{color:#404040;float:left;margin:0
+3px}.u-price
+div{float:left}.u-price.last
+div{float:none}.ordernum{color:#999}.ordernum p
+span{display:inline-block;width:60px;text-align:right}.pro_imf
+div{float:left}.pro_imf
+p{margin-left:60px;line-height:16px;margin-bottom:8px}.ordercoupon .pro_imf
+p{padding-top:8px}#myOrder a:link,#myOrder a:visited{text-decoration:none}.titl{background-color:#FFF7E5;border:1px
+solid #F3CC94;margin:5px
+auto;padding:8px
+0 8px 10px;width:788px}.titl span.titl-left{float:left;width:590px;display:block;height:22px;line-height:22px}.titl span.titl-right{float:right;display:block;width:185px}.titl span.titl-price{font-family:Microsoft YaHei;color:#f60;font-weight:bold;font-size:14px}.titl span.titl-btn{background-color:#f60;color:#fff;width:65px;height:22px;line-height:22px;display:inline-block;text-align:center;cursor:pointer;*display:inline;zoom:1}.hotPro{background-color:#F3F9ED;line-height:44px;border-bottom:1px solid #ddd;font-size:14px}.commentPart{position:relative}.commentPart
+p{left:-55px;position:absolute;top:-30px}#main
+.tt{background-color:#f5f5f5;padding:8px
+0;font-size:14px;font-weight:bold}.wel_word{color:#999;padding:20px
+0;border-bottom:1px dashed #ccc}.comment_part{margin-top:20px}.comment_part
+.pt_1{font-weight:bold;line-height:20px;position:relative}.comment_part .lab
+span{vertical-align:middle;margin-right:5px}.comment_part
+.lab{font-weight:bold}#commentContent
+td{padding:8px
+5px}#commentContent
+td.spacing{padding-top:16px}#commentContent
+td.spacing_1{padding-top:10px}.ks-simplestar{border:1px
+solid transparent;display:inline-block;vertical-align:middle}.starstip{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tipBg.png") no-repeat scroll 0 0 transparent;height:51px;position:absolute;right:71px;top:-12px;width:301px}.starstip
+p{padding:6px
+125px 10px 14px}#starstip
+p{font-weight:normal;color:#333}.ar_pos{width:600px;height:180px}.stars
+li{margin:5px
+0;position:relative}.stars
+li.zindex1{z-index:1}.stars
+li.zindex1000{z-index:1000}.stars li
+label{line-height:23px;margin-right:5px}.ks-simplestar{border:1px
+solid transparent;_border:none;display:inline-block;vertical-align:middle}.ks-simplestar
+img{margin-right:5px}.calendar
+div.plan_time{height:24px;line-height:20px;width:auto}.calendar
+input{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/20x500.png") no-repeat scroll 0 0 transparent}.next_des
+span{display:inline-block;width:100px}.next_des
+input{background-position:112px -432px;border:1px
+solid #D0D0D0;padding:3px
+2px 3px 5px;vertical-align:middle;width:125px}.addspace{height:8px}#popSuc{width:750px;border:1px
+solid #999;position:absolute;top:200px;left:100px;z-index:1000;background-color:#fff;display:none}#popSuc
+.innerBox{border:4px
+solid #ccc;padding-bottom:15px;padding-top:20px}#popSuc  .innerBox
+.nav_right_icon{background:url(http://img.tuniucdn.com/site/images/prod/huiyuan/tight.jpg) no-repeat left top;height:34px;width:37px;display:inline-block}#popSuc
+.icon_part{float:left;width:37px;height:34px}#popSuc  .innerBox
+p{font-family:microsoft yahei}#popSuc  .innerBox
+p.line_1{line-height:34px;font-size:18px}#popSuc  .innerBox
+div.part_1{margin:auto;width:600px}#popSuc  .innerBox
+div.line_2{border-top:1px dashed #ccc;padding-top:10px}#popSuc
+.writting{background-color:#F5F5F5;padding:4px
+5px;width:279px;margin:auto}#popSuc
+.check{text-align:center;margin-top:5px}.ks-ss-tips{margin-left:10px}.popComment{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tipBg.png?v=2") no-repeat scroll left -51px transparent;display:none;height:29px;left:-80px;padding:11px
+0 0 11px;position:absolute;top:21px;width:96px;z-index:1000;font-weight:normal}.rePop{left:25px}.calendar{position:relative}#date_t_pre{background:none repeat scroll 0 0 #FFF;border:1px
+solid #999;left:55px;padding:1px;position:absolute;top:23px;width:175px;display:none}#pre_month{overflow:hidden}#pre_month{background:none repeat scroll 0 0 #aaa;color:#FFF;font-size:12px;line-height:25px;text-align:center}.pre_link{color:#71D328;display:block;float:left;font-family:'����';padding:0
+5px}.dateSel_t{border-collapse:collapse}.dateSel_t th, .dateSel_t
+td{font-size:12px;line-height:25px;text-align:center;width:25px}.dateSel_t
+th{background:none repeat scroll 0 0 #ECECEC;font-weight:normal}.dateSel_t
+td{border:1px
+solid #FFF;color:#CCC}.dateSel_t
+td.tdCobj{color:#000;cursor:pointer;font-weight:bold}.dateSel_t
+td.tdCobj_hover{background-color:#ffe7ac}#commentContent  #date_t_pre
+td{padding:0px
+5px}#user-wrapper
+.nav_left{width:188px;margin-right:10px;border:1px
+solid #ccc;float:left}#user-wrapper  .nav_left dl a:link,#user-wrapper  .nav_left dl a:visited{color:#333}#user-wrapper  .nav_left dl a:hover{color:#f60}#user-wrapper
+.nav_right{width:800px;float:left}#myjd
+.mt{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/cdyellow.jpg") repeat-x scroll 0 0px #fcf0da;color:#FFF;height:30px;line-height:30px;padding:0
+6px}#myjd .mt
+h2{background:none repeat scroll 0 0 transparent;float:left;height:auto;line-height:30px;padding-top:0;font-size:14px}#myjd
+.mc{overflow:hidden}#myjd dl
+dt{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/grey.jpg") repeat-x scroll 0 0px #E6E6E6;border-top:1px solid #eee;cursor:pointer;font-weight:bold;height:27px;line-height:27px;margin-bottom:-1px;padding:0
+12px;position:relative;border:1px
+solid #eee}#myjd
+dd{padding:4px
+0 5px}#myjd dd
+.item{padding:2px
+0 2px 24px}#myjd dd
+div.sub_item{padding:2px
+0 2px 24px}#userinfo{border-radius:2px 2px 2px 2px;padding:10px
+10px 10px 5px}.m3{background:none repeat scroll 0 0 #FFFDEE;border:1px
+solid #EDD28B}.m,.sm{margin-bottom:20px}#userinfo
+.user{position:relative}.user{float:left;text-align:center}.user .u-icon{display:table-cell;height:116px;text-align:center;vertical-align:middle;width:120px}.picture, #mlist .p-img a, #mlist01 .p-img
+a{position:relative}.upper{height:20px;left:10px;overflow:hidden;top:76px;width:75px}.upper,.comment{background:#000;left:22px;opacity:0.5;position:absolute}.picture
+a{top:76px;color:#fff}.picture a,.comment01{left:0;position:absolute;width:100%;z-index:40}#i-userinfo{border-left:1px solid #FFEED6;margin-left:125px;padding-left:10px}.username{height:30px;line-height:25px;margin-bottom:3px;overflow:hidden}.ftx-03, a.flk-03:link, a.flk-03:visited, .flk-03 a:link, .flk-03 a:visited{color:#999}.fl{float:left}.username
+strong{color:#333;font-size:20px;font-weight:normal}.username
+.extra{float:right}.account,.acco-safe{line-height:23px;margin-bottom:5px;overflow:hidden}.member{height:23px;margin-right:10px;overflow:hidden}.account,.acco-safe{line-height:23px;margin-bottom:5px;overflow:hidden}.fl{float:left}.icon-s-03{background-position:0 -49px}.ir{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/icon-rank.png") no-repeat scroll 0 0 transparent;display:inline-block;font-size:0;height:17px;line-height:0;margin-right:10px;overflow:hidden;vertical-align:middle;width:126px}#remind{background:none repeat scroll 0 0 #FFF;border:1px
+solid #FFEED6;overflow:hidden;padding:10px;_height:60px}#remind
+.oinfo{float:left;width:368px}#remind
+.ainfo{border-left:1px solid #FFEED6;float:left;margin-left:10px;padding-left:10px;width:220px}#remind
+.fore{border-top:medium none}#remind
+dl{border-top:1px solid #FFEED6;height:30px;line-height:30px;overflow:hidden}#remind dl dt, #remind dl
+dd{float:left}#remind .oinfo
+dd{padding-right:10px;width:104px}#remind dl dt, #remind dl
+dd{float:left}#remind  .oinfo dl
+dt{width:60px}#remind .ainfo
+dl{padding-left:60px}#remind .ainfo
+dl.col_sty{color:#999}.ftx-03, a.flk-03:link, a.flk-03:visited, .flk-03 a:link, .flk-03 a:visited{color:#999}#remind
+.ainfo{border-left:1px solid #FFEED6;float:left;margin-left:10px;padding-left:10px;width:220px}.m,.mt,.mc,.mb,.sm,.smt,.smc,.smb{overflow:hidden}.mt
+.tab{border-bottom:1px solid #EDD28B;cursor:pointer;overflow:hidden}.nav_right .tab li.curr, .nav_right .tab li.curr a:link, .nav_right .tab li.curr a:visited{color:#f60;font-weight:bold;letter-spacing:0}.nav_right .tab
+li{background-image:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png");letter-spacing:1px}.tab li.curr, .tab li.curr a:link, .tab li.curr a:visited{color:#F60;font-weight:bold}.tab
+li.curr{background-position:0 -85px}.tab
+li{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png") repeat scroll 0 -28px transparent;float:left;height:27px;line-height:29px;margin-right:3px;overflow:hidden;padding:0
+10px;position:relative;text-align:center}.tab li, .tab a,.tab-item{float:left;text-align:center}.mt .tab li s, .mt .tab li
+b{background-image:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png");height:28px}.mt
+.tab{border-bottom:1px solid #EDD28B;cursor:pointer;_height:27px}.tab li.curr
+s{background-position:0 -57px}.tab li
+s{left:0}.tab li s, .tab li
+b{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png") repeat scroll 0 0 transparent;height:27px;position:absolute;top:0;width:3px}.nav_right .tab li s, .nav_right .tab li
+b{background-image:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png");height:28px}.tab li.curr
+b{background-position:-7px -57px}.tab li
+b{background-position:-7px 0;right:0}#reco-area
+.mc{height:240px;overflow:hidden;position:relative;z-index:0}#slide-box .ks-switchable-triggers
+.next{right:-36px}#slide-box .ks-switchable-triggers
+.prev{left:-36px}.account p
+span{color:#999}.account p
+span.col_s{color:#000}.spacing_left{margin-left:10px}.lft_part{margin-left:20px}.menoy_icon{background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/menoy_icon.jpg") no-repeat scroll left 7px transparent;display:block;height:30px;padding-left:21px;color:#4E9700}.my_order{color:#000;margin:0
+0 3px 10px}#indexOrder.common-table
+th{border-top:1px solid #fdd475;padding:1px
+10px;background:url("http://img.tuniucdn.com/site/images/prod/huiyuan/tabindex.png") repeat-x scroll 0 -30px #E6E6E6}#indexOrder.common-table
+th.check{padding:1px
+0 1px 10px}#indexOrder.common-table th.order-num{padding-left:27px}#indexOrder.common-table
+td{padding:5px;vertical-align:middle;font-family:"microsoft yahei"}#indexOrder{border:1px
+solid #ddd}#indexOrder.common-table
+td.ordernum{padding:5px
+20px 5px 10px}#indexOrder.common-table
+td.check{text-align:center;padding:5px
+0}.ordernum
+p{line-height:16px}.order_num{margin-bottom:8px}.stars li
+label{display:inline-block;line-height:23px;margin-right:5px;width:135px}.close{width:16px;height:16px;position:absolute;top:5px;right:5px}.innerBox{position:relative}.com_saf p
+label{font-size:14px;color:#f60}.forpopPart{position:relative}.more_list{position:absolute;top:23px;left:100px;border:1px
+solid #ccc;width:112px;padding:5px
+10px;background-color:#fff}.more_list
+.col{color:#39F}.myorder_tt{padding:5px
+10px;color:#444;font-size:22px;font-family:Microsoft YaHei}.order_imf{border:1px
+solid #ccc;border-radius:8px;color:#666;padding:20px
+0;margin-top:10px}.order_imf, .order_imf a:link, .order_imf a:visited{color:#333}.order_imf .chupiao a, .order_imf .chupiao a:link{text-decoration:none}.commonimf{width:960px;margin:0
+auto}.fp_con
+p.commonimf{line-height:24px}.main_imf
+td{padding:0
+30px 0 0}.main_imf{color:#333}.main_imf
+span{color:#333;display:inline-block;margin-right:60px;width:180px}.detail_imf{border-collapse:collapse;width:100%;margin-top:20px}.detail_imf th,.detail_imf
+td{padding:5px
+8px;text-align:center}.detail_imf
+th{background-color:#DDD;border-right:1px solid #FFF;color:#666;font-weight:normal}.detail_imf
+th.last{border-right:none}.detail_imf
+td{background-color:#fffdee;border-bottom:1px solid #ddd;vertical-align:top}.detail_imf
+td.money{color:#f60;font-weight:bold}.detail_imf td.money
+.money_con{position:relative}.detail_imf td.save_money,.detail_imf
+th.save_money{text-align:left}.detail_imf td.save_money
+p{padding-left:20px}.detail_imf.danbaojin td
+.td_btn{background:#F07000;padding:2px
+12px;display:inline-block}.detail_imf.danbaojin td .td_btn
+a{color:white}.detail_imf.danbaojin{color:#666}.detail_imf.danbaojin td
+.copy{line-height:20px}.detail_imf.danbaojin td
+input{height:18px;margin-right:5px;padding:1px
+5px}.danbaojin td>span.cgreen:hover{cursor:pointer}.save_money
+span{display:inline-block;text-align:left}.per_imf{padding:10px
+20px;border-bottom:1px dotted #ddd}.add_imf{padding:10px
+20px}.ral_imf{font-weight:bold;color:#000;margin-bottom:6px}.trav_imf{margin-top:10px}.trav_imf .detail_imf
+td{background-color:#fff;padding:10px
+0}.trav_imf
+.ral_imf{padding-left:20px}.btnStyl{margin-top:20px;text-align:center;position:relative}.btnStyl
+a{margin-right:10px}.btnStyl a:link,.btnStyl a:visited,.btnStyl a:hover{text-decoration:none}.topay{padding:15px
+20px;border-bottom:1px dotted #ddd}.topay
+p{margin-left:735px;line-height:34px;text-align:right}.topay
+.tp_1{font-weight:bold;font-size:14px;color:#333;text-align:right}.topay
+.tp_2{font-size:20px;color:#f60;font-weight:bold}a.reset:link,a.reset:visited{color:#4e9700;font-weight:normal;margin-left:3px}a.reset:hover{color:#f60}.invoice_imf{padding:20px;border-bottom:1px dotted #ddd}.Breadcrumbs{margin-bottom:15px}.Breadcrumbs a, .Breadcrumbs a:link{font-weight:bold;text-decoration:none}.Breadcrumbs
+a.current{font-weight:normal}#cancelOrder,#backMoney,#jingquCancelOrderForm{position:absolute;bottom:0px;left:300px;display:none;z-index:999}.cancelOrder{background-color:#fff;width:400px;border:6px
+solid #ddd;padding-bottom:10px}.cancelOrder
+.tt{background-color:#d1f2b9;padding:10px}.cancelOrder .tt span,.cancelOrder .tt
+a{display:inline-block}.cancelOrder .tt
+a{margin-left:300px}.apppyBack .tt
+a{margin-left:260px}.cancelOrder .tt
+span{font-size:16px;color:#000;font-family:"microsoft yahei"}.cancelOrder
+.content{padding:10px;border-bottom:1px dotted #DDD}.apppyBack .content .ap_b
+span{display:inline-block;width:100px;text-align:right}.content
+.main_tip{color:#388400}.content
+p{margin-bottom:6px}.content .reason_list
+ul{overflow:hidden}.content .reason_list
+li{float:left;width:110px;line-height:24px}.content .reason_list
+input{top:0;margin-right:5px}.cancelOrder
+.beizhu{padding:10px}.cancelOrder
+textarea{width:330px}.cancelOrder .beizhu
+span{vertical-align:top}.two_btn{text-align:center;margin-left:46px}.two_btn
+a{margin-right:10px}.steps{margin:20px
+0}.steps
+hr{border:none;border-top:3px solid #ffae2c;width:100%}.steps li
+hr{vertical-align:middle;margin-top:14px;*margin-top:7px}.steps
+ul{overflow:hidden}.steps
+li{float:left;text-align:center}.steps
+li.icon{width:30px !important;padding:0
+2px}.steps li.grey_line
+hr{border-top:3px solid #ddd}.steps .part3 li
+span{font-size:14px;color:#f60}.steps .part3 li
+span.no_rea{color:#999}.steps
+.part2{position:relative;top:-8px}.second_steps .part3
+li{width:500px;color:#666}.second_steps .part2
+li{width:462px;height:30px;line-height:30px}.second_steps li.first,.second_steps
+li.last{width:235px}.second_steps
+.part1{overflow:hidden;width:650px;margin:auto}.second_steps .part1
+li{width:650px;color:#999}.three_steps .part3
+li{width:333px;color:#666}.three_steps .part2
+li{width:299px;height:30px;line-height:30px}.three_steps li.first,.three_steps
+li.last{width:150px}.three_steps
+.part1{overflow:hidden;width:700px;margin:auto}.three_steps .part1
+li{width:350px;color:#999}.four_steps .part3
+li{width:250px;color:#666}.four_steps .part2
+li{width:216px;height:30px;line-height:30px}.four_steps li.first,.four_steps
+li.last{width:108px}.four_steps
+.part1{overflow:hidden;width:750px;margin:auto}.four_steps .part1
+li{width:250px;color:#999}.five_steps .part2
+li{width:166px;height:30px;line-height:30px}.five_steps li.first,.five_steps
+li.last{width:83px}.five_steps
+.part1{overflow:hidden;width:800px;margin:auto}.five_steps .part1
+li{width:200px;color:#999}.five_steps .part3
+li{width:200px;color:#666}.six_steps .part2
+li{width:132px;height:30px;line-height:30px}.six_steps li.first,.six_steps
+li.last{width:66px}.six_steps
+.part1{overflow:hidden;width:830px;margin:auto}.six_steps .part1
+li{width:166px;color:#999}.six_steps .part3
+li{width:166px;color:#666}.seven_steps .part2
+li{width:108px;height:30px;line-height:30px}.seven_steps li.first,.seven_steps
+li.last{width:54px}.seven_steps
+.part1{overflow:hidden;width:852px;margin:auto}.seven_steps .part1
+li{width:142px;color:#999}.seven_steps .part3
+li{width:142px;color:#999}.second_steps li.cur_last, .second_steps li.cur_last
+hr{width:231px}.three_steps li.cur_last, .three_steps li.cur_last
+hr{width:149px}.four_steps li.cur_last, .four_steps li.cur_last
+hr{width:108px}.five_steps li.cur_last, .five_steps li.cur_last
+hr{width:83px}.six_steps li.cur_last, .six_steps li.cur_last
+hr{width:66px}.seven_steps li.cur_last, .seven_steps li.cur_last
+hr{width:54px}.working_step{background-color:#f90;color:#fff;padding:5px
+0;width:50%;margin-left:25%}.pro_list{overflow:hidden}.pro_list
+span{display:inline-block;margin-right:80px}.pro_list
+a{float:right}.pro_list a
+span{margin-right:0px}.border_botm{border-bottom:1px dotted #ddd}.step_panel{padding:10px
+20px;border:1px
+solid #eee;border-top:1px solid #cdcdcd;position:relative;background-color:#f7f7f7;color:#666;width:958px;_margin-top:20px;]
+clear:both}.step_panel
+.arrow{width:10px;height:10px;background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat  scroll left -259px;position:absolute;top:-10px;left:10px}.step_panel
+.main_con{color:#333;font-weight:bold;margin-bottom:5px}.follow_progress{margin-top:20px}.follow_progress
+h3{border:1px
+solid #ddd;border-bottom:none;border-radius:2px;width:120px;height:30px;line-height:30px;text-align:center;margin-left:20px;background-color:#fff;position:relative;z-index:99;font-weight:bold;font-size:14px}.follow_progress
+.fp_con{border:1px
+solid #ddd;border-radius:2px;padding:15px
+0;margin-top:-2px}.follow_progress
+table{border-collapse:collapse;width:100%}.follow_progress table
+td{padding:5px
+8px}.follow_progress table
+td.first{padding-left:20px}.follow_progress table thead
+td{border-bottom:1px dotted #ccc}.tips{color:#999;padding-right:67px;margin-top:10px}.imf_list{padding:10px
+0;border-top:1px solid #DDD;border-radius:2px;margin-top:10px}.imf_list
+li{float:left;margin-right:20px;line-height:24px;background:url("http://img1.tuniucdn.com/ui/v2/user/pdf.gif") no-repeat left center transparent;padding-left:22px}.imf_list li a:link, .imf_list li a:visited{color:#4E9700;text-decoration:underline}.imf_list li a:hover{color:#f90}.imf_list
+ul{overflow:hidden}.imf_list li a:link,.imf_list li a:visited{text-decoration:underline}.out_box{border-bottom:1px dotted #ddd;padding:20px}.out_box_1{border-bottom:1px dotted #ddd;padding:20px
+0;position:relative}.out_box_1
+.ral_imf{padding-left:20px}.out_box_1 .ral_imf
+span{font-weight:normal}.out_box_1 .detail_imf, .fp_con
+.detail_imf{margin-top:10px}.out_box_1 .detail_imf
+td{background-color:#fff;border-bottom:none;vertical-align:middle}.out_box_1
+p.imf{padding-left:20px;margin-top:5px;color:#999}.out_box_1
+p.visa{padding-left:20px;margin-top:5px;color:#333}.out_box_1 p.visa
+a{margin-right:10px;text-decoration:underline}.data_correct,.data_false{display:inline-block;height:16px;text-indent:20px;line-height:16px}.data_false{background:url("http://img1.tuniucdn.com/u/user/order/img/order_ico.gif?v=1") no-repeat scroll -57px -370px transparent}.data_correct{background:url("http://img1.tuniucdn.com/u/user/order/img/order_ico.gif?v=1") no-repeat scroll -57px -353px transparent}.upperm th, .upperm
+td{text-align:left}.out_box
+.pop_selectpart{border:1px
+solid #eee;margin-top:8px}.out_box .pop_selectpart
+p{line-height:24px}.out_box .pop_selectpart
+p.tt{height:24px;background-color:#f5f5f5;line-height:24px;color:#f60;padding-left:10px}.out_box .selected_method
+span{display:inline-block;margin-right:50px}.out_box
+.relp_imf{line-height:24px}.out_box .relp_imf
+span{display:inline-block;width:230px}.out_box .selected_method
+span.last{margin:0}.out_box .pop_selectpart
+p.btn{text-align:right;padding:0
+5px;margin:10px
+0}.out_box .pop_selectpart p.btn
+a{margin-left:10px}.out_box .pop_selectpart p
+input{vertical-align:middle;margin:0
+5px}.out_box
+.spacing{margin-left:810px}a.grey_icon_up{width:24px;height:24px;display:inline-block;background:url(/site/css/user_center/img/bullet-arrow-up-icon.png) no-repeat left top;vertical-align:middle}a.grey_icon_down{width:24px;height:24px;display:inline-block;background:url(/site/css/user_center/img/bullet-arrow-down-icon.png) no-repeat left top;vertical-align:middle}.yellow_col{color:#f60}.insure{margin-left:50px}.grey_70_24{background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat scroll left -24px #CCC;display:inline-block;height:24px;line-height:24px;text-align:center;width:70px;font-size:14px}.yellow_70_24{background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat scroll left -131px #CCC;display:inline-block;height:24px;line-height:24px;text-align:center;width:70px;font-size:14px;color:#fff;font-weight:bold}.yellow_113_24{background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat scroll left -56px #CCC;display:inline-block;height:24px;line-height:24px;text-align:center;width:113px;font-size:14px;color:#fff;font-weight:bold}.yellow_136_35{background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat scroll left -88px #CCC;color:#FFF;display:inline-block;font-size:24px;font-weight:bold;height:35px;line-height:35px;text-align:center;width:136px}.xy_btn{background:url("/site/images/prod/huiyuan/icon_all.gif?v=1")repeat-x left -88px #CCC;width:auto;padding:0
+20px}.del_12_12{background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat scroll left -163px #D1F2B9;display:block;height:12px;line-height:12px;width:12px}.yellow_30_30{background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat scroll left -221px #fff;display:block;height:30px;width:30px}.grey_30_30{background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat scroll left -183px #fff;display:block;height:30px;width:30px}.print_icon{background:url("/site/images/prod/huiyuan/icon_all.gif") no-repeat scroll left 0 #FFF;display:inline-block;height:16px;padding-left:20px;font-size:12px;margin-left:820px}.no_rea{}.delOrder_hover{position:absolute;top:32px;left:413px;display:none;border:1px
+solid #FFC267;background:#FFFBEF;padding:5px;color:#404040}.per_imf
+p{margin-bottom:5px}.per_imf
+.ral_imf{margin-bottom:6px}.msxx
+span{display:inline-block;margin-right:60px}.per_imf p
+span{display:inline-block;margin-right:110px;padding-bottom:5px}.sign_method
+ul{overflow:hidden}.sign_method ul
+li{float:left;margin-right:20px;line-height:24px;height:24px}.sign_method ul li
+input{vertical-align:middle}ul.sign_select
+li{color:#999}ul.sign_select
+li.current{color:#333}.pop_selectpart{display:none}.sign_method .pop_selectpart
+p{line-height:24px;height:24px;margin-bottom:10px}.sign_method .pop_selectpart
+.sel_1{padding:5px;width:100px}.sign_method .pop_selectpart
+.sel_2{padding:5px;width:200px}.new_addr{background-color:#f0f0f0;padding:10px
+10px 5px 10px;margin-bottom:10px}.new_addr p.cl_1
+span{display:inline-block;width:80px;text-align:right}.pops_box
+.pops_innnerbox{padding:0
+10px;position:relative}input[type="radio"]{top:0;margin-right:5px}.invoice_close{cursor:pointer;float:right;margin:3px}.sign_part{display:none;margin-top:10px}input.bto_contry{width:60px}#list
+li{float:none}.changeTrvImf{border:1px
+solid #ddd;background-color:#fff;position:absolute;z-index:1001;display:none}.longbox{width:998px}.changeTrvImf
+p.tt{background-color:#F5F5F5;color:#F60;height:24px;line-height:24px;padding-left:10px}.inner_cti{padding:20px}.changeTrvImf
+.long{padding:0;padding-bottom:10px}.inner_cti
+p{line-height:24px}.inner_cti
+p.btn{margin-top:10px}.short{width:450px}#divmask{background-color:#000;opacity:0.4;filter:alpha(opacity=40);width:100%;height:100%;position:absolute;z-index:999;top:0;left:0;display:none;_background-color:none}#invoice_wrap{width:600px;position:absolute;left:200px !important;border:1px
+solid #ddd;background:#ccc;z-index:1000;display:none;padding:3px}.invoice_wrap_con{background:#fff}#invoice_title,#order_title{background:#F2F2F2;border-bottom:1px solid #ccc;line-height:30px;padding:0
+10px 0 15px;overflow:hidden;_zoom:1}#invoice_title h4, #order_title
+h4{font-size:14px;float:left;font-weight:400}#invoice_close,#order_close{float:right;margin-top:6px;cursor:pointer}#invoice_con{margin:0
+15px;line-height:20px;padding:10px
+0;font-size:13px;width:570px}.peisongform2{margin-left:29px}#invoice_con
+table{margin:0
+auto;width:100%}#invoice_con table
+td{padding:3px
+0}#invoice_con
+.txt_m{width:146px;padding:2px}.radio_table
+td{padding:0
+35px 0 0}.eval_form{font-size:13px;line-height:1.8em;margin-top:20px}.eval_form
+dd{margin-bottom:15px;overflow:hidden}.com_title{background:#F8FEF9;border-top:1px solid #B8D6B8;line-height:30px;overflow:hidden;padding:0
+10px}.com_title
+h3{font-weight:normal}.txt_suggest{width:500px}#other_dz_w{border:1px
+solid #ccc;width:500px;padding:10px
+0;position:relative;display:none}.phone_tip{position:absolute;left:260px;bottom:15px}.sub_div_w{text-align:center;padding:5px
+0}.sub_div_w
+a{display:block;margin:0
+auto;width:121px;height:31px;background:url(http://img1.tuniucdn.com/ui/tool/img/sub_btn.gif) no-repeat left top}.follow_progress
+table.baoxian{width:60%}.addressList{margin-left:20px}.order_wrap{width:400px;position:absolute;left:240px;top:-14px;border:1px
+solid #ccc;background:#fff;z-index:1000;display:none}#order_con{margin:0
+15px;line-height:20px;padding:10px
+0;font-size:13px;width:370px}#order_con
+.txt_m{width:100px;padding:2px}#order_con
+td{padding:3px
+0}#order_con
+label{width:88px;text-align:right;display:inline-block}.order_phone_tip{margin-left:20px}.main_content input[type="radio"], .main_content input[type="checkbox"]{border:0
+none}#check_fapiao, .main_content
+.addressList_item{border:0
+none}.baoxian
+.people_buy{position:relative;z-index:10}.poptip{position:absolute;left:-46px;top:26px;background:#fff;border:1px
+solid #ddd;width:240px;font-size:12px;padding:5px
+8px;z-index:20;display:none}.poptip
+span{position:absolute;top:-8px;left:109px;width:16px;height:8px;font-size:12px;overflow:hidden}.poptip span
+em{position:absolute;left:0;top:-1px;color:#ddd}.poptip span
+i{position:absolute;left:-2px;top:0;color:#fff}#dialog_wrap{width:630px;position:absolute;border:1px
+solid #ddd;background:#ccc;z-index:1000;padding:3px}.dialog_wrap_con{background:#fff}#dialog_title,#order_title{background:#F2F2F2;border-bottom:1px solid #ccc;line-height:30px;padding:0
+10px 0 15px;overflow:hidden;_zoom:1}#dialog_title h4, #order_title
+h4{font-size:14px;float:left;font-weight:700}#dialog_close,#order_close{float:right;margin-top:6px;cursor:pointer}#dialog_con{margin:0
+15px;line-height:20px;padding:10px
+0;font-size:12px;width:600px}#dialog_con
+p{heig/ht:30px;line-height:30px}#dialog_con p
+.dialog_money{color:#f60}#dialog_con
+.dialog_company_name{padding:5px;width:210px;border:1px
+solid #c4c4c4}#dialog_con
+.dialog_short{width:50px}#dialog_con
+.dialog_middle{width:138px}#dialog_con  input:focus{box-shadow:0 0 4px #C4C4C4 inset}#dialog_con
+.dialog_un_em{color:#999;padding-left:10px}#dialog_con
+.dialog_addr{overflow:hidden}#dialog_con .dialog_addr
+.dialog_addr_name{float:left}#dialog_con
+.dialog_toselect_addr{margin-left:65px}#dialog_con .dialog_toselect_addr
+li{line-height:30px;vertical-align:middle}#dialog_con .dialog_toselect_addr li
+input{margin-right:3px}#dialog_con
+.dialog_add_new_addr{margin-left:65px}#dialog_con
+.dialog_hide{display:none}#dialog_con
+.dialog_new_addr{line-height:30px;height:30px;border:none;border-top:1px solid #c4c4c4;margin-left:65px}#dialog_con
+.dialog_new_addr.delete_line{border-top:none}#dialog_con
+.dialog_right{display:inline-block;width:100px;text-align:right}#dialog_con
+.dialog_city{padding:3px
+5px;border:1px
+solid #ddd;width:110px}#dialog_con
+.dialog_add_err_icon{background:url("/site/images/prod/huiyuan/order_ico.gif") no-repeat scroll -56px -142px transparent;color:#F60;font-size:12px;text-align:left;padding-left:20px;display:inline-block;_zoom:1;margin-left:10px}#dialog_con
+.dialog_add_right_icon{background:url("/site/images/prod/huiyuan/order_ico.gif") no-repeat scroll -56px -326px transparent;color:#fff;font-size:12px;text-align:left;padding-left:20px;display:inline-block;_zoom:1;margin-left:10px}#dialog_con
+.dialog_btn{margin:15px
+0 20px 65px}#dialog_con .dialog_btn
+span{background:url("/site/images/prod/huiyuan/order_ico.gif") no-repeat scroll 0px 0px transparent;height:29px;width:90px;display:inline-block;font-weight:700;line-height:29px;text-align:center;font-size:14px}#dialog_con .dialog_btn
+.dialog_save{background-position:0px -393px;color:#fff}#dialog_con .dialog_btn
+.dialog_cancel{background-position:0px -435px}#dialog_con
+.dialog_default{color:#a0a0a0}.travel_intention{border:1px
+solid #eaeaea;margin-bottom:20px;padding:10px
+10px 40px}.dingyue_btn{float:right;display:inline;background:#ff8c23;padding:3px
+10px;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;font-size:16px;font-weight:bold;text-align:center;color:#fff;border:0
+none;line-height:30px;cursor:pointer;margin-right:5px}.travel_item{margin-bottom:20px}.travel_item
+label.tit{display:inline-block;float:left;width:106px;font-size:12px;font-weight:bold;color:#404040}.travel_con{width:610px;float:left}.hot_travel_street{color:#f60;clear:left;padding-top:5px}.hot_travel_street
+a{display:inline-block;color:#999;margin-right:5px}.travel_time
+li{display:inline;float:left;width:100px;padding-bottom:5px}.travel_time li
+input{margin-right:3px}.travel_btn{padding-left:106px}.travel_btn
+input{display:inline-block;width:60px;height:25px;margin-right:20px;border:0
+none;cursor:pointer}.travel_save{background:url(/site/images/prod/huiyuan/save.png) no-repeat}.travel_reset{background:url(/site/images/prod/huiyuan/reset.png) no-repeat}.travel_select_box{position:relative}.representation{border:1px
+solid #ccc;display:block;line-height:16px;margin:0;overflow:hidden;padding:2px
+5px;width:550px}.representation
+ul.items{font-size:12px;overflow:hidden;float:left;padding:2px
+0}.representation ul.items
+li{background:#FFF2cc;float:left;border:1px
+solid #f8dd8d;height:16px;padding:0
+20px 0 5px;position:relative;margin:2px
+5px 3px 0}.representation ul.items
+li.last{background:none;border:none}.representation ul.items
+em{position:absolute;right:0px;top:0px;display:inline-block;width:15px;height:15px;background:url(/site/images/prod/huiyuan/tr_close.png) no-repeat 0 3px;cursor:pointer}.representation
+input{float:left;border:0
+none;border-left:1px solid #ccc;display:inline-block;height:20px;line-height:20px;padding-left:5px;width:125px}.select_con{width:555px;line-height:24px;border:1px
+solid #ccc;border-top:0;padding-left:5px;position:absolute;background:#fff}.select_con
+span{display:block;margin-bottom:3px}.c_999{color:#999}.travel_pro{border:1px
+solid #eaeaea;border-top:none;margin-bottom:20px}.travel_pro
+h4{height:30px;line-height:30px;background:#edfadf;padding-left:10px;font-size:14px;font-weight:bold}.travel_pro_box{border-top:1px solid #eaeaea;margin-top:-1px;padding:15px
+10px 20px;width:778px;overflow:hidden}.travel_tit{margin-bottom:10px}.travel_tit
+h5{font-weight:bold;float:left}.travel_tit
+.tr_more{color:#4e9700;float:right;display:inline;margin-right:5px}.travel_pro_box
+ul{width:825px}.travel_pro_box
+li{display:inline;float:left;width:160px;margin-right:45px}.travel_pro_box li
+img{display:block;width:160px;height:90px;margin-bottom:10px}.travel_pro_box li
+.des{height:38px;overflow:hidden;line-height:18px;margin-bottom:5px}.dingyue{text-align:right}.dingyue
+.cancle{color:#999}.change_orders{border:1px
+solid #dedede;margin-top:20px}.change_orders_tit{height:30px;line-height:30px;background:#f4f4f4;position:relative;padding-left:10px}.change_orders_tit
+a{color:#4e9700;cursor:pointer}.change_orders_con
+.biaoti{font-size:14px;font-weight:bold;margin:10px
+0 7px 10px}.change_orders_con
+dl{margin:0
+0 7px 10px}.change_orders_con dt, .change_orders_con
+dd{float:left;line-height:20px;vertical-align:middle}.change_orders_con
+dt{width:90px}.change_orders_con
+dd{margin-right:20px}.change_orders_con  dd
+input{margin-right:5px}.change_orders_con
+.write_mes{margin:0
+0 7px 10px}.change_orders_con .write_mes
+span{float:left;width:90px;display:inline}.change_orders_con
+.change_request{float:left;width:550px;height:110px;overflow:hidden;border:1px
+solid #ddd}.change_orders_con
+.change_request.grey{color:#aaa}.change_orders_con_btn{margin:0
+0 30px 100px}.change_orders_con
+.err{color:#f60;background:url(/site/images/prod/huiyuan/order_ico.gif?v=0415) no-repeat -57px -240px;padding-left:20px}.change_orders_con_btn
+.ch_btn{float:left;display:inline;width:90px;height:29px;border:0
+none;cursor:pointer;margin:7px
+10px 0 0}.change_orders_con_btn
+.tosubmit{background:url(/site/images/prod/huiyuan/tosubmit.png) no-repeat}.change_orders_con_btn
+.tocancle{background:url(/site/images/prod/huiyuan/tocancle.png) no-repeat}.change_list
+li{border-bottom:1px solid #dedede;padding:8px
+0}.change_list
+.cha_tit{height:20px;padding-left:10px;zoom:1;vertical-align:middle;margin-bottom:-1px;cursor:pointer}.change_list .cha_tit:after{clear:both;content:".";display:block;height:0;visibility:hidden}.change_list .cha_tit
+b{background:url(/site/images/prod/huiyuan/order_ico.gif?v=0415) no-repeat -81px -522px;padding-left:25px;float:left}.change_list .cha_tit
+b.shouqi{background-position:-81px -563px}.change_list .cha_tit_cancle
+b{color:#999}.change_list
+.state{float:right;padding-right:30px;background:url(/site/images/prod/huiyuan/order_ico.gif?v=0415) no-repeat;font-weight:bold;padding-left:15px;overflow:hidden;height:20px}.change_list
+.pend{background-position:-81px -467px;color:#f60}.change_list
+.processed{background-position:-80px -484px;color:#4e9700}.change_list
+.canceled{background-position:-81px -499px;color:#999}.change_list
+.cha_con{background:#eef6f1;padding-left:35px}.change_mes
+.mess{margin-bottom:5px}.order_notice{margin-top:5px;line-height:20px}.order_notice_tit{margin:5px
+0 15px;font-weight:bold;color:#404040}.order_notice_tit
+a{display:inline-block;height:18px;overflow:hidden;background:url(/site/images/prod/huiyuan/icon_all.gif?v=0425) no-repeat 0 -283px;font-weight:normal;padding:0
+5px 0 15px;margin-right:10px}#promise_tip{background-color:#FFFCE5;border:1px
+solid #FFDD67;color:#404040;display:none;line-height:1.7;width:660px}.promise_tip_con{padding:10px}.trip_style
+li{float:left;width:140px;margin:0
+20px 10px 0}#remind
+.red_envelop_remind{color:red;font-weight:bold;height:30px;width:368px;border-top:1px solid #FFEED6;line-height:30px}#remind
+.red_envelop_amount{color:#f60}#remind
+.red_envelop_time{color:#404040;font-weight:normal}.icon_train{display:inline;width:16px;height:20px;background-position:0 -541px;float:left;margin-right:8px}.train_address{float:left;margin-right:20px;color:#333}.train_address:hover{color:#4e9700}.train_style{float:left;color:#333}.train_con{font-family:"microsoft yahei"}.del_Pop.ver_train_con{height:237px}.train_con .main_imf
+span{margin-right:40px;width:auto}.train_con
+.train_tip{background:#fff5eb;border:1px
+solid #f96;margin:15px
+20px;padding:7px
+10px}.train_con .pay_all
+ul{margin:0
+20px}.train_con .pay_all
+li{float:left;display:inline;width:210px;margin-right:125px}.train_con .pay_all
+li.last{margin-right:0}.train_con .pay_all li
+p{text-align:center}.train_con .pay_all li
+.name{font:bold 16px "microsoft yahei";margin-bottom:5px}.train_con .pay_all li
+.price{color:#f60}.train_con .pay_all li .price
+em{font-size:16px;font-weight:bold}.train_con
+.train_city{font-size:18px}.train_ci{position:relative;display:inline-block;width:58px;height:12px;background-position:0 -568px;margin:0
+10px}.train_ci
+em{position:absolute;font-size:12px;top:-10px;left:5px}.train_con .detail_imf
+.t1{text-align:left;padding-left:45px}.train_con .detail_imf
+.t2{text-align:left;padding-left:50px}.train_con .detail_imf
+.t3{text-align:left;padding-left:60px}.train_con .detail_imf
+.t2{text-align:left;padding-left:50px}.train_con
+.wl{display:inline-block;width:120px}.train_con td
+p{padding:8px
+0 0}.s_btn{display:inline-block;height:30px;line-height:30px;text-align:center;font-size:16px;font-weight:bold;padding:0
+15px;border-radius:2px;cursor:pointer}.s_btn_yellow{background:#ff931a;border:1px
+solid #ff931a;color:#fff;margin-right:10px}.s_btn_grey{background:#f9f9f9;border:1px
+solid #e7e7e7}.icon_del{display:inline-block;width:32px;height:32px;background-position:0 -593px;margin-right:10px}.ver_train_con
+.ver_con{margin-left:40px;margin-top:10px}.ver_train_con
+.t{font-size:14px;font-weight:bold;color:#333}.ver_train_con
+.p{color:#f60;line-height:20px}.ver_train_con.checkuser_imfo
+.ver_mes{border-top:0 none;padding-left:40px;padding-bottom:20px}.ver_train_con.checkuser_imfo
+.ver_info{margin:-10px 10px 10px 20px;line-height:20px}.order_top{position:relative}.order_jinrong{position:absolute;right:0;top:0;*top:-2px}.order_jinrong
+img{display:inline-block;width:66px;height:23px;vertical-align:middle;margin:3px
+2px 0 0;*margin-top:4px}.order_jinrong
+a{color:#f25d2f;display:inline-block;line-height:23px}.order_jinrong a:hover{text-decoration:underline}.ticket_refund_tip .info, .money_child_info, .money_child_tip_con
+i{background:url(http://img.tuniucdn.com/img/20150226/prod/huiyuan/icon_all.gif) no-repeat}.ticket_refund_box{position:absolute;right:10px;top:17px;*top:13px;color:#43b413;z-index:105}.ticket_refund_tip{border:1px
+solid #fff;border-bottom:0 none;border-top:2px solid #fff;background:#fff;position:relative;top:1px;z-index:10;padding:5px
+10px}.hover
+.ticket_refund_tip{cursor:pointer;border:1px
+solid #dfdfdf;border-bottom:0 none;border-top:2px solid #43b413}.ticket_refund_tip
+.info{display:inline-block;width:9px;height:6px;background-position:0 -328px;margin-left:3px;position: *relative;*top:-3px}.hover .ticket_refund_tip
+.info{background-position:-16px -328px}.ticket_refund_con{display:none;position:absolute;right:0;color:#333;font-family:"microsoft yahei";width:345px;padding:10px;border:1px
+solid #dfdfdf;background:#fff}.hover
+.ticket_refund_con{display:block}.money_div{position:relative}.money_child_tip{position:relative}.money_child_info{display:inline-block;width:16px;height:18px;background-position:0 -344px;position:relative;top:5px;margin-left:5px;cursor:pointer}.money_child_tip_con{display:none;position:absolute;right:-5px;top:25px;background:#fff;border:1px
+solid #ffdbb2;color:#666;padding:5px
+10px;font-weight:normal;width:225px;text-align:left}.money_child_tip_con
+i{width:12px;height:6px;position:absolute;background-position:-31px -328px;top:-6px;right:10px}.hover
+.money_child_tip_con{display:block}.trainOrderStatus .action
+button.yel{background:#f80}.trainOrderStatus .action button.yel:hover{background:#f60}.trainOrderStatus .action
+button.gre{background:#2e9900}.trainOrderStatus .action button.gre:hover{background:#0B0}.trainOrderStatus .action
+button{cursor:pointer;border:none;width:100px;height:30px;line-height:30px;text-align:center;color:#fff;font-size:16px;font-family:microsoft yahei;margin-left:10px}.trainOrderStatus{padding:10px}.trainOrderStatus
+.status{width:60%;float:left}.trainOrderStatus
+.action{padding:10px;float:right}.cow-no-order{width:470px;height:103px;margin:0
+auto;padding:80px
+0 130px 0;font-size:0}.cow-details{display:inline-block;*display:inline;*zoom:1;width:330px;height:75px;vertical-align:top;padding:31px
+0 0 15px}.cow-title{color:#333;font-size:18px;height:32px;line-height:32px;font-family:"Microsoft YaHei"}.cow-text{color:#999;font-size:12px;height:18px;line-height:18px;font-family:"Microsoft YaHei"}.cow-text
+a{color:#fff;text-decoration:none}.cow-text a:hover{color:#fff;text-decoration:none}.s_forhelp{width:69px;height:26px;line-height:26px;text-align:center;color:#fff;font-size:12px;display:inline-block;*display:inline;*zoom:1;background:#ff9419}.air_info_stop{position:absolute;border:1px
+solid rgb(255,237,216);display:none;background-color:rgb(255,252,235);z-index:9;width:221px;left:-40px}.airStopBtn{color:#4E9700;font-size:12px}.air_u_con
+td{position:relative}

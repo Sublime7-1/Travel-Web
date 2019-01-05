@@ -1,0 +1,58 @@
+.m-product .price-title{margin-top:20px}.m-product .price-title
+.name{font-size:16px;color:#333;text-indent:-10px;margin-left:12px;font-weight:bold}.m-product .price-title .order-id{font-size:14px;color:#ccc;margin-top:15px;padding-left:10px}.m-product .book-tourist-main{width:760px;margin:10px
+auto 20px auto;border-top:1px solid #ddd}.m-product .book-tourist-main
+.field{margin-top:16px}.m-product .book-tourist-main .row
+.field{width:50%;display:inline-block}.m-product .book-tourist-main .row .journey-package{display:inline}.m-product .J_departCity .input_select .s_cnum ,
+.m-product .J_backCity .input_select .s_cnum,
+.m-product .journey-package .input_select
+.s_cnum{margin-left:74px}.m-product .book-tourist-main .J_departDate>.input_select{margin-left:74px}.m-product .book-tourist-main .field .J_adultCount,.m-product .book-tourist-main .field
+.J_adult{margin-left:74px}.m-product .book-tourist-main .field .J_adultCount,.m-product .book-tourist-main .field
+.J_adult{margin-right:42px}.m-product .field .input_number>.person-number, .m-product .field .input_number>label{vertical-align:middle}.m-product .field
+.J_freeChild{margin-left:42px;position:relative}.m-product .input_select
+.s_clist{position:absolute;top:24px;left:74px;display:none;background-color:#fff;border:1px
+solid #ccc;width:50px;max-height:158px;overflow-y:auto;overflow-x:hidden;z-index:1}.m-product .input_select .s_clist
+li{height:26px;line-height:26px;padding:0
+10px 0 5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;cursor:pointer}.m-product .J_departDate .input_select
+.s_cnum_onlyone{text-align:left}.m-product .input_select
+.s_cnum{position:relative;float:left;background-position:28px -338px;border:1px
+solid #ddd;background-color:#fff;height:22px;line-height:22px;padding-left:5px;padding-right:10px;cursor:pointer}.m-product .input_select .s_cnum.resource-error{border:1px
+solid #eddbb3}.m-product .input_select
+.s_cnum_onlyone{padding:1px
+0 0;border:none;cursor:default}.m-product .input_select.w_350 .s_cnum, .m-product .input_select.w_350 .s_clist
+li{width:188px}.m-product
+.input_select{position:relative;width:auto;height:26px;line-height:26px;display:inline-block}.m-product .input_select.w_350
+.s_clist{width:208px;z-index:10}.m-product .calendar-wrapper{position:absolute;top:38px;left:0;width:428px;line-height:1;padding:0
+15px 15px;background:#fff;box-shadow:0 0 9px 0 rgba(0, 0, 0, .15);font-size:14px;z-index:140}.m-product .calendar-wrapper .white-triangle{position:absolute;top:-16px;left:20px}.m-product .calendar-wrapper .calendar-date{height:44px;line-height:44px;text-align:center;color:#333}.m-product .calendar-wrapper
+.prev{float:left;margin-left:-8px}.m-product .calendar-wrapper
+.next{float:right;margin-right:-8px}.m-product .calendar-wrapper .prev, .m-product .calendar-wrapper
+.next{cursor:pointer}.m-product .calendar-wrapper .prev i, .m-product .calendar-wrapper .next
+i{position:relative;margin-top:8px;font-size:28px;color:#22c233;vertical-align:middle}.m-product .calendar-wrapper .prev.disabled i, .m-product .calendar-wrapper .next.disabled
+i{color:#666}.m-product .calendar-wrapper .month-text{display:inline-block;line-height:28px;vertical-align:middle;font-size:14px;color:#333}.m-product .calendar-wrapper .prev .month-text{margin-left:-10px}.m-product .calendar-wrapper .next .month-text{margin-right:-10px}.m-product .calendar-wrapper .calendar-week{height:24px;line-height:24px;text-align:center;background:#535d63;font-size:12px;color:#fff}.m-product .calendar-wrapper .calendar-week
+span{float:left;display:inline-block;width:61px}.m-product .calendar-wrapper .calendar-day{border-right:1px solid #ddd;font-size:12px}.m-product .calendar-wrapper .calendar-day
+li{float:left;width:49px;height:30px;padding:5px
+5px 10px;border:1px
+solid transparent;border-left-color:#ddd;border-bottom-color:#ddd;cursor:pointer}.m-product .calendar-wrapper .calendar-day li:hover{background:#fefee6}.m-product .calendar-wrapper .calendar-day
+li.selected{background:#ffa833}.m-product .calendar-wrapper .calendar-day .first-line{color:#333}.m-product .calendar-wrapper .calendar-day .first-line.current-day{color:#f80}.m-product .calendar-wrapper .calendar-day li.not-current-month .first-line{color:#999}.m-product .calendar-wrapper .calendar-day li.selected .first-line{color:#fff}.m-product .calendar-wrapper .calendar-day .second-line{margin-top:6px;color:#f60}.m-product .calendar-wrapper .calendar-day li.selected .second-line{color:#fff}.m-product .input_select
+.sc_arrow{position:absolute;right:5px;top:10px;display:block;width:0;height:0;border-width:5px 3px 0 3px;border-color:#666 transparent transparent transparent;border-style:solid}.m-product .field .input_select, .m-product .field label, .m-product .field
+.input_number{vertical-align:middle;display:inline-block;*display:inline;*zoom:1}.m-product .J_departDate
+.input_select{font-size:12px}.m-product
+.T_tri_pop{position:absolute;right:-140px;font-size:12px;background-color:#fefee6;padding:0px
+10px;border:1px
+solid #eddbb3;color:#666;line-height:24px;z-index:90;height:24px}.m-product .T_tri_pop
+.T_tri_outside{display:block;position:absolute;width:0;height:0;border-style:solid;border-width:6px 6px 6px 0;border-color:transparent #eddbb3 transparent transparent;left:-6px;margin-top:5px}.m-product .T_tri_pop
+.T_tri_inside{display:block;width:0;height:0;border-style:solid;position:absolute;top:-6px;left:2px;border-width:6px 6px 6px 0;border-color:transparent #fefee6 transparent transparent}.m-product .J_childCount .childCount-tips{display:inline-block;*display:inline;*zoom:1}.m-product .s_cnum_more
+.s_cnum{width:85px}.m-product .s_cnum_more
+.s_clist{width:100px;z-index:3}.m-product .multi-journey
+span{margin-left:74px}.m-product .jtxz-detail2.number-tip{left:0}.m-product .jtxz-detail2.number-tip .z,
+.m-product .jtxz-detail2.number-tip
+.j{left:5px;right:auto}.m-product
+.J_normalChild{position:relative}.m-product .vendor-list{display:inline-block;vertical-align:top;margin-left:74px;max-width:624px}.m-product .vendor-list
+.J_vendorItem{float:left;margin-right:20px;width:128px;position:relative;height:46px;border:1px
+solid #ddd;background:#fff;color:#333;cursor:pointer;text-align:center;font-size:12px;margin-top:4px}.m-product .vendor-list
+.J_vendorItem.active{border-color:#f80}.m-product .vendor-list
+.J_vendorItem.hover{border-color:#f80}.m-product .vendor-list .J_vendorItem.active
+i{position:absolute;right:0;bottom:0;width:0;height:0;border:12px
+solid #fff;border-right:0;border-top:0;border-bottom-color:#f80;color:#fff;text-align:center}.m-product .vendor-list .J_vendorItem.active i::after{content:'';position:absolute;right:0;bottom:-12px;background-image:url(http://img3.tuniucdn.com/site/images/cruise/checked.png);background-size:12px 12px;height:12px;width:12px;overflow:hidden;display:inline-block;background-repeat:no-repeat}.m-product .vendor-list .J_vendorItem
+p{line-height:18px}.m-product .vendor-list .J_vendorItem p:nth-of-type(1){padding-top:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.m-product .vendor-list .J_vendorItem p
+.price{color:#f80}.m-product .vendor-list .J_vendorItem p
+.text{color:#999}

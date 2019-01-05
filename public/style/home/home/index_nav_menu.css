@@ -1,0 +1,84 @@
+.index_nav_menu{position:absolute;top:0;left:0;width:100%;z-index:899}.index_nav_menu
+.inner{width:990px;margin:0
+auto;background-color:#2dbb55}.index_nav_menu .menu_panel
+.menu_list{margin-left:0;float:left;_display:inline;position:relative;z-index:900;width:990px}.index_nav_menu .menu_panel .menu_list
+li{float:left;height:40px;line-height:40px;max-width:106px;font-size:14px;color:#fff;border-bottom:none;position:static;z-index:3;overflow:visible;background:url(https://m.tuniucdn.com/fb2/t1/G1/M00/A4/1A/Cii9EVjQzoCIXQ-rAAAAXOrU5gsAAI1OwP__vMAAAEN672.png) 0 12px no-repeat}.index_nav_menu .menu_panel .menu_list li
+a{color:#fff;display:inline-block;position:relative;padding:0
+8px;text-decoration:none}.index_nav_menu .menu_panel .menu_list li a
+.icon_nav_img{position:absolute;top:-12px;right:0;left:0;margin:auto;display:block;line-height:18px;text-indent:-20000em;z-index:11;height:18px}.index_nav_menu .menu_panel
+li.menu_first{background:none}.index_nav_menu .menu_panel li.menu_first
+a{padding:0
+15px}.index1200 .index_nav_menu .menu_panel .menu_list
+li{font-size:16px;max-width:140px}.width1200 .index_nav_menu .menu_panel .menu_list
+li{font-size:16px}.index1200 .index_nav_menu .menu_panel .menu_list li
+a{padding:0
+11px}.index1200 .index_nav_menu .menu_panel .menu_list li.list_low
+a{padding:0
+10px 0 10px}.index_nav_menu .menu_panel .menu_list
+.selected{background:#11a13a}.index_nav_menu .menu_panel .menu_list .selected
+a{color:#fff;background:#11a13a}.index_nav_menu .menu_panel .menu_list .selected.cui_nav_o
+a{background:none;color:#fff}.index_nav_menu .menu_panel .menu_list .selected .top_sub_nav
+a{font-weight:normal}.index_nav_menu
+.subMenu_panel{background:#fafafa;opacity:0.94;display:none;box-shadow:3px 3px 1px #eaeaea;*zoom:1}.index_nav_menu .subMenu_panel
+.subMenu_list{float:left;margin-left:200px;_display:inline}.index_nav_menu .subMenu_panel
+.subMenu_col{float:left;display:inline;position:relative;z-index:0;height:180px}.index_nav_menu .subMenu_panel .subMenu_col
+.icon_arrowUp2{position:absolute;top:-9px;left:30px;display:none}.index_nav_menu .subMenu_panel .col_hover
+.icon_arrowUp2{display:block}.index1200 .index_nav_menu .subMenu_panel .subMenu_col
+.icon_arrowUp2{left:39px}.width1200 .index_nav_menu .subMenu_panel .subMenu_col
+.icon_arrowUp2{left:39px}.index_nav_menu .subMenu_panel .subMenu_col
+ul{font-size:12px;font-family:"宋体";color:#424242}.index1200 .index_nav_menu .subMenu_panel .subMenu_col
+ul{width:82px}.width1200 .index_nav_menu .subMenu_panel .subMenu_col
+ul{width:82px}.index_nav_menu .subMenu_panel .subMenu_col
+li{height:24px;line-height:24px;margin-top:13px;text-align:center}.index_nav_menu .subMenu_panel .subMenu_col li.spec_hot
+a{color:#f60;border:1px
+solid #f60}.index_nav_menu .subMenu_panel .subMenu_col li.spec_hot a:hover{color:#fff;border:1px
+solid #f60;background:#f60}.index_nav_menu
+.col_hover{background:#dbf3de}.index_nav_menu .col_hover
+a{color:#2b8f08}.index_nav_menu
+.li_hover{background:#4cca49}.index_nav_menu .li_hover
+a{color:#fff}.index_nav_menu .menu_panel .menu_list li a:hover, .index_nav_menu .menu_panel .menu_list li.cui_nav_o
+a{background:#4ecf5b;color:#fff}.index_nav_menu .menu_panel .menu_list li:hover+li{Background:none}.index_nav_menu .menu_panel .menu_list li.selected+li{Background:none}.index_nav_menu .menu_panel .menu_list li.selected a:hover{background:#4ecf5b;color:#fff}.index_nav_menu .menu_panel .menu_list li.cui_nav_o .top_sub_nav
+a{background:none;color:#333}.index_nav_menu
+.first_col{background:none}.index_nav_menu .first_col
+.li_hover{background:none}.index_nav_menu .first_col .li_hover
+a{color:#fff;background:#4cca49}.index_nav_menu .first_col .li_hover.spec_hot
+a{color:#fff !important;border:1px
+solid #f60;background:#f60}.index_nav_menu .first_col
+a{display:inline-block;padding:0px
+4px;color:#4cca49;border:1px
+solid #4cca49;height:16px;line-height:16px}.index_nav_menu
+.hot{color:#f60}.index_nav_menu .hot
+a{color:#f60;display:block}.index_nav_menu .hot a:hover{color:#fff}.menu_list li span.no_one, .menu_list li span.gehb, .menu_list li span.ticketAndHot,
+.menu_list li span.oneyuan, .menu_list li span.wifi, .menu_list li
+span.scene{background:url(//ssl1.tuniucdn.com/img/2016062915/nav/index_icon_v2.png) no-repeat}.menu_list li
+span.quality{background:url(//ssl1.tuniucdn.com/img/201505262003/common/quality.png) 0 0 no-repeat;position:absolute;top:-7px;right:0px;display:block;width:25px;height:17px;line-height:17px;text-indent:-20000em;z-index:11}.menu_list li
+span.no_one{background-position:0 -910px;position:absolute;top:-7px;right:-1px;display:block;width:53px;height:17px;line-height:17px;text-indent:-20000em;z-index:11}.menu_list li
+span.gehb{background-position:-32px -1242px;position:absolute;top:-7px;right:5px;display:block;width:25px;height:16px;line-height:16px;text-indent:-20000em;z-index:11}.menu_list li
+span.oneyuan{background-position:0px -1412px;position:absolute;top:-7px;right:-23px;display:block;width:62px;height:17px;line-height:17px;text-indent:-20000em;z-index:11}.menu_list li
+span.ticketAndHot{background-position:0px -1275px;position:absolute;top:-7px;right:5px;display:block;width:35px;height:17px;line-height:17px;text-indent:-20000em;z-index:11}.menu_list li
+span.wifi{background-position:0px -1741px;position:absolute;top:-7px;right:0px;display:block;width:25px;height:17px;line-height:17px;text-indent:-20000em;z-index:11}.menu_list li
+span.disney{background:url(//ssl1.tuniucdn.com/img/201505262003/nav/index_disney_2.png) 0 0 no-repeat;position:absolute;top:-7px;right:-28px;display:block;width:53px;height:16px;line-height:16px;text-indent:-20000em;z-index:11}.menu_list li span.is-new{background:url(//ssl1.tuniucdn.com/img/201505262003/nav/index_icon_new.png) 0 0 no-repeat;position:absolute;top:-7px;right:5px;display:block;width:21px;height:16px;line-height:16px;text-indent:-20000em;z-index:11}.menu_list li
+span.Hot{background:url(//ssl1.tuniucdn.com/img/201505262003/nav/index_icon_hot.png) 0 0 no-repeat;position:absolute;top:-7px;right:5px;display:block;width:22px;height:16px;line-height:16px;text-indent:-20000em;z-index:11}.menu_list li
+span.pznrzx{background:url(//ssl2.tuniucdn.com/img/20160414/nav/index_niurenzhuanxian.png) 0 0 no-repeat;position:absolute;top:-7px;right:-12px;display:block;width:41px;height:16px;line-height:16px;text-indent:-20000em;z-index:11}.menu_list li
+span.scene{background-position:-38px -1274px;position:absolute;top:-7px;right:-7px;display:block;width:36px;height:17px;line-height:16px;text-indent:-20000em;z-index:11}.menu_list li
+span.zijia{background:url(//ssl1.tuniucdn.com/img/2017011216/nav/index_icon_zijia.png) 0 0 no-repeat;position:absolute;top:-7px;right:5px;display:block;width:22px;height:16px;line-height:16px;text-indent:-20000em;z-index:11}.menu_list li.cui_nav_o span.Hot, .nav_m_list li.cui_nav_o
+span.Hot{top:-7px}.menu_list li.cui_nav_o span.gehb, .nav_m_list li.cui_nav_o
+span.gehb{top:-7px}.cui_ico_triangle{background:url(//m.tuniucdn.com/fb2/t1/G2/M00/A4/C1/Cii-TFhs53GIKupNAAAcTcgqQcwAAGV2AOTTr0AABxl348.png) no-repeat}.cui_ico_triangle{width:5px;height:3px;overflow:hidden;background-position:-32px -456px;position:relative;top:-4px;display:inline-block;right:0}.cui_nav_o
+.cui_ico_triangle{top:-4px;animation:animated_shadow 0.3s 1;-moz-animation:animated_shadow 0.3s 1;-webkit-animation:animated_shadow 0.3s 1;-o-animation:animated_shadow 0.3s 1;background-position:-32px -459px}@keyframes
+animated_shadow{0%{background-position:-32px -459px}100%{transform:rotate(180deg);background-position:-32px -459px}}@-webkit-keyframes
+animated_shadow{0%{-webkit-transform:rotate(0deg);background-position:-32px -459px}100%{-webkit-transform:rotate(180deg);background-position:-32px -459px}}@-moz-keyframes
+animated_shadow{0%{background-position:-32px -459px}100%{-moz-transform:rotate(180deg);background-position:-32px -459px}}@-o-keyframes
+animated_shadow{0%{transform:rotate(0deg);background-position:-32px -459px}100%{transform:rotate(180deg);background-position:-32px -459px}}.subnav_wrap_bg{width:100%;height:40px;position:absolute;left:0;top:40px;z-index:100;background:#fff;box-shadow:2px 2px 2px 1px rgba(0,0,0,0.2);display:none}.top_subnav_wrap{color:#333;height:40px;line-height:40px;position:absolute;top:40px;z-index:8;display:none;width:790px;background:#fff}.cui_nav_o
+.top_subnav_wrap{display:block}.top_sub_nav{height:40px;_height:35px;_padding-top:5px;position:absolute;overflow:hidden;white-space:nowrap}.index_nav_menu .menu_panel .hasSubNav .top_subnav_wrap .top_sub_nav
+a{display:inline-block;color:#333;margin:7px
+5px 0;padding:0
+10px;text-decoration:none;height:24px;line-height:24px;font-size:14px;position:relative;vertical-align:top;margin-top:8px}.index_nav_menu .menu_panel .hasSubNav .top_subnav_wrap .top_sub_nav a:hover,
+.index_nav_menu .menu_panel .hasSubNav .top_subnav_wrap .top_sub_nav
+a.selected{background:#2dbb55;color:#fff;height:24px;line-height:24px;border-radius:2px}.index_nav_menu .menu_panel .hasSubNav .top_subnav_wrap .top_sub_nav
+a.highLight{color:#f60}.index_nav_menu .menu_panel .hasSubNav .top_subnav_wrap .top_sub_nav a.highLight:hover{background:#2dbb55;color:#fff}.menu_list li
+span.top_sub_nav_icon{position:absolute;top:-7px;right:-10px;display:inline-block;height:14px;text-indent:-20000em;z-index:11;overflow:hidden}.menu_list li span.top_sub_nav_icon
+img{display:block}.index1200 .index_nav_menu
+.inner{width:1190px}.index1200 .index_nav_menu .menu_panel
+.menu_list{width:1190px}.index1200
+.top_subnav_wrap{width:1190px}.index1200
+.cui_ico_triangle{right:0px}

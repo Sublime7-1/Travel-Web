@@ -1,0 +1,987 @@
+//获取省市信息列表
+function provcity () {
+    var japiUrl = "/usercenter/usercommonajax/japi";
+    var serviceParams = {
+    };
+    var serviceParamsJson = JSON.stringify(serviceParams);
+    var ajaxParams = {
+       "serviceName": "MOB.MEMBER.InnerController.provinceAndCity",
+       "serviceParamsJson": serviceParamsJson
+    };
+    $.post(japiUrl,ajaxParams,function(res){
+        if(res.success){
+            var intprovincelist = "", 
+                intcitylist = "",
+                area = res.data.data.area,
+                oldprovId = $(".old-province").val() || 100,
+                oldcityId = $(".old-city").val();
+            //选择省份
+            $("#province").live("change",function () {
+                var unselporvid = $("#province").find("option").not(function () {return !this.selected}).val(),
+                    citylist = "";
+                $.each(area,function (i,valp){
+                    if (valp.provinceId == unselporvid) {
+                        $.each(valp.cities,function (j,valc) {
+                            citylist += '<option value="' + valc.cityId +'">' + valc.cityName + '</option>'
+                        })
+                    }
+                });
+                $("#city").html("<option class='cty' selected='selected' value=''>城市</option>" + citylist);
+                if ($("#province").find("option:selected").text() != "省份") {
+                    $("#city").find("option.cty").remove();
+                }
+            });
+            function initprovcity(province,city){
+                $.each(area,function (i,valp){
+                    if (valp.provinceId == province) {
+                        document.getElementById("province").selectedIndex = i;
+                        intprovincelist += '<option class="province_option" value="' + valp.provinceId + '" selected="selected">'+ valp.provinceName +'</option>';
+                        $.each(valp.cities,function (j,valc) {
+                            if (valc.cityId == city) {
+                                document.getElementById("city").selectedIndex = j;
+                                intcitylist += '<option value="' + valc.cityId +'" selected="selected">' + valc.cityName + '</option>';
+                            } else {
+                                intcitylist += '<option value="' + valc.cityId +'">' + valc.cityName + '</option>'
+                            }
+                        })
+                    } else {
+                        intprovincelist += '<option class="province_option" value="' + valp.provinceId + '">'+ valp.provinceName +'</option>';
+                    }
+                });
+                $("#province").html("<option selected='selected' value=''>省份</option>" + intprovincelist);
+                $("#city").html(intcitylist);
+            };
+            initprovcity(oldprovId,oldcityId);
+        }
+    },"json");
+};
+//获取职业信息列表
+function carrer () {
+    var japiUrl = "/usercenter/usercommonajax/japi";
+    var serviceParams = {
+    };
+    var serviceParamsJson = JSON.stringify(serviceParams);
+    var ajaxParams = {
+       "serviceName": "MOB.MEMBERS.InnerController.getCareerList",
+       "serviceParamsJson": serviceParamsJson
+    };
+    $.post(japiUrl,ajaxParams,function(res){
+        if(res.success){
+            var intcarfirstlist = "",
+                intcarsecondlist = "";
+                oldfirstname = $(".old-careerfirst").val(),
+                oldsecondname = $(".old-careersecond").val();
+            career = res.data.data.career;
+            //二级职业为“其他”，出现三级输入框
+            function careerThirdNamechangess () {
+                var selsecondopval = $("#careerSecondName").find("option:selected").text();
+                if (selsecondopval == "其他") {
+                    $("#careerThirdName").removeClass("hide");
+                    $(".careerthirdtest").removeClass("hide");
+                } else {
+                    $("#careerThirdName").addClass("hide");
+                    $(".careerthirdtest").addClass("hide");
+                }
+                if ($("#careerFirstName").val() == 0) {
+                    $("#careerSecondName").addClass("hide");
+                } else {
+                    $("#careerSecondName").removeClass("hide");
+                }
+            };
+            function initcareer(firstname,secondname){
+                $.each(career,function (i,valf) {
+                    if (valf.name == firstname) {
+                        document.getElementById("careerFirstName").selectedIndex = i;
+                        intcarfirstlist += '<option class="" value="' + valf.id + '" selected="selected">' + valf.name + '</option>'
+                        $.each(valf.secondClass,function (j,vals) {
+                            if (vals.name == secondname) {
+                                document.getElementById("careerSecondName").selectedIndex = j;
+                                intcarsecondlist += '<option class="" value="' + vals.id + '" selected="selected">'+ vals.name +'</option>'
+                            } else {
+                                intcarsecondlist += '<option class="" value="' + vals.id + '">'+ vals.name +'</option>'
+                            }
+                        })
+                    } else {
+                        intcarfirstlist += '<option class="" value="' + valf.id + '">' + valf.name + '</option>'
+                    }
+                })
+                $("#careerFirstName").html("<option value='0'>请选择</option>" + intcarfirstlist);
+                $("#careerSecondName").html("<option value='0'>请选择</option>" + intcarsecondlist);
+                careerThirdNamechangess();
+            };
+            initcareer(oldfirstname,oldsecondname);
+            //选择职业
+            $("#careerFirstName").live("change",function () {
+                var carsecondlist = "",
+                    careerfirstval = $(".careerFirstName").find("option:selected").val();
+                    unselfirstval = $("#careerFirstName").find("option").not(function (){return !this.selected}).val();
+                $.each(career,function (i,valf) {
+                    if (valf.id == unselfirstval) {
+                        $.each(valf.secondClass,function (j,vals) {
+                            carsecondlist += '<option class="" value="' + vals.id + '">'+ vals.name +'</option>'
+                        })
+                    }
+                })
+                $("#careerSecondName").html("<option value='0'>请选择</option>" + carsecondlist);
+                if (careerfirstval) {
+                    $("#careerThirdName").next("span").removeClass("err_tip").html("");
+                } 
+                if ($("#careerFirstName").val() == 0) {
+                    $("#careerSecondName").addClass("hide");
+                } else {
+                    $("#careerSecondName").removeClass("hide");
+                }
+                careerThirdNamechangess();
+            });
+            $("#careerSecondName").live("change",function () {
+                careerThirdNamechangess();
+            });
+            // 一级职业为请选择 二级不展示
+            if ($("#careerFirstName").val() == 0) {
+                $("#careerSecondName").addClass("hide");
+            } else {
+                $("#careerSecondName").removeClass("hide");
+            }
+        }
+    },"json");
+};
+//手机号打码
+function phnumprotect (tel) {
+    var newval;
+    var telLength = tel.length;
+    if (telLength > 4 && telLength < 8) {
+        newval = tel.replace(tel.substr(1,telLength - 2),"****")
+    } else if (telLength > 7 && telLength < 10 ) {
+        newval = tel.replace(tel.substr(3,telLength - 5),"****")
+    } else if (telLength != 3){
+        newval = tel.replace(tel.substr(3,telLength - 7),"****")
+    } else {
+        newval = "未设置"
+    }
+    return newval;
+}
+//邮箱打码
+function emailprotect (email) {
+    var mailval_a, mailval_b, newmailval_a;
+    if (email) {
+        mailval_a = email.split("@")[0];
+        mailval_b = email.split("@")[1];
+        var aLength = mailval_a.length;
+        if (aLength <= 4 && aLength != 1) {
+            newmailval_a = mailval_a.replace(mailval_a.substr(1,aLength - 1),"****");
+        } else if (aLength == 1) {
+            newmailval_a = mailval_a.replace(mailval_a,''+ mailval_a +'**** ');
+        } else {
+            newmailval_a = mailval_a.replace(mailval_a.substr(aLength - 4),"****");
+        }
+        return (newmailval_a + '@' + mailval_b);
+    }
+}
+//奖励说明悬浮提示
+$(".gift-tip").live("hover",function(){
+    $(".gift-detail").stop(1).toggle();
+});
+//验证码
+//点击切换验证码，以及验证码完成隐藏loading
+$(".change_identify_code").on("click", change_identify_code);
+$(".identify_img").on("click", change_identify_code);
+$(".identify_img").on("load", function() {
+    $(".loadingImg").hide();
+    $(this).show();
+});
+change_identify_code();
+//更换验证码
+function change_identify_code() {
+    $(".loadingImg").css("display", "");
+    $('.identify_img').hide().attr('src', '/captchaAjax/captcha?v=' + Math.random());
+}
+//领取奖励
+$(".get-gift-btn").live("click",function(){
+    $(this).addClass('hide');
+    $(".code_input").removeClass('hide');
+    $(".gift-detail").css("margin-left","36%");
+});
+$(".sure-get-btn").live("click",function(){
+    var identify = $("#identify").val().replace(/(^\s*)|(\s*$)/g,'');
+    $.post('/userinfoconfirmajax/getReward',{identify:identify},function(data){
+        if(data==1){
+            var identify = $("#identify").val().replace(/(^\s*)|(\s*$)/g,'');
+            if(!identify){
+                $(".box").addClass('hide');
+                $("#over-lay").removeClass('hide');
+                $(".fail-tip").removeClass('hide');
+                $(".tips-msg > p").text("请输入验证码。");
+            }else{
+                $(".box").addClass('hide');
+                $("#over-lay").removeClass('hide');
+                $(".fail-tip").removeClass('hide');
+                $(".tips-msg > p").text("对不起，您输入的验证码错误，请重新输入。");
+                change_identify_code();
+            }
+        }else if(data==2){
+            $(".box").addClass('hide');
+            $("#over-lay").removeClass('hide');
+            $(".success-tip").removeClass('hide');
+            utils.getCustIntegrity();
+        }else if(data==3){
+            $(".box").addClass('hide');
+            $("#over-lay").removeClass('hide');
+            $(".fail-tip").removeClass('hide');
+            $(".tips-msg > p").text("领取失败，请重试。");
+        }
+    },"json");
+});
+$(".geting-gift-btn").live("click",function(){
+    $(".box").addClass('hide');
+    $("#over-lay").removeClass('hide');
+    $(".fail-tip").removeClass('hide');
+    $(".tips-msg > p").text("对不起，您完善度还未达100%，立即完善后领取奖励吧。");
+});
+$(".geted-gift-btn").live("click",function(){
+    $(".box").addClass('hide');
+    $("#over-lay").removeClass('hide');
+    $(".fail-tip").removeClass('hide');
+    var str = "",
+        rewardTime = $(this).attr("get-time");
+    if(rewardTime){
+        str = "对不起，您已于"+rewardTime+"领取过奖励，每人限领1次哦。";
+    }else{
+        str = "对不起，您已领取过奖励，每人限领1次哦。"
+    }
+    $(".tips-msg > p").text(str);
+});
+//基本信息&团队信息tab功能
+$(".info-title>ul>li").live("click",function(){
+    $(".info-title>ul>li").removeClass("active");
+    $(this).addClass("active");
+    if($(this).hasClass('basic-info')){
+        $(".head-img").removeClass('hide');
+        $(".show-and-edit .personal-info").removeClass("hide");
+        $(".show-and-edit .group-info").addClass("hide");
+        $(".group-info .title-val").removeClass('hide');
+        $(".group-info .input-val").addClass('hide');
+        $(".name-tip").addClass('hide');
+        $(".remind-tip").removeClass('hide');
+    }else if($(this).hasClass('extend-info')){
+        $(".head-img").addClass('hide');
+        $(".show-and-edit .personal-info").addClass("hide");
+        $(".show-and-edit .group-info").removeClass("hide");
+        $(".personal-info .title-val").removeClass('hide');
+        $(".personal-info .input-val").addClass('hide');
+        $(".name-tip").addClass('hide');
+        $(".remind-tip").addClass('hide');
+    }
+    $(".J_save").addClass('hide');
+    $(".J_cancel").addClass('hide');
+    $(".J_edit").removeClass('hide');
+});
+//编辑按钮效果
+$(".J_edit").live("click",function(){
+    if($(".info-title .active").hasClass("basic-info")){
+        $(".personal-info .title-val").addClass('hide');
+        $(".personal-info .input-val").removeClass('hide');
+        $(".name-tip").removeClass('hide');
+    }else if($(".info-title .active").hasClass("extend-info")){
+        $(".group-info .title-val").addClass('hide');
+        $(".group-info .input-val").removeClass('hide');
+        $(".name-tip").addClass('hide');
+    }
+    $(".J_save").removeClass('hide');
+    $(".J_cancel").removeClass('hide');
+    $(".J_edit").addClass('hide');
+});
+//取消按钮效果
+$(".J_cancel").live("click",function(){
+    var changeStatus = checkIfChange();
+    if(changeStatus){
+        $("#over-lay").removeClass('hide');
+        $(".cancel-tip").removeClass('hide');
+    }else{
+        $(".title-val").removeClass('hide');
+        $(".input-val").addClass('hide');
+        $(".J_save").addClass('hide');
+        $(".J_cancel").addClass('hide');
+        $(".J_edit").removeClass('hide');
+        $(".name-tip").addClass('hide');
+    }
+});
+//弹框取消按钮和关闭按钮效果
+$('.close-btn,.cancel-btn,.confirm-btn').live("click",function(){
+    $("#over-lay").addClass('hide');
+    $(".box").addClass('hide');
+});
+//确认取消编辑按钮效果
+$(".sure-btn").live("click",function(){
+    $("#over-lay").addClass('hide');
+    $(".box").addClass('hide');
+    $(".title-val").removeClass('hide');
+    $(".input-val").addClass('hide');
+    $(".J_save").addClass('hide');
+    $(".J_cancel").addClass('hide');
+    $(".J_edit").removeClass('hide');
+    $(".name-tip").addClass('hide');
+    utils.getUserInfo();
+    utils.getCustIntegrity();
+});
+//保存功能
+$(".J_save").live("click",function(){
+    checkIfChange();
+    utils.eidtUserInfo();
+    utils.getCustIntegrity();
+});
+//判断用户是否修改信息
+var changeStatus = {nickName: 0,realName: 0,birthday: 0,sex: 0,province: 0,city: 0,additionalAddress: 0,marry: 0,groupCode: 0,telcode: 0,telnum: 0,careerFirstName:0,careerSecondName:0,careerThirdName:0,education:0};
+function checkIfChange(){
+    changeStatus = {nickName: 0,realName: 0,birthday: 0,sex: 0,province: 0,city: 0,additionalAddress: 0,marry: 0,groupCode: 0,telcode: 0,telnum: 0,careerFirstName:0,careerSecondName:0,careerThirdName:0,education:0};
+    var tag = 0;
+    var nickName = $('#nick-name').val().replace(/(^\s*)|(\s*$)/g,''),
+        oldnickname = $(".old-nick-name").val().replace(/(^\s*)|(\s*$)/g,'');
+    if(nickName != oldnickname){
+        tag = 1;
+        changeStatus.nickName = 1;
+    }
+    var realName = $('#real-name').val().replace(/(^\s*)|(\s*$)/g,''),
+        oldrealname = $(".old-real-name").val().replace(/(^\s*)|(\s*$)/g,'');
+    if(realName != oldrealname){
+        tag = 1;
+        changeStatus.realName = 1;
+    }
+    var month,day,birthday,
+        oldbirthday = $(".old-birth-day").val();
+    if(parseInt($("#sel_year").val()) || parseInt($("#sel_month").val()) || parseInt($("#sel_day").val())){
+        if($("#sel_month").val().length==1){
+            month = "0"+$("#sel_month").val();
+        }else{
+            month = $("#sel_month").val();
+        }
+        if($("#sel_day").val().length==1){
+            day = "0"+$("#sel_day").val();
+        }else{
+            day = $("#sel_day").val();
+        }
+        birthday = $("#sel_year").val()+"-"+month+"-"+day;
+    }else{
+        birthday = "";
+    }
+    if(birthday!=oldbirthday){
+        tag = 1;
+        changeStatus.birthday = 1;
+    }
+    var sex = $("input[name='sex']:checked").val(),
+        oldsex = $(".old-sex-type").val();
+    if(sex!==oldsex){
+        tag = 1;
+        changeStatus.sex = 1;
+    }
+    var province = $(".province").val(),
+        oldprovince = $(".old-province").val();
+    if(province!=oldprovince){
+        tag = 1;
+        changeStatus.province = 1;
+    }
+    var city = $(".city").val(),
+        oldcity = $(".old-city").val();
+    if(city!=oldcity){
+        tag = 1;
+        changeStatus.city = 1;
+        changeStatus.province = 1;
+    }
+    var additionalAddress = $(".city-address").val().replace(/(^\s*)|(\s*$)/g,''),
+        oldaddress = $(".old-city-address").val().replace(/(^\s*)|(\s*$)/g,'');
+    if(additionalAddress!=oldaddress){
+        tag = 1;
+        changeStatus.additionalAddress = 1;
+        changeStatus.city = 1;
+        changeStatus.province = 1;
+    }
+    var marry = $(".marry-status").val(),
+        oldmarry = $(".old-marry-status").val();
+    if(marry!==oldmarry){
+        tag = 1;
+        changeStatus.marry = 1;
+    }
+    var groupCode = $(".group-code").val().replace(/(^\s*)|(\s*$)/g,''),
+        oldgroupCode = $(".old-group-code").val().replace(/(^\s*)|(\s*$)/g,'');
+    if(groupCode!=oldgroupCode){
+        tag = 1;
+        changeStatus.groupCode = 1;
+    }
+    var telcode = $(".tel-code").val().replace(/(^\s*)|(\s*$)/g,''),
+        oldtelcode = $(".old-tel-code").val().replace(/(^\s*)|(\s*$)/g,'');
+    if(telcode!=oldtelcode){
+        tag = 1;
+        changeStatus.telcode = 1;
+    }
+    var telnum = $(".tel-num").val().replace(/(^\s*)|(\s*$)/g,''),
+        oldtelnum = $(".old-tel-num").val().replace(/(^\s*)|(\s*$)/g,'');
+    if(telnum!=oldtelnum){
+        tag = 1;
+        changeStatus.telnum = 1;
+    }
+    var careerFirstName = $("#careerFirstName").find("option:selected").text(),
+        oldfirstcaname = $(".old-careerfirst").val();
+    if (careerFirstName != oldfirstcaname) {
+        tag = 1;
+        changeStatus.careerFirstName = 1;
+        changeStatus.careerSecondName = 1;
+        changeStatus.careerThirdName = 1;
+    }
+    var careerSecondName = $("#careerSecondName").find("option:selected").text(),
+        oldsecondcaname = $(".old-careersecond").val();
+    if (careerSecondName != oldsecondcaname) {
+        tag = 1;
+        changeStatus.careerSecondName = 1;
+        changeStatus.careerFirstName = 1;
+        changeStatus.careerThirdName = 1;
+    }
+    var careerThirdName = $("#careerThirdName").val().replace(/(^\s*)|(\s*$)/g,''),
+        oldthirdcaname = $(".old-careerthird").val().replace(/(^\s*)|(\s*$)/g,'');
+    if (careerThirdName != oldthirdcaname) {
+        tag = 1;
+        changeStatus.careerThirdName = 1;
+        changeStatus.careerFirstName = 1;
+        changeStatus.careerSecondName = 1;
+    }
+    var education = $(".education").val(),
+        oldeducation = $(".old-education-status").val();
+    if (education != oldeducation) {
+        tag = 1;
+        changeStatus.education = 1;
+    }
+    return tag;
+}
+//处理英文、中文长度计算
+function strlen(str) {
+    var len = 0;
+    for (var i = 0; i < str.length; i++) {
+        if (str.charCodeAt(i) > 255 || str.charCodeAt(i) < 0){
+            len += 2;
+        } else {
+            len ++;
+        }
+    }
+    return len;
+}
+var legaldata = {'nickname':1,'username':1,'group':1,'realname':1};
+//验证昵称是否合法
+$('#nick-name').live("blur",function(){
+    var nickname=$(this).val().replace(/(^\s*)|(\s*$)/g,''),
+        oldnickname = $(".old-nick-name").val().replace(/(^\s*)|(\s*$)/g,'');
+    $.post('/userinfoconfirmajax/checksensitiveword',{nickname:nickname},function(data){
+        if(!data['success']){
+            $('#nick-name').next("span").addClass("err_tip").html(data['msg']);
+            return false;
+        }else{
+            if(nickname == oldnickname ){
+                $('#nick-name').next("span").html('').removeClass("err_tip");
+                legaldata.nickname = 1;
+                return true;
+            }else{
+                if(nickname==''){
+                    $('#nick-name').next("span").addClass("err_tip").html('请输入昵称');
+                    legaldata.nickname = 0;
+                    return false;
+                }else if(strlen(nickname) > 16 || strlen(nickname) < 4){
+                    $('#nick-name').next("span").addClass("err_tip").html('请正确填写昵称');
+                    legaldata.nickname = 2;
+                    return false;
+                }else if(new RegExp("^[\u4e00-\u9fa5\\w-]+$").test(nickname) == false) {
+                    $('#nick-name').next("span").addClass("err_tip").html('请正确填写昵称');
+                    legaldata.nickname = 2;
+                    return false;
+                }else{
+                    nickname = encodeURI(nickname);
+                    var url = '/userinfoconfirmajax/checkrepetition';
+                    $.post(url,{nickname:nickname},function(data){
+                        if(parseInt(data) == 2){
+                            $('#nick-name').next("span").addClass("err_tip").html('该昵称已存在');
+                            legaldata.nickname = 0;
+                            return false;
+                        }else {
+                            $('#nick-name').next("span").html('').removeClass("err_tip");
+                            legaldata.nickname = 1;
+                            return true;
+                        }
+                    });
+                }
+            }
+        }
+    },'json');
+});
+//验证姓名是否合法
+$("#real-name").live("blur",function(){
+    var realname=$("#real-name").val().replace(/(^\s*)|(\s*$)/g,''),
+        oldrealname = $(".old-real-name").val().replace(/(^\s*)|(\s*$)/g,'');
+
+    if( realname == oldrealname && oldrealname != '' ) {
+        $('#real-name').next("span").removeClass("err_tip").html('');
+        legaldata.realname = 1;
+        return true;
+    }else {
+        if (realname == '') {
+            $('#real-name').next("span").addClass("err_tip").html('请正确填写姓名');
+            legaldata.realname = 0;
+            return false;
+        } else if (new RegExp("^[\u4e00-\u9fa5·\\s]{2,20}$").test(realname) == false && new RegExp("^[a-zA-Z·\\s]{2,40}$").test(realname) == false) {
+            $('#real-name').next("span").addClass("err_tip").html('请正确填写姓名');
+            legaldata.realname = 2;
+            return false;
+        } else {
+            $('#real-name').next("span").removeClass("err_tip").html('');
+            legaldata.realname = 1;
+            return true;
+        }
+    }
+});
+//验证团队码是否合法
+$("#group-code").live("blur",function(){
+    var patrn = /^[a-z0-9]+$/,
+        code = $("#group-code").val().replace(/(^\s*)|(\s*$)/g,''),
+        oldcode = $(".old-group-code").val().replace(/(^\s*)|(\s*$)/g,'');
+    if((code == oldcode) || code == ''){
+        legaldata.group = 1;
+        $('#group-code').next("span").removeClass("err_tip").html('');
+        return true;
+    }else if(!patrn.exec(code)){
+        $('#group-code').next("span").addClass("err_tip").html("请输入数字和字母组成的正确识别码");
+        legaldata.group = 0;
+        return false;
+    }else{
+        var url = "/userinfoconfirmajax/checkgroupcode";
+        $.post(url,{groupcode:code},function(data){
+            if(parseInt(data)==1) {
+                $('#group-code').next("span").removeClass("err_tip").html('');
+                legaldata.group = 1;
+                return true;
+            }else if(parseInt(data)==2) {
+                $('#group-code').next("span").addClass("err_tip").html('识别码达到使用次数上限');
+                legaldata.group = 0;
+                return false;
+            }else if(parseInt(data)==3) {
+                $('#group-code').next("span").addClass("err_tip").html('网络异常,请稍后重试');
+                legaldata.group = 0;
+                return false;
+            }else{
+                $('#group-code').next("span").addClass("err_tip").html('输入的团队识别码无效');
+                legaldata.group = 0;
+                return false;
+            }
+        },"json");
+    }
+});
+//验证座机是否合法
+$("#tel-code,#tel-num").live("blur",function(){
+    var area_code = $("#tel-code").val().replace(/(^\s*)|(\s*$)/g,'');
+    var fix_phone = $("#tel-num").val().replace(/(^\s*)|(\s*$)/g,'');
+    if(area_code =='' && fix_phone =='') {
+        $("#tel-num").next("span").removeClass("err_tip").html('');
+        return true;
+    }
+    var result = checkPhone(area_code,fix_phone);
+    switch(result){
+        case 1:
+            $("#tel-num").next("span").removeClass("err_tip").html('');
+            return true;
+            break;
+        case 2:
+            $("#tel-num").next("span").addClass("err_tip").html('请正确填写区号');
+            return false;
+            break;
+        default:
+            $("#tel-num").next("span").addClass("err_tip").html('请正确填写座机号');
+            return false;
+            break;
+    }
+});
+function checkPhone(area_code,phone) {
+    if (area_code!= '' || phone!='') {
+        var reg1 = /^\d{3,4}$/;
+        var reg2 =/^\d{7,8}$/;
+        if(!reg1.test(area_code)){
+            return 2;
+        }
+        if(!reg2.test(phone)){
+            return 3;
+        }
+    }
+    return 1;
+}
+//第三职业内容验证
+$("#careerThirdName").live('blur', function () {
+    var careerThirdName = $("#careerThirdName").replace(/(^\s*)|(\s*$)/g,''),
+    len = careerThirdName.replace(/[\u4E00-\u9FA5]/g, 'aa').length;
+    if (careerThirdName != "" && len > 40) {
+        $("#careerThirdName").next("span").addClass("err_tip").html("超出字符限制，请重新输入");
+        return false;
+    } else if (!new RegExp("^[\u4e00-\u9fa5\\w-]+$").test(careerThirdName) && careerThirdName != "") {
+        $("#careerThirdName").next("span").addClass("err_tip").html("请正确填写职业");
+        return false;
+    } else {
+        $("#careerThirdName").next("span").removeClass("err_tip").html("");
+        return true;
+    }
+})
+var utils = {
+    getUserInfo: function(){
+        var japiUrl = "/usercenter/usercommonajax/japi";
+        var serviceParams = {
+        };
+        var serviceParamsJson = JSON.stringify(serviceParams);
+        var ajaxParams = {
+           "serviceName": "MOB.MEMBERS.InnerController.getUserInfo",
+           "serviceParamsJson": serviceParamsJson
+        };
+        $.post(japiUrl,ajaxParams,function(res){
+            if(res.success){
+                if (res.data.data.birthday) {
+                    var birthday = res.data.data.birthday.split("-");
+                    year = birthday[0];
+                    month = birthday[1];
+                    day = birthday[2];
+                    res.data.data.year = year;
+                    res.data.data.month = month;
+                    res.data.data.day = day;
+                } 
+                if (res.data.data.phone) {
+                    var phone = res.data.data.phone.split("-");
+                    res.data.data.areaCode = phone[0];
+                    res.data.data.fixPhone = phone[1];
+                }
+                res.data.data.tel = phnumprotect(res.data.data.tel);
+                res.data.data.email = emailprotect(res.data.data.email);
+                var userInfo = template("user-info",res);
+                $(".show-and-edit").html(userInfo);
+                if($(".extend-info").hasClass("active")){
+                    $(".head-img").addClass('hide');
+                    $(".show-and-edit .personal-info").addClass("hide");
+                    $(".show-and-edit .group-info").removeClass("hide");
+                    $(".personal-info .title-val").removeClass('hide');
+                    $(".personal-info .input-val").addClass('hide');
+                    $(".name-tip").addClass('hide');
+                }else{
+                    $(".head-img").removeClass('hide');
+                }
+                utils.timePlugin();
+                utils.addressPlugin();
+                provcity();
+                carrer();
+            }
+        },"json");
+    },
+    timePlugin: function(){
+        /*生日插件*/
+        $.ms_DatePicker();
+        var uyearNow = parseInt(new Date().getFullYear());
+        var umonthNow = parseInt(new Date().getMonth()+1);
+        var initYear = $("#sel_year option:selected").val();
+        var initMonth = $("#sel_month option:selected").val();
+        if(initYear == uyearNow) {
+            $("#sel_month option:gt("+umonthNow+")").css('display','none');
+        }
+        $('#sel_year').change(function(){
+            var uselectYear = $("#sel_year option:selected").val();
+            var uselectMonth = $("#sel_month option:selected").val();
+            if(uselectYear == uyearNow) {
+                $("#sel_month option:gt("+umonthNow+")").css('display','none');
+                if(uselectMonth > umonthNow) {
+                    $("#sel_month").val(1);
+                }
+            }else{
+                $("#sel_month option").css('display','');
+            }
+        });
+    },
+    addressPlugin: function(){
+        /*选择地址插件*/
+        function inituserinfo(item,num) {
+            var provObject = document.add_place_form[item];
+            for(var i = 0; i < document.add_place_form[item].options.length; i++) {
+                if (document.add_place_form[item].options[i].value==num)
+                {
+                    document.add_place_form[item].selectedIndex = i;
+                }
+            }
+        }
+    },
+    eidtUserInfo: function(){
+        if($(".info-title .active").hasClass("basic-info")){
+            var careerfirstval = $(".careerFirstName").find("option:selected").val(),
+                careerThirdName = $("#careerThirdName").val().replace(/(^\s*)|(\s*$)/g,''),
+                len = careerThirdName.replace(/[\u4E00-\u9FA5]/g, 'aa').length;
+            if (careerfirstval == false) {
+                $("#careerThirdName").next("span").addClass("err_tip").html(" 请选择职业");
+                return false;
+            }
+            if (careerThirdName != "" && len > 40) {
+                $("#careerThirdName").next("span").addClass("err_tip").html("超出字符限制，请重新输入");
+                return false;
+            } else if (!new RegExp("^[\u4e00-\u9fa5\\w-]+$").test(careerThirdName) && careerThirdName != "") {
+                $("#careerThirdName").next("span").addClass("err_tip").html("请正确填写职业");
+                return false;
+            } else {
+                $("#careerThirdName").next("span").removeClass("err_tip").html("");
+            }                        
+            if (!$('#real-name').val().replace(/(^\s*)|(\s*$)/g, '')) {
+                $('#real-name').next("span").addClass("err_tip").html('请正确填写姓名');
+                return false;
+            }
+            if ($("input[name='sex']:checked").val() === undefined) {
+                $("#female").next("span").addClass("err_tip").html('请正确填写性别');
+                return false;
+            } else {
+                $("#female").next("span").removeClass("err_tip").html('');
+            }
+            if (!$("#province").val()) {
+                $("#city").next("span").addClass("err_tip").html('请正确填写常住地');
+                return false;
+            } else {
+                $("#city").next("span").removeClass("err_tip").html('');
+            }
+            if((!parseInt($("#sel_year").val()) || !parseInt($("#sel_month").val()) || !parseInt($("#sel_day").val())) && !(!parseInt($("#sel_year").val()) && !parseInt($("#sel_month").val()) && !parseInt($("#sel_day").val()))) {
+                $("#sel_day").next("span").addClass("err_tip").html('请正确填写生日');
+                return false;
+            }else{
+                $("#sel_day").next("span").removeClass("err_tip").html('');
+            }
+            if ($("#province").val() && !$("#city").val()) {
+                $("#city").next("span").addClass("err_tip").html('请正确填写常住地');
+                return false;
+            }
+            if (legaldata.nickname == 0) {
+                $('#nick-name').next("span").addClass("err_tip").html('请输入昵称');
+                return false 
+            }
+            if(legaldata.nickname == 2){
+                $('#nick-name').next("span").addClass("err_tip").html('请正确填写昵称');
+                return false;
+            }
+            if(legaldata.realname == 2){
+                $('#real-name').next("span").addClass("err_tip").html('请正确填写姓名');
+                return false;
+            }
+        } else if ($(".info-title .active").hasClass("extend-info")) {
+            var area_code = $("#tel-code").val().replace(/(^\s*)|(\s*$)/g,'');
+            var fix_phone = $("#tel-num").val().replace(/(^\s*)|(\s*$)/g,'');
+            if(area_code =='' && fix_phone =='') {
+                $("#tel-num").next("span").removeClass("err_tip").html('');
+                return true;
+            }
+            var result = checkPhone(area_code,fix_phone);
+            switch(result){
+                case 1:
+                    $("#tel-num").next("span").removeClass("err_tip").html('');
+                    // return true;
+                    break;
+                case 2:
+                    $("#tel-num").next("span").addClass("err_tip").html('请正确填写区号');
+                    return false;
+                    break;
+                default:
+                    $("#tel-num").next("span").addClass("err_tip").html('请正确填写座机号');
+                    return false;
+                    break;
+            }
+        }
+        var data = utils.getData();
+        var japiUrl = "/usercenter/usercommonajax/japi";
+        var serviceParams = {
+                intlCode: $(".intcode").val(),
+                userProfile: {
+                    nickName: data.basic.nick_name,              // string, 昵称 4-11个字符/汉字/-_
+                    // phoneNumber:                             // string 手机号
+                    // email:                                   // string, 邮箱
+                    realName: data.basic.real_name,             // string, 真实姓名 2-40个字符或2-20个汉字 支持空格 ·
+                    // idCardType:                              // string, 证件类型, 1=身份证 2=护照 3=军官证 4=港澳通行证   6=其他  7=台胞证
+                    // idCardNumber:                            // string, 证件号
+                    provinceId: data.extend.province,           // string, 省的id
+                    cityId: data.extend.city,                   // string, 城市的id
+                    additionalAddress: data.extend.additionalAddress,  // string, 额外的地址信息
+                    sex: data.basic.sex,                        // string, 性别: 0=女 ,1=男 9=未知
+                    birthday: data.basic.birthday,              // string, 出生日期
+                    // telCountryId：Integer ;                  //国际区号国家id
+                    marry: data.basic.marry,                    // int 0 未婚 1 已婚 2 未知
+                    education: data.extend.education,           // int 学历 0未选择 1博士及以上 2硕士 3本科 4大专 5大专以下
+                    careerFirst: data.extend.careerFirstName,   // int 学历一级    
+                    careerSecond: data.extend.careerSecondName, // int 学历二级
+                    careerThird: data.extend.careerThirdName,    // string 学历三级
+                    phone: $("#tel-code").val() + '-' + $("#tel-num").val()
+                }
+        };
+        var tel_numval = $("#tel-num").val();
+        if (!tel_numval) {
+            delete serviceParams.userProfile.phone;
+        }
+        var serviceParamsJson = JSON.stringify(serviceParams);
+        var ajaxParams = {
+           "serviceName": "MOB.MEMBERS.InnerController.UpdateUserInfo",
+           "serviceParamsJson": serviceParamsJson,
+           "csrf_token": $("#csrf_token").val()
+        };
+        $.post(japiUrl,ajaxParams,function(res){
+            if(res.success){
+                switch(res){
+                    case 1:
+                        return false;
+                    break;
+                    case 2:
+                        $('#nick-name').next("span").addClass("err_tip").html('昵称存在敏感词');
+                        break;
+                    /*
+                    case 3:
+                        $('#nick-name').next("span").addClass("err_tip").html('请正确填写昵称');
+                        break;
+                     */
+                    case 4:
+                        $('#nick-name').next("span").addClass("err_tip").html('昵称已经被注册');
+                        break;
+                    /*
+                    case 5:
+                        $('#real-name').next("span").addClass("err_tip").html('请正确填写姓名');
+                        break;
+                     */
+                    case 6:
+                        $('.city-address').next("span").addClass("err_tip").html('请正确填写地址');
+                        break;
+                    case 7:
+                        $('#group-code').next("span").addClass("err_tip").html('请正确填写关联团队识别码');
+                        break;
+                    case 8:
+                        $('#tel-num').next("span").addClass("err_tip").html('请正确填写座机号');
+                        break;
+                    case 11:
+                        $('#nick-name').next("span").addClass("err_tip").html('请输入昵称');
+                        break;
+                    case 12:
+                        $('#group-code').next("span").addClass("err_tip").html('识别码达到使用次数上限');
+                        break;
+                    case 13:
+                        $('#group-code').next("span").addClass("err_tip").html('网络异常,请稍后重试');
+                        break;
+                    case 14:
+                        $('#group-code').next("span").addClass("err_tip").html('输入的团队识别码无效');
+                        break;
+                    default:
+                        $("#identify").val("");
+                        $(".tip-msg").removeClass('err-tip').html("");
+                        $("#over-lay").addClass('hide');
+                        $(".box").addClass('hide');
+                        $(".title-val").removeClass('hide');
+                        $(".input-val").addClass('hide');
+                        $(".J_save").addClass('hide');
+                        $(".J_cancel").addClass('hide');
+                        $(".J_edit").removeClass('hide');
+                        $(".name-tip").addClass('hide');
+                        utils.getUserInfo();
+                        utils.getCustIntegrity();
+                }
+            }
+        },"json");
+    },
+    getData: function(){
+        var params,
+            basic,
+            extend,
+            group;
+        if($(".info-title .active").hasClass("basic-info")){
+            params = {},
+            params.basic = {},
+            params.extend = {},
+            params.group = {};
+            if (changeStatus.careerFirstName) {
+                params.extend.careerFirstName = $("#careerFirstName").val()
+            }
+            if (changeStatus.careerSecondName) {
+                params.extend.careerSecondName = $("#careerSecondName").val()
+            }
+            if (changeStatus.careerThirdName) {
+                params.extend.careerThirdName = $("#careerThirdName").val().replace(/(^\s*)|(\s*$)/g,'');
+            }
+            if (changeStatus.education) {
+                params.extend.education = $(".education").val().replace(/(^\s*)|(\s*$)/g,'');
+            }
+            if(changeStatus.nickName){
+                params.basic.nick_name = $('#nick-name').val().replace(/(^\s*)|(\s*$)/g,'');
+            }
+            if(changeStatus.realName){
+                params.basic.real_name = $('#real-name').val().replace(/(^\s*)|(\s*$)/g,'');
+            }
+            if(changeStatus.birthday){
+                if(parseInt($("#sel_year").val()) && parseInt($("#sel_month").val()) && parseInt($("#sel_day").val())){
+                    var month,day;
+                    if($("#sel_month").val().length==1){
+                        month = "0"+$("#sel_month").val();
+                    }else{
+                        month = $("#sel_month").val();
+                    }
+                    if($("#sel_day").val().length==1){
+                        day = "0"+$("#sel_day").val();
+                    }else{
+                        day = $("#sel_day").val();
+                    }
+                    params.basic.birthday = $("#sel_year").val()+"-"+month+"-"+day;
+                }else{
+                    params.basic.birthday = "";
+                }
+            }
+            if(changeStatus.sex){
+                params.basic.sex = $("input[name='sex']:checked").val();
+            }
+            if(changeStatus.province){
+                params.extend.province = $(".province").val();
+            }
+            if(changeStatus.city){
+                params.extend.city = $(".city").val();
+            }
+            if(changeStatus.additionalAddress){
+                params.extend.additionalAddress = $(".city-address").val().replace(/(^\s*)|(\s*$)/g,'');
+            }
+            if(changeStatus.marry){
+                params.basic.marry = $(".marry-status").val();
+            }
+        }else if($(".info-title .active").hasClass("extend-info")){
+            params = {},
+            params.basic = {},
+            params.extend = {},
+            params.group = {};
+            if(changeStatus.groupCode){
+                params.group.groupCode = $(".group-code").val().replace(/(^\s*)|(\s*$)/g,'');
+            }
+            if(changeStatus.telcode || changeStatus.telnum){
+                params.basic.phone = $(".tel-code").val().replace(/(^\s*)|(\s*$)/g,'')+"-"+$(".tel-num").val().replace(/(^\s*)|(\s*$)/g,'');
+            }
+        }
+        return params;
+    },
+    getCustIntegrity: function(){
+        $.post(
+            '/userinfoconfirmajax/getcustIntegrity',
+            {},
+            function(res){
+                if(res.success){
+                    $('.InfoPercent').text(res.data.integrity);
+                    $(".code_input").addClass('hide');
+                    $(".gift-detail").css("margin-left","49%");
+                    $(".get-btn").removeClass('hide');
+                    if(res.data.rewardStatus==2){
+                        $(".remind-tip").removeClass('hide');
+                        $(".get-btn").removeClass('get-gift-btn').addClass('geting-gift-btn').text("领取");
+                    }else if(res.data.rewardStatus==3){
+                        $(".remind-tip").removeClass('hide');
+                        $(".get-btn").removeClass('geting-gift-btn').addClass('get-gift-btn');
+                    }else if(res.data.rewardStatus==4){
+                        $(".remind-tip").removeClass('hide');
+                        $(".get-btn").removeClass('get-gift-btn').addClass('geted-gift-btn').text("已领取").attr('get-time',res.data.rewardTime);
+                    }
+                }
+            },"json")
+    }
+};
+({
+    init: function(){
+        utils.getUserInfo();
+        utils.getCustIntegrity();
+    }
+}).init();
+
+
+

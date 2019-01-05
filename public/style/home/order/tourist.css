@@ -1,0 +1,130 @@
+.icon.tourist-icon{background-position:-147px -54px;height:24px;width:24px;vertical-align:middle;margin-right:3px;display:inline-block;*display:inline;*zoom:1}.icon.common-tourist-icon{background-position:-121px -29px;height:24px;width:10px;vertical-align:middle;margin-right:5px;display:inline-block;*display:inline;*zoom:1}.icon.error-icon{background-position:-177px -57px;width:18px;height:18px;vertical-align:middle;display:inline-block;*display:inline;*zoom:1;margin-right:5px}.m-tourist .tourist-tips{background:#fffced;border:1px
+solid #f3dbba;margin-top:20px;color:#999;font-size:14px;padding:12px
+14px 11px 10px}.icon.more-tourist-icon{height:15px;width:15px;background-position:-181px -9px;vertical-align:middle;margin-right:10px}.icon.less-tourist-icon{height:15px;width:15px;background-position:-32px -108px;vertical-align:middle;margin-right:10px}#J_no_write_tips{color:#F80;font-weight:300}.m-tourist .tourist-tips
+p{margin-top:10px}.m-tourist .tourist-tips p.first-tip{margin-top:0;line-height:20px}.m-tourist .tourist-main{margin-top:20px}.m-tourist .common-tourist-list{padding-left:10px;margin-top:-5px}.m-tourist .tourist-main .tourist-title{font-weight:bold}.m-tourist
+.tourist_list{margin-right:-42px}.m-tourist .tourist_list
+li{float:left;list-style:none;height:18px;width:152.5px;margin-top:15px;position:relative;margin-right:50px;box-sizing:border-box;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:#999}.m-tourist
+.tourist_more{color:#22C233;cursor:pointer;float:right;margin-top:10px}.m-tourist .tourist_list li .input_checkbox
+span{vertical-align:-1px}.tourist_info{overflow:visible;margin-top:20px;background:rgba(240,243,251,0.20);border:1px
+solid rgba(76,89,101,0.05);padding:20px
+10px;font-family:"microsoft yahei";position:relative}.m-tourist form
+.tourist_info{border:1px
+solid #dde4ed;background-color:#f2f5f9;padding:20px;position:relative}.tourist_info .fl-panel{float:left;width:64px;height:37px;line-height:48px;margin-right:10px;border:1px
+solid #e9e9e9;text-align:center}.tourist_info .fr-panel{float:left;overflow:visible}.tourist_info .fr-panel
+.field{margin-top:10px;color:#333;position:relative;font-size:0}.tourist_info .fr-panel .field:first-child{margin-top:0}.tourist form .tourist_info
+.field{margin-top:15px}.tourist_info .fr-panel
+.field.J_name{overflow:visible;position:static}.tourist_info .fr-panel .field.J_name .error-tips{max-width:170px;vertical-align:top;line-height:24px;margin-top:4px}.tourist_info .fr-panel .field
+.field_label{width:100px;color:#999;display:inline-block;text-align:right;font-size:14px}.tourist_info .fr-panel .field
+.field_input{border:1px
+solid #ddd;height:30px;width:308px;outline:none;font-size:14px;text-indent:5px}.tourist_info .fr-panel .field .field_input[readonly]{color:#999}.tourist_info .fr-panel .field .field_input[disabled]{color:#999;background:#fff}.tourist_info .fr-panel .field .name-tips{margin-left:5px;font-size:14px}.tourist_info .fr-panel .field .error-tips{margin-left:5px}.tourist_info .J_name
+.clear{display:inline-block;vertical-align:-9px;cursor:pointer;border-bottom:1px dotted #999}.tourist_info .J_name
+.instructions{display:inline-block;cursor:pointer;border-bottom:1px dotted #999;font-size:14px;color:#999;padding-bottom:-11px;height:23px;margin-left:10px}.tourist_info .fr-panel .field
+.write_tips_box{border:1px
+solid #ddd;width:610px;height:325px;position:absolute;background-color:#fffceb;z-index:110;display:none}.tourist_info .fr-panel .field .write_tips_box .q,.tourist_info .fr-panel .field .write_tips_box
+.w{font-size:40px;z-index:-1;left:36px;position:absolute;height:10px}.tourist_info .fr-panel .field .write_tips_box
+.q{top:-13px;color:#ffdbb2}.tourist_info .fr-panel .field .write_tips_box
+.w{top:-12px;color:#fffceb}.tourist_info .fr-panel .field .write-tips-hover:hover
+.write_tips_box{display:block}.tourist_info .fr-panel .field
+.cardImg{padding:7px
+0 10px 9px;width:415px;height:360px}.tourist_info .fl-panel
+.top{height:22px;line-height:22px;font-size:12px;color:#999}.tourist_info .fl-panel .top
+.num{font-size:12px}.tourist_info .fl-panel
+.bottom{background:#699bc3;height:16px;line-height:16px;font-size:12px;color:#fafafa}.tourist_info .fl-panel
+.bottom.child{background:#ee9b57}.tourist_info .fr-panel .field .cardImg
+img{width:315px}.tourist_info .fr-panel .field .cardImg
+.change_card_img_tab{line-height:0;border-bottom:1px solid #ddd;width:300px}.tourist_info .fr-panel .field .cardImg .change_card_img_tab
+.card_name.activity{font-size:14px;font-weight:600;color:#22c233;border-bottom:1px solid #22c233}.tourist_info .fr-panel .field .cardImg .change_card_img_tab
+.card_name{font-size:12px;padding:5px
+7px;font-weight:600;cursor:pointer;color:#666}.tourist_info .fr-panel .field .cardImg .change_card_img_tab
+li{display:inline-block;height:20px;line-height:20px}.tourist_info .fr-panel .field
+.write_note{position:absolute;top:0;right:0;border-left:1px solid #ffdbb2;width:252px;font-size:12px;padding:0px
+9px 23px 9px;line-height:20px;height:270px;margin-top:10px}.tourist_info .fr-panel .field .write_note
+.rule_tips{color:#f80;font-size:14px;margin-bottom:10px}.tourist_info .fr-panel .field
+p{display:inline-block}.tourist_info .fr-panel .field
+p.notes{font-size:14px;color:#999;font-weight:bold}.tourist_info
+.tel_tips{width:288px;margin-left:100px;margin-top:10px;padding:5px
+10px;line-height:22px;background:#fffced;border:1px
+solid #f3dcbb;font-size:12px;color:#999}.tourist_info .save-to-common{padding:10px
+0 0 100px;font-size:14px;color:#999}.tourist_info .show-visa-user{padding:10px
+0 0 100px;font-size:14px;color:#999}.tourist_info .show-visa-user .visa-user{max-width:370px;display:inline-block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;vertical-align:middle}.tourist_info .save-to-common .input_checkbox
+.tn_fontface{vertical-align:-1px}.tourist_info
+.function_box{position:absolute;right:20px;color:#22C233}.tourist_info .function_box
+.function_btn{cursor:pointer;margin-left:10px}.tourist_info
+.bottom_function_box{position:absolute;bottom:15px;right:20px;cursor:pointer;color:#22C233}.tourist_info
+.clear_both{clear:both}.tourist_info .fr-panel .field
+.field_select{width:110px;height:32px;border:1px
+solid #ddd;font-size:14px;padding-left:5px}.tourist_info .fr-panel .field.J_height
+.field_select{width:310px}.tourist_info
+select{background-color:white;text-indent:0}.tourist_info .fr-panel .field
+.field_input.internation_code_box{width:103px;margin-right:7px;padding-left:5px}.tourist_info .fr-panel .field
+.englishNameBar.T_first{margin-right:10px}.tourist_info .fr-panel .field .field_input.english-surname{width:99px;padding-left:9px}.tourist_info .fr-panel .field
+.field_input.mobile_box{width:188px;margin-left:3px}.tourist_info .fr-panel .field .field_input.english-name{width:188px;text-indent:5px}.tourist_info .fr-panel .field
+.field_input.card_no{width:188px;margin-left:10px;text-indent:5px}.tourist_info .fr-panel .field
+.field_select.sex{}.tourist form .tourist_info .field
+select.field_select_date{width:75px}.tourist_info .fr-panel .field
+.field_select_date{width:75px;height:32px;border:1px
+solid #ddd;font-size:14px;margin-right:10px;padding-left:5px}.tourist_info .fr-panel .field .field_select_date[data-year]{width:110px}.tourist_info .fr-panel .field .field_select_date[data-month]{width:90px}.tourist_info .fr-panel .field .field_select_date[data-day]{width:90px}.m-tourist .age-tips{margin-top:20px}.m-tourist .age-tips .tourist-no-write{text-align:right}.m-tourist .age-tips .tourist-no-write .no-write-btn{border:1px
+solid #eee;-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;width:108px;height:30px;font-size:16px;font-weight:bold;color:#999;background:#fff;cursor:pointer}.m-tourist .age-tips .is-has-special-person{font-size:14px;color:#999;margin-top:20px}.m-tourist .age-tips .is-has-special-person .select-yes-or-no{float:right;margin-right:30px}.m-tourist .age-tips .is-has-special-person .select-yes-or-no
+.tn_fontface{vertical-align:-2px}.m-tourist .age-tips .is-has-special-person .select-yes-or-no
+.yes{margin-right:47px;color:#333}.m-tourist .age-tips .is-has-special-person .select-yes-or-no
+.no{color:#333}.m-tourist .age-tips .no-support-info{white-space:nowrap;margin-top:15px;padding-bottom:33px;font-size:14px;color:#666}.m-tourist .age-tips .no-support-info .notice2-icon{margin-right:5px}.tourist_info .fr-panel .field.write-error
+.field_input{border:1px
+solid red}.tourist_info .fr-panel .field .input-error{border:1px
+solid red}.tourist_info .fr-panel .field.write-error .mobile-tips{font-size:14px;color:red}.tourist_info .fr-panel .field.J-english-name .english-name-tips{font-size:14px;color:red}.tourist_info .fr-panel .field.J-english-name .english-name-error{width:240px;position:absolute;top:5px;line-height:16px;right:0}.m-tourist
+.englishNameBar{position:relative;display:inline-block;*zoom:1;*display:inline;font-size:14px;z-index:1}.m-tourist .lastNameList,.m-tourist
+.firstNameList{position:absolute;background:#FFF;padding:10px;border:1px
+solid #DDD}.m-tourist .lastNameList p, .m-tourist .firstNameList
+p{display:block !important;white-space:pre}.m-tourist .english-radio-title{width:40px;display:inline-block}.m-tourist .lastNameList .englishNameRadio, .m-tourist .firstNameList
+.englishNameRadio{width:auto;margin:0
+10px 0 15px}.m-tourist .lastNameList label,.m-tourist .firstNameList
+label{margin-left:0}.m-tourist .englishNameBar
+.submitFirstname{display:block;text-align:right;color:#22C233;cursor:pointer}.m-tourist .pinyin-tip{display:inline-block;font-size:14px;line-height:18px;color:#666}.m-tourist .english-name-tip{width:16px;height:16px;cursor:pointer;margin-left:3px;background:url(http://img.tuniucdn.com/img/201603020000/bookOnline/gentuan_icon.png) 0 0 no-repeat;display:inline-block;background-position:-32px -61px;top:2px}.m-tourist .english-name-tip.international{background:url(http://img3.tuniucdn.com/img/201510131901/bookOnline/tip.png) 0 0 no-repeat;background-position:0 0}.tourist_info
+.country_select{position:absolute;top:25px;width:308px;background-color:#FFF;z-index:120;border:1px
+solid #eee;left:100px;font-size:12px}.tourist_info .country_select
+.country_title{background-color:#4bd077;color:#FFF;text-align:center;font-size:12px;width:100%}.tourist_info .country_select
+.country_list{max-height:260px;overflow-y:auto;overflow-x:hidden}.tourist_info .country_select .country_list
+.country_detail{color:#666;padding:0
+10px;cursor:pointer;font-size:0;height:26px}.tourist_info .country_select .country_list .country_detail
+.country_english_name{font-size:12px;float:right;width:120px;text-align:right;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.tourist_info .country_select .country_list .country_detail
+.country_chinese_name{width:100px;font-size:12px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.tourist_info .country_select .country_list
+.country_detail.hover{color:#3aaf50;background-color:#f6f6f6}.m-tourist
+.T_cruise_info{margin:20px
+0 -10px;line-height:16px}.m-tourist .T_cruise_info
+.T_circle{display:inline-block;width:6px;height:6px;margin-right:3px;border-radius:100%;border:3px
+solid #22c233}.m-tourist .T_cruise_info
+strong{display:inline-block;max-width:130px;vertical-align:top;margin-right:8px;font-size:16px;font-weight:bold;color:#666}.m-tourist .T_cruise_info
+small{font-size:14px;color:#999}.m-tourist .T_cruise_info
+em{float:right;font-size:12px;color:#999}.tourist_info
+.T_operation{color:#22c233;cursor:pointer;font-size:14px;margin-left:10px}.tourist_info .T_sign_type
+.T_sign_note{position:relative}.tourist_info .T_sign_type .T_sign_note:hover
+.T_sign_container{display:block}.tourist_info .T_sign_type
+.T_sign_container{position:absolute;left:-87px;top:12px;padding-top:23px;z-index:9;cursor:default}.tourist_info .T_sign_type
+.T_sign_box{position:relative;width:707px;padding:10px
+15px 30px;background:#fff;-webkit-box-shadow:0 0 2px 2px rgba(0, 0, 0, .1);-moz-box-shadow:0 0 2px 2px rgba(0, 0, 0, .1);box-shadow:0 0 2px 2px rgba(0, 0, 0, .1);color:#000}.tourist_info .T_sign_type .T_sign_box
+.T_sign_triangle_inner{position:absolute;left:90px;top:-17px;border:9px
+solid transparent;border-bottom-color:#fff;z-index:1}.tourist_info .T_sign_type .T_sign_box
+.T_sign_triangle_out{position:absolute;left:90px;top:-18px;border:9px
+solid transparent;border-bottom-color:#ddd}.tourist_info .T_sign_type .T_sign_box
+.T_menu{border-bottom:1px solid #eee}.tourist_info .T_sign_type .T_sign_box .T_menu
+a{padding-bottom:4px;color:gray;border-bottom:2px solid transparent}.tourist_info .T_sign_type .T_sign_box .T_menu a:first-child{margin-right:30px}.tourist_info .T_sign_type .T_sign_box .T_menu
+a.T_active{border-bottom-color:#22c233}.tourist_info .T_sign_type .T_sign_box
+.T_picture{margin-top:10px}.tourist_info .T_sign_type .T_sign_box .T_picture
+.T_wrapper{float:left}.tourist_info .T_sign_type .T_sign_box .T_picture .T_wrapper
+.T_title{margin-bottom:4px;font-size:12px}.tourist_info .T_sign_type .T_sign_box .T_picture .T_wrapper
+.T_img{line-height:0}.tourist_info .T_sign_type .T_sign_box .T_picture
+.T_line{float:left;height:190px;margin:40px
+15px 0;border-left:1px dashed #ddd}.tourist_info .T_sign_addr
+.T_later_text{font-size:14px;color:#666;margin-left:5px;max-width:260px;display:inline-block;vertical-align:top;margin-top:4px}.tourist_info .T_sign_addr .T_later_text
+a{color:#22c233}.tourist_info .fr-panel
+.field.bindResourceTips{font-size:12px;color:#666;margin-top:5px;padding-left:100px}.tourist_info .fr-panel
+.resource_li{height:26px;line-height:26px;padding-left:100px}.tourist_info .fr-panel .resource_li
+.input_checkbox{line-height:16px;cursor:pointer;color:#666}.tourist_info .fr-panel .resource_li .input_checkbox
+span{vertical-align:-1px}.tourist_info .fr-panel .resource_li
+.input_checkbox.disable{line-height:16px;cursor:not-allowed;color:#ddd}.tourist_info .fr-panel .resource_li .input_checkbox.disable
+span{border:1px
+solid #ddd;color:#fff}.tourist_info .fr-panel .resource_li
+.input_checkbox.enabled{line-height:16px;cursor:pointer;color:#F80}.tourist_info .fr-panel .resource_li .input_checkbox.enabled
+span{border:1px
+solid #F80;color:#F80}.tourist-simple.expanded,.tourist_info.collapsed{display:none}.tourist-simple{overflow:hidden;padding:0
+20px 0 14px;line-height:30px;margin-top:20px;color:#888}.tourist-simple .col-title{color:#333}.tourist-simple .col-1{float:left;min-width:150px;margin-right:10px}.tourist-simple .col-2{float:left;min-width:235px;margin-right:35px}.tourist-simple .col-3{float:left;min-width:150px;margin-right:50px}.tourist-simple .simple-toolbox{float:right}.tourist-simple .simple-toolbox .delete_btn, .tourist-simple .simple-toolbox
+.edit_btn{cursor:pointer;color:#22C233;margin-left:10px}

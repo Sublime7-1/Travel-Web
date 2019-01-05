@@ -1,0 +1,1025 @@
+@charset "UTF-8";
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+}
+
+.hide {
+  display: none !important;
+}
+
+.icon {
+  background-image: url(/style/home/publics/contact-sprite-add-fund.png);
+  background-repeat: no-repeat;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.wrapbox {
+  background: #eeeeee;
+  height: auto;
+  padding-top: 30px;
+}
+
+.content {
+  width: 1000px;
+  margin: 0 auto;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.form-btn {
+  display: inline-block;
+  width: 94px;
+  height: 30px;
+  line-height: 30px;
+  border: 1px solid #ddd;
+  text-align: center;
+  color: #666;
+  font-size: 14px;
+  background: #fff;
+  border-radius: 2px;
+}
+
+.form-btn:hover, .form-btn:active {
+  opacity: 0.8;
+}
+
+.positive-form-btn {
+  background: #fc893d;
+  border: 1px solid #fc893d;
+  color: #fff;
+}
+
+/*right content start*/
+.con {
+  width: 798px;
+  background: #fff;
+  min-height: 1000px;
+  color: #666;
+  margin-left: 10px;
+  border: 1px solid #e5e5e5;
+  float: left;
+  height: auto;
+  font-family: "microsoft yahei";
+}
+
+.contact-card {
+  padding: 25px 30px 30px;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.contact-card h1 {
+  font-size: 26px;
+  height: 50px;
+}
+
+.contact-card h3 {
+  font-size: 18px;
+  line-height: 40px;
+  color: #2e9900;
+}
+
+.contact-card p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-list {
+  padding: 0 30px;
+  overflow: hidden;
+}
+
+.contact-list ul {
+  margin-bottom: -1px;
+  background: #fff;
+}
+
+.contact-list li {
+  float: left;
+  _display: block;
+  position: relative;
+  width: 259px;
+  padding: 30px 10px 30px 100px;
+  border-bottom: 1px dashed #e5e5e5;
+  cursor: pointer;
+  list-style:none;
+  text-decoration: none;
+}
+.contact-list .delete-hand{
+  cursor: default;
+}
+.contact-list .contact-message{
+  padding:41px 10px 41px 100px;
+}
+.contact-list li h3 a {
+  color: #333;
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  font-weight: normal;
+}
+.contact-list li h3 a:hover {
+  color: #ff9900;
+}
+
+.contact-list li p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.contact-list .contact-icon {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -35px;
+  background-image: url(/style/home/publics/contact-sprite-add-fund.png);
+  background-repeat: no-repeat;
+}
+
+.contact-list .icon-supplier {
+  width: 69px;
+  height: 70px;
+  background-position: 0 0;
+}
+
+.contact-list .icon-cooperation {
+  width: 69px;
+  height: 70px;
+  background-position: -81px 0;
+}
+
+.contact-list .icon-media {
+  width: 69px;
+  height: 70px;
+  background-position: -162px 0;
+}
+
+.contact-list .icon-enterprise {
+  width: 69px;
+  height: 70px;
+  background-position: -244px 0;
+}
+
+.contact-list .icon-scenic {
+  width: 69px;
+  height: 70px;
+  background-position: -323px 0;
+}
+
+.contact-list .icon-bank {
+  width: 69px;
+  height: 70px;
+  background-position: -409px 0;
+}
+
+.contact-list .icon-phone {
+  width: 69px;
+  height: 70px;
+  background-position: -491px 0;
+}
+.contact-list .icon-message{
+  width: 69px;
+  height: 70px;
+  background-position: -573px 0px;
+}
+
+/*朋派定制游（包团）供应商合作*/
+.contact-list .icon-custom-supplier {
+  width: 69px;
+  height: 70px;
+  background: url(/style/home/publics/icon-custom-supplier.png) no-repeat;
+}
+
+/*途牛影视合作*/
+.contact-list .icon-movie {
+  width: 69px;
+  height: 70px;
+  background-position: -654px 0;
+}
+
+/*途牛众筹商务*/
+.contact-list .icon-crowd-funding {
+  width: 69px;
+  height: 70px;
+  background-position: -735px 0;
+}
+
+.contact-list li:hover a {
+  color: #ff9900;
+}
+.contact-list li:hover .special-message{
+  color: #333;
+}
+
+.contact-list li:hover .icon-supplier {
+  background-position: 0 -78px;
+}
+
+.contact-list li:hover .icon-cooperation {
+  background-position: -77px -78px;
+}
+
+.contact-list li:hover .icon-media {
+  background-position: -159px -78px;
+}
+
+.contact-list li:hover .icon-enterprise {
+  background-position: -241px -78px;
+}
+
+.contact-list li:hover .icon-scenic {
+  width: 69px;
+  height: 71px;
+  background-position: -322px -77px;
+}
+
+.contact-list li:hover .icon-bank {
+  width: 69px;
+  height: 71px;
+  background-position: -407px -77px;
+}
+
+.contact-list li:hover .icon-phone {
+  background-position: -492px -77px;
+}
+
+/*途牛影视合作*/
+.contact-list li:hover .icon-movie {
+  background-position: -654px -77px;
+}
+
+/*途牛众筹商务*/
+.contact-list li:hover .icon-crowd-funding {
+  background-position: -735px -77px;
+}
+
+.contact-result {
+  position: relative;
+  padding-top: 225px;
+  padding-left: 310px;
+  font-size: 14px;
+}
+
+.contact-result .icon {
+  position: absolute;
+  left: 165px;
+  top: 225px;
+  background-image: url(/style/home/publics/contact-sprite-add-fund.png);
+  background-repeat: no-repeat;
+}
+
+.contact-result .icon-submiting-1 {
+  width: 81px;
+  height: 101px;
+  background-position: -171px -165px;
+  margin-left: 65px;
+  margin-right: 20px;
+}
+
+.contact-result .icon-submiting-2 {
+  width: 81px;
+  height: 101px;
+  background-position: 0px -388px;
+  margin-left: 65px;
+  margin-right: 20px;
+}
+
+.contact-result .icon-success {
+  width: 136px;
+  height: 123px;
+  background-position: -268px -165px;
+  margin-right: 25px;
+}
+
+.contact-result .icon-fail {
+  width: 120px;
+  height: 120px;
+  background-position: -417px -165px;
+  margin-right: 25px;
+}
+
+.contact-result h1 {
+  font-size: 24px;
+  line-height: 100px;
+  color: #999;
+}
+
+.contact-result h2 {
+  font-size: 24px;
+  line-height: 1.6;
+  color: #ff9900;
+}
+
+.contact-result .hint {
+  color: #ccc;
+  font-size: 14px;
+}
+
+.contact-result a {
+  color: #ff9900;
+}
+
+.contact-result a.form-btn {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+.contact-result .result-more {
+  margin-top: 5px;
+}
+
+.page-contact-form {
+  border-top: 4px solid #ff9900;
+  padding: 20px;
+}
+
+.contact-form-head {
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.contact-form-head:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #f0f0f0;
+  border-left: 3px solid #f0f0f0;
+}
+
+.contact-form-head:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border-top: 3px solid #f0f0f0;
+  border-right: 3px solid #f0f0f0;
+}
+
+.contact-form-head h1, .contact-form-head h2 {
+  font-size: 24px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.contact-form-head h2 {
+  color: #f0f0f0;
+}
+
+.contact-form {
+  font-size: 14px;
+}
+
+.contact-form .form-block {
+  margin-bottom: 30px;
+}
+
+.contact-form .form-block-title {
+  padding: 0 20px;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 30px;
+}
+
+.contact-form .form-block-title h3 {
+  display: inline;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form .form-block-title .download-link {
+  font-size: 14px;
+  font-weight: bold;
+  float: right;
+  _display: inline;
+  color: #ff9900;
+}
+
+.contact-form .form-block-title .download-link:hover {
+  text-decoration: underline;
+}
+
+.contact-form .label-holder {
+  visibility: hidden;
+}
+
+.contact-form .input {
+  border: 1px solid #ddd;
+  width: 225px;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.contact-form .input-error {
+  border-color: #f23030;
+}
+
+.contact-form .input-date {
+  border: 1px solid #ddd;
+  width: 145px;
+  height: 30px;
+  background: none;
+  padding-left: 5px;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form .form-default {
+  color: #a9a9a9;
+}
+
+.contact-form textarea {
+  width: 508px;
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.contact-form textarea:active, .contact-form textarea:focus {
+  border: 1px solid #ff9900;
+  outline: none;
+}
+
+.contact-form .tip {
+  display: none;
+}
+
+.contact-form .tip .icon {
+  display: inline-block;
+  vertical-align: -3px;
+  width: 16px;
+  height: 16px;
+}
+
+.contact-form .tip .tip-txt {
+  font-size: 12px;
+  margin-left: 7px;
+}
+
+.contact-form .error-tip {
+  display: block;
+  padding-left: 75px;
+  margin-top: 5px;
+}
+
+.contact-form .error-tip .icon {
+  background-position: -8px -176px;
+}
+
+.contact-form .error-tip .tip-txt {
+  color: #f23030;
+}
+
+.contact-form .succ-tip {
+  margin-left: 7px;
+  display: inline-block;
+}
+
+.contact-form .succ-tip .icon {
+  background-position: -39px -176px;
+}
+
+.contact-form .succ-tip .tip-txt {
+  display: none;
+}
+
+.contact-form .textarea-item .error-tip, .contact-form .textarea-item .succ-tip {
+  display: block;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.contact-form .input-row {
+  padding-left: 20px;
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+
+.contact-form .input-row .input-item {
+  float: left;
+  width: 368px;
+}
+
+.contact-form .input-row label {
+  float: left;
+  width: 75px;
+  overflow: hidden;
+}
+
+.contact-form .input-row .input-address {
+  width: 288px;
+}
+
+.contact-form .form-block-item {
+  position: relative;
+  padding-left: 144px;
+  margin-bottom: 20px;
+}
+
+.contact-form .form-block-item .form-block-label {
+  position: absolute;
+  top: 0;
+  left: 20px;
+}
+
+.contact-form .checkbox-ctn {
+  margin-bottom: 10px;
+}
+
+.contact-form .checkbox-ctn input {
+  margin-right: 3px;
+  vertical-align: middle;
+}
+
+.contact-form .checkbox-ctn label {
+  margin-right: 25px;
+  vertical-align: middle;
+}
+
+.contact-form .checkbox-ctn .input {
+  margin-left: -15px;
+}
+
+.contact-form .input-date-row {
+  line-height: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-form .input-date-item {
+  float: left;
+  _display: inline;
+  position: relative;
+}
+
+.contact-form .input-date-item .icon-date {
+  position: absolute;
+  top: 8px;
+  right: 6px;
+  width: 16px;
+  height: 16px;
+  background-position: -120px -179px;
+}
+
+.contact-form .input-split {
+  float: left;
+  _display: inline;
+  margin: 0 5px;
+}
+
+.contact-form .btn-block {
+  padding-right: 94px;
+}
+
+.contact-form .btn-block .form-btn {
+  float: right;
+  _display: inline;
+  margin-left: 15px;
+}
+
+.page-advise {
+  font-size: 14px;
+}
+
+.advise-title-ctn {
+  padding: 20px 20px 10px;
+}
+
+.advise-title-ctn .advise-title {
+  color: #333;
+  font-size: 26px;
+  line-height: 50px;
+}
+
+.advise-title-ctn .advise-sub-title {
+  color: #333;
+  font-weight: bold;
+  height: 30px;
+  padding-bottom: 2px;
+}
+
+.advise-contact-ctn {
+  background: #f7f7f7;
+  padding: 18px 0 15px;
+  overflow: hidden;
+}
+
+.advise-contact-ctn li {
+  float: left;
+  _display: inline;
+  width: 198px;
+  border-right: 1px solid #ddd;
+  text-align: center;
+}
+
+.advise-contact-ctn .last {
+  border-right: none;
+}
+
+.advise-contact-ctn .icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 10px;
+  background-image: url(/style/home/publics/contact-sprite-add-fund.png);
+  background-repeat: no-repeat;
+}
+
+.advise-contact-ctn .icon-service {
+  background-position: 0 -300px;
+}
+
+.advise-contact-ctn .icon-phone {
+  background-position: -62px -299px;
+}
+
+.advise-contact-ctn .icon-mail {
+  background-position: -124px -300px;
+}
+
+.advise-contact-ctn .icon-message {
+  background-position: -186px -300px;
+}
+
+.advise-contact-ctn p {
+  margin-bottom: 2px;
+}
+
+.advise-contact-ctn em {
+  color: #ff8800;
+  font-weight: bold;
+}
+
+.advise-form {
+  padding: 20px;
+}
+
+.advise-form .advise-form-item {
+  margin-bottom: 20px;
+}
+
+.advise-form .advise-label {
+  line-height: 32px;
+}
+
+.advise-form .required {
+  color: #f23030;
+  margin-right: 3px;
+}
+
+.advise-form .advise-types {
+  padding-top: 5px;
+}
+
+.advise-form .advise-types li {
+  float: left;
+  _display: inline;
+  position: relative;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  line-height: 30px;
+  height: 30px;
+  overflow: visible;
+  cursor: pointer;
+}
+
+.advise-form .advise-types .current {
+  border-color: #ff8800;
+}
+
+.advise-form .advise-types .current:after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 14px;
+  height: 14px;
+  background-image: url(/style/home/publics/contact-sprite-add-fund.png);
+  background-repeat: no-repeat;
+  background-position: -384px -301px;
+}
+
+.advise-form .advise-types .poptip {
+  position: absolute;
+  top: 40px;
+  left: 0px;
+  z-index: 10;
+  background: #fffee5;
+  border: 1px solid #eddbb3;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 20px;
+  color: #666;
+  font-family: "宋体";
+  white-space: nowrap;
+}
+
+.advise-form .advise-types .poptip .icon-tri {
+  position: absolute;
+  left: 20px;
+  top: -6px;
+  z-index: 20;
+  width: 10px;
+  height: 6px;
+  background-image: url(/style/home/publics/contact-sprite-add-fund.png);
+  background-repeat: no-repeat;
+  background-position: -410px -302px;
+}
+
+.advise-form textarea {
+  width: 621px;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+}
+
+.advise-form textarea:active, .advise-form textarea:focus {
+  border: 1px solid #ff9900;
+  outline: none;
+}
+
+.advise-form .screenshot-label {
+  float: left;
+  _display: inline;
+  margin-top: 15px;
+}
+
+.advise-form .screenshots li {
+  float: left;
+  _display: inline;
+  width: 60px;
+  height: 60px;
+  margin-right: 10px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.advise-form .screenshots .screenshot {
+  position: relative;
+}
+
+.advise-form .screenshots .screenshot .screenshot-preview {
+  width: 50px;
+  height: 50px;
+  margin: 5px;
+}
+
+.advise-form .screenshots .screenshot .delete-screenshot {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  height: 26px;
+  background-color: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+}
+
+.advise-form .screenshots .screenshot .icon-delete {
+  display: block;
+  margin-left: 23px;
+  margin-top: 5px;
+  width: 14px;
+  height: 15px;
+  background-position: -437px -303px;
+}
+
+.advise-form .screenshots .add-screenshot {
+  position: relative;
+  border: 1px dashed #ddd;
+  cursor: pointer;
+  text-align: center;
+  line-height: 60px;
+  font-size: 30px;
+  color: #d6d6d6;
+}
+
+.advise-form .screenshots .uploadify {
+  float: left;
+  _display: inline;
+}
+
+.advise-form .screenshots .uploadify-queue {
+  display: none;
+}
+
+.advise-form .screenshots input {
+  display: none;
+}
+
+.advise-form .label-holder {
+  visibility: hidden;
+}
+
+.advise-form .input {
+  border: 1px solid #ddd;
+  width: 225px;
+  height: 30px;
+  padding-left: 5px;
+}
+
+.advise-form .input-error {
+  border-color: #f23030;
+}
+
+.advise-form .form-default {
+  color: #a9a9a9;
+}
+
+.advise-form .tip {
+  display: none;
+  margin-left: 7px;
+}
+
+.advise-form .tip .icon {
+  display: inline-block;
+  vertical-align: -3px;
+  width: 16px;
+  height: 16px;
+}
+
+.advise-form .tip .tip-txt {
+  font-size: 12px;
+  margin-left: 7px;
+}
+
+.advise-form .error-tip {
+  display: inline-block;
+  _display: inline;
+}
+
+.advise-form .error-tip .icon {
+  background-position: -8px -176px;
+}
+
+.advise-form .error-tip .tip-txt {
+  color: #f23030;
+}
+
+.advise-form .succ-tip {
+  display: inline-block;
+  _display: inline;
+}
+
+.advise-form .succ-tip .icon {
+  background-position: -39px -176px;
+}
+
+.advise-form .succ-tip .tip-txt {
+  display: none;
+}
+
+.advise-form .verify-code-ctn {
+  margin-left: 7px;
+}
+
+.advise-form .verify-code-ctn img {
+  vertical-align: middle;
+}
+
+.advise-form .btn-block {
+  padding-left: 60px;
+}
+
+.layer-alert {
+  *zoom: 1;
+  /*IE/7/6*/
+  position: relative;
+  padding: 20px;
+  padding-left: 90px;
+  border: 1px solid #c5e6b4;
+  line-height: 48px;
+  height: 48px;
+  font-size: 30px;
+  font-family: "microsoft yahei";
+  max-width: 350px;
+  _width: 350px;
+  white-space: nowrap;
+}
+
+.layer-alert:after {
+  clear: both;
+}
+
+.layer-alert:before, .layer-alert:after {
+  content: "";
+  display: table;
+}
+
+.layer-alert .icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 48px;
+  height: 48px;
+}
+
+.layer-alert .icon-success {
+  background-position: -252px -301px;
+}
+
+.layer-alert .icon-fail {
+  background-position: -313px -300px;
+}
+
+.layer-alert-success {
+  background: #effbe9;
+  color: #69ca3d;
+}
+
+.layer-alert-fail {
+  border-color: #e6b7b7;
+  background: #ffe5e5;
+  color: #f86666;
+}
+
+.ad-modal-layout {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .3;
+    filter: alpha(opacity=30);
+    background-color: #000;
+}
+
+.ad-modal {
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -40px;
+    width: 400px;
+    height: 102px;
+    background-color: #fff;
+    overflow: hidden;
+    text-align: center;
+}
+
+.ad-modal-in {
+    height: 80px;
+}
+
+.ad-modal .ad-center {
+    overflow: hidden;
+    display: inline-block;
+}
+
+.ad-modal .ad-icon-ok {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url(/style/home/publics/icon-ad-ok.png);
+    margin-top: 22px;
+    float: left;
+}
+
+.ad-modal .ad-icon-error {
+    display: block;
+    width: 36px;
+    height: 36px;
+    background-image: url(/style/home/publics/icon-ad-error.png);
+    margin-top: 22px;
+    float: left;
+}
+
+.ad-modal .ad-modal-text {
+    float: left;
+    font-weight: 700;
+    margin-left: 20px;
+    margin-top: 29px;
+    font-family: '微软雅黑';
+    text-align: left;
+}
+
+.ad-modal .ad-modal-text .f1 {
+    font-size: 16px;
+    color: #333;
+}
+
+.ad-modal .ad-modal-text .f2 {
+    font-size: 14px;
+    color: #666;
+    margin-top: 3px;
+}

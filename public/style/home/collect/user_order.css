@@ -1,0 +1,85 @@
+/*会员中心具体页面*/
+.mainDiv{ width:790px; float:right; display:inline;}
+.index1200 .mainDiv{ width:990px;}
+
+/*订单页*/
+.select_box{ position:relative; width:80px; height:24px; border:1px solid #ddd; background:#fff; line-height:24px; text-align:left; padding-left:10px;}
+.select_box ul{ position:absolute; border:1px solid #ddd; border-top:0 none; width:90px; background:#fff; left:-1px; top:25px; display:none;}
+.select_box.open ul{ display:block;}
+.select_box ul li{ padding-left:10px; cursor:pointer;}
+.select_box ul li:hover{ background:#f0f0f0;}
+.select_box .icon_arrow{ display:inline-block; width:7px; height: 4px; position:absolute; top:12px; right:10px; background-position:-49px -39px;}
+.select_box.open .icon_arrow{ background-position:-56px -39px;}
+
+.order_list_box{ border-bottom:1px solid #e5e5e5; margin-bottom:20px;  box-shadow:0px 1px 4px rgba(51, 51, 51, 0.1);}
+.userTit{  height:36px; line-height:36px; padding-right:15px; padding-left:0; background:#fafafa; border-bottom:1px solid #e7e7e7;}
+.userTit li{float:left; overflow:visible;}
+.userTit li.cur{ background:#fff;}
+.userTit li a{ position:relative; top:-1px; display:block;}
+.userTit li a span{border-right:1px solid #e7e7e7; padding:0 15px;font:bold 16px/36px "microsoft yahei"; }
+.userTit li a em{ color:#37c249;font:bold 16px/36px "microsoft yahei"; }
+.userTit li.last a span, .userTit li.cur span{ border:0 none;}
+.userTit li.cur a{ border-top:2px solid #37c249;border-right:1px solid #e7e7e7;  background:#fff; left:0px; color:#37c249;}
+
+.search_all_order{ height:60px; background:#fff;}
+.search_all_order .select_box{ float:right; margin-top:15px; margin-right:20px;}
+
+.order_list_head{ background:#f0f5f7; height:40px; line-height:40px; color:#888;}
+.order_list_head li{ float:left; text-align:center; padding:0 10px; overflow:visible;}
+.order_list_head .select_box{ margin-top:7px;}
+.order_list_head .select_box li{ float:none; text-align:left;}
+.order_list_head .head_5 .select_box{ margin-left:0px;}
+.index1200 .order_list_head .head_5 .select_box{ margin-left:25px;}
+.head_1{ width:250px;}
+.head_2{ width:80px;}
+.head_3{ width:90px;}
+.head_4{ width:80px;}
+.head_5{ width:90px;}
+.head_6{ width:80px;}
+.index1200 .head_1{ width:320px;}
+.index1200 .head_2{ width:100px;}
+.index1200 .head_3{ width:100px;}
+.index1200 .head_4{ width:110px;}
+.index1200 .head_5{ width:130px;}
+.index1200 .head_6{ width:100px;}
+
+.p_list_1{ width:260px;}
+.p_list_2{ width:80px;}
+.p_list_3{ width:100px;}
+.p_list_4{ width:100px;}
+.p_list_5{ width:100px;}
+.p_list_6{ width:100px;}
+
+.order_time{ color:#bbb; margin-bottom:5px;}
+.icon_time{ display:inline-block; width:13px; height:15px; background-position:-43px -51px; vertical-align:middle; margin-right:3px;}
+.opera_btn:hover{ color:#f60;}
+
+/*已完成订单*/
+.complete_order .even td{ background:#f5f7f7;}
+.complete_order .icon_share{ background-position:-155px -95px;}
+.complete_order .icon_del{ background-position:-180px -94px;}
+
+/*无效订单*/
+.invalid_order td, .invalid_order .even td{ background:#e3e4e6; color:#999;}
+.invalid_order .icon_share{ background-position:-155px -95px;}
+.invalid_order .icon_del{ background-position:-180px -94px;}
+
+/***
+pagination
+***/
+.pagination { clear: both; color: #404040; font-size: 12px; font-weight: 400;height: 40px; margin: 0 auto 8px;padding-right: 0; padding-top: 15px;}
+.page-bottom { margin-right:20px; text-align: right;}
+.pagination .page-cur { background-color: #42b312; border: 1px solid #42b312; color:#fff; }
+.page { border: 1px solid #C7E7AB; }
+.page-cur, .pagination a, .page-end {  border: 1px solid #ddd; background:#fff;}
+.pagination a:hover{ background:#C7E7AB;}
+.pagination a, .page-prev, .page-start, .page-cur, .page, .page-end, .page-skip { display:inline-block; height: 28px; line-height: 28px; padding: 0px 10px 0; }
+.pagination a, .page-prev, .page-cur, .page, .page-start, .page-end, .page-break, .page-skip { color: #404040; margin: 0 3px; }
+.pagination .extra{ margin-left:20px;}
+.pagination .extra .num{height: 28px; width:30px; line-height:28px; text-align:center;border: 1px solid #ddd; *position: relative; *top: 7px;}
+.pagination .extra .submit{ display:inline-block; height: 28px; width:36px; line-height:28px; text-align:center;border: 1px solid #ddd; cursor:pointer; background:#fff;}
+
+.pic_box{ width:100%; height:80px; overflow:hidden;}
+.order_list .block_div:hover{ box-shadow:0 1px 4px rgba(56, 195, 9, 0.2);}
+.order_list .invalid_order, .order_list .invalid_order:hover{ box-shadow:none;}
+

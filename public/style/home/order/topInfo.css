@@ -1,0 +1,19 @@
+.info-box{display:none}.info-box .step2-panel{margin:20px
+auto 40px;text-align:center}.info-box .step2-panel .title-text
+em{margin:0
+10px;font-style:normal;font-size:25px;color:#333;vertical-align:-7px}.info-box .step2-panel .title-subtitle{margin-top:10px;font-size:18px;color:#999}.info-box .step2-panel .title-subtitle
+em{color:#ee9b57;font-style:normal;font-weight:bold;margin:0
+5px}.info-box
+.notice_top_header{padding:10px
+20px 10px 20px;margin:20px
+auto 0;background:#fffced;border:1px
+solid #f9dcb7;width:1150px;overflow:hidden}.step2 .info-box
+.notice_top_header{width:778px}.info-box .notice_top_header
+.notice_content{position:relative;display:inline-block;animation:noticeScroll 15s linear 0s infinite;-webkit-animation:noticeScroll 15s linear 0s infinite;-moz-animation:noticeScroll 15s linear 0s infinite;-o-animation:noticeScroll 15s linear 0s infinite}.info-box .notice_top_header
+.notice_content.static{animation:none;-webkit-animation:none;-moz-animation:none;-o-animation:none}.info-box .notice_top_header .second, .info-box .notice_top_header
+.third{+display: none;*display:none}.info-box .notice_top_header .notice-wrapper{position:relative;display:inline-block;width:1120px;white-space:nowrap;overflow:hidden;vertical-align:middle}.step2 .info-box .notice_top_header .notice-wrapper{width:755px}.info-box .notice_top_header .content-space{display:inline-block;width:400px}.info-box .product-info{width:1170px;-webkit-box-shadow:0 1px 3px 0 rgba(76,90,101,0.10);-moz-box-shadow:0 1px 3px 0 rgba(76,90,101,0.10);box-shadow:0px 0 1px 3px 0 rgba(76,90,101,0.10);border-radius:3px;background:#4c5a65;padding:15px
+0 20px 20px}.info-box .product-info .product-name{font-size:16px;color:#fff;margin-bottom:11px;width:98%}.info-box .product-info .product-num{font-size:14px;color:#ccc}@keyframes
+noticeScroll{0%{transform:translateX(0)}100%{transform:translateX(-33.3%)}}@-webkit-keyframes
+noticeScroll{0%{transform:translateX(0)}100%{transform:translateX(-33.3%)}}@-moz-keyframes
+noticeScroll{0%{transform:translateX(0)}100%{transform:translateX(-33.3%)}}@-o-keyframes
+noticeScroll{0%{transform:translateX(0)}100%{transform:translateX(-33.3%)}}

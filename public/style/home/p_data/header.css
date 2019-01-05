@@ -1,0 +1,23 @@
+.hide{display:none}.nav_menu_list
+.page_icon{background:url(/img/2015040113/user_center_v2/user_icon.png) no-repeat}.header_panel{margin-top:1px;width:100%;height:60px;background:#37c249}.header_panel_inner{width:1000px;margin:0
+auto;position:relative;z-index:100}.header_nav_logo{width:200px;float:left;display:inline}.header_nav_logo
+a{display:block;padding-top:12px}.header_nav_menu{float:left;display:inline}.nav_menu_list
+li{float:left;width:113px;position:relative;text-align:center;z-index:100}.nav_menu_list li.cur, .nav_menu_list li:hover{background:#20a832}.nav_menu_list li
+a{font:17px/60px "microsoft yahei";color:#fff;text-align:center;padding:10px
+0}.nav_menu_list
+li.cur_menu{background:#20a832}.nav_menu_list
+.icon_arrows{display:inline-block;width:7px;height:5px;background-position:-113px -29px;margin-left:5px;position:relative;top:-2px}.nav_menu_list
+.icon_arrows_rotate{background-position:-128px -29px}.nav_menu_list li.cur_menu
+.icon_arrows{transform:rotate(180deg);transition:transform 0.3s ease 0s;-webkit-transform:rotate(180deg);-webkit-transition:transform 0.3s ease 0s;-o-transform:rotate(180deg);-o-transition:transform 0.3s ease 0s}.dropdown_menu{position:absolute;left:0;top:54px;display:none;background:#fff;border:1px
+solid #dcdcdc;width:111px;padding:0px
+0 10px;box-shadow:0 0 2px #ddd}.cur_menu
+.dropdown_menu{display:block}.dropdown_menu_item{margin-top:10px}.dropdown_menu .dropdown_menu_item
+a{font:12px "microsoft yahei";color:#333;text-align:center;line-height:22px;padding:0}.dropdown_menu .dropdown_menu_item a:hover{color:#f80}.poptip_arrow_top{font-family:simsun;font-size:12px;font-style:normal;overflow:hidden;position:absolute;text-shadow:0 0 2px #ddd;top:-8px;height:8px;left:54px;margin-left:-6px;width:16px}.poptip_arrow_top em, .poptip_arrow_top
+i{font-style:normal;left:0;position:absolute;top:0}.poptip_arrow_top
+em{color:#dcdcdc;top:-1px}.poptip_arrow_top
+i{color:#fff;text-shadow:none;top:0}.header_nav_tohome{position:absolute;bottom:0;right:0;width:115px;height:35px}.header_nav_tohome
+a{display:block;width:115px;height:35px;background:url(/img/2015040113/user_center_v2/header_nav_tohome_24.png) no-repeat;_background:url(/img/2015040113/user_center_v2/header_nav_tohome_8.png) no-repeat}.index1200
+.header_panel_inner{width:1200px}.index1200
+.header_nav_tohome{right:20px}.index1200 .nav_menu_list
+li{width:119px}.index1200
+.dropdown_menu{width:117px}

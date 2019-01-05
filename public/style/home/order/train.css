@@ -1,0 +1,112 @@
+.icon.train-icon{height:24px;width:24px;background-position:-5px -104px;vertical-align:middle;margin-right:3px}.icon.top-triangle-icon{background-position:-156px -121px;height:19px;width:14px;vertical-align:middle;position:absolute;top:-10px;right:10px}.float-tip{border:1px
+solid #ffdd67;padding:10px;background-color:#fffce5;color:#404040;position:fixed;z-index:10000000000;width:265px;font-size:12px;margin-top:13px}.float-tip .big-arrow, .float-tip .small-arrow{position:absolute;left:126px;font-size:26px}.float-tip .small-arrow{color:#FFFCE5;top:-14px;z-index:2}.float-tip .big-arrow{color:#FFDD67;top:-15px;z-index:1}.float-tip-title{font:bold 12px "microsoft yahei";border-bottom:1px dotted #ffdbb2;color:#f80;padding-bottom:5px;margin-bottom:5px}.float-tip-content{line-height:20px}.m-train
+.more{color:#22c233}.m-train .selected-train{font-size:12px}.m-train .selected-train.first{border-bottom:1px solid #eee}.m-traffic.m-train .selected-train{border-bottom:1px dashed #ddd}.m-train .selected-train
+.order{width:20px;padding:0px
+0;color:#666;line-height:20px;margin-top:20px;font-size:12px;text-align:center;float:left;height:40px;background:#f0f4fb}.m-train .selected-train
+.column{float:left;line-height:80px;height:80px}.m-train .selected-train
+.date{width:110px;margin-right:10px;text-align:center}.m-traffic.m-train .selected-train
+.date{margin-right:0}.m-train .selected-train .date
+span{display:block;line-height:20px;font-size:14px}.m-train .selected-train .date span.order-place{padding-left:5px;padding-top:20px}.m-train .selected-train .date span.order-date{font-size:13px;color:#999}.m-train .selected-train
+.trainNo{width:111px;font-size:14px;text-align:center}.m-traffic.m-train .selected-train
+.trainNo{width:117px;padding-right:31px;padding-left:5px}.m-train .selected-train
+.departure{margin-left:10px;width:115px;padding-top:20px;height:60px;text-align:center}.m-traffic.m-train .selected-train
+.departure{width:120px;margin-left:0;padding-left:16px;padding-right:16px}.m-train .selected-train .departure
+.departureTime{font-size:14px;font-weight:bold;width:112px;color:#666}.m-train .selected-train
+.unSureTicketTime{font-weight:normal !important;color:#f60 !important}.m-train .selected-train .departure
+span{display:block;line-height:20px}.m-train .selected-train .departure
+.departurePlace{font-size:14px;width:110px}.m-train .selected-train .departure .departurePlace.vertical-center{line-height:40px}.m-train .selected-train
+.duration{color:#bcc3ca;text-align:center;position:relative;margin-left:16px;width:71px;height:19px;background:url(http://img.tuniucdn.com/img/201505140148/bookOnline/icon.png) -57px -4px no-repeat;top:30px}.m-traffic.m-train .selected-train
+.duration{margin-left:0}.m-train .selected-train .duration
+.tips{position:absolute;line-height:1;left:0;top:-8px;width:100%;text-align:center;background-color:#fff}.m-train .selected-train .duration
+.text{position:absolute;line-height:1;left:0;top:14px;width:100%;text-align:center;background-color:#fff}.m-train .selected-train .duration .text
+em{display:block}.m-train .selected-train
+.arrival{margin-left:10px;width:125px;padding-top:20px;height:60px;text-align:center}.m-traffic.m-train .selected-train
+.arrival{width:120px;margin-left:0;padding-left:16px;padding-right:16px}.m-train .selected-train .arrival
+.arrivalTime{font-size:14px;font-weight:bold;color:#666;width:110px}.m-train .selected-train .arrival
+span{display:block;line-height:20px}.m-train .selected-train .arrival
+.arrivalPlace{font-size:14px;width:110px}.m-train .selected-train .arrival .arrivalPlace.vertical-center{line-height:40px}.m-train .selected-train
+.seatType{margin-left:18px;text-align:left;width:60px;font-size:14px}.m-train .selected-train
+.seatLeft{margin-left:30px;line-height:1.4;text-align:center;padding-top:30px;height:50px}.m-train .selected-train .seatLeft.two-line{padding-top:18px;height:62px}.m-train .selected-train
+.seatLimit{color:#f60;font-size:14px;text-decoration:underline;cursor:pointer}.float-tip-train{z-index:19891016}.jtxz-detail2.float-tip-train.hide{display:none}.jtxz-detail2.float-tip-train{display:block}.jtxz-detail2.float-tip-train .z,
+.jtxz-detail2.float-tip-train
+.j{left:auto;right:5px}.m-train
+.info{background-color:#fffceb;padding:10px
+20px;font-size:12px;line-height:1.5}.m-train .tip-error-empty{line-height:80px;text-align:center}.m-train .tip-loading{height:80px;background:#fff url(http://img.tuniucdn.com/img/20141202/common/loading-48x48---1.gif) center center no-repeat}.summary .action label, .summary .action
+.number{font-size:14px}.float-tip-child-price .big-arrow, .float-tip-child-price .small-arrow, .float-tip-train .big-arrow, .float-tip-train .small-arrow{left:auto;right:12px}.float-train{}.float-train .float-header{margin-bottom:20px}.float-train
+.T_title{position:relative;overflow:hidden;_height:1%;margin-bottom:20px}.float-train .T_title>span{float:left;height:28px}.float-train .T_title>span:first-child{padding-left:5px;padding-right:5px;border-bottom:2px solid #2dbb55;font-size:18px;font-weight:bold;color:#333}.float-train .T_title
+.T_border{position:absolute;left:0;z-index:-1;width:100%;height:29px;border-bottom:1px solid #e0ddde}.T_hide{display:none}.float-train
+.T_loading{height:440px;background:#fff url(http://img.tuniucdn.com/img/20141202/common/loading-48x48---1.gif) center center no-repeat}.float-train
+.T_no_data{margin-top:209.5px;font-size:14px;text-align:center}.float-train
+.T_main{height:450px;padding:0
+10px;overflow:hidden}.float-train .T_main
+.T_menu{position:relative;margin-top:20px;padding:0
+5px;border:1px
+solid #e8e8e8;font-size:12px;color:#666}.float-train .T_main .T_menu>div{padding-right:100px;line-height:40px;border-top:1px solid #f0f2f1}.float-train .T_main .T_menu>div:first-child{border-top:0}.float-train .T_main .T_menu > div
+.T_name{width:80px;margin-left:5px;color:#999}.float-train .T_main .T_menu>div>label{display:inline-block;margin-right:25px;cursor:pointer}.float-train .T_main .T_menu>div>label:first-child{margin-right:0}.float-train .T_main .T_menu>div>label.T_all{width:52px;height:20px;line-height:20px;background:#ccc;color:#fff;text-align:center}.float-train .T_main .T_menu>div>label.T_all.T_active{background:#2dbb55}.T_no_active{background:#7d7d7d!important}.float-train .T_main .T_menu > div > label
+.T_select{display:inline-block;width:15px;height:15px;margin-right:5px;border:1px
+solid #ddd;vertical-align:middle}.float-train .T_main .T_menu > div > label.T_active
+.T_select{display:inline-block;vertical-align:middle;background-repeat:no-repeat;background-image:url("http://img4.tuniucdn.com/img/201604131009/boss3_selfTour/diy_sprite.png");width:17px;height:17px;border:0;background-position:-118px -34px}.float-train .T_main .T_menu
+.T_show_all{position:absolute;right:7.5px;bottom:7.5px;padding-right:0;line-height:1;border-top:0}.float-train .T_main .T_menu .T_show_all>a{display:none;padding:5px
+10px;border:1px
+solid #ddd;font-size:12px;color:#999}.float-train .T_main .T_menu .T_show_all>a:first-child{display:inline-block;color:#22c233}.float-train .T_main
+.T_list{margin-top:20px;padding:0
+5px}.float-train .T_main .T_list
+table{color:#333;text-align:center}.float-train .T_main .T_list table
+tr{border-bottom:1px dotted #ddd}.float-train .T_main .T_list table tr:first-child{border-bottom:2px solid #e0ddde;font-size:12px;color:#999}.float-train .T_main .T_list table tr
+th{padding:5px
+0;text-align:center}.float-train .T_main .T_list table tr
+td{padding:15px
+0;vertical-align:middle}.float-train .T_main .T_list table tr
+.T_second{margin-top:10px}.float-train .T_main .T_list table tr
+.T_second.T_no_margin{margin-top:0}.float-train .T_main .T_list table tr
+.T_city_fuck{width:140px;font-size:12px}.float-train .T_main .T_list table tr .T_city_fuck
+.T_second{color:#666}.float-train .T_main .T_list table tr
+.T_train_num{width:100px;font-size:16px}.float-train .T_main .T_list table tr
+.unsureTicket{font-size:12px !important}.float-train .T_main .T_list table tr
+.T_departure_date{width:112px}.float-train .T_main .T_list table
+.unSureTicketTime{color:#f60;font-size:12px !important}.float-train .T_main .T_list table tr .T_departure_date > div:first-child, .float-train .T_main .T_list table tr .T_arrival_date>div:first-child{font-size:18px}.float-train .T_main .T_list table tr .T_departure_date .T_second, .float-train .T_main .T_list table tr .T_arrival_date
+.T_second{font-size:12px;color:#666}.float-train .T_main .T_list table tr
+.T_middle{position:relative;width:80px;font-size:12px;color:#666;text-align:center}.float-train .T_main .T_list table tr .T_middle
+.T_go_icon{position:absolute;top:50%}.float-train .T_main .T_list table tr
+.T_arrival_date{width:110px}.float-train .T_main .T_list table tr
+.T_seat_type{width:90px;font-size:12px;color:#666}.float-train .T_main .T_list table tr
+.T_price{width:85px;font-size:14px;color:#f60}.float-train .T_main .T_list table tr .T_price
+.T_limit_under{text-decoration:underline}.float-train .T_main .T_list table tr .T_select>button{border:0;outline:0;cursor:pointer;width:65px;height:25px;background:#ff9419;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;font-size:12px;color:#fff}.float-train .T_main .T_list table tr .T_select>button.T_active{background:#2dbb55}.float-train .T_main .T_list table tr .T_select > button.T_active
+.T_select_white{display:inline-block}.float-train .T_main .T_list table tr .T_select > button
+.T_select_white{display:none}.float-train .T_main .T_selected
+.T_top{border:1px
+solid #e8e8e8;margin-bottom:20px}.float-train .T_main .T_selected .T_head, .float-train .T_main .T_selected
+.T_head_current{line-height:1;font-size:16px;color:#333}.float-train .T_main .T_selected .T_head .T_border, .float-train .T_main .T_selected .T_head_current
+.T_border{display:inline-block;height:16px;border-left:3px solid #f80;vertical-align:-2px}.float-train .T_main .T_selected .T_head span, .float-train .T_main .T_selected .T_head_current
+span{color:#f60}.float-train .T_main .T_selected
+.T_head{margin:0
+5px;padding:20px
+5px 10px;border-bottom:1px solid #e8e8e8}.float-train .T_main .T_selected
+table{color:#333}.float-train .T_main .T_selected table tr
+td{padding:15px
+0;vertical-align:middle}.float-train .T_main .T_selected table tr
+.T_second{margin-top:10px}.float-train .T_main .T_selected table tr
+.T_city_fuck{width:190px;padding-left:40px;font-size:12px}.float-train .T_main .T_selected table tr .T_city_fuck
+.T_second{color:#666}.float-train .T_main .T_selected table tr
+.T_train_num{width:120px;font-size:16px}.float-train .T_main .T_selected table tr
+.T_departure_date{width:85px}.float-train .T_main .T_selected table tr .T_departure_date > div:first-child, .float-train .T_main .T_selected table tr .T_arrival_date>div:first-child{font-size:18px}.float-train .T_main .T_selected table tr .T_departure_date .T_second, .float-train .T_main .T_selected table tr .T_arrival_date
+.T_second{font-size:12px;color:#666}.float-train .T_main .T_selected table tr
+.T_middle{position:relative;width:150px;font-size:12px;color:#666;text-align:left}.float-train .T_main .T_selected table tr .T_middle
+.T_go_icon{position:absolute;top:50%}.float-train .T_main .T_selected table tr
+.T_arrival_date{width:125px}.float-train .T_main .T_selected table tr
+.T_seat_type{width:180px;font-size:12px;color:#666}.float-train .T_main .T_selected table tr
+.T_select{padding-right:10px;text-align:right}.float-train .T_main .T_selected table tr .T_select>button{border:0;outline:0;cursor:pointer;width:65px;height:25px;background:#ff9419;-moz-border-radius:3px;-webkit-border-radius:3px;border-radius:3px;font-size:12px;color:#fff}.float-train
+.T_button{margin-top:40px;text-align:center}.float-train .T_button>button{width:96px;height:32px}.float-train .T_button
+.T_confirm{border:0;outline:0;cursor:pointer;margin-right:20px;background:#fc893d;color:#fff}.float-train .T_button
+.T_cancel{border:0;outline:0;cursor:pointer;border:1px
+solid #ddd;color:#999}.mg-no{margin:0!important}.T_empty_error{padding:20px
+0;text-align:center}.panel
+h2.info{padding-left:25px}.m-train .no-train-tickets{text-align:center;padding:20px
+0 26px 0}.m-train .no-train-tickets
+span.tips{vertical-align:30px;color:#666;font-size:16px}.m-train .T_first_train_duration, .float-train
+.T_first_train_duration{font-size:12px;font-weight:normal;color:#22c233}#m-float-train
+.T_loading{height:440px;background:#fff url(http://img.tuniucdn.com/img/201705271031/bookOnline/loading-48x48---1.gif) center center no-repeat}.m-train .float-tip-train{position:fixed}.out-div{color:#FFF;font-size:12px;display:inline-block;height:53px;width:210px;text-align:left;border-radius:5px;background-color:#fff;border:1px
+solid #ccc;vertical-align:top}.timeInfo{border:none;width:0;top:-28px;line-height:0;padding:0;left:24px}.train-arrow{width:0px;height:0px;border-top:10px solid transparent;border-right:10px solid;border-bottom:10px solid transparent;position:absolute;margin-left:-10px;margin-top:10px;border-right-color:#22c233;top:5px}.durationDetail{line-height:15px;color:#666;display:inline-block;padding:6px
+2px 0 2px}.m-train .mix-traffic .selected-train
+.departure{width:148px}.m-train .mix-traffic .selected-train
+.arrival{width:135px}

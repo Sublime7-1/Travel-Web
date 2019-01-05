@@ -1,0 +1,23 @@
+.left-nav{width:190px;float:left;height:auto;font-family:'microsoft yahei';font-size:16px;text-align:center}.left-nav
+ul{width:188px;border:1px
+solid #e5e5e5;height:auto;margin-bottom:10px}.left-nav
+ul.pdt{padding-top:15px;background:#fff}.left-nav ul li
+a{display:block;width:180px;height:35px;line-height:35px;text-align:center}.left-nav ul li,.left-nav ul
+div{color:#333;background:#fff;border-left:3px solid #fff;cursor:pointer;height:35px;line-height:35px}.left-nav ul li:hover{border-left:3px solid #f80;background:#f7f7f7}.left-nav ul li:hover
+a{color:#f80}.left-nav ul
+li.cur{color:#f80;border-left:3px solid #f80;background:#f7f7f7}.left-nav ul li.cur
+a{color:#f80}.left-nav ul
+.team{padding-left:15px}.left-nav ul .team
+a{padding-right:10px}.left-nav ul .team a:hover{color:#f80}.left-nav
+.search{width:190px;height:auto;position:relative}.left-nav .search
+.sear{background:url(http://img3.tuniucdn.com/img/20140725/aboutus/search.png) no-repeat;width:190px;height:61px;display:block;position:relative;z-index:20}.left-nav .search .sear-box{width:180px;border:5px
+solid #f80;border-top:0 none;background:#fff;position:absolute;z-index:10;top:50px;left:0px;padding-top:20px;padding-bottom:20px;display:none}.left-nav .search .sear-box
+a{display:inline-block;width:55px;height:35px;line-height:35px;font-size:14px;color:#2e9900;text-align:center}.left-nav .search .sear-box a:hover{color:#f80}.left-nav .search
+.triangle_border_down{position:absolute;top:53px;left:92px;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-top:4px solid #fff;margin:0
+auto;z-index:20}.left-nav .search:hover
+.triangle_border_down{animation:triangle 200ms;-moz-animation:triangle 200ms;-webkit-animation:triangle 200ms;position:absolute;top:53px;left:92px;width:0;height:0;border-left:4px solid transparent;border-right:4px solid transparent;border-bottom:4px solid #fff;border-top:0 none;margin:0
+auto;z-index:20}@keyframes
+triangle{from{transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg)}to{transform:rotate(0deg);-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg)}}@-moz-keyframes
+triangle{from{transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg)}to{transform:rotate(0deg);-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg)}}@-webkit-keyframes
+triangle{from{transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg)}to{transform:rotate(0deg);-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg)}}@-o-keyframes
+triangle{from{transform:rotate(180deg);-ms-transform:rotate(180deg);-moz-transform:rotate(180deg);-webkit-transform:rotate(180deg);-o-transform:rotate(180deg)}to{transform:rotate(0deg);-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg)}}

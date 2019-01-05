@@ -1,0 +1,1 @@
+$(function(){$(".search").hover(function(){$(".sear-box").slideDown(200);},function(){$(".sear-box").hide();})})

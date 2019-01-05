@@ -1,0 +1,218 @@
+/*
+=Common
+*/
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	text-align: center;
+	font: 13px/150% Arial;
+	margin-top: 5px;
+}
+/*a:link,a:visited{
+	color: #0449BE;
+}
+a:hover{
+	color: red;
+}
+.clear:after{
+	display: block;
+	visibility: hidden;
+	clear: both;
+	height: 0;
+	content: ".";
+}
+.clear{
+	display: inline-block;
+}*/
+/* Hides from IE-mac \*/
+/** html .clear{
+	height: 1%;
+}
+.clear{
+	display: block;
+}*/
+
+/*
+=Layout
+*/
+#help{
+/*	width: 960px;*/
+	margin: 0 auto;
+	text-align: left;
+}
+#logo{
+	margin-right: 10px;
+}
+#hd{
+	margin-bottom: 15px;
+}
+	#hd h1{
+		background: url(img/hd_top_bg.gif) no-repeat 0 bottom;
+		padding-bottom: 10px;
+	}
+/*#sidebar{
+	float: left;
+	//width: 170px;
+}*/
+/*#main{
+	margin: 0pt; width: 760px; float: right;
+}
+	#main ul{
+		margin-bottom: 1em;
+		margin-left: 0;
+		padding-left: 2em;
+		list-style: square;	
+	}
+		#main ul.linksList{
+			padding: 0;
+			list-style: none;
+		}
+		#main ul.linksList1{
+			margin-right:50px;
+			padding: 0;
+			list-style: none;
+		}
+		#main ul.linksList2{
+			margin-right:80px;
+			padding: 0;
+			list-style: none;
+		}
+		#main ul.linksList3{
+			padding: 0;
+			list-style: none;
+		}
+		#main ul.linksList4{
+			margin-right:70px;
+			padding: 0;
+			list-style: none;
+		}
+	#main p{
+		margin-bottom: 1em;
+	}*/
+#ft{
+	border-top: 1px solid #EEE;
+	text-align: center;
+	height: 30px;
+	/*margin-top: 40px;*/
+}
+	#ft p{
+		margin-top: 5px;
+	}
+
+/*
+=Text
+*/
+/*h1{
+	font-size: 24px;
+}
+h2{
+	font-size: 14px;
+}*/
+.qt{
+	font-size: 14px;
+	margin-bottom: 12px;
+}
+/*#main h1{
+	color: #ff6600;
+	font-size: 16px;
+	margin-bottom: 1em;
+}
+#main h2{
+	color: Maroon;
+	font-size: 14px;
+	margin-bottom: 1em;
+}*/
+#h2-1 a:link{
+	color: Maroon;
+	text-decoration:none;
+}
+#h2-1 a:visited{
+	color: Maroon;
+	text-decoration:none;
+}
+#h2-1 a:hover{
+	color: Maroon;
+	text-decoration:underline;
+}
+.space {
+	display:inline-block;
+	width:32px;
+}
+*html .space { width:36px;}
+*+html .space { width:36px;}
+/*
+=Componets
+*/
+/*.sidebarBox{
+	border: 1px solid #CCC;
+	padding-left: 1em;
+	margin-bottom: 5px;
+	line-height: 150%;
+}
+	.sidebarBox ul{
+		margin: 5px;
+		list-style: none;
+	}
+	.sidebarBox p{
+		margin: 5px;
+	}
+	.sidebarBox h2{
+		background: #EEE;
+	}*/
+
+.totop{
+	font-size: 11px;
+	font-family: pMingLiu;
+	text-align: right;
+	margin-bottom: 2em;
+}
+.linksList li{
+	float: left;
+	width: 120px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+.linksList li a{color:#444;}
+.linksList li a:hover{color: #f80; text-decoration: underline;}
+
+.linksList1 li{
+	float: left;
+	width: 68px;
+}
+.linksList2 li{
+	float: left;
+	width: 68px;
+}
+.linksList3 li{
+	float: left;
+	width: 96px;
+}
+.linksList4 li{
+	float: left;
+	width: 115px;
+}
+/*suggest*/
+.suggest_w{ width:100%;line-height:2em;}.suggest_h{padding:5px 0;line-height:1.5em;position:relative;font-weight:bold;}
+.suggest_h h3{ font-size:14px;color:#ff6600;}#sclose{ position:absolute;top:4px;right:10px;cursor:pointer;}.suggest_i{ background:#fff;padding-right:190px;padding-top:1px;}.suggest_succ{ text-align:center;padding-bottom:10px;font-size:13px;line-height:35px;}.suggest_succ strong{ font-size:14px;}
+#back_suggest{ display:block;width:121px;height:31px;margin:15px auto 10px auto;background:url(http://img1.tuniucdn.com/ui/v2/images/back_btn.jpg) no-repeat left top;}
+.suggest_form{ font-size:13px;line-height:1.5em;}#changecode{ color:#0449BE;}
+#changecode:hover{ color:#ff9900;}.suggest_form dt{ font-size:13px;font-weight:bold;}
+.suggest_form dt,.suggest_form dd{ margin-bottom:8px;}
+.suggest_form input,.suggest_form textarea{ padding:2px;}
+.suggest_form td{ padding-right:20px;}
+.suggest_form td input{ position:relative;top:2px;}
+.input_w1,.input_w2,.input_w3{border: 1px solid #E0E0E0;height: 25px; line-height:25px; }
+.input_w1{ width:500px;}.input_w2{ width:250px;}
+.input_w3{ width:60px;}
+
+/*allen an 20120215*/
+#main .suggestion ul{
+	list-style: none outside none;
+	padding-left:0;
+}
+#main .suggestion ul li label{
+	color:#FF6600;
+	font-weight:bold;
+}

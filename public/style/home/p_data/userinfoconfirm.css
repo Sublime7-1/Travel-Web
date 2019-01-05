@@ -1,0 +1,276 @@
+.mainDiv {
+  font-family: "microsoft yahei";
+  height: 800px; }
+  .mainDiv .info-title {
+    width: 100%;
+    height: 46px;
+    background: #fafafa;
+    border-bottom: 1px solid #ddd; }
+    .mainDiv .info-title > ul > li {
+      float: left;
+      padding: 10px 25px;
+      font-size: 16px;
+      font-weight: 600;
+      border-right: 1px solid #ddd;
+      cursor: pointer; }
+    .mainDiv .info-title > ul > .active {
+      border-top: 3px solid #22c233;
+      color: #22c233;
+      background: #fff; }
+  .mainDiv > .remind-tip {
+    width: 96%;
+    height: 38px;
+    font-size: 14px;
+    color: #666;
+    line-height: 38px;
+    text-align: center;
+    margin: 20px 2%;
+    border: 1px solid #ffab00;
+    background: #fefee6; }
+    .mainDiv > .remind-tip > span:first-child {
+      color: #ffab00;
+      margin: 0 5px; }
+    .mainDiv > .remind-tip > .gift-tip {
+      color: #22c233;
+      text-decoration: underline;
+      cursor: pointer; }
+    .mainDiv > .remind-tip > .gift-detail {
+      text-align: left;
+      line-height: 20px;
+      padding: 10px;
+      width: 290px;
+      height: auto;
+      font-size: 12px;
+      color: #666;
+      border: 1px solid #ffdcaf;
+      background: #fff;
+      position: relative;
+      top: 8px;
+      margin-left: 49%;
+      z-index: 100; }
+      .mainDiv > .remind-tip > .gift-detail > .triangle-up-border {
+        position: absolute;
+        top: -24px;
+        left: 135px;
+        height: 0;
+        width: 0;
+        z-index: 100;
+        overflow: hidden;
+        border-width: 12px;
+        border-color: transparent transparent #ffdcaf transparent;
+        border-style: dashed dashed solid dashed; }
+      .mainDiv > .remind-tip > .gift-detail > .triangle-up {
+        position: absolute;
+        top: -20px;
+        left: 137px;
+        height: 0;
+        width: 0;
+        z-index: 100;
+        overflow: hidden;
+        border-width: 10px;
+        border-color: transparent transparent #fff transparent;
+        border-style: dashed dashed solid dashed; }
+    .mainDiv > .remind-tip .get-gift-btn, .mainDiv > .remind-tip .sure-get-btn {
+      padding: 4px 25px;
+      background: #ff8800;
+      color: #fff;
+      margin-left: 10px; }
+    .mainDiv > .remind-tip .geted-gift-btn, .mainDiv > .remind-tip .geting-gift-btn {
+      padding: 4px 25px;
+      background: #eee;
+      color: #ccc;
+      margin-left: 10px; }
+    .mainDiv > .remind-tip > .code_input > input {
+      font-size: 12px;
+      vertical-align: middle;
+      padding: 0 10px;
+      height: 24px;
+      border: 1px solid #eaeaea; }
+    .mainDiv > .remind-tip > .code_input > .loadingImg {
+      vertical-align: middle;
+      height: 26px;
+      margin-left: -5px;
+      margin-top: -3px; }
+    .mainDiv > .remind-tip > .code_input > .identify_img {
+      vertical-align: middle;
+      height: 26px;
+      margin-left: -5px;
+      margin-top: -1px; }
+  .mainDiv > .show-and-edit {
+    width: 96%;
+    height: auto;
+    margin: 10px 2%;
+    font-size: 14px; }
+    .mainDiv > .show-and-edit .head-img {
+      height: 95px;
+      width: 95px;
+      border-radius: 50%;
+      position: absolute;
+      left: 75%;
+      top: 280px; }
+      .mainDiv > .show-and-edit .head-img img {
+        width: 95px;
+        height: 95px;
+        border-radius: 50%; }
+      .mainDiv > .show-and-edit .head-img p {
+        font-size: 14px;
+        text-align: center; }
+        .mainDiv > .show-and-edit .head-img p > a {
+          color: #22c233; }
+    .mainDiv > .show-and-edit tr {
+      height: 50px; }
+      .mainDiv > .show-and-edit tr .loading-img {
+        height: 400px; }
+        .mainDiv > .show-and-edit tr .loading-img > img {
+          margin-left: 120px; }
+      .mainDiv > .show-and-edit tr > .title-name {
+        width: 100px;
+        text-align: right;
+        color: #666; }
+      .mainDiv > .show-and-edit tr > .title-val {
+        padding: 0 20px; }
+        .mainDiv > .show-and-edit tr > .title-val > .fill-tip {
+          color: #ccc; }
+        .mainDiv > .show-and-edit tr > .title-val > .modify-tel {
+          color: #22c233; }
+      .mainDiv > .show-and-edit tr > .input-val {
+        line-height: 50px;
+        padding: 0 20px; }
+        .mainDiv > .show-and-edit tr > .input-val > .modify-tel {
+          color: #22c233; }
+        .mainDiv > .show-and-edit tr > .input-val > .fill-box {
+          width: 378px;
+          height: 28px;
+          line-height: 28px;
+          padding: 0 0 0 10px; }
+        .mainDiv > .show-and-edit tr > .input-val > .birth-input {
+          width: 110px;
+          height: 28px;
+          line-height: 28px;
+          padding: 0 0 0 10px; }
+        .mainDiv > .show-and-edit tr > .input-val > .province, .mainDiv > .show-and-edit tr > .input-val .marry-status, .mainDiv > .show-and-edit tr > .input-val .tel-code {
+          width: 118px;
+          height: 28px;
+          line-height: 28px;
+          padding: 0 0 0 10px; }
+        .mainDiv > .show-and-edit tr > .input-val > .city {
+          width: 238px;
+          height: 28px;
+          line-height: 28px;
+          padding: 0 0 0 10px;
+          margin-left: 32px; }
+        .mainDiv > .show-and-edit tr > .input-val > .tel-num {
+          width: 221px;
+          height: 28px;
+          line-height: 28px;
+          padding: 0 10px; }
+    .mainDiv > .show-and-edit .name-tip {
+      height: 25px; }
+      .mainDiv > .show-and-edit .name-tip .tip-style {
+        padding: 0 20px;
+        color: #999;
+        font-size: 14px; }
+  .mainDiv .J_button > div {
+    width: 100px;
+    height: 32px;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer; }
+  .mainDiv .J_button .J_edit {
+    margin: 10px 100px;
+    background: #ff8800;
+    color: #fff; }
+  .mainDiv .J_button .J_save {
+    margin: 10px 10px 10px 55px;
+    float: left;
+    background: #ff8800;
+    color: #fff; }
+  .mainDiv .J_button .J_cancel {
+    margin: 10px;
+    width: 98px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 30px;
+    float: left;
+    background: #fff;
+    color: #999;
+    border: 1px solid #ddd; }
+  .mainDiv .err_tip {
+    background: url("//ssl2.tuniucdn.com/img/2015040113/user_center_v2/err.png") no-repeat 0 1px;
+    padding-left: 20px;
+    margin-left: 10px; }
+
+#over-lay {
+  font-family: "microsoft yahei";
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent; }
+  #over-lay > .cancel-tip, #over-lay .get-msg, #over-lay .success-tip, #over-lay .fail-tip {
+    width: 420px;
+    height: 225px;
+    border: 1px solid #DDDDDD;
+    background: #fff;
+    position: fixed;
+    top: 300px;
+    left: 46%; }
+    #over-lay > .cancel-tip > p, #over-lay .get-msg > p, #over-lay .success-tip > p, #over-lay .fail-tip > p {
+      color: #999;
+      font-size: 18px;
+      border-bottom: 1px solid #ddd;
+      padding: 6px 0;
+      width: 90%;
+      margin: 0 auto; }
+      #over-lay > .cancel-tip > p > img, #over-lay .get-msg > p > img, #over-lay .success-tip > p > img, #over-lay .fail-tip > p > img {
+        position: absolute;
+        margin-top: 7px;
+        margin-left: 325px;
+        float: right;
+        cursor: pointer; }
+    #over-lay > .cancel-tip > div > p, #over-lay .get-msg > div > p, #over-lay .success-tip > div > p, #over-lay .fail-tip > div > p {
+      width: 80%;
+      margin: 45px auto;
+      color: #666;
+      font-size: 14px;
+      text-align: center; }
+    #over-lay > .cancel-tip > div > a, #over-lay .get-msg > div > a, #over-lay .success-tip > div > a, #over-lay .fail-tip > div > a {
+      display: inline-block;
+      height: 32px;
+      width: 100px;
+      line-height: 32px;
+      text-align: center;
+      font-weight: 600;
+      border-radius: 3px;
+      font-size: 16px; }
+    #over-lay > .cancel-tip > div > .sure-btn, #over-lay .get-msg > div > .sure-btn, #over-lay .success-tip > div > .sure-btn, #over-lay .fail-tip > div > .sure-btn {
+      border: 1px solid #FF8700;
+      background: #FF8700;
+      color: #fff;
+      margin-left: 105px; }
+    #over-lay > .cancel-tip > div > .cancel-btn, #over-lay .get-msg > div > .cancel-btn, #over-lay .success-tip > div > .cancel-btn, #over-lay .fail-tip > div > .cancel-btn {
+      border: 1px solid #DDDDDD;
+      color: #989898;
+      margin-left: 20px; }
+    #over-lay > .cancel-tip > div > .confirm-btn, #over-lay .get-msg > div > .confirm-btn, #over-lay .success-tip > div > .confirm-btn, #over-lay .fail-tip > div > .confirm-btn {
+      border: 1px solid #FF8700;
+      background: #FF8700;
+      color: #fff;
+      margin-left: 158px; }
+    .carthirdtparent{
+      height: 3px !important ;
+    }
+    #careerThirdName{
+      width: 300px;
+    }
+    #careerFirstName,#careerSecondName,.education{
+      height: 28px;
+      padding: 0 0 0 10px;
+    }
+    #careerThirdName{
+      height: 24px;
+    }
+
+/*# sourceMappingURL=userinfoconfirm.css.map */

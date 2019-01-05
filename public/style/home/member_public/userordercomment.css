@@ -1,0 +1,1083 @@
+.pics-sprite,
+.pics-select,
+.pics-upload {
+  background-image: url('/css/userordercomment/pics-s33b1d059e6.png');
+  background-repeat: no-repeat
+}
+
+.pics-select {
+  background-position: 0 0;
+  height: 22px;
+  width: 22px
+}
+
+.pics-upload {
+  background-position: 0 -30px;
+  height: 16px;
+  width: 17px
+}
+
+body {
+  font: 14px/1.5 "PingFang SC", Helvetica, "Microsoft YaHei", Arial, sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  color: #333
+}
+
+.pull-right {
+  float: right;
+  position:relative;
+  width: 180px;
+}
+
+.pull-left {
+  float: left
+}
+
+.oh {
+  overflow: hidden
+}
+
+/*.ticketEvaluation dd .star,*/
+/*.HotelEvaluation dd .star,*/
+/*#travelType dd .star,*/
+.sub_advise .sa_tt dd span,
+.sub_advise .sub_btn,
+.fi_score dd .star,
+.sub_advise .pic_lists li .close,
+.sub_advise .fill_infor .noborder span.error_map,
+.fi_score .fis_tt .error_map {
+  background: url(https://m.tuniucdn.com/fb2/t1/G2/M00/81/89/Cii-TFkdYSqINJMUAAAGFynBPIEAAJQ7wP_-dEAAAYv912.png) no-repeat;
+  /*background-size: 100%;*/
+}
+
+
+#travelType .error_map{
+  background-position: 0 -181px !important;
+  padding-left: 72px;
+  color: #ff0000;
+  display: block;
+  margin-top: -22px;
+  margin-bottom: 5px;
+}
+
+#evaluation_box .error_map{
+  position: absolute;
+  display: block;
+  padding: 0 !important;
+  top: 44px;
+}
+#evaluation_box .pic_frame,
+.HotelEvaluation .pic_frame,
+.ticketEvaluation .pic_frame{
+  float: none;
+  height: 60px;
+  width: 590px;
+  margin-right: 0px!important;
+  margin-top: 15px;
+  /*margin-left: 65px;*/
+}
+#evaluation_box .photoUpload_box,
+.HotelEvaluation .photoUpload_box,
+.ticketEvaluation .photoUpload_box{
+  top: 0;
+  left: 0;
+  background: #EDF0F5;
+  border: none;
+}
+.error_map {
+  background-position: 0 -181px !important;
+  padding-left: 19px;
+  color: #ff0000
+}
+.TicketEvalutioBox .error_map,.HotelEvalutioBox .error_map{
+  position: absolute;
+      top: -10px;
+      padding-left: 112px;
+}
+.mainDiv {
+  width: 800px
+}
+
+.mainDiv textarea,
+.mainDiv input {
+  color: #404040
+}
+
+.mainDiv .header-summary {
+  border-right: 1px solid #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
+  border-top: 3px solid #339517;
+  padding: 20px
+}
+
+.mainDiv .header-summary-satisfy dl {
+  padding-left: 96px
+}
+
+.mainDiv .header-summary-satisfy dt {
+  /*margin-right: 18px*/
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+
+/*.mainDiv .header-summary-satisfy em {
+  display: block;
+  color: #FD8724;
+  font-size: 46px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: -20px;
+  width: 170px;
+}*/
+
+.mainDiv .header-summary-satisfy .value {
+  color: #999
+}
+
+.mainDiv .header-summary .left {
+  /*border-right: 1px dashed #e7e7e7*/
+}
+
+.mainDiv .header-summary .right {
+  /*margin-top: 12px*/
+}
+
+.mainDiv .header-order-name {
+  font-size: 16px;
+  color: #404040;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.mainDiv .header-order-detail {
+  margin-top: 20px
+}
+
+.mainDiv .header-order-detail .high-light {
+  color: #339517
+}
+
+.mainDiv .header-order-detail>span {
+  margin-right: 25px
+}
+
+.mainDiv .sa_tt {
+  /*padding: 16px;*/
+  margin-bottom: 20px;
+  background: #FEF5E5;
+  height: 34px;
+}
+
+.mainDiv .sa_tt dt {
+  font-size: 18px;
+  float: left
+}
+
+.mainDiv .sa_tt dd {
+  /*float: right;*/
+  line-height: 34px
+}
+
+.mainDiv .sa_tt dd span {
+  /*background: url(//img1.tuniucdn.com/img/20140122/usercenter_lxl/dianping_icon.png) no-repeat 0 -67px;*/
+  padding-left: 17px;
+  color: #ff8800;
+}
+.sub_advise .sa_tt dd span {
+  background: none;
+}
+
+.mainDiv .sa_tt dd em {
+  color: #FD8724
+}
+
+.mainDiv .fi_left>dl {
+  border-top: 1px solid #e7e7e7;
+  border-right: 1px solid #e7e7e7;
+  overflow: hidden;
+}
+.evaluation{
+  width: 50%;
+  position: absolute;
+  /*left: 118px;*/
+  top: 18px;
+}
+.evaluation .totEvaluation{
+  color: #ff7733;
+}
+.evaluation span{
+  display: inline-block;
+  margin-left: 10px;
+  color: #999;
+  font-size: 12px;
+  cursor: pointer;
+}
+/*.evaluation span:first-child em.chanBgFirst{
+  background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/2D/3D/Cii9EFkujgqITypIAAAGa2x-y0MAAK8LAP_-X0AAAaD809.png);
+  background-size: 100%;
+}
+.evaluation span:nth-child(2) em.chanBgSecond{
+  background: url(https://m.tuniucdn.com/fb2/t1/G2/M00/CC/1B/Cii-TlkujfyIR07LAAAFUk4iQ0UAAKgHAP_-pYAAAVq048.png);
+  background-size: 100%;
+}
+.evaluation span:nth-child(3) em.chanBgThird{
+  background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/34/A6/Cii9EVkujXaIXkWdAAAG5iN-oggAALIbwP_-P8AAAcB765.png);
+  background-size: 100%;
+}
+.evaluation span:first-child em{
+  background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/14/03/Cii-U1kb4jSIDth8AAAKM5rXpN8AAKPVAP_9bUAAApL910_w640_h0_c0_t0.png);
+}
+.evaluation span:nth-child(2) em{
+  background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/FC/64/Cii9EFkb5SSIId1tAAAI-9FwZY8AAJ6tgP_9u0AAAkT174_w640_h0_c0_t0.png);
+}
+.evaluation span:nth-child(3) em{
+  background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/14/96/Cii9EVkb5pGIe8NzAAAKoc_x0CkAAKP8AP_9T8AAArB663_w640_h0_c0_t0.png);
+}
+.evaluation span:first-child em,
+.evaluation span:nth-child(2) em,
+.evaluation span:nth-child(3) em{
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+  margin: 0 auto;
+}*/
+
+.evaluation img{
+  display: block;
+  width: 20px;
+  height: 20px;
+  /*background-size: 100%;*/
+  margin: 0 auto;
+}
+
+
+.travel_type .travelTypeAdd{
+  background: #F6FEF8;
+  border: 1px solid #2DBB55;
+  border-radius: 2px;
+  color: #2DBB55;
+  font-weight: bold;
+}
+.travel_type span{
+  display: inline-block;
+  color: #4A4C5B;
+  font-size: 14px;
+  /*margin-left: 3px;*/
+  cursor: pointer;
+  background: #F6F6F7;
+  border-radius: 2px;
+  /*width: 68px;*/
+  /*height: 28px;*/
+  text-align: center;
+  line-height: 26px;
+  /*padding: 0px 10px;*/
+}
+
+.travel_type em{
+  font-size: 14px;
+}
+.mainDiv .fi_left>dl>dt {
+  float: left;
+  /*border-right: 1px solid #e7e7e7;*/
+  /*background-color: #F6F6F6;*/
+  width: 300px;
+  text-align: center;
+  padding-top: 22px;
+  height: 76px
+}
+
+
+.whole-judge{
+  width: 500px;
+  height: 132px;
+}
+
+.mainDiv .fi_left>dl>dt>.em {
+  color: #FA3A42
+}
+
+.mainDiv .fi_left>dl dd {
+  margin: auto !important;
+  overflow: hidden
+}
+.mainDiv .fi_left>dl dd{
+
+}
+.mainDiv .fi_left .travel-type-icon {
+  margin-right: 38px;
+  float: left;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 5px;
+}
+
+.mainDiv .fi_left .travel-type-icon img {
+  display: block
+}
+
+.mainDiv .fi_left .travel-type-icon .sel_icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  display: none
+}
+
+.mainDiv .fi_left .travel-type-icon.current .sel_icon {
+  display: block
+}
+.HotelEvaluation,.ticketEvaluation{
+  height: 290px;
+}
+.HotelEvaluation,.ticketEvaluation,#travelType{
+  position: relative;
+  border: 1px solid #eaebed;
+  margin-bottom: 20px;
+}
+.HotelEvalutioBox,.TicketEvalutioBox{
+  border: 1px solid #eaebed;
+  margin-bottom: 20px;
+  position: relative;
+}
+.HotelEvalutioBox 
+.HotelEvaluation,.ticketEvaluation{
+  border: none;
+}
+.hotEvtionLogo,.ticEvtionLogo{
+  background: #FF8800;
+  width: 95px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 0 14px 14px 0;
+  display: block;
+  position: absolute;
+  top: 21px;
+}
+.moreEvalution{
+  background: #E9FAEA;
+  border: 1px solid #22C233;
+  width: 118px;
+  height: 28px;
+  /*padding: 0 24px;*/
+  line-height: 30px;
+  text-align: center;
+  color: #22C233;
+  font-size: 14px;
+  position: absolute;
+  right: 24px;
+  top: 295px;
+  cursor: pointer;
+  z-index: 1;
+}
+.EvatioBoxHeight{
+  height: 380px;
+  overflow: hidden;
+}
+.moreEvalution em{
+  background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/39/A4/Cii9EFkwxMaIWDJ4AAAAyPCEIh8AALSQAP__voAAAEG630.png)no-repeat center;
+  display: inline-block;
+  width: 12px;
+  height: 6px;
+  filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='https://m.tuniucdn.com/fb2/t1/G1/M00/39/A4/Cii9EFkwxMaIWDJ4AAAAyPCEIh8AALSQAP__voAAAEG630.png',  sizingMethod='scale');
+}
+.mainDiv .fi_left .HotelEvalutioBox .travel-type:nth-child(2) .upload-img,
+.mainDiv .fi_left .TicketEvalutioBox .travel-type:nth-child(2) .upload-img{
+  top: 55px;
+}
+.travel_box{
+  width: 50%;
+  position: absolute;
+  top: 45px;
+  left: 61px;
+}
+.travel_box .evaluation{
+  top: 35px;
+}
+.HotelEvalutioBox .wrap .gradetemplates:first-child{
+  margin-top: 35px;
+}
+#travelType .travel_box .wrap,.ticketEvaluation .travel_box .wrap{
+  margin-top: 30px;
+}
+.HotelEvalutioBox .travel_box .wrap,
+.TicketEvalutioBox .travel_box .wrap{
+  margin-top: 37px;
+}
+#travelType .wrap .gradetemplates,
+#travelType .wrap .gradetemplates_eval,
+.HotelEvalutioBox .wrap .gradetemplates,
+.TicketEvalutioBox .wrap .gradetemplates{
+  margin-bottom: 15px;
+  position: relative;
+}
+.travel_box .wrap .gradetemplates_eval,
+#travelType .wrap .gradetemplates_eval{
+  margin-bottom: 25px;
+}
+#travelType .wrap .gradetemplates dd,
+#travelType .wrap .gradetemplates_eval dd{
+  position: absolute;
+  top: 0;
+  /*left: 75px*/
+}
+.mainDiv .fi_left .travel-type dd {
+  /*margin-top: 16px !important;*/
+  /*padding-left: 7px;*/
+  /*margin-bottom: 10px !important;*/
+}
+#evaluation_box .travel_type span{
+  padding: 0 10px;
+}
+.evaluationBox{
+  position: absolute;
+}
+#evaluation_box{
+  position: relative;
+}
+#evaluation_box{
+  top: -20px;
+  left: 295px;
+}
+.evaluationBox{
+  left: 295px;
+  top: 0;
+}
+.evaluationBox .travel_type{
+  margin-top: 12px !important;
+}
+#evaluation_box .travel_type{
+  margin-top: 24px;
+}
+.mainDiv .fi_left .travel-type .error_map {
+  line-height: 66px;
+  margin-left: -20px
+}
+
+.mainDiv .fi_left .fi_score {
+  position: relative;
+  height: 122px
+}
+
+.mainDiv .fi_left .fi_score>dt {
+  height: 100px
+}
+
+.index1200 .mainDiv .fi_left .fi_score {
+  height: 98px
+}
+
+.index1200 .mainDiv .fi_left .fi_score>dt {
+  height: 76px
+}
+
+.mainDiv .fi_left .fi_score .error_map {
+  position: absolute;
+  left: 220px;
+  top: 25px
+}
+
+.mainDiv .fi_left .fi_score>dd {
+  height: 100%
+}
+
+/*.mainDiv .fi_left .ticketEvaluation .star,*/
+/*.mainDiv .fi_left .HotelEvaluation .star,*/
+/*.mainDiv #travelType .star, */
+.mainDiv .fi_left .fi_score .star{
+  cursor: pointer;
+  /*background-position: 0 -105px;*/
+  /*background-position: 0 -112px\0;*/
+  padding-left: 20px;
+  padding-bottom: 4px;
+  vertical-align: 3px;
+  /*margin-right: 4px;*/
+  margin-left: 15px;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+}
+
+.HotelEvaluation>dt span,
+.ticketEvaluation>dt span{
+  background: #FF8800;
+}
+#travelType>dt span{
+  background: #22C233;
+}
+.ticketEvaluation>dt span{
+  margin-top: 0;
+}
+.ticketEvaluation>dt span,
+.HotelEvaluation>dt span,
+#travelType>dt span{
+  margin-top: 20px;
+}
+.HotelEvaluation>dt span,
+.ticketEvaluation>dt span,
+#travelType>dt span{
+  width: 95px;
+  height: 28px;
+  padding: 0;
+  border: none;
+  color: #fff;
+  text-align: center;
+  line-height: 28px;
+  border-radius: 0 14px 14px 0;
+  display: block;
+}
+
+/*.mainDiv .fi_left .ticketEvaluation .star.grey_s,*/
+.mainDiv .fi_left .HotelEvaluation .star.grey_s,
+.mainDiv #travelType .star.grey_s,
+.mainDiv .fi_left .fi_score .star.grey_s {
+  /*background-position: 0 -149px;*/
+  /*background-position: 0 -156px\0*/
+  background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/A1/52/Cii9EVkdBw2ISBoGAAAEQ6wIz6oAAIt0QP_-6UAAARb220.png) no-repeat center center;
+  width: 20px;
+  height: 20px;
+  background-size: 100%;
+
+}
+.mainDiv .fi_left .ticketEvaluation .star.grey_s,
+.mainDiv .fi_left .HotelEvaluation .star.grey_s,
+.mainDiv #travelType .star.grey_s{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 13px;
+}
+
+
+.mainDiv .fi_left .ticketEvaluation .synthesis_tip,
+.mainDiv .fi_left .HotelEvaluation .synthesis_tip,
+.mainDiv #travelType .synthesis_tip,
+.mainDiv .fi_left .fi_score .synthesis_tip {
+  color: #999999;
+  margin-left: 3px;
+  font-size: 12px;
+}
+.mainDiv .fi_left .ticketEvaluation .synthesis_tip,
+.mainDiv .fi_left .HotelEvaluation .synthesis_tip
+{
+  position: absolute;
+  top: 2px;
+  right: 78px;
+}
+.mainDiv #travelType .synthesis_tip{
+  position: absolute;
+  top: 3px;
+  right: -40px;
+}
+.mainDiv .fi_left .HotelEvaluation .synthesis dt,
+.mainDiv .fi_left .HotelEvaluation .synthesis dd,
+.mainDiv .fi_left .ticketEvaluation .synthesis dt,
+.mainDiv .fi_left .ticketEvaluation .synthesis dd,
+.mainDiv .fi_left #travelType .synthesis dt,
+.mainDiv .fi_left #travelType .synthesis dd,
+.mainDiv .fi_left .fi_score .synthesis dt,
+.mainDiv .fi_left .fi_score .synthesis dd,
+.mainDiv .fi_left #travelType .gradetemplates dt,
+.mainDiv .fi_left #travelType .gradetemplates_eval dt,
+.mainDiv .fi_left .HotelEvaluation .gradetemplates dt,
+.mainDiv .fi_left .ticketEvaluation .gradetemplates dt,
+.mainDiv .fi_left .fi_score .gradetemplates dt,
+.mainDiv .fi_left .fi_score .gradetemplates dd,
+.mainDiv .fi_left .ticketEvaluation .gradetemplates dd,
+.mainDiv .fi_left .HotelEvaluation .gradetemplates dd,
+.mainDiv .fi_left #travelType .gradetemplates dd,
+.mainDiv .fi_left #travelType .gradetemplates_eval dd{
+  display: inline
+}
+
+.mainDiv .fi_left .fi_score .synthesis {
+  margin: 8px 0 10px
+}
+
+.mainDiv .fi_left .fi_score .synthesis,
+.mainDiv .fi_left .fi_score .gradetemplates {
+  width: 201px;
+  display: inline-block;
+  _display: inline;
+  _zoom: 1
+}
+
+.mainDiv .fi_left .fi_score .synthesis {
+  display: block
+}
+
+.evaluationBox .wrap {
+  position: relative;
+  /*padding: 16px;*/
+  /*height: 66px;*/
+  margin-top: 20px;
+}
+
+.mainDiv .fi_left .judge {
+  height: 370px
+}
+#evaluation_box .fi_word{
+ position: absolute;
+ bottom: 5px;
+ left: 440px;
+ color: #999;
+ text-align: right; 
+}
+.evaluationBox .fi_word{
+  position: absolute;
+  bottom: 5px;
+  right: -70px;
+  color: #999;
+}
+
+#evaluation_box .fi_wordRed,
+.evaluationBox .fi_wordRed,
+.mainDiv .fi_left .judge .fi_wordRed{
+      color: #f00;
+  }
+#evaluation_box .fi_t_cont{
+  position: absolute;
+  top: 5px;
+  left: 90px;
+  color: #999
+}
+/*#evaluation_box .tr_feel{
+  position: absolute;
+  top: 12px;
+  left: 90px;
+  color: #999
+}*/
+.evaluationBox .fi_t_cont{
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  color: #999
+}
+.pic_frame{
+  width: 190px;
+  height: 190px;
+  /*background: #EDF0F5;*/
+  /*margin-right: 24px !important;*/
+  position: relative;
+}
+.HotelEvalutioBox .pic_frameSecond,.TicketEvalutioBox .pic_frameSecond{
+  margin-top: 52px;
+}
+.HotelEvalutioBox .moreEvalutionSecond,.TicketEvalutioBox .moreEvalutionSecond{
+  top:325px;
+}
+.mainDiv .fi_left .judge .wrap {
+  position: relative;
+  height: 92px;
+  border-bottom: 1px solid #e7e7e7
+}
+#evaluation_box .whole-judge textarea{
+  width: 100%;
+}
+.evaluationBox .whole-judge textarea{
+  width: 116%;
+}
+#evaluation_box .whole-judge textarea,
+.evaluationBox .whole-judge textarea{
+  /*width: 100%;*/
+  height: 100%;
+  /*border: none;*/
+  resize: none;
+  background: none;
+  border: 1px solid #EAEBED;
+}
+#evaluation_box .travel_feel{
+  margin-top: 25px;
+}
+.evaluationBox .travel_feel{
+  overflow: inherit;
+  margin-top: 21px !important;
+  margin-bottom: 0!important;
+  /*width: 50%;*/
+}
+.mainDiv .fi_left .judge>dt {
+  height: 348px
+}
+
+.mainDiv .fi_left .judge .detail-judge {
+  overflow: hidden;
+  height: 62px
+}
+
+.mainDiv .fi_left .judge .detail-judge .wrap {
+  height: 44px;
+  border: none;
+  overflow: hidden
+}
+
+.mainDiv .fi_left .judge .detail-judge textarea {
+  border: none;
+  resize: none;
+  border-bottom: 1px dashed #e7e7e7;
+  width: 100%;
+  height: 100%
+}
+
+.mainDiv .fi_left .judge .detail-judge dt {
+  padding-top: 20px;
+  width: 100px;
+  height: 42px;
+  text-align: center;
+  float: left
+}
+
+.mainDiv .fi_left .judge .detail-judge dd {
+  overflow: hidden
+}
+
+.mainDiv .fi_left .upload-img {
+  /*padding-left: 145px;*/
+  height: auto;
+  /*border-bottom: 1px solid #e7e7e7;*/
+  /*border-right: 1px solid #e7e7e7;*/
+  position: absolute;
+  right: 105px;
+  bottom: 0px;
+}
+
+.mainDiv .fi_left .upload-img dt {
+  background-color: #fff;
+  border-right: none;
+  float: none;
+  width: auto;
+  height: auto;
+  text-align: left
+}
+.upload_box span{
+  font-size: 10px;
+  /*margin: 8px auto 0;*/
+  display: block;
+  width: 162px;
+  color: #999;
+  position: absolute;
+  bottom: 25px;
+  left: 16px;
+}
+.none{
+  display: none!important;
+}
+.photoUpload_box{
+  width: 60px;
+  height: 60px;
+  position: absolute;
+}
+
+.upload_box em{
+  /*margin: 0 auto;*/
+  display: block;
+  text-align: center;
+  font-size: 13px;
+  color: #666;
+  position: absolute;
+  top: 99px;
+  left: 70px;
+}
+
+#travelType .wrod_limit{
+  right: 10px;
+}
+#travelType .upload-img{
+  position: relative;
+}
+
+#travelType .comment_img,.mainDiv .fi_left .upload-img .fileinput-button input {
+  position: absolute;
+  width: 100%;
+  height: 100%
+}
+
+.mainDiv .upload-img .thumbnails {
+  margin-left: 65px
+}
+
+.mainDiv .upload-img .thumbnails li {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  float: left;
+  margin-right: 5px;
+}
+
+.thumbnails li:nth-child(3),
+.thumbnails li:nth-child(6),
+.thumbnails li:nth-child(9){
+}
+.mainDiv .upload-img .thumbnails li img {
+  min-width: 60px;
+  min-height: 60px;
+  display: block
+}
+
+.mainDiv .upload-img .thumbnails li input {
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  font-size: 12px;
+  border: 1px solid #fff;
+  width: 77px;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5
+}
+
+.mainDiv .upload-img .thumbnails li .close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  background: url(https://m.tuniucdn.com/fb2/t1/G1/M00/1C/0B/Cii9EVkf2MSIDZgEAAAKezsytmsAAKZUQP_9Q4AAAry141.png) no-repeat center !important;
+  background-size: 100%!important;
+}
+
+.mainDiv .fi_left .sub_all_infor {
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.mainDiv .fi_left .sub_all_infor dt {
+  float: right;
+}
+
+.mainDiv .fi_left .sub_all_infor dd {
+  float: right
+}
+
+.mainDiv .fi_left .sub_all_infor dd button {
+  cursor: pointer;
+  margin-left: 35px;
+  width: 120px;
+  height: 34px;
+  line-height: 34px;
+  color: #fff;
+  background-color: #ff8800;
+  border: none;
+  border-radius: 3px;
+  font-family:"Microsoft YaHei";
+  font-size: 16px
+}
+#noname{
+  margin-right: 10px;
+}
+.is_no_name{
+  line-height: 55px;
+  float: right;
+  margin-right: 20px;
+}
+.mainDiv .fi_left .sub_all_infor dd button:hover {
+  background-color: #ff6600
+}
+
+.xubox_text {
+  /*margin-top: 54px !important;
+  padding-left: 86px !important*/
+}
+
+.divmask {
+  background-color: #000;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 10001;
+  top: 0;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+  opacity: 0.5;
+  left: 0
+}
+
+.popSuc {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10002
+}
+
+.popSuc .innerBox {
+  background: #fff;
+  width: 758px;
+  height: 128px;
+  top: 50%;
+  position: absolute;
+  margin-top: -64px;
+  left: 50%;
+  margin-left: -379px;
+  text-align: center;
+  border: 5px solid rgba(0,0,0,0.6);
+  padding-top: 34px
+}
+
+.popSuc .close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px
+}
+
+.icon_part {
+  display: none
+}
+
+  
+.eva_done{
+  display: inline-block;
+}
+#sat_value{
+  font-size: 46px;
+  color: #ff6600;
+  letter-spacing: 0px;
+  font-weight: bold;
+
+    /*line-height: 46px;*/
+}
+#sat_value span{
+  margin: 5px auto;
+  display: block;
+  width: 50%;
+}
+.eva_num{
+  width: 92%;
+}
+.oh{
+  border: 1px solid #eaebed;
+  padding: 15px 15px 0px 15px;
+}
+.googsTit em{
+  color: #666;
+  font-size: 12px;
+  display: block;
+}
+.ticketEvaluation .googsTit{
+  margin-top: 12px!important;
+}
+.ticketEvaluation .whole-judge{
+  margin-top: 21px!important;
+}
+
+#do_commit{
+  float: right;
+  background: #ff8800;
+  color: #fff;
+  width: 120px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.TicketEvalutioBox .gradetemplates dt,
+.HotelEvalutioBox .gradetemplates dt{
+  margin: auto;
+  position: absolute;
+  top: 2px;
+}
+.gradetemplates_eval dd,
+.gradetemplates dd{
+  margin-left: 60px;
+}
+.gradetemplates_eval dd img,
+.gradetemplates dd img{
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-left: 13px;
+}
+#noname{
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+}
+#xubox_layer1{
+  top: 328px;
+}
+.wholeJudge{
+    width: 60px;
+    height: 132px;
+    line-height: 132px;
+    display: block;
+    padding: 0 10px;
+    background-color: rgba(237,240,245,0.47);
+    border: 1px solid #eaebed;
+    border-right: none;
+}
+#completeJudge{
+  margin-top: -134px;
+  margin-left: 79px;
+}
+#evaluation_box .whole-judge textarea{
+  border-left: none;
+}
+.itemName{
+  width: 60px;
+  height: 65px;
+  line-height: 65px;
+      padding: 0 10px;
+    display: inline-block;
+    background-color: rgba(237,240,245,0.47);
+    position: absolute;
+}
+
+.itemJudgeBox{
+  position: relative;
+  margin-top: 40px;
+}
+.itemJudgeBox li{
+  position: relative;
+  width: 578px;
+  height: 65px;
+  border: 1px solid #eaebed;
+  border-top: none;
+}
+.itemJudgeBox ul li:first-child{
+  border-top: 1px solid #eaebed;
+}
+.itemJudgeBox textarea{
+  position: absolute;
+  left: 80px;
+  width: 86%;
+  border: 1px solid #eaebed;
+  border-left: none;
+  height: 65px;
+    border-top: none;
+    top: 2px;
+    border-right: none;
+    background: #f8f8f8;
+    resize: none;
+}
+.more_eva{
+  position: absolute;
+  width: 11%;
+  margin: auto;
+  left: 265px;
+  top: -30px;
+  cursor: pointer;
+}
+.more_eva img{
+  width: 15px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  right: 0;
+}
+.more_eva i{
+  font-style: normal;
+}
+#evaluation_box .itemEva{
+  top: 22px;
+}
+#travelType{
+  margin-top: 20px;
+}

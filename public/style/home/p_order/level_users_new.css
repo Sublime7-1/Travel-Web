@@ -1,0 +1,82 @@
+.main{float:left;width:798px}.main_title{font-size:14px;font-weight:700;color:#333;line-height:34px}.description{margin:10px
+0 20px 0}.des_border_b{border:1px
+solid #e7e7e7;border-top:1px solid #fdd475;padding:0}.total{background-color:#fefaf4;padding:30px
+40px}.num{font-size:16px;font-weight:700}.num
+strong{font-size:24px;font-weight:700;color:#f60}.num
+button{display:inline-block;width:121px;height:34px;margin-left:50px;color:#FFF;font-size:14px;font-weight:700;text-align:center;border:none;cursor:pointer}.num
+.change{background-image:url(http://img1.tuniucdn.com/ui/v2/user2011v2/img/cash_btn.jpg)}.num
+.lottery{background-image:url(http://img1.tuniucdn.com/ui/v2/user2011v2/img/cash_btn.jpg);margin-left:20px;display:none}.num
+.disable{background-image:url(http://img1.tuniucdn.com/ui/v2/user2011v2/img/cash_btn_grey.jpg)}.total
+p.notice{margin:10px
+0 0 0}.notice
+span{color:#F60}.ins_title{margin:15px
+20px 0 20px;font-size:12px;font-weight:700;color:#7e7e7e}.instruction{margin:0
+15px 5px 20px;color:#999}.more{text-decoration:underline;text-align:right;margin:5px
+15px 10px 0;color:#999}.detail_list
+.tab{float:left;background:-moz-linear-gradient(top , #fcfcfc, #f4f4f4);border:1px
+solid #CCC;padding:5px
+10px;margin-right:8px;border-bottom:none;cursor:pointer;width:70px;text-align:center}.detail_list
+.cur{background:-moz-linear-gradient(top , #fdfaef, #fceacf);border:1px
+solid #fdd475;border-bottom:none;color:#F60;font-weight:700}.table_detail{border-top:1px solid #fdd475}.table_detail
+table{border-collapse:collapse;border-spacing:0;width:798px;border:1px
+solid #e6e6e6;border-top:none}.table_detail table
+tr{line-height:1.9}.table_detail table tr
+td{padding:3px
+10px;color:#666}.table_detail table tr.tb_title
+td{background-color:#f2f2f2;color:#333}.date{width:140px}.from{width:270px}.get{width:100px}.used{width:100px}.cash_btn_grey{background:url("http://img1.tuniucdn.com/ui/v2/user2011v2/img/cash_btn_grey.jpg") repeat-x scroll 0 0 transparent}.wrap_out{padding:5px;background:#eee;box-shadow:0 0 6px rgba(0,0,0,.5);-moz-box-shadow:0 0 6px rgba(0,0,0,0.5);-webkit-box-shadow:0 0 6px rgba(0,0,0,.5);position:absolute;z-index:2000}.wrap_in{background:#fafafa;border:1px
+solid #ccc}.wrap_bar{width:100%;background:#f7f7f7;border-top:3px solid #f9f9f9;border-bottom:4px solid #eee;margin-top:2px}.wrap_title{line-height:5px;background:#f3f3f3;border-top:4px solid #f5f5f5;border-bottom:5px solid #f1f1f1;margin-top:3px}.wrap_title
+span{position:relative;margin-left:10px;cursor:text}.wrap_body{display:inline-block;border-top:1px solid #ddd;background:white}.wrap_close{margin-top:-18px;margin-right:10px;color:#34538b;font-weight:bold;font-family:Tahoma;text-decoration:none;cursor:pointer;float:right}.wrap_close:hover{text-decoration:none;color:#f30}.wrap_remind{width:16em;padding:30px
+40px}.wrap_remind
+p{margin:10px
+0 0}.map_submit_btn{display:inline-block;padding:3px
+12px 1.99px;background:#486aaa;border:1px
+solid;border-color:#a0b3d6 #34538b #34538b #a0b3d6;color:#f3f3f3;line-height:16px;cursor:pointer;overflow:visible}.map_submit_btn:hover{text-decoration:none;color:#fff}.map_cancel_btn{display:inline-block;padding:3px
+12px 1.99px;background:#eee;border:1px
+solid;border-color:#f0f0f0 #bbb #bbb #f0f0f0;color:#333;line-height:16px;cursor:pointer;overflow:visible}select{border:1px
+solid #ccc;margin:0
+10px 0 0}.txt_cen{text-align:center}.withdraw_pop,.input_pop{width:350px;display:none;padding:10px
+0;color:#404040}.withdraw_pop
+.w_fs{}.withdraw_pop .w_fs
+input{width:190px;color:#ccc}.withdraw_pop .w_ss, .withdraw_pop
+.w_ts{padding:10px;display:none}.withdraw_pop .w_ss
+p{margin:5px
+0}.withdraw_pop
+.w_ts{text-align:center}.withdraw_pop .w_ts
+p{margin:15px
+0}.withdraw_pop table tbody
+td{padding:5px;font-size:12px}.withdraw_pop table tbody td:first-child{text-align:right}.withdraw_pop
+button{width:55px;height:24px;vertical-align:middle;margin:0
+10px 0 0;cursor:pointer}.input_pop
+.i_fs{text-align:center;line-height:150%}.input_pop .i_fs
+p{margin:15px
+0}.input_pop .i_fs p
+button{padding:2px
+8px}.input_pop .i_ss, .input_pop
+.i_ts{display:none}.input_pop
+.i_ss{padding:10px}.input_pop .i_ss
+p{margin:5px
+0}.input_pop
+.i_ts{text-align:center}.input_pop .i_ts
+p{margin:15px
+0}.fs_table{margin-left:40px;text-align:left}.fs_table
+td{width:90px}.fs_table td
+span.orange{color:#F60}.input_pop .i_fs
+p.fs_insure{margin-left:42px;text-align:left}.input_pop .i_ss
+p.fs_button{margin-top:10px;text-align:center}.main{float:left;width:798px}.main_title{font-size:14px;font-weight:700;color:#333;line-height:34px}.description{margin:0px
+0 20px 0}.des_border_l{border:1px
+solid #e7e7e7;padding:15px
+30px}.level_des{}.level_des
+td.front{width:120px;font-size:12px}.level_des td
+strong{font-weight:700}.orange{color:#F60;font-weight:700}.notice{margin:10px
+0 0 0}.notice
+a.more{color:#999;margin-left:30px}.detail_list{margin-bottom:15px}.det_border{border:1px
+solid #e7e7e7;border-top:1px solid #fdd475}.privilege{float:left;display:inline;margin:15px
+10px 0px 30px;padding-bottom:10px}.privilege
+div{float:left}.pri_icon{width:62px;height:62px;background:url(http://img1.tuniucdn.com/ui/v2/user2011v2/img/level_icos.jpg) no-repeat}.pri_birth{background-position:-3px -3px}.pri_hongbao{background-position:-3px -70px}.pri_vip{background-position:-3px -137px}.pri_guwen{background-position:-3px -204px}.pri_zixun{background-position:-3px -271px}.pri_double{background-position:-3px -341px}.intro{width:650px;margin-left:10px;vertical-align:middle}.intro
+p{color:#666}.green
+a{color:#4e9700;font-weight:700}.notice2{text-align:right;margin:20px
+20px 10px 0}.notice2
+a.more{color:#999}.nb{margin:20px
+0 0 42px}.level_icon{width:129px;height:60px;background:url(http://img1.tuniucdn.com/ui/v2/user2011v2/img/level_icos.jpg) no-repeat;float:left}.lv_0{background-position:-3px -431px}.lv_1{background-position:-3px -499px}.lv_2{background-position:-3px -564px}.lv_3{background-position:-3px -626px}.lv_4{background-position:-3px -691px}.lv_5{background-position:-3px -756px;width:60px}.prograss{position:relative;margin:5px
+0px 20px 67px;width:650px}.pro_bar{height:10px;background-color:#eaeaea;border-bottom:1px solid #d7d7d7}.bar_yellow{height:10px;background-color:#f6deb5;border-bottom:1px solid #dfc291;width:100px;max-width:650px}.tra{background:url(http://img1.tuniucdn.com/ui/v2/user2011v2/img/tra.png) no-repeat;height:6px;width:11px;position:absolute;left:-4px;top:13px}.level_lv{margin:0
+0 30px 15px}.lv_li{float:left;width:128px}.lv_name{text-align:center;color:#404040;width:122px}.now_lv{font-weight:700}.lv_detail{color:#888}.lv_time{color:#888;text-align:center;width:122px}.lv_li_last{float:left;width:110px}

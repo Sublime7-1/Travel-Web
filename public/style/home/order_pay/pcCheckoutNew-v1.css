@@ -1,0 +1,342 @@
+.cont_box.disable,.opacity{filter:alpha(opacity=55);opacity:.55}.choose_box,.cont_box{position:relative}body{background-color:#f0f0f0;font-family:"Microsoft Yahei"!important}.c3{color:#333}.c6{color:#666}.c9{color:#999}.f24{font-size:24px}.module{width:1200px;margin:0
+auto}.inline{display:inline-block;*zoom:1;*display:inline}.visible{overflow:visible!important}.top_box{height:30px;line-height:30px;font-size:14px;border-bottom:1px solid #e2e2e2;background:#fff}.top_box .user_login
+li{float:left;color:#CCC}.top_box .user_login li a,.top_box .user_login li
+span{color:#666;margin:0
+20px}.bankOrderInfo .pay_money p,.cont_box{margin-bottom:10px}.top_box .user_login li a:hover{color:#f80}.logo_box{padding:20px
+0}.logo_box
+.logo{height:48px;width:120px;background:url(https://ssl.tuniucdn.com/img/20160304/jinrong/licai2/checkout/tnlogo.png) center left no-repeat;border-right:1px solid #FFF}.logo_box
+h3{height:48px;border-left:1px solid #d1d1d1;line-height:48px;font-size:24px;color:#666;padding-left:20px}.choose_box.active,.link_box.active{border:1px
+solid #f80}.bankOrderInfo,.f14{font-size:14px}.pay_box{background-color:#f0f0f0}.order_box{background:#fff;padding:20px}.cont_box{background:#fff;padding:30px
+20px 30px 40px}.cont_box.z10{*z-index:10}.z11{z-index:11!important}.cont_box.z12{*z-index:12}.z13{z-index:13!important}.cont_box.z14{*z-index:14}.cont_box.limitH{height:24px}.mask_box{-webkit-transition:opacity .5s ease;-moz-transition:opacity .5s ease;-ms-transition:opacity 1s ease;transition:opacity .5s ease}.choose_box
+.unexpanded{position:absolute;width:100%;height:100%;left:0;top:0;cursor:pointer}.choose_box.active
+.unexpanded{display:none}.link_box{cursor:pointer}.hasBind_field,.unBind_field{display:none;padding-top:30px}.hasBind_field.active,.unBind_field.active{display:block}.bankOrderInfo{color:#666;line-height:28px}.bankOrderInfo .pdt-title{color:#333;width:675px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.bankOrderInfo .order-info{color:#333}.bankOrderInfo
+.fen{color:#fc6969}.bankOrderInfo
+.pay_money{text-align:right;line-height:1;position:relative;padding-right:105px}.bankOrderInfo .pay_money p
+input{width:200px;height:38px;line-height:38px;text-indent:5px;color:#fc6969;font-size:20px;border:1px
+solid #f0f0f0;margin-right:4px;display:none}.bankOrderInfo .pay_money p input:focus{border:1px
+solid #999}.bankOrderInfo .pay_money
+.error_info{color:#ff6464;font-size:12px;margin-bottom:10px;display:none}.bankOrderInfo .pay_money
+a{color:#f80;font-size:14px}.bankOrderInfo .pay_money
+a.disable{color:#ddd}.bankOrderInfo .pay_money .fc-tips{position:absolute;top:-36px;right:98px;padding:8px;background:#f80;color:#FFF;font-size:12px;border-radius:4px;white-space:nowrap;text-align:left}.bankOrderInfo .pay_money .fc-tips
+i{position:absolute;bottom:-10px;right:38px;border-color:#f80 transparent transparent;border-style:solid;border-width:5px;width:0;height:0}.bankOrderInfo .pay_money.fc-pay .fc-tips,.bankOrderInfo .pay_money.noerma.fc-pay .fc-tips{left:70px;right:auto}.bankOrderInfo .pay_money.fc-pay .fc-tips
+i{bottom:-10px;left:25px;right:auto}.bankOrderInfo
+.pay_money.noerma{padding-right:0}.bankOrderInfo .pay_money.noerma .fc-tips{right:0}.top_title{position:relative}.top_title
+.left{font-size:18px;color:#333;line-height:1}.tn_wallet_box .top_title
+.left{margin-top:5px}.top_title .left
+img{vertical-align:top}.top_title .left
+span{font-weight:700}.top_title .left>a{margin-left:4px;font-size:14px;display:none}.top_title .left
+em{font-size:14px;color:#333;margin-left:25px}.top_title .left
+em.ml{margin-left:58px}.top_title .left em
+b{color:#f80}.top_title .left .shortcut-tips{font-size:14px;color:#666;font-style:normal}.top_title
+.right{font-size:14px;color:#666;line-height:1}.top_title .right
+span{color:#fc6969;font-size:20px}.top_title .right
+i{position:relative;color:#f20e16;border:1px
+solid #f20e16;border-radius:3px;padding:0
+7px 0 15px;height:18px;line-height:18px;margin-right:15px;font-style:normal}.top_title .right i
+img{position:absolute;left:-18px;top:-6px}.top_title .right i
+b{font-size:16px}.top_title
+.favorable{position:absolute;width:116px;height:67px;padding-right:2px;background:url(https://ssl.tuniucdn.com/img/2016053002/jinrong/pay/pc/lj_bg.png) no-repeat;right:0;top:-35px;font-size:18px;color:#FFF;line-height:1;text-align:center}.top_title .favorable
+h3{font-size:18px;line-height:1;padding:9px
+0 2px}.top_title .favorable h3
+i{font-size:18px;font-style:normal}.top_title .favorable
+p{font-size:18px}.top_title .favorable p
+span{font-size:28px;font-weight:700}.top_title .favorable.random
+h3{font-size:22px;line-height:1;padding:10px
+0 6px}.top_title .favorable.random
+p{font-size:14px;color:#fcff00;line-height:1}.top_title .favorable.random p
+span{color:#FFF;font-size:14px}.choose_box.active .top_title .favorable,.choose_box.noActivity .top_title
+.favorable{display:none}.choose_box.noActivity .top_title
+.right{display:none!important}.choose_box .hasBind_field,.choose_box .hasBind_field.active,.choose_box .pay-enter,.choose_box .unBind_field,.choose_box
+.unBind_field.active{display:none}.choose_box
+.top_title{padding-bottom:0}.choose_box.active .hasBind_field.active,.choose_box.active .pay-enter.active,.choose_box.active .top_title,.choose_box.active
+.unBind_field.active{display:block}.cont_box.limitH .pay-enter.active{display:none}.cont_box.limitH.active .pay-enter.active{display:block}.cont_box.limitH .pay-enter{margin-left:20px;margin-top:-6px}.tn_wallet_box .pay-enter.unopen{float:right;margin-left:20px}.choose_box
+.unBind_field{position:relative}.choose_box .unBind_field .sfcf-selfcard-tips{position:absolute;font-size:14px;color:#f80;font-style:normal;top:5px;left:0}.choose_bank
+.add_bank{margin:10px
+0 0 10px;color:#69c;font-size:12px}.choose_bank{margin-bottom:20px;position:relative;z-index:10}.bank_select_box{height:40px;position:relative;*width:650px}.bank_select_box
+.card_info{height:38px;line-height:38px;border:1px
+solid #f0f0f0;padding:0
+40px 0 15px;*padding-right:0;background:#FFF;color:#999;border-radius:2px;white-space:nowrap}.bank_select_box .card_info .ac-tips{display:inline-block;*zoom:1;*display:inline;border:1px
+solid #f80;border-radius:3px;height:16px;line-height:16px;margin-left:6px;padding:0
+4px;font-size:12px;color:#f80}.bank_select_box:hover
+.card_info{border-color:#f80}.bank_select_box .card_info .bank-logo{vertical-align:-9px;display:inline-block;*display:block;*float:left;*margin-top:5px}.bank_select_box .card_info
+i{color:#666;font-style:normal}.bank_select_box .card_info
+.kjtips{margin:0
+10px 0 2px;color:#FFF;font-size:14px;background:#69c;height:18px;line-height:18px;width:34px;text-align:center;display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline;border-radius:3px}.bank_select_box .card_info img.hui-icon{vertical-align:middle;margin-left:12px}.bank_select_box .card_info
+em{display:inline-block;*zoom:1;*display:inline;padding:0
+3px;color:#FFF;height:18px;line-height:18px;margin:0
+8px;border-radius:2px}.bank_select_box .card_info em.cx-bg{background:#7198c8}.bank_select_box .card_info em.xy-bg{background:#5acabc}.bank_select_box
+.selected_box{cursor:pointer}.bank_select_box
+.bank_select_bar{position:absolute;width:26px;height:26px;background:#f0f0f0;right:7px;top:7px;border-radius:2px}.bank_select_box:hover
+.bank_select_bar{background-color:#f80}.bank_select_box .bank_select_bar
+b{position:absolute;width:0;height:0;line-height:0;border:5px
+solid transparent;border-top-color:#CCC;left:8px;top:11px}.bank_select_box:hover .bank_select_bar
+b{border-top-color:#FFF}.bank_select_box
+.bank_select_list{display:none;border:1px
+solid #f0f0f0;border-bottom:none;max-height:200px;overflow-y:scroll;*position:relative}.bank_select_box .bank_select_list
+li.card_info{border:none;border-bottom:1px solid #f0f0f0;width:auto}.bank_select_box .bank_select_list li.card_info:hover{background:#f0f0f0;cursor:pointer}.bank_select_box .bank_select_list
+li.card_info.cur{background:#f0f0f0}.pay-select{width:1000px}.pay-select-tab{height:35px;border-bottom:1px solid #f0f0f0;z-index:1}.pay-select-tab
+li{float:left;margin-bottom:-1px;margin-right:8px;width:142px;height:34px;border:1px
+solid #f0f0f0;background-color:#f7f7f7;text-align:center;font:16px/35px 'Microsoft YaHei';color:#666;cursor:pointer}.pay-select-tab
+.on{background-color:#FFF;color:#333;border-bottom:1px solid #FFF}.pay-select-tab
+li.disable{background:#ccc}.pay-select-con{margin-top:24px;margin-right:-12px;width:1000px}.pl-wrap{width:1012px;padding-bottom:12px}.pl-wrap .pl-item{position:relative;overflow:visible}.pay-other-list li,.pl-wrap .pl-item{float:left;background-color:#FFF;padding:5px
+0;width:188px;margin-right:12px;margin-bottom:10px;cursor:pointer;border:1px
+solid #B0C2E1;border-radius:2px}.pay-other-list li.on,.pl-wrap li.on,.pl-wrap li:hover{border:2px
+solid #69c;padding:4px
+0;width:186px}.pay-other-list li:hover{border:2px
+solid #69c;height:36px;width:186px}.pl-item .bank-logo{margin-left:25px}.pl-more{float:left;background:#cfe7ff;padding:5px
+0;height:28px;line-height:28px;font-size:14px;width:188px;border:1px
+solid #cfe7ff;text-align:center;color:#69c;font-weight:700;cursor:pointer;-webkit-transition:all .2s,color .2s;-moz-transition:all .2s,color .2s;-ms-transition:all .2s,color .2s;transition:all .2s,color .2s}.form_box ul li input.cardInput,.input-card-bind ul li
+input.cardInput{-webkit-transition:transform .5s ease-in-out;-moz-transition:transform .5s ease-in-out;-mz-transition:transform .5s ease-in-out;-o-transition:transform .5s ease-in-out}.pl-wrap li.pl-more:hover{background:#aed7ff;border:1px
+solid #aed7ff;width:188px;padding:5px
+0}.link_box.other_pay .pay-other-con{display:none;position:relative}.link_box.other_pay.active .pay-other-con{display:block}.pay-other-con .back-btn{position:absolute;color:#69c;font-size:14px;right:20px;top:28px}.hasBind_field .form_box,.pay-select-con
+.form_box{font-size:14px;color:#333}.pt-30{padding-top:30px}.pay-other-list
+li{padding:0;overflow:visible}.pay-other-list li
+a{display:block;width:188px;height:38px;position:relative}.pay-other-list li
+span{display:block;margin-left:25px;width:125px;height:36px;overflow:hidden}.pay-other-list li a .hui-tips{position:absolute;top:-7px;left:12px}.hasBind_field
+.credit{display:none}.pay-select-con
+.form_box{position:relative;padding-left:43px}.form_box
+ul.line{margin-bottom:20px}.form_box ul
+li{float:left;height:40px;line-height:40px;overflow:visible}.form_box ul
+li.label{width:70px;text-align:right;padding-right:30px}.form_box ul
+li.ts{font-size:12px;color:#ff5a5a}.form_box ul li
+input.widthL{width:227px}.form_box ul li
+input.widthS{width:128px}.form_box ul li
+input.marl0{margin-left:0!important}.form_box ul li input[type=text]{border:1px
+solid #f0f0f0;height:38px;line-height:38px;vertical-align:top;margin-right:20px;text-indent:5px;color:#666;z-index:1}.form_box ul li input[type=text]:focus{border:1px
+solid #999}.form_box ul li input.cardInput:hover{transform:scale(1.2);-webkit-transform:scale(1.2);-moz-transform:scale(1.2);-ms-transform:scale(1.2);-o-transform:scale(1.2)}.form_box ul li
+input.cardInput.readonly{border:none;color:#333;font-size:14px;line-height:40px}.form_box ul li input.cardInput.readonly:hover{transform:scale(1);-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1)}.form_box ul
+li.card_info{height:37px;line-height:37px;border:1px
+solid #f0f0f0;color:#999;font-size:12px;padding:0
+15px;margin-right:20px;display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline}.form_box ul li.card_info
+span{margin-right:15px}.form_box ul li.sbank
+a{font-size:12px}.form_box ul li.sbank
+img{vertical-align:-1px;margin-right:7px}.form_box ul li
+input.error{border:1px
+solid #fc6969}.form_box .card_info .bank-logo{vertical-align:-9px;display:inline-block;*display:block;*float:left;*margin-top:5px}.form_box ul li.card_type input[type=radio]{vertical-align:-2px;margin-right:5px}.form_box ul li.card_type
+label{margin-right:30px}.form_box ul li.txtLi
+a{margin-left:10px;font-size:12px}.form_box ul li.inputLi
+a{margin-right:20px;font-size:12px}.form_box
+.sytx_shoucikaitong{position:absolute;top:50px;right:0}.form_box .btn_box
+.goToBind{width:138px;margin-left:28px;margin-right:10px}.form_box .btn_box
+.linkToPact{font-size:14px;text-decoration:underline;margin-top:6px}.form_box .keep-common{padding:0
+0 20px 28px}.form_box .keep-common input[type=checkbox]{vertical-align:-2px;margin-right:4px;*vertical-align:0}.form_box .shortcut .credit,.form_box ul li.inputLi,.form_box ul li.ts,.pay-select-con .form_box,.pl-wrap .pl-item{display:none}.date_select_box{position:relative;width:91px;height:38px;z-index:9;border:1px
+solid #f0f0f0}.form_box .date_select_box input[type=text]{width:59px;*width:54px;*height:36px;margin:0;padding:0;text-align:center;border:none;background:0 0}.form_box .date_select_box input[type=text]:focus{border:none}.date_select_box
+i{position:relative;background:#f0f0f0;width:26px;height:26px;margin-top:7px;*margin-top:4px;cursor:pointer;border-radius:2px;vertical-align:top}.date_select_box i
+b{position:absolute;width:0;height:0;line-height:0;border:5px
+solid transparent;border-top-color:#CCC;left:8px;top:11px}.date_select_box:hover{border-color:#f80}.date_select_box:hover
+i{background:#f80}.date_select_box:hover i
+b{border-top-color:#FFF}.date_select_box
+dl{background:#FFF;border:1px
+solid #ddd;display:none;max-height:300px;overflow-y:scroll;top:40px\9;left:0\9;position:absolute\9;width:100%\9}.bank-logo,.pay-enter,.pay-problem{overflow:hidden}.date_select_box dl
+dd{height:30px;line-height:30px;text-align:center;border-bottom:1px solid #ddd;cursor:pointer;font-size:12px;color:#b1b1b1}.date_select_box dl dd:last-child{border-bottom:none}.date_select_box dl dd.cur,.date_select_box dl dd:hover{background:#e0ebf5}.form_box ul li
+span.txt{margin:0
+8px 0 5px;font-size:14px}.bank_select_box .bank_select_list::-webkit-scrollbar,.date_select_box dl::-webkit-scrollbar{width:4px}.bank_select_box .bank_select_list::-webkit-scrollbar-track,.date_select_box dl::-webkit-scrollbar-track{background:#F0F0F0}.bank_select_box .bank_select_list::-webkit-scrollbar-thumb,.date_select_box dl::-webkit-scrollbar-thumb{background:#ccc;border-radius:4px}.user_box
+.date_select_box{margin-right:10px;*margin-right:0}.pay-enter
+a{float:left;width:138px}.pay-enter-tips{float:left;margin-left:10px;font:14px/34px "Microsoft YaHei";color:#fc6969}.payBtnCom{height:34px;line-height:34px;text-align:center;font-size:14px;color:#FFF;border-radius:4px;display:block;background:#ccc}.payBtnCom.active{background:#fc6969}.payBtnCom.active:hover{background:#fd463e}.blueBtn{color:#69c}.blueBtn:hover{color:#2188ef;text-decoration:underline}.pay-problem{padding:25px
+20px 0;width:1160px}.pay-problem
+h3{font:400 18px/28px "Microsoft YaHei";color:#666}.pay-problem
+p{margin-top:24px;font:300 14px/24px "Microsoft YaHei";color:#666;height:238px}.pay-problem p.height-auto{height:auto}.pay-problem p
+span{font-weight:400}.pop_box{display:none}.backg{background:#333;position:fixed;left:0;bottom:0;right:0;top:0;opacity:.5;filter:Alpha(Opacity=50);z-index:9999}.c-pay-con .btn_box a:hover,.pop_win .hover:hover{filter:alpha(opacity=80);opacity:.8}.pop_box
+.pop_win{left:50%;margin-left:-214px;top:50%;border:6px
+solid #c3c9d2;width:396px;padding:0
+16px;position:fixed;background:#FFF;text-align:center;z-index:10000}.pop_win
+.head{position:relative;height:50px;line-height:50px;font-size:18px;color:#FFF;margin-bottom:33px;border-bottom:1px solid #f2f2f2}.pop_win .head
+span{color:#f80;font-size:18px}.pop_win .head
+img{position:absolute;top:17px;right:0;cursor:pointer}.scan_pay,.scan_pay
+i{right:-10px;position:absolute}.pop_win
+.sms_box{line-height:1;position:relative}.pop_win .sms_box
+h3{font-size:24px;color:#333;margin-bottom:9px}.pop_win .sms_box
+h4{font-size:12px;color:#666;margin-bottom:30px}.pop_win .sms_box
+input{width:278px;height:38px;line-height:38px;border:1px
+solid #f0f0f0;text-align:center;font-size:20px;letter-spacing:12px;margin-bottom:10px;display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline}.pop_win .sms_box
+h5{font-size:12px;color:#999;margin-bottom:29px}.pop_win .sms_box h5
+em{color:#f80;margin-right:15px}.pop_win .sms_box h5
+i{font-style:normal}.pop_win .sms_box
+.error{position:absolute;top:146px;left:0;width:100%;text-align:center;font-style:normal;color:#ff5a5a;font-size:12px;display:none}.pop_win
+p{font-size:14px;color:#333;margin-bottom:22px;line-height:1.5}.pop_win .sms_box
+p{width:87%;text-align:left;margin:0
+auto 22px}.pop_win .sms_box p
+b{font-weight:400;color:#f80}.pop_win
+.butg{margin-bottom:38px}.pop_win .butg
+.pop_btn{width:124px;height:32px;line-height:33px;text-align:center;border:1px
+solid #f80;color:#323232;font-size:14px;border-radius:4px;display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline}.pop_win .butg
+.pop_btn.confirm{background:#f80;color:#FFF}.pop_win .butg
+.pop_btn.other{background:#FFF;color:#f80}.pop_win .butg
+.mar{margin-right:30px}.pop_win
+.sms_btn{width:100px;height:34px;line-height:34px;text-align:center;background:#f80;color:#FFF;border-radius:4px;font-size:14px;display:inline-block;display:-moz-inline-stack;zoom:1;*display:inline}.card_installment .pay-select,.loading_box,.tn_wallet_box .pay-select-con .pl-wrap.wy-box,.tn_wallet_box .pay-select-tab{display:none}.pop_win
+.sms_btn.gray{background:#e0e0e0}.pop_win
+.sms_btn.heighter{height:40px;line-height:40px;vertical-align:top;border-radius:0}.pop_win .sms_box
+input.shorter{width:222px}.pop_win .butg
+.pop_btn.bigger{width:148px;height:38px;line-height:38px;border-radius:0}.pop_win .sms_box
+h4.remar{margin-bottom:16px}.loading_box
+img{position:fixed;top:50%;left:50%;margin:-36px 0 0 -36px;z-index:10000}.pay_footer{text-align:center;font-size:14px;color:#999;padding:120px
+0 20px}.c-pay{background-color:#FFF}.c-pay-con{padding:50px
+0 68px;line-height:1;color:#333;text-align:center}.c-pay-con
+img{vertical-align:top;margin-bottom:20px}.c-pay-con
+h3{font-size:24px;margin-bottom:16px}.c-pay-con p,.c-pay-wait .c-pay-con
+h3{margin-bottom:20px}.c-pay-con
+p{font-size:14px}.c-pay-con p
+i{color:#ff6464;font-style:normal}.c-pay-con .btn_box
+a{width:129px;height:34px;line-height:34px;border-radius:4px;color:#FFF;font-size:14px;text-align:center}.c-pay-con .btn_box
+a.mr20{margin-right:20px}.c-pay-con .btn_box
+.other{background:#ff6464}.c-pay-con .btn_box
+.order{background:#f80}.c-pay-fail .c-pay-con
+p{color:#f80}.c-pay-scanning{padding:56px
+20px 30px}.c-pay-scanning
+.scanning{width:427px;height:304px;background:url(https://ssl.tuniucdn.com/img/2016030904/jinrong/licai2/checkout/scanning.png) no-repeat;margin:0
+auto 35px;position:relative}.c-pay-scanning .scanning
+img{width:178px;height:178px;border:1px
+solid #e8e8e8;position:absolute;top:32px;left:0}.c-pay-scanning
+a{font-size:14px;color:#666}.c-pay-scanning a:hover{color:#333;text-decoration:underline}.tn_wallet_box .pay-select-con{margin-top:0}.scan_pay{top:-56px}.scan_pay
+.erma{width:80px;padding:10px;margin-bottom:10px;background:-moz-linear-gradient(top,#fff,#f1f1f1);background:-webkit-linear-gradient(top,#fff,#f1f1f1);background:-o-linear-gradient(top,#fff,#f1f1f1);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#ffffff, endColorstr=#f1f1f1)}.scan_pay .erma
+img{width:100%;vertical-align:top}.scan_pay
+p{text-align:center;font-size:12px;color:#333;line-height:1}.scan_pay
+i{border-bottom:35px solid #d4d4d4;border-right:10px solid transparent;width:0;height:0;top:0}.scanning-to-phone{padding:96px
+0 126px;text-align:center;background:#FFF}.scanning-to-phone .erma-box{width:179px;height:225px;background:url(https://ssl.tuniucdn.com/img/20150629/jinrong/pay/pc/erma_bg.png) center no-repeat;margin-bottom:43px;padding-left:5px}.scanning-to-phone .erma-box
+img{margin-top:108px;width:100px}.scanning-to-phone
+p{font-size:14px;color:#333;line-height:1}.card_installment.active .pay-select{display:block;padding-top:30px}.card_installment .fq-list{border-top:1px solid #f0f0f0;width:820px;margin-bottom:0;*margin-bottom:8px}.card_installment .fq-list li.fq-item{display:block}.card_installment .fq-list li.fq-item
+em{height:30px;line-height:30px}.card_installment .fq-list li.fq-item
+p{height:30px;line-height:30px;width:150px;*width:170px}.card_installment .fq-select-info{margin-bottom:30px;color:#999}.card_installment .fq-select-info
+span{color:#333}.card_installment .fq-select-info span em,.card_installment .fq-select-info span
+i{font-style:normal}.card_installment .hasBind_field,.card_installment
+.unBind_field{padding-top:0}.card_installment .hasBind_field
+.form_box{display:block;padding-left:0}.card_installment .hasBind_field .pl-wrap{display:none}.card_and_wallet.no-select .pay-enter,.card_installment .hasBind_field.no-select .fq-list,.card_installment .hasBind_field.no-select .fq-select-info,.card_installment .hasBind_field.no-select .pay-enter,.choose_box .hasBind_field.no-select
+.form_box{display:none!important}.card_installment .hasBind_field .pay-enter .next,.card_installment .hasBind_field.unBind .choose_bank,.card_installment .hasBind_field.unBind .form_box,.card_installment .hasBind_field.unBind .pay-enter
+.ljPay{display:none}.card_installment .hasBind_field.unBind .pay-enter .next,.card_installment .hasBind_field.unBind .pl-wrap,.card_installment .unBind_field.active
+.form_box{display:block}.card_installment .unBind_field .form_box .fq-info
+span{color:#999}.card_installment .unBind_field .form_box .fq-info span
+i{font-style:normal;font-weight:700;color:#333}.choose_box .tips b,.choose_box .tips
+p{left:0;width:100%;text-align:center;color:#FFF;font-size:12px}.card_installment
+.choose_bank{margin-bottom:28px}.choose_box .bank_select_box .card_info,.choose_box .pl-wrap .pl-item{position:relative}.choose_box .tips
+.bg{position:absolute;width:100%;height:100%;left:0;top:0;background:#000;opacity:.5;filter:alpha(opacity=50)}.choose_box .tips
+p{position:absolute;bottom:0;height:14px;line-height:14px;background:#69c}.choose_box .tips
+b{position:absolute;top:0;height:38px;line-height:38px}.choose_box
+.tips{display:none}.choose_box .bank_select_box .card_info.disable .tips,.choose_box .pl-wrap .pl-item.disable:hover .tips,.choose_box.card_installment .pl-wrap .pl-item.disable
+.tips{display:block}.choose_box .bank_select_box .card_info.disable .tips b,.choose_box .bank_select_box .card_info.disable .tips p,.choose_box .bank_select_box .card_info.disable.pay-limit.ac-support .tips
+p{display:none}.choose_box .bank_select_box .card_info.disable.ac-support .tips p,.choose_box .bank_select_box .card_info.disable.pay-limit .tips
+b{display:block}.choose_box.card_installment .bank_select_box .card_info.disable .tips
+p{display:block!important}.choose_box .pl-wrap .pl-item.disable:hover{padding:5px
+0;width:188px;border:1px
+solid #B0C2E1}.choose_box .hover-tips{display:none;position:absolute;top:-36px;left:-2px;z-index:20;width:290px;height:30px;line-height:30px;padding:0
+4px 0 12px;background:#e6f2ff;font-size:12px;color:#333;border-radius:4px}.bank-logo,.pay-promotion-1 a,.pay-promotion-1 img,.pay-promotion-2 a,.pay-promotion-3 a,.pay-promotion-3 img,.pl-item.need-wallet-fc:hover .hover-tips,.pop_box .pop_win.big ul.pl-wrap
+li{display:block}.choose_box .hover-tips
+i{position:absolute;left:10px;bottom:-3px;width:0;height:0;border-width:3px 3px 0;border-style:solid;border-color:#e6f2ff transparent transparent}.thirdparty-installment-field .unBind_field .form_box ul li .txt.small-tips{font-size:12px;color:#999;margin-left:8px}.thirdparty-installment-field .unBind_field .form_box .btn_box
+span{font-size:12px;line-height:34px}.thirdparty-installment-field .hasBind_field .pay-enter .card-tips{float:left;font-size:12px;margin-left:10px;line-height:1.4}.thirdparty-installment-field .hasBind_field .pay-enter .card-tips
+i{color:#69c;font-style:normal;cursor:pointer}.pop_box
+.pop_win.big{width:608px;margin-left:-326px}.pop_box .pop_win.big ul.pl-wrap{width:100%;margin-left:7px;padding-bottom:20px}.pop_box .pop_win.big ul.pl-wrap li:hover{border:1px
+solid #B0C2E1;padding:5px
+0;width:188px}.pop_box .pop_win.big
+.butg{margin-bottom:30px}.hui-shake{-webkit-animation:shake 1s ease;-moz-animation:shake 1s ease;-ms-animation:shake 1s ease;-o-animation:shake 1s ease;animation:shake 1s ease}@-webkit-keyframes
+shake{0%,100%{-webkit-transform:translateX(0)}10%,30%,50%,70%,90%{-webkit-transform:translateX(-10px)}20%,40%,60%,80%{-webkit-transform:translateX(10px)}}@-moz-keyframes
+shake{0%,100%{-moz-transform:translateX(0)}10%,30%,50%,70%,90%{-moz-transform:translateX(-10px)}20%,40%,60%,80%{-moz-transform:translateX(10px)}}@-ms-keyframes
+shake{0%,100%{-ms-transform:translateX(0)}10%,30%,50%,70%,90%{-ms-transform:translateX(-10px)}20%,40%,60%,80%{-ms-transform:translateX(10px)}}@-o-keyframes
+shake{0%,100%{-o-transform:translateX(0)}10%,30%,50%,70%,90%{-o-transform:translateX(-10px)}20%,40%,60%,80%{-o-transform:translateX(10px)}}@keyframes
+shake{0%,100%{transform:translateX(0)}10%,30%,50%,70%,90%{transform:translateX(-10px)}20%,40%,60%,80%{transform:translateX(10px)}}.BestPay-log,.EasyPay-log,.UnionPay-log,.alipay-log,.tenpay-log,.wx-log,.Jdpay-log{background:url(https://ssl.tuniucdn.com/img/20170715/jinrong/pay/pc/bank-logo.png) center no-repeat}.bank-logo{background-image:url(https://ssl.tuniucdn.com/img/20170715/jinrong/pay/pc/bank-logo.png);width:125px;height:28px;text-indent:-9999px}.bank-bjrcb{background-position:0 0}.bank-bccb{background-position:0 -28px}.bank-cbhb{background-position:0 -55px}.bank-bocd{background-position:0 -83px}.bank-fudian{background-position:0 -112px}.bank-icbc{background-position:0 -139px}.bank-ceb{background-position:0 -168px}.bank-gdb{background-position:0 -196px}.bank-hkbchina{background-position:0 -224px}.bank-hccb{background-position:0 -253px}.bank-hengfeng{background-position:0 -280px}.bank-hxb{background-position:0 -308px}.bank-ccb{background-position:0 -336px}.bank-jsb{background-position:0 -364px}.bank-comm{background-position:0 -392px}.bank-jinghua{background-position:0 -420px}.bank-cmbc{background-position:0 -448px}.bank-njcb{background-position:0 -477px}.bank-nbcb{background-position:0 -504px}.bank-abc{background-position:0 -532px}.bank-szpab{background-position:0 -560px}.bank-spdb{background-position:0 -588px}.bank-qdccb{background-position:0 -616px}.bank-shrcb{background-position:0 -644px}.bank-bos{background-position:0 -672px}.bank-sdb{background-position:0 -700px}.bank-wzcb{background-position:0 -728px}.bank-cib{background-position:0 -756px}.bank-cmb{background-position:0 -784px}.bank-zjtl{background-position:0 -812px}.bank-boc{background-position:0 -841px}.bank-psbc{background-position:0 -870px}.bank-citic{background-position:0 -897px}.bank-cqrcb{background-position:0 -924px}.bank-cqcb{background-position:0 -952px}.bank-gzrcc{background-position:0 -981px}.bank-gzcb{background-position:0 -1009px}.bank-hscb{background-position:0 -1038px}.bank-czsb{background-position:0 -1066px}.bank-czb{background-position:0 -1066px}.bank-bonc{background-position:0 -1094px}.bank-gdnyb{background-position:0 -1122px}.bank-chab{background-position:0 -1150px}.bank-dylscz{background-position:0 -1178px}.bank-dzb{background-position:0 -1206px}.bank-lwb{background-position:0 -1234px}.bank-qsb{background-position:0 -1262px}.bank-rzb{background-position:0 -1291px}.bank-tab{background-position:0 -1319px}.bank-lsb{background-position:0 -1347px}.bank-wfccb{background-position:0 -1375px}.bank-ordos{background-position:0 -1403px}.bank-boxm{background-position:0 -1432px}.bank-ljb{background-position:0 -1460px}.bank-jzcb{background-position:0 -1487px}.bank-jjccb{background-position:0 -1516px}.bank-cjccb{background-position:0 -1572px}.bank-boly{background-position:0 -1600px}.bank-hubnx{background-position:0 -1629px}.bank-gsnx{background-position:0 -1655px}.bank-jsnx{background-position:0 -1683px}.bank-bhrcb{background-position:0 -1711px}.bank-whrcb{background-position:0 -1741px}.bank-shxnx{background-position:0 -1769px}.bank-hbnx{background-position:0 -1797px}.bank-bsb{background-position:0 -1825px}.bank-paypal{background-position:0 -1993px}.bank-jxyh{background-position:0 -2101px}.bank-sjbc{background-position:0 -2135px}.bank-zjmtcb{background-position:0 -2164px}.bank-xpbc{background-position:0 -2224px}.bank-tlcb{background-position:0 -2297px}.bank-hsbc{background-position:0 -2259px}.bank-citi{background-position:0 -2371px}.bank-zybank{background-position:0 -2335px}.alipay-log{background-position:22px -1854px}.wx-log{background-position:7px -1889px}.UnionPay-log{background-position:4px -1923px}.tenpay-log{background-position:22px -1957px}.BestPay-log{background-position:25px -2024px}.Jdpay-log{background-position:20px -2187px}.EasyPay-log{background-position:17px -2059px}.pay-other-list li span.alipay-sm-log{background:url("https://ssl.tuniucdn.com/img/20170324/jinrong/pay/pc/bank-logo0324.png") no-repeat -5px -2126px;width:159px;margin-left:17px}.pay-promotion-2,.pay-promotion-3{background-color:#f8f8f8;overflow:hidden}.pay-promotion-2{margin:10px
+auto 0;padding:10px
+15px;width:1170px}.pay-promotion-2
+a{float:left;width:580px}.pay-promotion-2
+img{display:block;width:100%}.pay-promotion-2 .mr-10{margin-left:10px}.pay-promotion-1{margin:10px
+auto 0;width:1200px}.pay-promotion-1
+img{width:100%}.pay-promotion-3{margin:10px
+auto 0;padding:10px
+0;width:1200px}.pay-promotion-3
+a{float:left;width:380px}.pay-promotion-3
+img{width:100%}.pay-promotion-3 .mr-10{margin-left:10px}.pay-promotion-3 .mr-20{margin-left:20px}.pay-promotion-3 .more-act{margin-top:10px;padding-top:10px;padding-right:20px;width:1180px;border-top:1px solid #f0f0f0;text-align:right;font-size:14px;color:#999}.shoufuchufa{padding:20px;background:#FFF;margin-bottom:10px;cursor:pointer}.shoufuchufa.active{border:1px
+solid #f80}.shoufuchufa
+label{width:14px;height:14px;border:2px
+solid #bbb;border-radius:2px;vertical-align:-4px;margin-right:17px;cursor:pointer}.shoufuchufa
+label.active{width:20px;height:18px;background:url(http://ssl.tuniucdn.com/img/20150420/jinrong/licai2/checkout/checked.png) no-repeat;border:none;margin-right:15px}.shoufuchufa
+label.disable{background:#ddd}.fq-list{padding-top:20px;margin-bottom:8px}.fq-list li.fq-item{float:left;background:#f0f0f0;border-radius:4px;font-size:12px;color:#666;text-align:center;margin:0
+8px 8px 0;cursor:pointer;display:none}.fq-list li.fq-item
+em{float:left;height:40px;line-height:40px;width:61px;font-weight:700}.fq-list li.fq-item
+p{float:left;height:40px;line-height:40px;width:219px;border-left:1px solid #FFF;overflow:hidden}.fq-list li.fq-item p
+b{font-weight:400}.fq-list li.fq-item.on{background:#f80;color:#FFF}.fq-list li.fq-item.hui
+p{line-height:1.3;height:34px;padding-top:6px}.fq-list
+li.more{color:#69c;padding-left:8px;height:40px;line-height:40px;cursor:pointer;float:left}.shoufuchufa .fq-select-info{font-size:12px;color:#666}.shoufuchufa
+.sfcf_tips{background:url(https://ssl.tuniucdn.com/img/20160325/jinrong/pay/ancientPay/sfcf_tips.png) center no-repeat;width:16px;height:16px;position:relative;display:inline-block;zoom:1;*display:inline;vertical-align:middle}.shoufuchufa
+.tips{position:absolute;display:none;border:1px
+solid #d5d5d5;border-radius:4px;padding:5px
+10px;top:22px;left:-9px;font-size:12px;background:#fbfffc;color:#999;width:654px}.shoufuchufa .tips
+b{color:#666}.shoufuchufa .tips
+.z{color:#fbfffc;font-size:19px;top:-13px;z-index:3}.shoufuchufa .tips
+.y{color:#d5d5d5;font-size:19px;top:-15px;z-index:1}.shoufuchufa .tips .y,.shoufuchufa .tips
+.z{position:absolute}.shoufuchufa
+.sfcf_logo{margin-right:8px;vertical-align:-8px}.shoufuchufa
+span.info{font-size:14px;color:#333;vertical-align:middle;padding:0
+8px}.shoufuchufa span.info
+.blueBtn{font-style:italic}.shoufuchufa span.info
+b{color:#f80}.shoufuchufa span.info
+a{height:24px;line-height:24px;padding:0
+8px;border-radius:2px;margin:0
+6px;background:#f80;text-align:center;color:#FFF}.shoufuchufa span.info
+em{width:20px;height:20px;line-height:20px;text-align:center;border:2px
+solid #f80;color:#f80;font-weight:400;margin-left:5px;border-radius:3px}.lottery-tips,.pay-other-list .tips
+strong{font-weight:700}.shoufuchufa .pay-enter{display:none;padding-top:20px}.shoufuchufa .pay-enter.active{display:block}.order_field{margin-bottom:10px}.order_field .pay-tips{font-size:14px;color:#999;height:30px;line-height:30px;padding:0
+20px;border-top:1px solid #e6e6e6;background-color:#f7f7f7;text-align:center}.order_field .pay-tips
+.timeout{color:#fc6969}.card_and_wallet{position:relative}.card_and_wallet .top-tips{position:relative;top:-30px;left:-40px;background:#f9f9f9;width:105.3%;line-height:23px}.card_and_wallet .top-tips .big-pay{color:#999;font-size:12px;display:none}.card_and_wallet .top-tips .big-pay
+span{background:#f80;height:23px;padding:0
+7px;color:#FFF;margin-right:4px;font-size:14px}.card_and_wallet .top-tips .big-pay
+i{color:#ff0800;font-style:normal}.card_and_wallet .top-tips .pay-lj{background:#0a85c6;font-size:20px;color:#FFF;padding:0
+9px 0 89px;position:relative;height:23px}.card_and_wallet .top-tips .pay-lj
+img{position:absolute;top:-4px;left:0}.pay-other-list
+.tips{position:absolute;display:none;border:1px
+solid #b0c2e1;border-radius:4px;padding:5px
+10px;bottom:48px;left:-2px;font-size:14px;color:#333;width:370px;z-index:10;background:#fff}.pay-other-list .tips.one-line{width:455px;bottom:48px}.pay-other-list .tips em
+img{vertical-align:-2px;margin-right:4px}.pay-other-list .tips
+b{color:#fc6969}.pay-other-list .tips
+small{font-size:12px}.pay-other-list .tips
+.z{color:#fff;font-size:19px;bottom:-13px;z-index:3}.pay-other-list .tips
+.y{color:#b0c2e1;font-size:19px;bottom:-15px;z-index:1}.pay-other-list .tips .y,.pay-other-list .tips
+.z{position:absolute;font-style:normal}.pay-other-list a:hover
+.tips{display:block}.lottery-tips{display:inline-block;*zoom:1;*display:inline;height:22px;line-height:22px;font-size:12px;vertical-align:middle;color:#fc6969;padding-right:6px;border:1px
+solid #fc6969;border-radius:4px}.lottery-tips
+span{float:left;height:22px;background:#fc6969;padding:0
+6px;margin-right:6px;color:#FFF}.card_pay_box .input-card-bind{font-size:14px;color:#333;margin-bottom:20px}.input-card-bind ul
+li{float:left;height:38px;line-height:38px;overflow:visible;margin-right:20px}.input-card-bind ul
+li.ts{font-size:12px;color:#ff5a5a}.input-card-bind ul li
+input.widthL{width:227px}.input-card-bind ul li
+input{border:1px
+solid #999;height:36px;line-height:36px;vertical-align:top;text-indent:5px;color:#666;z-index:1;box-shadow:0 0 5px #f0f0f0}.input-card-bind ul li input.cardInput:hover{transform:scale(1.15);-webkit-transform:scale(1.15);-moz-transform:scale(1.15);-ms-transform:scale(1.15);-o-transform:scale(1.15)}.input-card-bind ul li
+a{width:80px;height:34px;line-height:34px;background:#ccc;border-radius:4px;display:block;color:#FFF;text-align:center;margin-top:2px}.input-card-bind ul li
+a.active{background:#fc6969}.input-card-bind ul li a.active:hover{background:#fd463e}.input-card-bind ul li
+input.error{border:1px
+solid #fc6969}.input-card-bind
+.card_info{display:none;height:38px;line-height:38px;border:1px
+solid #f0f0f0;padding:0
+10px;background:#FFF;color:#999;border-radius:2px;margin-left:76px;*left:80px;position:relative;float:left;box-shadow:0 0 5px #f0f0f0;margin-top:15px}.input-card-bind .card_info .bank-logo{vertical-align:-9px;display:inline-block;*zoom:1;*display:inline;*vertical-align:middle}.input-card-bind .card_info em.xy-bg{background:#5acabc}.input-card-bind .card_info
+em{display:inline-block;padding:0
+3px;color:#FFF;height:18px;line-height:18px;margin:0
+8px;border-radius:2px}.input-card-bind .card_info em.cx-bg{background:#7198c8}.input-card-bind .y,.input-card-bind
+.z{position:absolute;line-height:1}.input-card-bind
+.z{color:#FFF;font-size:19px;top:-9px;z-index:3}.input-card-bind
+.y{color:#f0f0f0;font-size:19px;top:-11px;z-index:1}.activity-tips{display:inline-block;*zoom:1;*display:inline;height:22px;line-height:22px;text-align:center;font-size:12px;vertical-align:middle}.text-box .up_tips,.up_tips{line-height:20px;text-align:center}.activity-tips.mgl{margin-left:8px}.activity-tips.mgr{margin-right:8px}.activity-tips
+p{position:relative;height:100%;background:#fc6969;border-radius:4px;color:#FFF;padding:0
+6px}.activity-tips p
+i{position:absolute;left:-4px;top:6px;width:0;height:0;border-width:4px 4px 4px 0;border-style:solid;border-color:transparent #fc6969 transparent transparent}.activity-tips
+img{max-height:22px}.up_tips{padding:0
+10px;position:absolute;height:20px;font-size:12px;color:#fff;background-color:#f80;top:-20px;left:-5px}.up_tips b,.up_tips
+i{border-style:solid;width:0;height:0;position:absolute}.up_tips
+i{border-color:transparent #ba6300 transparent transparent;border-width:0 5px 5px 0;bottom:-5px;left:0}.up_tips
+b{border-color:transparent #FFF transparent transparent;border-width:10px 5px;right:0;top:0}.up_tips
+img{max-height:20px}.up_tips.nobg{background:0 0;padding:0}.keep-common .agreement-link{margin-left:4px}.text-box .pay-other-list li,.text-box .pay-other-list li span,.text-box .pay-other-list li:hover{margin:0;height:auto;width:auto;border:none;border-radius:0}.text-box .pay-other-list li
+a{padding:0
+15px;height:auto;width:auto;font-size:14px}.text-box .pay-other-list li a:hover{color:#f80}.text-box .pay-other-list li+li a,.text-box .pay-other-list li+li a:hover{border-left:1px solid #CECECE}.text-box .pay-other-list
+.tips{position:absolute;display:none;border:1px
+solid #b0c2e1;border-radius:4px;padding:5px
+10px;left:16px;font-size:12px;color:#333;width:370px;z-index:10;background:#fff}.other-pay-box .pay-other-list a.hidden:hover
+.tips{display:none}.other-pay-box .pay-other-list a.visible:hover
+.tips{display:block}.text-box
+.up_tips{padding:0
+10px;position:absolute;height:20px;width:93px;font-size:12px;color:#fff;background-color:#f80;top:-17px;left:10px}.text-box .pay-other-list .tips,.text-box .pay-other-list .tips.one-line{bottom:27px}.bf-pay{padding:0}.bf-pay
+.top_title{padding:30px
+30px 30px 40px}.bf-pay
+.panel{display:none;overflow:hidden;border-top:1px solid #FFF}.bf-pay.active
+.panel{display:block;border-top:1px solid #F0F0F0}.bf-pay .panel .col-l{position:relative;padding:30px
+0;float:left}.bf-pay .panel .col-l
+img{position:absolute;left:28px;top:65px}.bf-pay .panel .col-l
+.count{position:absolute;left:38px;top:50px;width:182px;text-align:center;z-index:9}.bf-pay .panel .col-l .count
+.strong{padding:5px
+0 10px;font-size:18px;color:#fc6969}.bf-pay .panel .col-r{padding:110px
+76px 76px;float:right;border-left:1px solid #F0F0F0}.recommendInstalments{color:#69c}.recommendInstalments
+.linkInstalments{color:#f80;text-decoration:underline}.hover-bg{position:absolute;top:-8px;z-index:19;width:290px;height:8px}.notice_instalments{color:#fc6969;display:none;position:relative;top:-15px}.notice_instalments .link_instalments,.pay-enter-tips .link_instalments,.ts
+.link_instalments{color:#69c;text-decoration:underline;cursor:pointer}

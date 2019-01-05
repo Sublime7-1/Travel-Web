@@ -1,0 +1,16 @@
+.order-agreement{background-color:#fff;display:none;font-size:12px;width:1165px;z-index:110;-webkit-box-shadow:0px 0px 9px 0px rgba(0,0,0,0.10);-mos-box-shadow:0px 0px 9px 0px rgba(0,0,0,0.10);box-shadow:0px 0px 9px 0px rgba(0,0,0,0.10)}.order-agreement .order-title{height:39px;line-height:39px;padding-left:20px;border-bottom:1px solid #eee}.order-agreement .order-title
+h2{color:#333;font-size:16px;font-weight:bold;border-bottom:2px solid #4ecf5b;display:inline;padding-bottom:9px}.order-agreement .order-main{margin:20px}.order-agreement .order-main .order-main-title{font-size:14px;color:#333}.order-agreement .order-main .order-panel{margin-top:20px}.order-agreement .order-main .order-panel .left-panel{width:130px;float:left;position:relative}.order-agreement .order-main .order-panel .left-panel
+p{padding:7px
+0;border-top:1px solid #ddd;border-bottom:1px solid #ddd;margin-bottom:10px;border-left:1px solid #ddd;color:#666;font-size:14px;cursor:pointer}.order-agreement .order-main .order-panel .right-panel{border:1px
+solid #ddd;margin-left:-1px;overflow-y:auto;float:left;width:990px}.order-agreement .order-main .order-panel .left-panel
+p.active{background:#fff;font-weight:bold}.order-agreement .order-button{text-align:center;margin-bottom:29px}.order-agreement .order-button
+button{-moz-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;width:100px;height:32px;font-size:16px;font-weight:700}.order-agreement .order-button
+button.confirm{background:#f80;border:1px
+solid #f80;margin-right:15px;color:#fff}.order-agreement .order-button
+button.cancel{background:#fff;border:1px
+solid #ccc;color:#666}.order-agreement .right-wrapper{font-size:0}.order-agreement .right-wrapper.wrapper-iframe{height:100%}.order-agreement .right-panel
+dl{font-size:14px}.order-agreement .right-panel
+dt{margin:15px;font-size:16px;font-weight:bold}.order-agreement .right-panel
+dd{margin:10px;font-size:14px;line-height:20px}.order-agreement .contract-iframe{width:100%;height:100%}.order-agreement
+.para{margin:10px;font-size:14px}.order-agreement .para
+.safe{color:#22C233}

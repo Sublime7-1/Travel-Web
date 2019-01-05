@@ -1,0 +1,87 @@
+.icon.optional-icon{background-position:-7px -50px;height:24px;width:24px;vertical-align:middle;margin-right:3px;display:inline-block}.m-optional
+.transfer{font-size:0}.m-optional .transfer>div{display:inline-block;*display:inline;*zoom:1;font-size:14px}.m-optional .transfer div.transfer-header{width:180px;vertical-align:top}.m-optional .transfer div.transfer-body{width:440px}.m-optional .transfer div.transfer-body>p{margin-top:10px}.m-optional .transfer div.transfer-body .transfer-title{margin-top:0;color:#333;width:300px}.m-optional .transfer div.transfer-body .T-place{display:none;color:#666;margin-top:15px}.m-optional .transfer.selected div.transfer-body .T-place{display:block}.m-optional .transfer div.transfer-body .input-off-place{width:310px}.m-optional .transfer div.transfer-body .input-off-place.hasCommon{width:226px;padding-right:84px}.m-optional .transfer div.transfer-body .T-time{display:none;font-size:0}.m-optional .transfer.selected div.transfer-body .T-time{display:block}.m-optional .transfer div.transfer-body .T-time .label-text{margin-right:3px;color:#666}.m-optional .transfer div.transfer-body .T-time
+select{font-size:12px;line-height:22px;height:22px}.m-optional .transfer div.transfer-body .T-time
+span{font-size:14px}.m-optional .transfer div.transfer-body .T-time
+select.date{width:109px;margin-right:10px}.m-optional .transfer div.transfer-body .T-time select.hour,
+.m-optional .transfer div.transfer-body .T-time
+select.minute{width:89px;margin-right:10px}.m-optional .transfer div.transfer-leg{width:120px;vertical-align:top}.m-optional .transfer div.transfer-leg>span{display:block;margin-top:20px}.m-optional .transfer div.transfer-leg .start-price{margin-top:0}.m-optional .transfer div.transfer-leg .start-price
+em{color:#f60}.m-optional .transfer div.transfer-leg
+.tips{width:60px}.m-optional .transfer div.transfer-leg
+.type{display:none;font-size:14px;color:#22c233}.m-optional .transfer.selected div.transfer-leg
+.type{display:block}.m-optional .transfer div.transfer-leg
+.tips{display:none;color:#999}.m-optional .transfer.selected div.transfer-leg
+.tips{display:block}.m-optional .transfer div.transfer-leg .tips .jtxz-detail2{width:500px}.m-optional .transfer div.transfer-footer{margin-left:15px;vertical-align:top}.m-optional .transfer div.transfer-body .on-place
+select{background:#fff;border:1px
+solid #ddd;width:68px;height:32px;margin-right:8px}.m-optional
+.panel{border-top:1px dotted #ddd;padding:18px
+0}.m-optional .panel:first-child{border:none}.m-optional .panel .panel-body{font-size:0}.m-optional .panel .panel-body
+.type{display:inline-block;*display:inline;*zoom:1;width:180px;line-height:24px;font-size:14px}.m-optional .panel .panel-body
+span{display:inline-block;*display:inline;*zoom:1}.m-optional .panel .panel-body
+.name{position:relative;margin-right:28px;width:247px;vertical-align:top;font-size:14px}.m-optional .panel .panel-body .name
+em{display:inline-block;vertical-align:top}.m-optional .panel .panel-body .name .resources-detail{left:-200px;top:100%;margin-top:10px}.m-optional .panel .panel-body .name .resources-detail .white-triangle{left:200px}.m-optional .panel .panel-body .date-select{margin-left:5px;width:160px;font-size:14px;vertical-align:top}.m-optional .panel .panel-body .date-select
+select{box-sizing:content-box;font-size:12px;height:22px;line-height:22px;border:1px
+solid #ddd}.m-optional .panel .panel-body
+.T_child{margin-top:5px}.m-optional .panel .panel-body
+.price{width:120px;font-size:14px;vertical-align:top}.m-optional .support-change-count .panel .panel-body
+.price{width:85px}.m-optional .panel .panel-body .price
+em{color:#f60}.m-optional .panel .panel-body .select-box{margin-left:6px;font-size:12px;vertical-align:top}.m-optional .support-change-count .panel .panel-body .select-box{margin-left:6px}.m-optional .panel .panel-body>div{display:inline-block;*display:inline;*zoom:1}.m-optional .panel .panel-body>div.left{vertical-align:top}.m-optional .panel .panel-body>div.right .right-panel{margin-top:20px;line-height:24px}.m-optional .panel .panel-body>div.right .right-panel.first{margin-top:0}.m-optional .panel .panel-body>div.right .right-panel.more-or-less{padding:6px
+0;text-align:center;background:#f6f6f6;margin-top:15px;font-size:14px;color:#22c233;cursor:pointer}.m-optional .transfer
+.common_send_place{width:310px;height:100px;background:#fff;position:absolute;z-index:40;margin-left:74px;border-bottom:1px solid #7B9DD4;border-left:1px solid #7B9DD4;border-right:1px solid #7B9DD4;overflow:auto}.m-optional .transfer .common_send_place
+.address{height:55px;line-height:35px;margin-top:2px;position:relative;padding-left:30px;padding-right:10px;cursor:pointer}.m-optional .transfer .common_send_place
+.address_active{color:#fff;cursor:pointer}.m-optional .transfer .common_send_place .address
+.address_text{}.m-optional .transfer .common_send_place .address
+.nobr{display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;word-break:break-all}.m-optional .transfer .common_send_place .address
+.nobr.name{font-size:14px;color:#222;height:24px}.m-optional .transfer .common_send_place .address .nobr.address-detail{font-size:12px;color:#999}.m-optional .transfer .common_send_place
+.receipt_con{height:30px;line-height:30px;width:100%;margin-top:2px;text-indent:12px}.m-optional .transfer .common_send_place .receipt_con
+.nobr{width:96%;height:100%;display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;word-break:break-all;cursor:pointer}.m-optional .transfer
+.address_icon{background:url(http://img.tuniucdn.com/img/201701171942/bookOnline/gentuan_icon.png) 0 0 no-repeat;display:inline-block;*display:inline;*zoom:1;height:25px;width:19px;background-position:-126px -198px;cursor:pointer;position:absolute;top:22px;left:10px}.m-optional .transfer .T-place{position:relative}.m-optional .transfer .transfer-body
+.error{margin-top:5px}.m-optional .transfer .common-addr{position:absolute;right:45px;display:inline-block;height:16px;line-height:16px;padding:0
+8px;border-left:1px solid #ddd;cursor:pointer;top:4px}.m-optional .transfer .common-addr
+i{background:url(http://img.tuniucdn.com/img/201701171942/bookOnline/gentuan_icon.png) 0 0 no-repeat;display:inline-block;*display:inline;*zoom:1;height:13px;width:15px;background-position:-157px -194px;cursor:pointer}.m-optional .update .right .update-list{margin-top:20px;line-height:24px}.m-optional .update .right .update-list:first-child{margin-top:0}.m-optional .update .right .update-list
+span{display:inline-block;*display:inline;*zoom:1;vertical-align:top}.m-optional .update .right .update-list
+span.box{margin-top:4px;margin-left:15px;text-align:right}.m-optional .update span.update-name{margin-right:28px;width:247px;font-size:14px;color:#333}.m-optional .update span.update-days-num{margin-left:5px;width:160px;font-size:14px}.m-optional .update span.update-price{width:120px;font-size:14px}.m-optional .update span.update-price
+em{color:#f80}.m-optional .update
+.box{margin-left:32px;font-size:14px}.m-optional .update .right .stop-or-open{padding:6px
+0;text-align:center;background:#f6f6f6;margin-top:15px;font-size:14px;color:#22c233;cursor:pointer}.float-optional .float-content{font-size:14px;color:#333;width:930px;top:0;left:0;bottom:0;right:0;margin:auto}.float-optional .float-main{padding-left:30px;padding-right:30px;overflow-y:scroll}.float-optional .transfer>div{display:inline-block;*display:inline;*zoom:1}.float-optional .transfer div.transfer-header{width:190px;vertical-align:top}.float-optional .transfer div.transfer-body{width:471px}.float-optional .transfer div.transfer-body>p{margin-top:10px}.float-optional .transfer div.transfer-body .transfer-title{margin-top:0;color:#333;margin-right:50px}.float-optional .transfer div.transfer-body .T-place{display:none;color:#666;margin-top:15px}.float-optional .transfer.selected div.transfer-body .T-place{display:block}.float-optional .transfer div.transfer-body .input-off-place{width:310px}.float-optional .transfer div.transfer-body .input-off-place.hasCommon{width:226px;padding-right:84px}.float-optional .transfer div.transfer-body .T-time{display:none;font-size:0}.float-optional .transfer.selected div.transfer-body .T-time{display:block}.float-optional .transfer div.transfer-body .T-time .label-text{margin-right:3px;color:#666}.float-optional .transfer div.transfer-body .T-time
+select{font-size:12px;line-height:22px;height:22px}.float-optional .transfer div.transfer-body .T-time
+span{font-size:14px}.float-optional .transfer div.transfer-body .T-time
+select.date{width:109px;margin-right:10px}.float-optional .transfer div.transfer-body .T-time select.hour,
+.float-optional .transfer div.transfer-body .T-time
+select.minute{width:89px;margin-right:10px}.float-optional .transfer div.transfer-leg{width:145px;vertical-align:top}.float-optional .transfer div.transfer-leg>span{display:block;margin-top:20px}.float-optional .transfer div.transfer-leg .start-price{margin-top:0}.float-optional .transfer div.transfer-leg .start-price
+em{color:#f60}.float-optional .transfer div.transfer-leg
+.type{display:none;font-size:14px;color:#22c233}.float-optional .transfer.selected div.transfer-leg
+.type{display:block}.float-optional .transfer div.transfer-leg
+.tips{display:none;color:#999}.float-optional .transfer.selected div.transfer-leg
+.tips{display:block}.float-optional .transfer div.transfer-leg .jtxz-detail2{right:0;left:auto}.float-optional .transfer div.transfer-leg .jtxz-detail2 .z,
+.float-optional .transfer div.transfer-leg .jtxz-detail2
+.j{left:auto;right:110px}.float-optional .transfer div.transfer-leg .tips .jtxz-detail2{width:500px;right:0;left:auto}.float-optional .transfer div.transfer-footer{vertical-align:top}.float-optional .transfer div.transfer-body .on-place
+select{background:#fff;border:1px
+solid #ddd;width:68px;height:32px;margin-right:8px}.float-optional
+.panel{border-top:1px dotted #ddd;padding:18px
+0}.float-optional .panel:first-child{border:none}.float-optional .panel .panel-body
+span{display:inline-block;*display:inline;*zoom:1}.float-optional .panel .panel-body
+.type{width:190px;line-height:24px}.float-optional .panel .panel-body
+.name{position:relative;width:280px;margin-right:28px;vertical-align:top}.float-optional .panel .panel-body .name
+em{display:inline-block;vertical-align:top}.float-optional .panel .panel-body .date-select{width:160px;vertical-align:top}.float-optional .panel .panel-body .date-select
+select{height:22px;line-height:22px;font-size:12px}.float-optional .panel .panel-body
+.T_child{margin-top:5px}.float-optional .panel .panel-body
+.price{width:145px;vertical-align:top}.float-optional .support-change-count .panel .panel-body
+.price{width:91px}.float-optional .panel .panel-body .price
+em{color:#f60}.float-optional .panel .panel-body .select-box{vertical-align:top;width:75px}.float-optional .panel .panel-body>div{display:inline-block;*display:inline;*zoom:1}.float-optional .panel .panel-body>div.left{vertical-align:top}.float-optional .panel .panel-body>div.right .right-panel{margin-top:20px;line-height:24px}.float-optional .panel .panel-body>div.right .right-panel.first{margin-top:0}.float-optional .panel .panel-body>div.right .right-panel.more-or-less{padding:6px
+0;text-align:center;background:#f6f6f6;margin-top:15px;font-size:14px;color:#22c233;cursor:pointer}.float-optional .transfer
+.common_send_place{width:310px;height:100px;background:#fff;position:absolute;z-index:40;margin-left:74px;border-bottom:1px solid #7B9DD4;border-left:1px solid #7B9DD4;border-right:1px solid #7B9DD4;overflow:auto}.float-optional .transfer .common_send_place
+.address{height:55px;line-height:35px;margin-top:2px;position:relative;padding-left:30px;padding-right:10px;cursor:pointer}.float-optional .transfer .common_send_place
+.address_active{color:#fff;cursor:pointer}.float-optional .transfer .common_send_place .address
+.address_text{}.float-optional .transfer .common_send_place .address
+.nobr{display:block;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;word-break:break-all}.float-optional .transfer .common_send_place .address
+.nobr.name{font-size:14px;color:#222;height:24px}.float-optional .transfer .common_send_place .address .nobr.address-detail{font-size:12px;color:#999}.float-optional .transfer .common_send_place
+.receipt_con{height:30px;line-height:30px;width:100%;margin-top:2px;text-indent:12px}.float-optional .transfer .common_send_place .receipt_con
+.nobr{width:96%;height:100%;display:block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;word-break:break-all;cursor:pointer}.float-optional .transfer
+.address_icon{background:url(http://img.tuniucdn.com/img/201701171942/bookOnline/gentuan_icon.png) 0 0 no-repeat;display:inline-block;*display:inline;*zoom:1;height:25px;width:19px;background-position:-126px -198px;cursor:pointer;position:absolute;top:22px;left:10px}.float-optional .transfer .T-place{position:relative}.float-optional .transfer .transfer-body
+.error{margin-top:5px}.float-optional .transfer .common-addr{position:absolute;right:82px;display:inline-block;height:16px;line-height:16px;padding:0
+8px;border-left:1px solid #ddd;cursor:pointer;top:4px}.float-optional .transfer .common-addr
+i{background:url(http://img.tuniucdn.com/img/201701171942/bookOnline/gentuan_icon.png) 0 0 no-repeat;display:inline-block;*display:inline;*zoom:1;height:13px;width:15px;background-position:-157px -194px;cursor:pointer}.float-optional .update .right .update-list{margin-top:20px;line-height:24px}.float-optional .update .right .update-list:first-child{margin-top:0}.float-optional .update .right .update-list
+span{display:inline-block;*display:inline;*zoom:1;vertical-align:top}.float-optional .update span.update-name{width:280px;margin-right:28px;color:#333;font-size:14px}.float-optional .update span.update-days-num{width:160px;text-align:left;font-size:14px}.float-optional .update span.update-price{width:145px;font-size:14px}.float-optional .update span.update-price
+em{color:#f60}.float-optional .update
+.box{font-size:14px}.float-optional .update .right .stop-or-open{padding:6px
+0;text-align:center;background:#f6f6f6;margin-top:15px;color:#22c233;cursor:pointer}.float-optional .resources-detail{left:-205px;top:100%;margin-top:10px}.float-optional .resources-detail .white-triangle{left:205px}

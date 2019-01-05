@@ -1,0 +1,451 @@
+$(function(){
+    var submitData = {};
+    var submitInterval = null;
+
+    function getCookie(name) {
+        var arr = document.cookie.split('; '),
+            i = 0,
+            len = arr.length ;
+
+        for(;i<len;i++){
+            var arr2 = arr[i].split('=');
+            if(arr2[0] == name) {
+                return decodeURIComponent(arr2[1]);
+            }
+        }
+
+        return '';
+    }
+
+    function setCookie(name, value, ms) {
+        if(ms!==false){
+
+            var exp = new Date();
+            exp.setTime(exp.getTime() + ms);
+            var value = encodeURIComponent(value);
+            document.cookie=name+'='+value+';expires='+exp.toGMTString()+';path=/';
+
+        }else{
+            document.cookie=name+'='+value;
+        }
+    }
+
+    function removeCookie(name) {
+       setCookie(name, '', -1);
+    }
+
+    /*IE8及以下模拟placeholder，依赖placeholder.js*/
+    function bindPlaceholder(){
+        new TN_Form.PlaceHolder($('#J_phone'));
+        new TN_Form.PlaceHolder($('#J_email'));
+        new TN_Form.PlaceHolder($('#J_detail'));
+        new TN_Form.PlaceHolder($('#J_verifyCode'));
+    }
+
+    /*反馈类型选择*/
+    function bindTypeCheck(){
+        var typesCtn = $('.J_types'),
+            types = typesCtn.find('li');
+
+        types.on('click', function(){
+            $(this).addClass('current').siblings('li').removeClass('current');
+        });
+    }
+
+    /*反馈类型提示*/
+    function bindPoptip(){
+        var typesCtn = $('.J_types'),
+            types = typesCtn.find('li');
+
+        types.hover(function () {
+            $(this).find('.poptip').removeClass("hide");
+          },
+          function () {
+            $(this).find('.poptip').addClass("hide");
+          }
+        );
+    }
+
+    /*验证码*/
+    function bindVerifyCode(){
+        var verifyCodeInput = $('#J_verifyCode'),
+            identifyImg = $('#identify_img'),
+            loadingImg = $('#img_loading');
+
+        function onload_change_indenty_img(){
+            var rd= Math.random();
+            loadingImg.hide();
+            identifyImg.show().attr('src','/identify2.php?flag=0&cache='+rd);
+        }
+
+        function indentify_img_onload(){
+            loadingImg.hide();
+            identifyImg.show();
+        }
+
+        function change_indenty_img(){
+            var rd= Math.random();
+
+            loadingImg.show();
+            identifyImg.hide().attr('src','/identify2.php?flag=0&cache='+rd);
+        }
+
+        function checkIdentify() {
+            if (validateVerifyCode('blurCheck')) {
+                checkIdentifyAjax();
+            } else {
+                return false;
+            }
+        }
+
+        identifyImg.on('click', change_indenty_img);
+        identifyImg.on('load', indentify_img_onload);
+
+        verifyCodeInput.on('blur', checkIdentify);
+
+        onload_change_indenty_img();
+    }
+
+    function checkIdentifyAjax(cb) {
+        var verifyCodeInput = $('#J_verifyCode'),
+            verifyCode = $.trim(verifyCodeInput.val()),
+            url = "/main.php?do=user_reg_check_name&num=0&isCheckIdentify=1&identify=" + verifyCode + "&flag=identify2&cache=" + Math.random();
+
+        $.get(url,function(data){
+            if(data && data == 2){
+                displayResult(verifyCodeInput, '验证码填写有误')
+                return false;
+            }
+            displayResult(verifyCodeInput, '')
+            if (typeof cb !== 'undefined') {
+                cb()
+            }
+            return true;
+        });
+    }
+
+    /*图片上传*/
+    function bindUplaodPic(){
+        var uploadCtn = $('.J_screenshots');
+
+        function addShowWindow(small_url, url){
+            var screenShots = $('.J_screenshot');
+
+            if(screenShots.length < 4) {
+                $('#pic').removeClass('hide');
+
+                var newScreenShot = '<li class="screenshot J_screenshot" data-url="' + url + '">' +
+                    '<img class="screenshot-preview" src="' + small_url + '"/>' +
+                    '<span class="delete-screenshot hide"><i class="icon icon-delete"></i></span>' +
+                '</li>';
+
+                $('#pic').before($(newScreenShot));
+
+                if(screenShots.length == 3){
+                    $('#pic').addClass('hide');
+                }
+            }
+        }
+
+        uploadCtn.on('click', '.delete-screenshot', function(){
+            var screenshot = $(this).parent('.J_screenshot');
+
+            screenshot.remove();
+            $('#pic').removeClass('hide');
+        });
+
+        uploadCtn.on('mouseenter', '.J_screenshot', function(){
+            $(this).find('.delete-screenshot').removeClass('hide');
+        });
+
+        uploadCtn.on('mouseleave', '.J_screenshot', function(){
+            $(this).find('.delete-screenshot').addClass('hide');
+        });
+
+        $('#pic').uploadify({
+            'buttonText' : '+',
+            'buttonClass': 'add-screenshot',
+            'uploader'  : 'http://' + location.host + '/yii.php?r=corp/advice/upload',
+            'swf'  : 'http://img.tuniucdn.com/site/js/3rd/uploadify3/uploadify.swf',
+            // 'buttonImage' : 'http://img.tuniucdn.com/site/css/guide/img/imageupload.png',
+            'auto'      : true,
+            'width'     : 60,
+            'height'     : 60,
+            'fileObjName': 'pic',
+            'fileTypeDesc'  : '请选择上传文件，仅支持jpg,png,jpeg格式',
+            'fileTypeExts'  : '*.jpg;*.png;*.jpeg',
+            'fileSizeLimit' : '5MB',
+            'multi'     : false,
+            'removeTimeout' : 0,
+            'onUploadSuccess' : function(file, data, response) {
+                data = eval( "(" + data + ")" );
+                if(data['success']) {
+                    var small_url = data.small_url;
+                    var url = data.url;
+                    addShowWindow(small_url, url);
+                }
+            }
+        });
+    }
+
+    /*展示表单校验结果*/
+    function displayResult(el, txt){
+        el.toggleClass('input-error', !!txt).siblings('.tip').toggleClass('error-tip', !!txt).toggleClass('succ-tip', !txt).find('.tip-txt').text(txt);
+        return !txt;
+    }
+
+    /*表单校验 描述*/
+    function validateDetail(){
+        var detailTextarea = $('#J_detail'),
+            detail = $.trim(detailTextarea.val());
+
+        if(!detail || detail == detailTextarea.attr('placeholder')) {
+            return displayResult(detailTextarea, '描述不能为空哦');
+        } else if(detail.length < 10) {
+            return displayResult(detailTextarea, '问题描述不得少于10个字');
+        } else {
+            return displayResult(detailTextarea, '');
+        }
+    }
+
+    /*表单校验 手机*/
+    function validatePhone(){
+        var phoneInput = $('#J_phone'),
+            phone = $.trim(phoneInput.val());
+
+        if(!(/^(13|15|17|18|14)[0-9]{9}$/.test(phone))) {
+            return displayResult(phoneInput, '请输入11位正确手机号码');
+        } else {
+            return displayResult(phoneInput, '');
+        }
+    }
+
+    /*表单校验 邮箱*/
+    function validateEmail(){
+        var emailInput = $('#J_email'),
+            email = $.trim(emailInput.val());
+
+        if(email === '') {
+            return displayResult(emailInput, '请填写您的邮箱');
+        } else if(!(/^(\w)+(\.\w+)*@(\w)+((\.\w+)+)$/.test(email)) || email.length > 50) {
+            return displayResult(emailInput, '请正确填写您的邮箱');
+        } else {
+            return displayResult(emailInput, '');
+        }
+    }
+
+    /*表单校验 验证码*/
+    function validateVerifyCode(type){
+        var verifyCodeInput = $('#J_verifyCode'),
+            verifyCode = $.trim(verifyCodeInput.val());
+
+        if(!verifyCode || verifyCode == verifyCodeInput.attr('placeholder')) {
+            return displayResult(verifyCodeInput, '请输入验证码');
+        } else {
+            if (typeof type !== 'undefined' && type === 'blurCheck') {
+                return true;
+            } else {
+                return displayResult(verifyCodeInput, '');
+            }
+        }
+    }
+
+    /*详情手机邮箱失去焦点后校验*/
+    function bindValidateAfterBlur(){
+        $('#J_detail').on('blur', validateDetail);
+        $('#J_phone').on('blur', validatePhone);
+        $('#J_email').on('blur', validateEmail);
+    }
+
+    /*提交前表单全部校验*/
+    function validateAll(){
+        var validateResult = true;
+
+        validateResult = validateDetail() && validateResult;
+        validateResult = validatePhone() && validateResult;
+        validateResult = validateEmail() && validateResult;
+        validateResult = validateVerifyCode() && validateResult;
+
+        return validateResult;
+    }
+
+    /*拼装待提交的表单字段*/
+    function prepareSubmitData(){
+
+        /*去除头尾空格，排除placeholder*/
+        function getPureValue(ipt){
+            var iptValue = $.trim(ipt.val());
+            return iptValue === ipt.attr('placeholder') ? '' : iptValue;
+        }
+
+        submitData = {};
+
+        submitData["type"] = $('.J_types .current .advise-txt').text();
+        submitData["desc"] = getPureValue($('#J_detail'));
+        submitData["phone"] = getPureValue($('#J_phone'));
+        submitData["email"] = getPureValue($('#J_email'));
+        submitData["verifyCode"] = getPureValue($('#J_verifyCode'));
+
+        $('.J_screenshot').each(function(i,e){
+            submitData["img" + i] = $(e).attr('data-url');
+        });
+    }
+
+    /*ajax方式提交表单*/
+    function ajaxSubmit(){
+        var form = $('.J_advise-form');
+        var submitAdviseCookie = getCookie('submitAdviseCookie');
+        var curDate = new Date();
+        if (submitAdviseCookie === '') {
+            submitAdviseCookie = {};
+        } else {
+            submitAdviseCookie = JSON.parse(submitAdviseCookie);
+
+            if (submitAdviseCookie.count > 3) {
+                handleSubmitError('今天的机会已用光，请明天再试哦');
+                resetFormData();
+                return ;
+            }
+
+            if (curDate.getTime() - submitAdviseCookie.ns > 0 && curDate.getTime() - submitAdviseCookie.ns < 60 * 1000) {
+                handleSubmitError('请在1分钟后重试');
+                resetFormData();
+                return ;
+            }
+        }
+
+        function startSubmitAnimate(){
+            layer.load();
+        }
+
+        function resetFormData() {
+            var $textarea = $('textarea');
+            var $verifyCode = $('#J_verifyCode');
+            var $identify_img = $('#identify_img');
+
+            $textarea.val('');
+            $verifyCode.val('');
+            $textarea.parent().find('.tip').removeClass('succ-tip');
+            $verifyCode.parent().find('.tip').removeClass('succ-tip');
+            $identify_img.attr('src','/identify2.php?flag=0&cache=' + Math.random());
+        }
+
+        /*展示提交成功*/
+        function handleSubmitSuccess(){
+            $('body').append('\
+                <div id="J_adModalLayout" class="ad-modal-layout"></div>\
+                <div id="J_adModal" class="ad-modal">\
+                    <div class="ad-center">\
+                        <i class="ad-icon-ok"></i>\
+                        <div class="ad-modal-text">\
+                            <p class="f1">已收到您的反馈~</p>\
+                            <p class="f2">我们会尽快处理，短时间内请勿重复提交哦</p>\
+                        </div>\
+                    </div>\
+                </div>\
+            ');
+            setTimeout(function() {
+                $('#J_adModalLayout').remove();
+                $('#J_adModal').remove();
+            }, 3000);
+
+            // 提交成功之后清除文本框,重获验证码
+            resetFormData();
+        }
+
+        /*展示提交失败*/
+        function handleSubmitError(msg){
+            $('body').append('\
+                <div id="J_adModalLayout" class="ad-modal-layout"></div>\
+                <div id="J_adModal" class="ad-modal ad-modal-in">\
+                    <div class="ad-center">\
+                        <i class="ad-icon-error"></i>\
+                        <div class="ad-modal-text">\
+                            <p class="f1">'+ msg +'~</p>\
+                        </div>\
+                    </div>\
+                </div>\
+            ');
+            setTimeout(function() {
+                $('#J_adModalLayout').remove();
+                $('#J_adModal').remove();
+            }, 3000);
+        }
+
+        $.ajax({
+            type: "POST",
+            url: "/yii.php?r=corp/advice/saveinfo",
+            dataType: "json",
+            data: submitData,
+            success: function(json){
+                if (json && json.success){
+                    if (typeof submitAdviseCookie.count === 'undefined') {
+                        submitAdviseCookie.count = 0;
+                    }
+                    ++submitAdviseCookie.count;
+                    submitAdviseCookie.ns = +new Date();
+                    submitAdviseCookie = JSON.stringify(submitAdviseCookie);
+
+                    var leftTamp = 24 * 60 * 60 * 1000 - (curDate.getTime() - new Date(curDate.toLocaleDateString()).getTime() + 1);
+
+                    setCookie('submitAdviseCookie', submitAdviseCookie, leftTamp);
+                    handleSubmitSuccess();
+                } else {
+                    if(json.code && json.code == "-3001"){
+                        $('#img_loading').show();
+                        $('#identify_img').hide().attr('src','/identify2.php?flag=0&cache='+Math.random());
+                        $('#img_loading').hide();
+                    }
+                    handleSubmitError(json.msg || '提交失败！');
+                }
+            },
+            error: function(){
+                handleSubmitError('提交失败！');
+            }
+        });
+    }
+
+    /*表单校验，准备数据，提交表单*/
+    function submitForm(){
+        if(validateAll()){
+            checkIdentifyAjax(function() {
+                prepareSubmitData();
+                ajaxSubmit();
+            })
+        }
+    }
+
+    /*绑定提交事件*/
+    function bindSubmit(){
+        $('.J_submit').on('click', function(){
+            submitForm();
+        });
+    }
+
+    /*绑定客服按钮点击事件*/
+    function bindOnlineService() {
+        $('.J_onlineServiceBtn').on('click', function() {
+            TNCHAT_isShowChatEntry({entryTemplateId: 51}, function(data) {
+                 if(!data.status) return;
+                 var onlineKefuLabel = '在线客服';
+                 var kefuWinConfig = 'width=640, height=515, top=100, left=500, toolbar=no, menubar=no, scrollbars=no, resizable=no, location=no, status=no';
+
+                 window.open(decodeURIComponent(data.url), onlineKefuLabel, kefuWinConfig);
+             });
+        })
+    }
+
+    /*脚本入口*/
+    function init(){
+        bindPlaceholder();
+        bindTypeCheck();
+        bindPoptip();
+        bindVerifyCode();
+        bindUplaodPic();
+        bindValidateAfterBlur();
+        bindSubmit();
+        bindOnlineService();
+    }
+
+    init();
+});
